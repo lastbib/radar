@@ -192,6 +192,14 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
 .podium li:nth-child(1) .pl{color:#c9971c}.podium li:nth-child(2) .pl{color:#8f9aa3}.podium li:nth-child(3) .pl{color:#b0703f}
 .podium .nm{min-width:0}.podium .nm small{display:block;color:var(--muted);font-size:.78rem}
 .podium .tm{font:600 .85rem var(--f-mono)}
+.records{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+@media (max-width:420px){.records{grid-template-columns:1fr}}
+.rec{border-radius:12px;padding:12px 14px;background:linear-gradient(135deg,var(--sea-soft),var(--surface));border:1px solid var(--line)}
+.rec .lab{font:700 .7rem var(--f-body);letter-spacing:.07em;text-transform:uppercase;color:var(--sea)}
+.rec .tm{font:800 1.6rem/1.1 var(--f-display);font-variant-numeric:tabular-nums;margin:2px 0}
+.rec .who{font-size:.86rem;color:var(--muted)}
+.crline{font:600 .8rem var(--f-mono);color:var(--muted)}
+.crline b{color:var(--ink)}
 .small{font-size:.84rem;color:var(--muted);margin:0}
 .cmp{border-collapse:separate;border-spacing:0;font-size:.9rem;min-width:100%}
 .cmp th,.cmp td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;min-width:150px}
@@ -311,7 +319,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
       moreAdded:"More places are added as official results are found.",noWin:"Winners for this race haven't been collected yet. They are added during the daily update.",
       checked:"Data checked {0}. Confirm details on the official site before paying.",dataChecked:"Data checked {0} Bangkok time · updates daily at 07:00",loadErr:"Couldn't load race data. Refresh the page to try again.",
       wTitle:"Your watchlist",wEmpty:"Nothing saved yet. Tap Watch on any race to save it here and compare prices and dates side by side.",remove:"Remove",
-      c_date:"Race day",c_place:"Location",c_status:"Status",c_reg:"Registration",c_rel:"Relevance",fromQ:"from",uptoQ:"up to",ratesLive:"Converted at today's exchange rates.",ratesFallback:"Converted at approximate exchange rates.",close:"Close",cheapest:"Green = cheapest for that distance.",allC:"All countries"},
+      c_date:"Race day",c_place:"Location",c_status:"Status",c_reg:"Registration",c_rel:"Relevance",fromQ:"from",uptoQ:"up to",ratesLive:"Converted at today's exchange rates.",ratesFallback:"Converted at approximate exchange rates.",close:"Close",cheapest:"Green = cheapest for that distance.",allC:"All countries",crH:"Course records",crMen:"Men's course record",crWomen:"Women's course record",crShort:"Course record",topN:"Top {0} finishers"},
     de:{headline:'Finde deine nächste <em>Startlinie</em>',tagline:"Marathons, Halbmarathons und 10-km-Läufe in Asien, dazu die World Marathon Majors und die besten zertifizierten Rennen. Nur Rennen, für die du dich noch anmelden kannst.",
       near:"In der Nähe von",placeholder:"z. B. Chiang Mai, Koh Samui, Goa",useLoc:"Mein Standort",within:"Umkreis",any:"Beliebig",from:"Renntag ab",to:"bis",sort:"Sortieren nach",
       s_rel:"Relevanz",s_date:"Renndatum",s_near:"Entfernung",s_price:"Niedrigster Preis",distance:"Distanz",moreFilters:"+ Region & Länder",region:"Region",countries:"Länder",
@@ -331,7 +339,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
       moreAdded:"Weitere Platzierungen werden ergänzt, sobald offizielle Ergebnisse vorliegen.",noWin:"Für dieses Rennen sind noch keine Sieger erfasst. Sie werden beim täglichen Update ergänzt.",
       checked:"Daten geprüft am {0}. Prüfe vor dem Bezahlen die offizielle Seite.",dataChecked:"Daten geprüft {0} (Bangkok) · tägliches Update um 07:00",loadErr:"Renndaten konnten nicht geladen werden. Lade die Seite neu.",
       wTitle:"Deine Merkliste",wEmpty:"Noch nichts gemerkt. Tippe bei einem Rennen auf Merken, um Preise und Termine hier nebeneinander zu vergleichen.",remove:"Entfernen",
-      c_date:"Renntag",c_place:"Ort",c_status:"Status",c_reg:"Anmeldung",c_rel:"Relevanz",fromQ:"ab",uptoQ:"bis",ratesLive:"Umgerechnet zum heutigen Wechselkurs.",ratesFallback:"Umgerechnet zu Näherungskursen.",close:"Schließen",cheapest:"Grün = günstigster Preis für diese Distanz.",allC:"Alle Länder"}
+      c_date:"Renntag",c_place:"Ort",c_status:"Status",c_reg:"Anmeldung",c_rel:"Relevanz",fromQ:"ab",uptoQ:"bis",ratesLive:"Umgerechnet zum heutigen Wechselkurs.",ratesFallback:"Umgerechnet zu Näherungskursen.",close:"Schließen",cheapest:"Grün = günstigster Preis für diese Distanz.",allC:"Alle Länder",crH:"Streckenrekorde",crMen:"Streckenrekord Männer",crWomen:"Streckenrekord Frauen",crShort:"Streckenrekord",topN:"Top {0} im Ziel"}
   };
   const store = { get(k){ try { return JSON.parse(localStorage.getItem("lbr:"+k)); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem("lbr:"+k, JSON.stringify(v)); } catch(e){} } };
   let lang = store.get("lang") || ((navigator.language||"").toLowerCase().startsWith("de") ? "de" : "en");
@@ -367,6 +375,9 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
   const todayISO = new Date(Date.now() + 7*3600e3).toISOString().slice(0,10);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const ISO = {Thailand:"th",Vietnam:"vn",Cambodia:"kh",Laos:"la",Malaysia:"my",Singapore:"sg",Indonesia:"id",Philippines:"ph",Myanmar:"mm",India:"in","Sri Lanka":"lk",Nepal:"np","Hong Kong":"hk",Taiwan:"tw",Japan:"jp","South Korea":"kr",China:"cn",Macau:"mo","United Arab Emirates":"ae",Germany:"de","United Kingdom":"gb","United States":"us",Australia:"au"};
+  const AISO = {Kenya:"ke",Ethiopia:"et",Uganda:"ug",Tanzania:"tz",Eritrea:"er",Lesotho:"ls",Rwanda:"rw",Djibouti:"dj",Bahrain:"bh",Morocco:"ma",Turkey:"tr","South Africa":"za",Israel:"il",Switzerland:"ch",Norway:"no",Netherlands:"nl",Ireland:"ie","Czech Republic":"cz",France:"fr",Italy:"it",Spain:"es",Canada:"ca",Mexico:"mx",Brazil:"br","New Zealand":"nz",Burundi:"bi",Zimbabwe:"zw",Belgium:"be",Poland:"pl",Portugal:"pt",Sweden:"se",Finland:"fi",Denmark:"dk",Austria:"at"};
+  const isoOf = c => { const k = String(c||"").split(" (")[0]; return ISO[k] || AISO[k] || ""; };
+  const aFlag = c => isoOf(c) ? `<img class="flag" src="https://flagcdn.com/w40/${isoOf(c)}.png" alt="" loading="lazy" width="18" height="12">` : "";
   const flagImg = (c, cls) => ISO[c] ? `<img class="${cls||"flag"}" src="https://flagcdn.com/w80/${ISO[c]}.png" alt="" loading="lazy" width="30" height="20">` : "";
   const FLAGCOL = {Thailand:["#a51931","#f4f5f8","#2d2a4a","#f4f5f8","#a51931"],Vietnam:["#da251d","#ffff00","#da251d"],Cambodia:["#032ea1","#e00025","#032ea1"],Laos:["#ce1126","#002868","#ce1126"],Malaysia:["#cc0001","#ffffff","#010066","#ffcc00"],Singapore:["#ef3340","#ffffff"],Indonesia:["#ce1126","#ffffff"],Philippines:["#0038a8","#ce1126","#fcd116"],India:["#ff9933","#ffffff","#138808"],"Hong Kong":["#de2910","#ffffff"],Taiwan:["#fe0000","#000095"],Japan:["#ffffff","#bc002d","#ffffff"],"South Korea":["#ffffff","#cd2e3a","#0047a0","#000000"],China:["#ee1c25","#ffff00"],Germany:["#000000","#dd0000","#ffce00"],"United Kingdom":["#012169","#ffffff","#c8102e"],"United States":["#b22234","#ffffff","#3c3b6e"],Australia:["#012169","#ffffff","#e4002b"],"United Arab Emirates":["#00732f","#ffffff","#000000","#ff0000"]};
   const flagStrip = c => FLAGCOL[c] ? `<span class="flagstrip">${FLAGCOL[c].map(x => `<i style="background:${x}"></i>`).join("")}</span>` : "";
@@ -550,6 +561,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
         ${badges(r)}
         <div class="dist">${dists}</div>
         <p class="facts">${esc(facts(r))}</p>
+        ${crLine(r)}
         <div class="meta"><span>${regLine(r, reg)}</span><span class="cue">${resultsFor(r) ? t("detailsW") : t("details")}</span></div>
       </div></article>`;
   }
@@ -596,9 +608,13 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
   $("openWatch").addEventListener("click", openWatchlist);
   $("wsheet").addEventListener("click", e => { if (e.target === $("wsheet")) $("wsheet").close(); });
 
-  function resultsFor(r){ const x = results[r.id.replace(/-\d{4}$/, "")]; return x && Object.keys(x.distances || {}).length ? x : null; }
+  const resKey = r => r.id.replace(/-\d{4}$/, "");
+  function resultsFor(r){ const x = results[resKey(r)]; return x && Object.keys(x.distances || {}).length ? x : null; }
+  const recordsFor = r => { const x = results[resKey(r)]; return x && x.records ? x.records : null; };
+  const crLine = r => { const rc = recordsFor(r); if (!rc) return ""; const parts = []; if (rc.men) parts.push(`♂ <b>${esc(rc.men.t)}</b>`); if (rc.women) parts.push(`♀ <b>${esc(rc.women.t)}</b>`); return `<div class="crline">${t("crShort")}: ${parts.join(" · ")}</div>`; };
+  const recordsBox = rc => !rc ? "" : `<div class="records">${[["men","crMen"],["women","crWomen"]].filter(([g]) => rc[g]).map(([g,k]) => `<div class="rec"><div class="lab">${t(k)}</div><div class="tm">${esc(rc[g].t)}</div><div class="who">${aFlag(rc[g].c)}${esc(rc[g].n)} · ${esc(rc[g].y)}</div></div>`).join("")}</div>`;
   const podiumList = a => !a || !a.length ? `<p class="small">${t("notPub")}</p>` :
-    "<ol>" + a.slice(0,10).map(p => `<li><span class="pl">${p.p}</span><span class="nm">${esc(p.n)}${p.c ? `<small>${esc(p.c)}</small>` : ""}</span><span class="tm">${esc(p.t || "—")}</span></li>`).join("") + "</ol>";
+    "<ol>" + a.slice(0,10).map(p => `<li><span class="pl">${p.p}</span><span class="nm">${aFlag(p.c)}${esc(p.n)}${p.c ? `<small>${esc(p.c)}</small>` : ""}</span><span class="tm">${esc(p.t || "—")}</span></li>`).join("") + "</ol>";
   function openRace(id, push){
     const r = races.find(x => x.id === id); if (!r) return;
     openId = id;
@@ -629,11 +645,12 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
           <p class="small">${regLine(r, reg)}${lang==="en" && r.priceNote ? " · " + esc(r.priceNote) : ""}</p>
         </section>
         <section class="sec"><h3>${t("winnersH")}</h3>
+          ${recordsBox(recordsFor(r))}
           ${res ? `<p class="small">${t("lastEd", esc(res.edition))}${res.date ? ", " + fmtDate(res.date) : ""}</p>
             <div class="tabs" style="margin-top:8px">${ds.map((d,i) => `<button type="button" class="chip" data-rtab="${d}" aria-pressed="${i===0}">${dName(d)}</button>`).join("")}</div>
             <div id="podium"></div>
-            <p class="small" style="margin-top:8px">${t("source")}: <a href="${esc(res.source)}" target="_blank" rel="noopener">${t("report")}</a>${res.fullResults ? ` · <a href="${esc(res.fullResults)}" target="_blank" rel="noopener">${t("full")} ↗</a>` : ""}. ${t("moreAdded")}</p>`
-          : `<p class="small">${t("noWin")}${anyRes.fullResults ? ` <a href="${esc(anyRes.fullResults)}" target="_blank" rel="noopener">${t("full")} ↗</a>` : ""}</p>`}
+            <p class="small" style="margin-top:8px">${t("source")}: <a href="${esc(res.source)}" target="_blank" rel="noopener">${t("report")}</a>${res.fullResults ? ` · <a href="${esc(res.fullResults)}" target="_blank" rel="noopener">${t("full")} ↗</a>` : ""}. ${lang==="en" && res.note ? esc(res.note)+" " : ""}${t("moreAdded")}</p>`
+          : recordsFor(r) ? `<p class="small">${t("noWin")}</p>` : `<p class="small">${t("noWin")}${anyRes.fullResults ? ` <a href="${esc(anyRes.fullResults)}" target="_blank" rel="noopener">${t("full")} ↗</a>` : ""}</p>`}
         </section>
         <p class="small">${t("checked", fmtDate(r.checked))}</p>
       </div>`;

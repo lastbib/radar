@@ -68,3 +68,9 @@ The site (`index.html`) reads both files; GitHub Pages republishes on every push
 - Always track the Abbott World Marathon Majors (Tokyo, Boston, London, Sydney, Berlin, Chicago, New York) and World Athletics Label races in Asia and the Middle East (e.g. Dubai, Abu Dhabi, RAK Half, Xiamen, Seoul, Daegu, Taipei, Mumbai, Delhi, Singapore, Hong Kong). Track their ballot/lottery windows closely; these are the most important alerts.
 - `cert` lists certifications: `major`, `wa-platinum`, `wa-gold`, `wa-label`, `wa-elite`, `aims`, `bq` (Boston qualifier). Only add a tag you confirmed in a source.
 - Country names for new regions: "United Arab Emirates", "Germany", "United Kingdom", "United States", "Australia" (add others to ISO/REGIONS in index.html if needed).
+
+## Winners and course records
+- Target: top 10 men and women per main distance for the latest edition, with nationality (`c` = full country name, e.g. "Kenya") so flags show. Good sources: Wikipedia "<year> <race> Marathon" pages, watchathletics.com results pages, worldathletics.org, organiser press releases.
+- `records`: `{"men":{"t":"2:01:09","n":"Name","c":"Country","y":2022},"women":{...}}`. Update it whenever a newer edition sets a course record (results marked CR). If sources disagree, keep the existing value and note it in the commit message.
+- After a race takes place, replace that race's results with the new edition within a few days, and post a `news` item with the winners.
+- Priority each run: any race that took place in the last 7 days, then races with no results yet.

@@ -1,200 +1,1779 @@
 {
-  "updated": "2026-10-12",
-  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
-  "results": {
-    "hcmc-marathon": {
-      "edition": "2025 (8th edition)",
-      "date": "2025-12-07",
-      "source": "https://vietnamnews.vn/sports/1731386/simaneh-le-win-techcombank-hcm-city-international-marathon.html",
-      "fullResults": "",
-      "distances": {
-        "42K": {
-          "men": [
-            {"p": 1, "n": "Ayalew Seleshi Simaneh", "c": "Ethiopia", "t": "2:23:13"},
-            {"p": 2, "n": "Wondale Melsew Baye", "c": "Ethiopia", "t": "2:23:25"},
-            {"p": 3, "n": "Kebede Leta Girma", "c": "Ethiopia", "t": "2:23:34"},
-            {"p": 4, "n": "Damte Wendwesen Tilahun", "c": "Ethiopia", "t": "2:23:54"},
-            {"p": 5, "n": "Hosea Kogei", "c": "Kenya", "t": "2:24:34"}
-          ],
-          "women": [
-            {"p": 1, "n": "Phạm Thị Hồng Lệ", "c": "Vietnam", "t": "2:48:10"},
-            {"p": 2, "n": "Mohamed Yenework Husen", "c": "Ethiopia", "t": ""},
-            {"p": 3, "n": "Birehan Marta Tinsae", "c": "Ethiopia", "t": ""},
-            {"p": 4, "n": "Zega Mestu Sirabzu", "c": "Ethiopia", "t": ""},
-            {"p": 5, "n": "Doãn Oanh", "c": "Vietnam", "t": ""}
-          ]
-        },
-        "21K": {
-          "men": [
-            {"p": 1, "n": "Dương Minh Hùng", "c": "Vietnam", "t": "1:09:25"},
-            {"p": 2, "n": "Phạm Ngọc Phan", "c": "Vietnam", "t": ""}
-          ],
-          "women": []
-        }
+ "updated": "2026-10-13",
+ "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
+ "results": {
+  "hcmc-marathon": {
+   "edition": "2025 (8th edition)",
+   "date": "2025-12-07",
+   "source": "https://vietnamnews.vn/sports/1731386/simaneh-le-win-techcombank-hcm-city-international-marathon.html",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Ayalew Seleshi Simaneh",
+       "c": "Ethiopia",
+       "t": "2:23:13"
+      },
+      {
+       "p": 2,
+       "n": "Wondale Melsew Baye",
+       "c": "Ethiopia",
+       "t": "2:23:25"
+      },
+      {
+       "p": 3,
+       "n": "Kebede Leta Girma",
+       "c": "Ethiopia",
+       "t": "2:23:34"
+      },
+      {
+       "p": 4,
+       "n": "Damte Wendwesen Tilahun",
+       "c": "Ethiopia",
+       "t": "2:23:54"
+      },
+      {
+       "p": 5,
+       "n": "Hosea Kogei",
+       "c": "Kenya",
+       "t": "2:24:34"
       }
-    },
-    "vnexpress-hanoi-midnight": {
-      "edition": "2025",
-      "date": "2025-11-30",
-      "source": "https://vietnamnews.vn/sports/1730810/kenyan-kemboi-vietnamese-le-triumph-at-midnight-marathon.html",
-      "fullResults": "",
-      "distances": {
-        "42K": {
-          "men": [
-            {"p": 1, "n": "Ezekiel Kipruto Kemboi", "c": "Kenya", "t": "2:24:20"},
-            {"p": 2, "n": "Takele Kure", "c": "", "t": "2:26:31"},
-            {"p": 3, "n": "Trịnh Minh Tâm", "c": "Vietnam", "t": "2:27:00"},
-            {"p": 4, "n": "Huỳnh Anh Khôi", "c": "Vietnam", "t": "2:29:59"}
-          ],
-          "women": [
-            {"p": 1, "n": "Phạm Thị Hồng Lệ", "c": "Vietnam", "t": "2:56:06"},
-            {"p": 2, "n": "Vũ Khánh Linh", "c": "Vietnam", "t": "+0:44"},
-            {"p": 3, "n": "Nguyễn Thị Trà Giang", "c": "Vietnam", "t": "3:00:13"}
-          ]
-        },
-        "21K": {
-          "men": [
-            {"p": 1, "n": "Samuel Kalalei", "c": "Kenya", "t": "1:08:55"},
-            {"p": 2, "n": "Hoàng Viết Vỹ Ly", "c": "Vietnam", "t": ""},
-            {"p": 3, "n": "Nguyễn Hoàng Thịnh", "c": "Vietnam", "t": ""}
-          ],
-          "women": [
-            {"p": 1, "n": "Doãn Thị Oanh", "c": "Vietnam", "t": "1:19:13"},
-            {"p": 2, "n": "Hoàng Thị Ngọc Anh", "c": "Vietnam", "t": "1:20:30"}
-          ]
-        },
-        "10K": {
-          "men": [{"p": 1, "n": "Yeunsik Ham", "c": "South Korea", "t": ""}],
-          "women": [{"p": 1, "n": "Nguyễn Thị Hồng Hạnh", "c": "Vietnam", "t": ""}]
-        }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Phạm Thị Hồng Lệ",
+       "c": "Vietnam",
+       "t": "2:48:10"
+      },
+      {
+       "p": 2,
+       "n": "Mohamed Yenework Husen",
+       "c": "Ethiopia",
+       "t": ""
+      },
+      {
+       "p": 3,
+       "n": "Birehan Marta Tinsae",
+       "c": "Ethiopia",
+       "t": ""
+      },
+      {
+       "p": 4,
+       "n": "Zega Mestu Sirabzu",
+       "c": "Ethiopia",
+       "t": ""
+      },
+      {
+       "p": 5,
+       "n": "Doãn Oanh",
+       "c": "Vietnam",
+       "t": ""
       }
+     ]
     },
-    "goa-river-marathon": {
-      "edition": "2025 (15th edition)",
-      "date": "2025-12-14",
-      "source": "https://www.thegoan.net/sports/petra-nilesh-win-goa-river-marathon/140542.html",
-      "fullResults": "",
-      "distances": {
-        "42K": {
-          "men": [
-            {"p": 1, "n": "Nilesh Kulaye", "c": "India (Maharashtra)", "t": "2:48:52"},
-            {"p": 2, "n": "Nitin Tumbade", "c": "India (Maharashtra)", "t": "2:51:06"},
-            {"p": 3, "n": "Vinayak Jambotkar", "c": "India (Karnataka)", "t": "2:51:16"}
-          ],
-          "women": [
-            {"p": 1, "n": "Petra Pastorova", "c": "Czech Republic", "t": "3:04:29"},
-            {"p": 2, "n": "Jasmitha Kodenkiri", "c": "India (Karnataka)", "t": "3:46:08"},
-            {"p": 3, "n": "Sharmila Kadam", "c": "India (Maharashtra)", "t": "4:11:25"}
-          ]
-        },
-        "21K": {
-          "men": [
-            {"p": 1, "n": "Humen Senapati", "c": "India (Assam)", "t": "1:11:05"},
-            {"p": 2, "n": "Omkar Baikar", "c": "India (Maharashtra)", "t": "1:11:50"},
-            {"p": 3, "n": "Harichandra Velip", "c": "India (Goa)", "t": "1:21:40"}
-          ],
-          "women": [
-            {"p": 1, "n": "Rutuja Patil", "c": "India (Goa)", "t": "1:31:25"},
-            {"p": 2, "n": "Shreya Patil", "c": "India (Maharashtra)", "t": "1:34:08"},
-            {"p": 3, "n": "Ghazi Tanna", "c": "India (Goa)", "t": "1:37:42"}
-          ]
-        },
-        "10K": {
-          "men": [
-            {"p": 1, "n": "Aniket Santosh Shingare", "c": "India (Goa)", "t": "30:38"},
-            {"p": 2, "n": "Pruthviraj Ramesh Kamble", "c": "India (Goa)", "t": "30:51"},
-            {"p": 3, "n": "Mohit Kumar Patel", "c": "India (Uttar Pradesh)", "t": "30:56"}
-          ],
-          "women": [
-            {"p": 1, "n": "Rohini Patil", "c": "India (Maharashtra)", "t": "40:15"},
-            {"p": 2, "n": "Farheen Firdose", "c": "India (Karnataka)", "t": "40:34"},
-            {"p": 3, "n": "Nikita Marle", "c": "India (Maharashtra)", "t": "42:54"}
-          ]
-        }
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Dương Minh Hùng",
+       "c": "Vietnam",
+       "t": "1:09:25"
+      },
+      {
+       "p": 2,
+       "n": "Phạm Ngọc Phan",
+       "c": "Vietnam",
+       "t": ""
       }
-    },
-    "laguna-phuket-marathon": {
-      "edition": "2026 (20th edition)",
-      "date": "2026-06-14",
-      "source": "https://en.thairath.co.th/sport/others/2939424",
-      "fullResults": "",
-      "distances": {
-        "42K": {
-          "men": [{"p": 1, "n": "Zhipeng Huang", "c": "China", "t": "2:45:35"}],
-          "women": [{"p": 1, "n": "Ling Wu", "c": "China", "t": "3:03:46"}]
-        }
-      }
-    },
-    "cebu-marathon": {
-      "edition": "2024",
-      "date": "2024-01-14",
-      "source": "https://www.sunstar.com.ph/cebu/kenyan-runner-defends-crown",
-      "fullResults": "",
-      "distances": {
-        "42K": {
-          "men": [
-            {"p": 1, "n": "Eric Chepsiror", "c": "Kenya", "t": "2:33:50"},
-            {"p": 2, "n": "Florendo Lapiz", "c": "Philippines", "t": "2:35:37"},
-            {"p": 3, "n": "Joseph Mururi", "c": "", "t": "2:42:19"}
-          ],
-          "women": [
-            {"p": 1, "n": "Artjoy Torregosa", "c": "Philippines", "t": "3:12:14"},
-            {"p": 2, "n": "Maricar Camacho", "c": "Philippines", "t": "3:14:39"},
-            {"p": 3, "n": "Jennylyn Nobleza", "c": "Philippines", "t": "3:18:41"}
-          ]
-        }
-      }
-    },
-    "penang-bridge-marathon": {
-      "edition": "2022",
-      "date": "2022-12-11",
-      "source": "https://thesun.my/?p=408112",
-      "fullResults": "",
-      "distances": {
-        "42K": {
-          "men": [
-            {"p": 1, "n": "Geoffrey Birgen", "c": "Kenya", "t": "2:14:35"},
-            {"p": 2, "n": "Moses Kiptoo Kurgat", "c": "Kenya", "t": "2:17:39"},
-            {"p": 3, "n": "James Cherotich Tallam", "c": "Kenya", "t": "2:20:55"}
-          ],
-          "women": [
-            {"p": 1, "n": "Peninah Kigen", "c": "Kenya", "t": "2:46:07"},
-            {"p": 2, "n": "Sheila Jepkosgei Chesang", "c": "Kenya", "t": "2:46:15"},
-            {"p": 3, "n": "Edinah Mutahi", "c": "Kenya", "t": "2:48:03"}
-          ]
-        },
-        "21K": {
-          "men": [
-            {"p": 1, "n": "Samperu Mathew", "c": "Kenya", "t": "1:00:51"},
-            {"p": 2, "n": "James Kahura", "c": "Kenya", "t": "1:02:01"},
-            {"p": 3, "n": "David Kibet", "c": "Kenya", "t": "1:11:04"}
-          ],
-          "women": [
-            {"p": 1, "n": "Alice Muthoni Koigi", "c": "Kenya", "t": "1:21:07"},
-            {"p": 2, "n": "Emily Jepkoech", "c": "Kenya", "t": "1:31:48"},
-            {"p": 3, "n": "Kellyn Tan Lay Wah", "c": "Malaysia", "t": "1:32:43"}
-          ]
-        },
-        "10K": {
-          "men": [
-            {"p": 1, "n": "Kipchirchir Lel", "c": "Kenya", "t": "34:19"},
-            {"p": 2, "n": "Ruveshwaran Balachandran", "c": "Malaysia", "t": "38:30"},
-            {"p": 3, "n": "Mohamad Haris", "c": "Malaysia", "t": "39:37"}
-          ],
-          "women": [
-            {"p": 1, "n": "Joline Tan Li Jun", "c": "Malaysia", "t": "43:35"},
-            {"p": 2, "n": "Tan Yin Jen", "c": "Malaysia", "t": "45:14"},
-            {"p": 3, "n": "Ang Yik Ching", "c": "Malaysia", "t": "48:00"}
-          ]
-        }
-      }
-    },
-    "angkor-wat-half": {
-      "edition": "",
-      "date": "",
-      "source": "",
-      "fullResults": "https://results.checkpointspot.asia?c=2",
-      "distances": {}
+     ],
+     "women": []
     }
+   }
+  },
+  "vnexpress-hanoi-midnight": {
+   "edition": "2025",
+   "date": "2025-11-30",
+   "source": "https://vietnamnews.vn/sports/1730810/kenyan-kemboi-vietnamese-le-triumph-at-midnight-marathon.html",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Ezekiel Kipruto Kemboi",
+       "c": "Kenya",
+       "t": "2:24:20"
+      },
+      {
+       "p": 2,
+       "n": "Takele Kure",
+       "c": "",
+       "t": "2:26:31"
+      },
+      {
+       "p": 3,
+       "n": "Trịnh Minh Tâm",
+       "c": "Vietnam",
+       "t": "2:27:00"
+      },
+      {
+       "p": 4,
+       "n": "Huỳnh Anh Khôi",
+       "c": "Vietnam",
+       "t": "2:29:59"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Phạm Thị Hồng Lệ",
+       "c": "Vietnam",
+       "t": "2:56:06"
+      },
+      {
+       "p": 2,
+       "n": "Vũ Khánh Linh",
+       "c": "Vietnam",
+       "t": "+0:44"
+      },
+      {
+       "p": 3,
+       "n": "Nguyễn Thị Trà Giang",
+       "c": "Vietnam",
+       "t": "3:00:13"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Samuel Kalalei",
+       "c": "Kenya",
+       "t": "1:08:55"
+      },
+      {
+       "p": 2,
+       "n": "Hoàng Viết Vỹ Ly",
+       "c": "Vietnam",
+       "t": ""
+      },
+      {
+       "p": 3,
+       "n": "Nguyễn Hoàng Thịnh",
+       "c": "Vietnam",
+       "t": ""
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Doãn Thị Oanh",
+       "c": "Vietnam",
+       "t": "1:19:13"
+      },
+      {
+       "p": 2,
+       "n": "Hoàng Thị Ngọc Anh",
+       "c": "Vietnam",
+       "t": "1:20:30"
+      }
+     ]
+    },
+    "10K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Yeunsik Ham",
+       "c": "South Korea",
+       "t": ""
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Nguyễn Thị Hồng Hạnh",
+       "c": "Vietnam",
+       "t": ""
+      }
+     ]
+    }
+   }
+  },
+  "goa-river-marathon": {
+   "edition": "2025 (15th edition)",
+   "date": "2025-12-14",
+   "source": "https://www.thegoan.net/sports/petra-nilesh-win-goa-river-marathon/140542.html",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Nilesh Kulaye",
+       "c": "India (Maharashtra)",
+       "t": "2:48:52"
+      },
+      {
+       "p": 2,
+       "n": "Nitin Tumbade",
+       "c": "India (Maharashtra)",
+       "t": "2:51:06"
+      },
+      {
+       "p": 3,
+       "n": "Vinayak Jambotkar",
+       "c": "India (Karnataka)",
+       "t": "2:51:16"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Petra Pastorova",
+       "c": "Czech Republic",
+       "t": "3:04:29"
+      },
+      {
+       "p": 2,
+       "n": "Jasmitha Kodenkiri",
+       "c": "India (Karnataka)",
+       "t": "3:46:08"
+      },
+      {
+       "p": 3,
+       "n": "Sharmila Kadam",
+       "c": "India (Maharashtra)",
+       "t": "4:11:25"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Humen Senapati",
+       "c": "India (Assam)",
+       "t": "1:11:05"
+      },
+      {
+       "p": 2,
+       "n": "Omkar Baikar",
+       "c": "India (Maharashtra)",
+       "t": "1:11:50"
+      },
+      {
+       "p": 3,
+       "n": "Harichandra Velip",
+       "c": "India (Goa)",
+       "t": "1:21:40"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Rutuja Patil",
+       "c": "India (Goa)",
+       "t": "1:31:25"
+      },
+      {
+       "p": 2,
+       "n": "Shreya Patil",
+       "c": "India (Maharashtra)",
+       "t": "1:34:08"
+      },
+      {
+       "p": 3,
+       "n": "Ghazi Tanna",
+       "c": "India (Goa)",
+       "t": "1:37:42"
+      }
+     ]
+    },
+    "10K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Aniket Santosh Shingare",
+       "c": "India (Goa)",
+       "t": "30:38"
+      },
+      {
+       "p": 2,
+       "n": "Pruthviraj Ramesh Kamble",
+       "c": "India (Goa)",
+       "t": "30:51"
+      },
+      {
+       "p": 3,
+       "n": "Mohit Kumar Patel",
+       "c": "India (Uttar Pradesh)",
+       "t": "30:56"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Rohini Patil",
+       "c": "India (Maharashtra)",
+       "t": "40:15"
+      },
+      {
+       "p": 2,
+       "n": "Farheen Firdose",
+       "c": "India (Karnataka)",
+       "t": "40:34"
+      },
+      {
+       "p": 3,
+       "n": "Nikita Marle",
+       "c": "India (Maharashtra)",
+       "t": "42:54"
+      }
+     ]
+    }
+   }
+  },
+  "laguna-phuket-marathon": {
+   "edition": "2026 (20th edition)",
+   "date": "2026-06-14",
+   "source": "https://en.thairath.co.th/sport/others/2939424",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Zhipeng Huang",
+       "c": "China",
+       "t": "2:45:35"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Ling Wu",
+       "c": "China",
+       "t": "3:03:46"
+      }
+     ]
+    }
+   }
+  },
+  "cebu-marathon": {
+   "edition": "2024",
+   "date": "2024-01-14",
+   "source": "https://www.sunstar.com.ph/cebu/kenyan-runner-defends-crown",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Eric Chepsiror",
+       "c": "Kenya",
+       "t": "2:33:50"
+      },
+      {
+       "p": 2,
+       "n": "Florendo Lapiz",
+       "c": "Philippines",
+       "t": "2:35:37"
+      },
+      {
+       "p": 3,
+       "n": "Joseph Mururi",
+       "c": "",
+       "t": "2:42:19"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Artjoy Torregosa",
+       "c": "Philippines",
+       "t": "3:12:14"
+      },
+      {
+       "p": 2,
+       "n": "Maricar Camacho",
+       "c": "Philippines",
+       "t": "3:14:39"
+      },
+      {
+       "p": 3,
+       "n": "Jennylyn Nobleza",
+       "c": "Philippines",
+       "t": "3:18:41"
+      }
+     ]
+    }
+   }
+  },
+  "penang-bridge-marathon": {
+   "edition": "2025",
+   "date": "2025-12-14",
+   "source": "https://en.wikipedia.org/wiki/Penang_Bridge_International_Marathon",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Anderson Saitoti Seroi",
+       "c": "Kenya",
+       "t": "2:19:42"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Eunice Nyawira Muchiri",
+       "c": "Kenya",
+       "t": "2:37:32"
+      }
+     ]
+    }
+   }
+  },
+  "angkor-wat-half": {
+   "edition": "",
+   "date": "",
+   "source": "",
+   "fullResults": "https://results.checkpointspot.asia?c=2",
+   "distances": {}
+  },
+  "berlin-marathon": {
+   "edition": "2026",
+   "date": "2026-09-27",
+   "source": "https://en.wikipedia.org/wiki/2026_Berlin_Marathon",
+   "fullResults": "https://www.bmw-berlin-marathon.com/en/",
+   "records": {
+    "men": {
+     "t": "2:01:09",
+     "n": "Eliud Kipchoge",
+     "c": "Kenya",
+     "y": 2022
+    },
+    "women": {
+     "t": "2:11:04",
+     "n": "Tigst Assefa",
+     "c": "Ethiopia",
+     "y": 2026
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Guye Adola",
+       "c": "Ethiopia",
+       "t": "2:02:50"
+      },
+      {
+       "p": 2,
+       "n": "Gemechu Dida",
+       "c": "Ethiopia",
+       "t": "2:03:19"
+      },
+      {
+       "p": 3,
+       "n": "Gabriel Geay",
+       "c": "Tanzania",
+       "t": "2:03:59"
+      },
+      {
+       "p": 4,
+       "n": "Getaneh Molla",
+       "c": "Ethiopia",
+       "t": "2:04:55"
+      },
+      {
+       "p": 5,
+       "n": "Selemon Barega",
+       "c": "Ethiopia",
+       "t": "2:04:58"
+      },
+      {
+       "p": 6,
+       "n": "Asefa Boki",
+       "c": "Ethiopia",
+       "t": "2:05:32"
+      },
+      {
+       "p": 7,
+       "n": "Andamlak Belihu",
+       "c": "Ethiopia",
+       "t": "2:05:55"
+      },
+      {
+       "p": 8,
+       "n": "Shura Kitata",
+       "c": "Ethiopia",
+       "t": "2:06:04"
+      },
+      {
+       "p": 9,
+       "n": "Yuhei Urano",
+       "c": "Japan",
+       "t": "2:06:09"
+      },
+      {
+       "p": 10,
+       "n": "Tadu Abate",
+       "c": "Ethiopia",
+       "t": "2:07:16"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Tigst Assefa",
+       "c": "Ethiopia",
+       "t": "2:11:04"
+      },
+      {
+       "p": 2,
+       "n": "Bedatu Hirpa",
+       "c": "Ethiopia",
+       "t": "2:16:53"
+      },
+      {
+       "p": 3,
+       "n": "Dera Dida",
+       "c": "Ethiopia",
+       "t": "2:16:55"
+      },
+      {
+       "p": 4,
+       "n": "Bekelech Gudeta",
+       "c": "Ethiopia",
+       "t": "2:18:58"
+      },
+      {
+       "p": 5,
+       "n": "Alemitu Tariku",
+       "c": "Ethiopia",
+       "t": "2:19:01"
+      },
+      {
+       "p": 6,
+       "n": "Pascaline Jelagat",
+       "c": "Kenya",
+       "t": "2:20:23"
+      },
+      {
+       "p": 7,
+       "n": "Misgane Alemayehu",
+       "c": "Ethiopia",
+       "t": "2:20:27"
+      },
+      {
+       "p": 8,
+       "n": "Ludwina Chepngetich",
+       "c": "Kenya",
+       "t": "2:21:25"
+      },
+      {
+       "p": 9,
+       "n": "Evaline Chirchir",
+       "c": "Kenya",
+       "t": "2:21:32"
+      },
+      {
+       "p": 10,
+       "n": "Aminet Ahmed",
+       "c": "Ethiopia",
+       "t": "2:21:45"
+      }
+     ]
+    }
+   }
+  },
+  "chicago-marathon": {
+   "edition": "2026",
+   "date": "2026-10-11",
+   "source": "https://en.wikipedia.org/wiki/2026_Chicago_Marathon",
+   "fullResults": "https://www.chicagomarathon.com",
+   "records": {
+    "men": {
+     "t": "2:00:35",
+     "n": "Kelvin Kiptum",
+     "c": "Kenya",
+     "y": 2023
+    },
+    "women": {
+     "t": "2:09:56",
+     "n": "Ruth Chepngetich",
+     "c": "Kenya",
+     "y": 2024
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Amos Kipruto",
+       "c": "Kenya",
+       "t": "2:01:09"
+      },
+      {
+       "p": 2,
+       "n": "Tadese Takele",
+       "c": "Ethiopia",
+       "t": "2:02:56"
+      },
+      {
+       "p": 3,
+       "n": "Milkesa Mengesha",
+       "c": "Ethiopia",
+       "t": "2:03:46"
+      },
+      {
+       "p": 4,
+       "n": "Jacob Kiplimo",
+       "c": "Uganda",
+       "t": "2:04:18"
+      },
+      {
+       "p": 5,
+       "n": "Boki Diriba",
+       "c": "Ethiopia",
+       "t": "2:05:01"
+      },
+      {
+       "p": 6,
+       "n": "Daniel Mateiko",
+       "c": "Kenya",
+       "t": "2:05:23"
+      },
+      {
+       "p": 7,
+       "n": "Clayton Young",
+       "c": "United States",
+       "t": "2:05:23"
+      },
+      {
+       "p": 8,
+       "n": "Charles Hicks",
+       "c": "United States",
+       "t": "2:05:35"
+      },
+      {
+       "p": 9,
+       "n": "Akira Akasaki",
+       "c": "Japan",
+       "t": "2:05:48"
+      },
+      {
+       "p": 10,
+       "n": "Vincent Mauri",
+       "c": "United States",
+       "t": "2:06:46"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Hawi Feysa",
+       "c": "Ethiopia",
+       "t": "2:13:33"
+      },
+      {
+       "p": 2,
+       "n": "Sharon Lokedi",
+       "c": "Kenya",
+       "t": "2:14:07"
+      },
+      {
+       "p": 3,
+       "n": "Brigid Kosgei",
+       "c": "Kenya",
+       "t": "2:14:55"
+      },
+      {
+       "p": 4,
+       "n": "Mary Ngugi-Cooper",
+       "c": "Kenya",
+       "t": "2:17:23"
+      },
+      {
+       "p": 5,
+       "n": "Joan Jepkosgei Kilimo",
+       "c": "Kenya",
+       "t": "2:18:38"
+      },
+      {
+       "p": 6,
+       "n": "Isobel Batt-Doyle",
+       "c": "Australia",
+       "t": "2:20:38"
+      },
+      {
+       "p": 7,
+       "n": "Emma Grace Hurley",
+       "c": "United States",
+       "t": "2:20:47"
+      },
+      {
+       "p": 8,
+       "n": "Degitu Azimeraw",
+       "c": "Ethiopia",
+       "t": "2:21:00"
+      },
+      {
+       "p": 9,
+       "n": "Magdalyne Masai",
+       "c": "Kenya",
+       "t": "2:21:11"
+      },
+      {
+       "p": 10,
+       "n": "Loice Chemnung",
+       "c": "Kenya",
+       "t": "2:21:19"
+      }
+     ]
+    }
+   }
+  },
+  "new-york-city-marathon": {
+   "edition": "2025",
+   "date": "2025-11-02",
+   "source": "https://en.wikipedia.org/wiki/2025_New_York_City_Marathon",
+   "fullResults": "https://www.nyrr.org/tcsnycmarathon",
+   "records": {
+    "men": {
+     "t": "2:04:58",
+     "n": "Tamirat Tola",
+     "c": "Ethiopia",
+     "y": 2023
+    },
+    "women": {
+     "t": "2:19:51",
+     "n": "Hellen Obiri",
+     "c": "Kenya",
+     "y": 2025
+    }
+   },
+   "note": "Original 3rd place (Albert Korir) was later disqualified; places adjusted.",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Benson Kipruto",
+       "c": "Kenya",
+       "t": "2:08:09"
+      },
+      {
+       "p": 2,
+       "n": "Alexander Mutiso",
+       "c": "Kenya",
+       "t": "2:08:09"
+      },
+      {
+       "p": 3,
+       "n": "Patrick Dever",
+       "c": "United Kingdom",
+       "t": "2:08:58"
+      },
+      {
+       "p": 4,
+       "n": "Matthias Kyburz",
+       "c": "Switzerland",
+       "t": "2:09:55"
+      },
+      {
+       "p": 5,
+       "n": "Joel Reichow",
+       "c": "United States",
+       "t": "2:09:56"
+      },
+      {
+       "p": 6,
+       "n": "Charles Hicks",
+       "c": "United States",
+       "t": "2:09:59"
+      },
+      {
+       "p": 7,
+       "n": "Sondre Nordstad Moen",
+       "c": "Norway",
+       "t": "2:10:15"
+      },
+      {
+       "p": 8,
+       "n": "Tsegay Weldibanos",
+       "c": "Eritrea",
+       "t": "2:10:36"
+      },
+      {
+       "p": 9,
+       "n": "Joe Klecker",
+       "c": "United States",
+       "t": "2:10:37"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Hellen Obiri",
+       "c": "Kenya",
+       "t": "2:19:51"
+      },
+      {
+       "p": 2,
+       "n": "Sharon Lokedi",
+       "c": "Kenya",
+       "t": "2:20:07"
+      },
+      {
+       "p": 3,
+       "n": "Sheila Chepkirui",
+       "c": "Kenya",
+       "t": "2:20:24"
+      },
+      {
+       "p": 4,
+       "n": "Fiona O'Keeffe",
+       "c": "United States",
+       "t": "2:22:49"
+      },
+      {
+       "p": 5,
+       "n": "Annie Frisbie",
+       "c": "United States",
+       "t": "2:24:12"
+      },
+      {
+       "p": 6,
+       "n": "Sifan Hassan",
+       "c": "Netherlands",
+       "t": "2:24:43"
+      },
+      {
+       "p": 7,
+       "n": "Jessica Warner-Judd",
+       "c": "United Kingdom",
+       "t": "2:24:45"
+      },
+      {
+       "p": 8,
+       "n": "Emily Sisson",
+       "c": "United States",
+       "t": "2:25:05"
+      },
+      {
+       "p": 9,
+       "n": "Amanda Vestri",
+       "c": "United States",
+       "t": "2:25:40"
+      },
+      {
+       "p": 10,
+       "n": "Fionnuala McCormack",
+       "c": "Ireland",
+       "t": "2:27:00"
+      }
+     ]
+    }
+   }
+  },
+  "sydney-marathon": {
+   "edition": "2026",
+   "date": "2026-08-30",
+   "source": "https://en.wikipedia.org/wiki/2026_Sydney_Marathon",
+   "fullResults": "https://www.sydneymarathon.com",
+   "records": {
+    "men": {
+     "t": "2:04:42",
+     "n": "Addisu Gobena",
+     "c": "Ethiopia",
+     "y": 2026
+    },
+    "women": {
+     "t": "2:18:22",
+     "n": "Sifan Hassan",
+     "c": "Netherlands",
+     "y": 2025
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Addisu Gobena",
+       "c": "Ethiopia",
+       "t": "2:04:42"
+      },
+      {
+       "p": 2,
+       "n": "Chimdessa Debele",
+       "c": "Ethiopia",
+       "t": "2:04:46"
+      },
+      {
+       "p": 3,
+       "n": "Tebello Ramakongoana",
+       "c": "Lesotho",
+       "t": "2:04:57"
+      },
+      {
+       "p": 4,
+       "n": "Alphonce Simbu",
+       "c": "Tanzania",
+       "t": "2:04:57"
+      },
+      {
+       "p": 5,
+       "n": "Jemal Mekonnen",
+       "c": "Ethiopia",
+       "t": "2:04:59"
+      },
+      {
+       "p": 6,
+       "n": "Hailemaryam Kiros",
+       "c": "Ethiopia",
+       "t": "2:05:16"
+      },
+      {
+       "p": 7,
+       "n": "Vincent Ngetich",
+       "c": "Kenya",
+       "t": "2:05:28"
+      },
+      {
+       "p": 8,
+       "n": "Dawit Wolde",
+       "c": "Ethiopia",
+       "t": "2:06:41"
+      },
+      {
+       "p": 9,
+       "n": "Kennedy Kimutai",
+       "c": "Kenya",
+       "t": "2:06:50"
+      },
+      {
+       "p": 10,
+       "n": "Gilbert Kibet",
+       "c": "Kenya",
+       "t": "2:07:13"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Peres Jepchirchir",
+       "c": "Kenya",
+       "t": "2:18:31"
+      },
+      {
+       "p": 2,
+       "n": "Irine Cheptai",
+       "c": "Kenya",
+       "t": "2:22:11"
+      },
+      {
+       "p": 3,
+       "n": "Shure Demise",
+       "c": "Ethiopia",
+       "t": "2:22:33"
+      },
+      {
+       "p": 4,
+       "n": "Haven Hailu",
+       "c": "Ethiopia",
+       "t": "2:22:57"
+      },
+      {
+       "p": 5,
+       "n": "Meseret Abebayahau",
+       "c": "Ethiopia",
+       "t": "2:23:40"
+      },
+      {
+       "p": 6,
+       "n": "Priscah Cherono",
+       "c": "Kenya",
+       "t": "2:23:49"
+      },
+      {
+       "p": 7,
+       "n": "Stella Chesang",
+       "c": "Uganda",
+       "t": "2:23:52"
+      },
+      {
+       "p": 8,
+       "n": "Fikrte Wereta",
+       "c": "Ethiopia",
+       "t": "2:25:18"
+      },
+      {
+       "p": 9,
+       "n": "Ellie Pashley",
+       "c": "Australia",
+       "t": "2:28:28"
+      },
+      {
+       "p": 10,
+       "n": "Aberu Ayana",
+       "c": "Ethiopia",
+       "t": "2:28:30"
+      }
+     ]
+    }
+   }
+  },
+  "dubai-marathon": {
+   "edition": "2026 (25th edition)",
+   "date": "2026-02-01",
+   "source": "https://www.watchathletics.com/page/7330/results-dubai-marathon-2026",
+   "fullResults": "https://www.dubaimarathon.org",
+   "records": {
+    "men": {
+     "t": "2:03:34",
+     "n": "Getaneh Molla",
+     "c": "Ethiopia",
+     "y": 2019
+    },
+    "women": {
+     "t": "2:16:07",
+     "n": "Tigist Ketema",
+     "c": "Ethiopia",
+     "y": 2024
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Nibret Melak",
+       "c": "Ethiopia",
+       "t": "2:04:00"
+      },
+      {
+       "p": 2,
+       "n": "Yasin Haji",
+       "c": "Ethiopia",
+       "t": "2:05:52"
+      },
+      {
+       "p": 3,
+       "n": "John Hakizimana",
+       "c": "Rwanda",
+       "t": "2:06:04"
+      },
+      {
+       "p": 4,
+       "n": "Molalign Fantahun",
+       "c": "Ethiopia",
+       "t": "2:06:48"
+      },
+      {
+       "p": 5,
+       "n": "Gizealew Ayana",
+       "c": "Ethiopia",
+       "t": "2:06:48"
+      },
+      {
+       "p": 6,
+       "n": "Jiregna Geleta",
+       "c": "Ethiopia",
+       "t": "2:06:57"
+      },
+      {
+       "p": 7,
+       "n": "Berehanu Tsega",
+       "c": "Ethiopia",
+       "t": "2:07:13"
+      },
+      {
+       "p": 8,
+       "n": "Gadissa Tafa",
+       "c": "Ethiopia",
+       "t": "2:07:51"
+      },
+      {
+       "p": 9,
+       "n": "Dechasa Alemu",
+       "c": "Ethiopia",
+       "t": "2:08:21"
+      },
+      {
+       "p": 10,
+       "n": "Belay Bezabeh",
+       "c": "Ethiopia",
+       "t": "2:08:23"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Anchinalu Dessie",
+       "c": "Ethiopia",
+       "t": "2:18:31"
+      },
+      {
+       "p": 2,
+       "n": "Muliye Dekebo",
+       "c": "Ethiopia",
+       "t": "2:18:43"
+      },
+      {
+       "p": 3,
+       "n": "Fantu Worku",
+       "c": "Ethiopia",
+       "t": "2:19:08"
+      },
+      {
+       "p": 4,
+       "n": "Tiringo Mulu",
+       "c": "Ethiopia",
+       "t": "2:21:12"
+      },
+      {
+       "p": 5,
+       "n": "Maritu Ketema",
+       "c": "Ethiopia",
+       "t": "2:21:52"
+      },
+      {
+       "p": 6,
+       "n": "Askale Alemayehu",
+       "c": "Ethiopia",
+       "t": "2:22:56"
+      },
+      {
+       "p": 7,
+       "n": "Aberash Shilima",
+       "c": "Ethiopia",
+       "t": "2:23:04"
+      },
+      {
+       "p": 8,
+       "n": "Fantu Shugi",
+       "c": "Ethiopia",
+       "t": "2:23:29"
+      },
+      {
+       "p": 9,
+       "n": "Elifinesh Demise",
+       "c": "Ethiopia",
+       "t": "2:23:30"
+      },
+      {
+       "p": 10,
+       "n": "Abebech Afework",
+       "c": "Ethiopia",
+       "t": "2:23:52"
+      }
+     ]
+    }
+   }
+  },
+  "abu-dhabi-marathon": {
+   "edition": "2025 (7th edition)",
+   "date": "2025-12-13",
+   "source": "https://www.watchathletics.com/page/7204/results-adnoc-abu-dhabi-marathon-2025",
+   "fullResults": "https://www.adnocabudhabimarathon.com",
+   "records": {
+    "men": {
+     "t": "2:04:40",
+     "n": "Reuben Kipyego",
+     "c": "Kenya",
+     "y": 2019
+    },
+    "women": {
+     "t": "2:19:15",
+     "n": "Brigid Kosgei",
+     "c": "Kenya",
+     "y": 2023
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kaan Kigen Özbilen",
+       "c": "Turkey",
+       "t": "2:07:27"
+      },
+      {
+       "p": 2,
+       "n": "Asrar Hiyrden Abderehman",
+       "c": "Ethiopia",
+       "t": "2:08:09"
+      },
+      {
+       "p": 3,
+       "n": "Kenneth Kiprop Kipkemoi",
+       "c": "Kenya",
+       "t": "2:08:32"
+      },
+      {
+       "p": 4,
+       "n": "Mike Kiptum Boit",
+       "c": "Kenya",
+       "t": "2:09:58"
+      },
+      {
+       "p": 5,
+       "n": "Melesa Solomon Kibret",
+       "c": "Ethiopia",
+       "t": "2:10:26"
+      },
+      {
+       "p": 6,
+       "n": "Thabang Mosiako",
+       "c": "South Africa",
+       "t": "2:10:49"
+      },
+      {
+       "p": 7,
+       "n": "Abayneh Degu Tsehay",
+       "c": "Ethiopia",
+       "t": "2:10:56"
+      },
+      {
+       "p": 8,
+       "n": "Derese Reta Tsega",
+       "c": "Ethiopia",
+       "t": "2:10:59"
+      },
+      {
+       "p": 9,
+       "n": "Zebene Bekele",
+       "c": "Ethiopia",
+       "t": "2:11:00"
+      },
+      {
+       "p": 10,
+       "n": "Birhanu Demisie",
+       "c": "Ethiopia",
+       "t": "2:11:03"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Catherine Reline Amanang'ole",
+       "c": "Kenya",
+       "t": "2:21:17"
+      },
+      {
+       "p": 2,
+       "n": "Edna Kiplagat",
+       "c": "Kenya",
+       "t": "2:25:07"
+      },
+      {
+       "p": 3,
+       "n": "Burtukan Yifru Bekele",
+       "c": "Ethiopia",
+       "t": "2:25:25"
+      },
+      {
+       "p": 4,
+       "n": "Dolshi Tesfu Teklegergish",
+       "c": "Eritrea",
+       "t": "2:26:55"
+      },
+      {
+       "p": 5,
+       "n": "Fatima Ezzahra Gardadi",
+       "c": "Morocco",
+       "t": "2:27:01"
+      },
+      {
+       "p": 6,
+       "n": "Azmera Abreha Gdey",
+       "c": "Ethiopia",
+       "t": "2:27:50"
+      },
+      {
+       "p": 7,
+       "n": "Pascalia Chepkogei",
+       "c": "Kenya",
+       "t": "2:28:07"
+      },
+      {
+       "p": 8,
+       "n": "Sandrafelis Chebet Tuei",
+       "c": "Kenya",
+       "t": "2:28:15"
+      },
+      {
+       "p": 9,
+       "n": "Meskerem Assefa Wondimagegn",
+       "c": "Ethiopia",
+       "t": "2:28:41"
+      },
+      {
+       "p": 10,
+       "n": "Emmah Cheruto Ndiwa",
+       "c": "Kenya",
+       "t": "2:29:02"
+      }
+     ]
+    }
+   }
+  },
+  "osaka-marathon": {
+   "edition": "2026",
+   "date": "2026-02-22",
+   "source": "https://www.watchathletics.com/page/7400/results-osaka-marathon-2026",
+   "fullResults": "https://www.osaka-marathon.com",
+   "records": {
+    "men": {
+     "t": "2:05:20",
+     "n": "Ibrahim Hassan",
+     "c": "Djibouti",
+     "y": 2026
+    },
+    "women": {
+     "t": "2:21:44",
+     "n": "Mare Dibaba",
+     "c": "Ethiopia",
+     "y": 2026
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Ibrahim Hassan",
+       "c": "Djibouti",
+       "t": "2:05:20"
+      },
+      {
+       "p": 2,
+       "n": "Yihunilign Adane",
+       "c": "Ethiopia",
+       "t": "2:05:33"
+      },
+      {
+       "p": 3,
+       "n": "Ezra Kipketer Tanui",
+       "c": "Kenya",
+       "t": "2:05:55"
+      },
+      {
+       "p": 4,
+       "n": "Benson Tunyo",
+       "c": "Kenya",
+       "t": "2:06:10"
+      },
+      {
+       "p": 5,
+       "n": "Kiyoto Hirabayashi",
+       "c": "Japan",
+       "t": "2:06:14"
+      },
+      {
+       "p": 6,
+       "n": "Ichitaka Yamashita",
+       "c": "Japan",
+       "t": "2:06:18"
+      },
+      {
+       "p": 7,
+       "n": "Yuki Takei",
+       "c": "Japan",
+       "t": "2:06:24"
+      },
+      {
+       "p": 8,
+       "n": "Yuhei Urano",
+       "c": "Japan",
+       "t": "2:06:41"
+      },
+      {
+       "p": 9,
+       "n": "Kyohei Hosoya",
+       "c": "Japan",
+       "t": "2:06:44"
+      },
+      {
+       "p": 10,
+       "n": "Ryo Goda",
+       "c": "Japan",
+       "t": "2:06:51"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Mare Dibaba",
+       "c": "Ethiopia",
+       "t": "2:21:44"
+      },
+      {
+       "p": 2,
+       "n": "Esther Chemtai",
+       "c": "Kenya",
+       "t": "2:22:04"
+      },
+      {
+       "p": 3,
+       "n": "Rose Chelimo",
+       "c": "Bahrain",
+       "t": "2:22:52"
+      },
+      {
+       "p": 4,
+       "n": "Afera Godfay",
+       "c": "Ethiopia",
+       "t": "2:23:28"
+      },
+      {
+       "p": 5,
+       "n": "Fatima Ezzahra Gardadi",
+       "c": "Morocco",
+       "t": "2:24:06"
+      },
+      {
+       "p": 6,
+       "n": "Kaede Kawamura",
+       "c": "Japan",
+       "t": "2:25:55"
+      },
+      {
+       "p": 7,
+       "n": "Xiaoqian Zheng",
+       "c": "China",
+       "t": "2:28:45"
+      },
+      {
+       "p": 8,
+       "n": "Tara Palm",
+       "c": "Australia",
+       "t": "2:31:58"
+      }
+     ]
+    }
+   }
+  },
+  "wan-jin-shi-marathon": {
+   "edition": "2026",
+   "date": "2026-03-15",
+   "source": "https://www.watchathletics.com/page/7482/results-new-taipei-city-wan-jin-shi-marathon-2026",
+   "fullResults": "https://wanjinshi-marathon.com.tw/en/",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Enock Onchari",
+       "c": "Kenya",
+       "t": "2:12:46"
+      },
+      {
+       "p": 2,
+       "n": "Haimro Alame",
+       "c": "Israel",
+       "t": "2:12:57"
+      },
+      {
+       "p": 3,
+       "n": "Nicholas Kirwa",
+       "c": "Kenya",
+       "t": "2:14:25"
+      },
+      {
+       "p": 4,
+       "n": "Petro Mamu",
+       "c": "Eritrea",
+       "t": "2:14:26"
+      },
+      {
+       "p": 5,
+       "n": "Daniel Lauren",
+       "c": "Kenya",
+       "t": "2:14:30"
+      },
+      {
+       "p": 6,
+       "n": "Hitley Ombisi Ademo",
+       "c": "Kenya",
+       "t": "2:15:20"
+      },
+      {
+       "p": 7,
+       "n": "Koech Kiprono",
+       "c": "Kenya",
+       "t": "2:16:37"
+      },
+      {
+       "p": 8,
+       "n": "Joseph Mwangi",
+       "c": "Kenya",
+       "t": "2:17:44"
+      },
+      {
+       "p": 9,
+       "n": "Abraraw Misganaw",
+       "c": "Ethiopia",
+       "t": "2:18:13"
+      },
+      {
+       "p": 10,
+       "n": "Samson Mungai Kagia",
+       "c": "Kenya",
+       "t": "2:18:22"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Catherine Cherotich",
+       "c": "Kenya",
+       "t": "2:32:32"
+      },
+      {
+       "p": 2,
+       "n": "Ivyne Jeruto",
+       "c": "Kenya",
+       "t": "2:33:12"
+      },
+      {
+       "p": 3,
+       "n": "Roman Gidey",
+       "c": "Ethiopia",
+       "t": "2:33:47"
+      },
+      {
+       "p": 4,
+       "n": "Nigsti Haftu",
+       "c": "Ethiopia",
+       "t": "2:33:50"
+      },
+      {
+       "p": 5,
+       "n": "Caroline Cheptanui Kilel",
+       "c": "Kenya",
+       "t": "2:34:38"
+      },
+      {
+       "p": 6,
+       "n": "Bekelech Teku",
+       "c": "Ethiopia",
+       "t": "2:35:32"
+      },
+      {
+       "p": 7,
+       "n": "Meseret Gebre",
+       "c": "Ethiopia",
+       "t": "2:37:53"
+      },
+      {
+       "p": 8,
+       "n": "Ruth Karanja",
+       "c": "Kenya",
+       "t": "2:39:53"
+      },
+      {
+       "p": 9,
+       "n": "Kalkidan Debeb",
+       "c": "Ethiopia",
+       "t": "2:48:02"
+      },
+      {
+       "p": 10,
+       "n": "Lisa Ries",
+       "c": "Taiwan",
+       "t": "2:53:01"
+      }
+     ]
+    }
+   }
+  },
+  "xiamen-marathon": {
+   "edition": "2026",
+   "date": "2026-01-11",
+   "source": "https://world-track.org/2026/01/cd-xiamen-marathon-results-dawit-wolde-and-ruti-aga-claim-victory/",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Dawit Wolde",
+       "c": "Ethiopia",
+       "t": "2:09:18"
+      },
+      {
+       "p": 2,
+       "n": "Hailemaryam Kiros",
+       "c": "Ethiopia",
+       "t": "2:09:20"
+      },
+      {
+       "p": 3,
+       "n": "Addisu Gobena",
+       "c": "Ethiopia",
+       "t": "2:09:22"
+      },
+      {
+       "p": 4,
+       "n": "Ablelom Maryo",
+       "c": "Eritrea",
+       "t": "2:09:39"
+      },
+      {
+       "p": 5,
+       "n": "Asefa Mengstu",
+       "c": "Ethiopia",
+       "t": "2:09:58"
+      },
+      {
+       "p": 6,
+       "n": "Shaohui Yang",
+       "c": "China",
+       "t": "2:11:14"
+      },
+      {
+       "p": 7,
+       "n": "Boaz Kipkemei",
+       "c": "Kenya",
+       "t": "2:11:46"
+      },
+      {
+       "p": 8,
+       "n": "Ren Qingdongzhibu",
+       "c": "China",
+       "t": "2:12:19"
+      },
+      {
+       "p": 9,
+       "n": "Dalin Li",
+       "c": "China",
+       "t": "2:13:24"
+      },
+      {
+       "p": 10,
+       "n": "Enock Onchari",
+       "c": "Kenya",
+       "t": "2:14:25"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Ruti Aga",
+       "c": "Ethiopia",
+       "t": "2:22:45"
+      },
+      {
+       "p": 2,
+       "n": "Meseret Abebayahau",
+       "c": "Ethiopia",
+       "t": "2:25:15"
+      },
+      {
+       "p": 3,
+       "n": "Fikrte Wereta",
+       "c": "Ethiopia",
+       "t": "2:25:31"
+      },
+      {
+       "p": 4,
+       "n": "Mercy Jerop Kwambai",
+       "c": "Kenya",
+       "t": "2:27:22"
+      },
+      {
+       "p": 5,
+       "n": "Meizhen Li",
+       "c": "China",
+       "t": "2:27:24"
+      },
+      {
+       "p": 6,
+       "n": "Helah Jelagat Kiprop",
+       "c": "Kenya",
+       "t": "2:28:53"
+      },
+      {
+       "p": 7,
+       "n": "Ying Lu",
+       "c": "China",
+       "t": "2:29:17"
+      },
+      {
+       "p": 8,
+       "n": "Bingjie Xu",
+       "c": "China",
+       "t": "2:32:30"
+      },
+      {
+       "p": 9,
+       "n": "Cuomu Ciren",
+       "c": "China",
+       "t": "2:34:01"
+      },
+      {
+       "p": 10,
+       "n": "Xuemei Huang",
+       "c": "China",
+       "t": "2:35:24"
+      }
+     ]
+    }
+   }
+  },
+  "bangkok-marathon": {
+   "edition": "",
+   "date": "",
+   "source": "https://en.wikipedia.org/wiki/Bangkok_Marathon",
+   "fullResults": "",
+   "records": {
+    "men": {
+     "t": "2:16:10",
+     "n": "Kennedy Lilian",
+     "c": "Kenya",
+     "y": 2010
+    },
+    "women": {
+     "t": "2:41:37",
+     "n": "Elizabeth Chemweno",
+     "c": "Kenya",
+     "y": 2012
+    }
+   },
+   "distances": {}
+  },
+  "ras-al-khaimah-half": {
+   "edition": "",
+   "date": "",
+   "source": "https://fatmarathoner.com/ras-al-khaimah-half-marathon-guide/",
+   "fullResults": "",
+   "records": {
+    "men": {
+     "t": "57:56",
+     "n": "Jacob Kiplimo",
+     "c": "Uganda",
+     "y": 2022
+    },
+    "women": {
+     "t": "1:04:14",
+     "n": "Girmawit Gebrzihair",
+     "c": "Ethiopia",
+     "y": 2022
+    }
+   },
+   "distances": {}
   }
+ }
 }
