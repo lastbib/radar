@@ -51,3 +51,10 @@ The site (`index.html`) reads both files; GitHub Pages republishes on every push
 - Relevance: size and international field (40), certification such as World Athletics label / AIMS / Boston qualifier (20), destination and scenery (25), organisation reputation (15).
 - Prices marked "≈" are from a previous edition. Replace them once current prices are published.
 - Leave closed/full races in the file until race day so alerts stay accurate, then delete them.
+
+## Covers and past winners
+- Each race has `wiki`: a list of English Wikipedia article titles for its landmark or city (first one with a lead photo is used as the cover, credited to Wikimedia Commons). Add 1–3 titles for every new race.
+- Each race has `regUrl`: the direct registration page (falls back to `url`).
+- `data/results.json` → `results[<race id without the -YYYY suffix>]` holds the latest edition's winners:
+  `{"edition":"2025","date":"YYYY-MM-DD","source":"url","fullResults":"url","distances":{"42K":{"men":[{"p":1,"n":"Name","c":"Country","t":"2:10:00"}],"women":[...]},"21K":{...},"10K":{...}}}`
+- Each run, fill results for 2–3 races that have none, and extend existing ones toward the top 10 per gender per distance when official results pages are readable. Only enter places and times you actually read in a source. After a race takes place, replace its entry with the new edition.

@@ -53,12 +53,61 @@ input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{ou
 .bar{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
 .count{font:800 1.5rem var(--f-display);text-transform:uppercase;letter-spacing:.02em}
 .list{display:flex;flex-direction:column;gap:12px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:grid;grid-template-columns:76px 1fr;overflow:hidden}
-.bib{background:var(--accent-soft);border-right:2px dashed var(--line);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:14px 4px;gap:0;text-align:center}
-.bib .d{font:800 2.4rem/1 var(--f-display);color:var(--accent);font-variant-numeric:tabular-nums}
-.bib .m{font:700 .95rem/1.1 var(--f-display);text-transform:uppercase;letter-spacing:.06em}
-.bib .y{font:400 .72rem var(--f-mono);color:var(--muted)}
-.bib .t{font:400 .65rem var(--f-mono);color:var(--muted);margin-top:4px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 24px -14px rgba(10,20,30,.45)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cover{position:relative;aspect-ratio:16/7;max-width:100%;overflow:hidden;background:var(--cover-bg,linear-gradient(135deg,#1f4b5e,#e2550b))}
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s ease,transform 6s ease}
+.cover img.on{opacity:1}
+.card:hover .cover img.on{transform:scale(1.07)}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.62))}
+.cover svg.route{position:absolute;inset:0;width:100%;height:100%}
+.cover svg.route path{fill:none;stroke:rgba(255,255,255,.55);stroke-width:3;stroke-dasharray:6 8}
+.cover .pill{position:absolute;top:10px;right:10px;z-index:2;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.cover .credit{position:absolute;right:8px;bottom:6px;z-index:2;font:400 .62rem var(--f-mono);color:rgba(255,255,255,.75)}
+.bib{position:absolute;left:12px;bottom:-1px;z-index:2;background:#fff;color:#12202a;border-radius:8px 8px 0 0;padding:8px 12px 6px;display:flex;align-items:baseline;gap:6px;box-shadow:0 -2px 10px rgba(0,0,0,.18)}
+.bib::before,.bib::after{content:"";position:absolute;top:6px;width:5px;height:5px;border-radius:50%;background:#c9d1d6}
+.bib::before{left:5px}.bib::after{right:5px}
+.bib .d{font:800 1.9rem/1 var(--f-display);color:#e2550b;font-variant-numeric:tabular-nums}
+.bib .m{font:700 1rem/1 var(--f-display);text-transform:uppercase;letter-spacing:.06em}
+.bib .y{font:400 .72rem var(--f-mono);color:#5a6a75}
+.bib .t{font:400 .65rem var(--f-mono);color:#5a6a75}
+.cue{font:700 .8rem var(--f-body);color:var(--accent)}
+/* Race detail sheet */
+dialog.sheet{border:0;padding:0;margin:auto auto 0;width:min(760px,100%);max-width:100%;max-height:92vh;border-radius:16px 16px 0 0;background:var(--surface);color:var(--ink);overflow:auto;box-shadow:0 -20px 60px rgba(0,0,0,.35)}
+dialog.sheet::backdrop{background:rgba(8,14,20,.55);backdrop-filter:blur(2px)}
+@media (min-width:800px){dialog.sheet{margin:auto;border-radius:16px;max-height:88vh}}
+.hero{position:relative;aspect-ratio:16/8;max-width:100%;overflow:hidden;background:var(--cover-bg,linear-gradient(135deg,#1f4b5e,#e2550b))}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}
+.hero img.on{opacity:1}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,0) 30%,rgba(0,0,0,.7))}
+.hero .cap{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;color:#fff;display:flex;flex-direction:column;gap:4px}
+.hero h2{font:800 clamp(1.7rem,6vw,2.6rem)/1 var(--f-display);text-transform:uppercase;letter-spacing:.01em;color:#fff}
+.hero .credit{position:absolute;right:10px;top:10px;z-index:2;font:400 .62rem var(--f-mono);color:rgba(255,255,255,.8)}
+.hero .credit a{color:inherit}
+.close{position:absolute;left:10px;top:10px;z-index:3;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font:700 1.2rem var(--f-body);cursor:pointer}
+.sbody{padding:18px 16px 26px;display:flex;flex-direction:column;gap:18px}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:6px;font:700 1rem var(--f-body);text-decoration:none;border-radius:10px;padding:12px 18px;border:1px solid var(--line);color:var(--ink);background:var(--bg)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.sec h3{font:800 1.25rem var(--f-display);text-transform:uppercase;letter-spacing:.02em;margin:0 0 8px}
+.ptable{width:100%;border-collapse:collapse;font-size:.92rem}
+.ptable td,.ptable th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
+.ptable th{font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.ptable td.num,.ptable th.num{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.podium{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:560px){.podium{grid-template-columns:1fr}}
+.podium h4{margin:0 0 4px;font:700 .78rem var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.podium ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.podium li{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line);font-size:.92rem;min-width:0}
+.podium li .pl{font:800 1.1rem var(--f-display);color:var(--muted)}
+.podium li:nth-child(1) .pl{color:#c9971c}.podium li:nth-child(2) .pl{color:#8f9aa3}.podium li:nth-child(3) .pl{color:#a8673a}
+.podium li .nm{min-width:0}
+.podium li .nm small{display:block;color:var(--muted);font-size:.78rem}
+.podium li .tm{font:600 .85rem var(--f-mono);font-variant-numeric:tabular-nums}
+.small{font-size:.84rem;color:var(--muted)}
+.small a{color:var(--accent)}
 .body{padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
 .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}
 h2{font:700 1.08rem/1.25 var(--f-body);margin:0;text-wrap:balance}
@@ -86,7 +135,13 @@ h2{font:700 1.08rem/1.25 var(--f-body);margin:0;text-wrap:balance}
 .news .k.opened,.news .k.new{background:var(--open)}
 details summary{cursor:pointer;font-weight:700}
 footer{font-size:.82rem;color:var(--muted);max-width:68ch}
-@media (prefers-reduced-motion:no-preference){.card{animation:rise .25s ease both}@keyframes rise{from{transform:translateY(4px)}to{transform:none}}}
+@media (prefers-reduced-motion:no-preference){
+  .card{animation:rise .35s ease both}@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+  .hero img.on{animation:kb 16s ease-out both}@keyframes kb{from{transform:scale(1.14)}to{transform:scale(1)}}
+  dialog.sheet[open]{animation:up .32s cubic-bezier(.2,.8,.2,1)}@keyframes up{from{transform:translateY(60px);opacity:.3}to{transform:none;opacity:1}}
+  .cover svg.route path{animation:dash 20s linear infinite}@keyframes dash{to{stroke-dashoffset:-280}}
+}
+@media (prefers-reduced-motion:reduce){.card,.cover img{transition:none}}
 </style>
 </head>
 <body>
@@ -165,6 +220,8 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
   </footer>
 </div>
 
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTitle"></dialog>
+
 <script>
 (function(){
   const REGIONS = {
@@ -195,7 +252,7 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
     set(k,v){ try { localStorage.setItem("arf:"+k, JSON.stringify(v)); } catch(e){} }
   };
 
-  let races = [], origin = null, geoTimer = null;
+  let races = [], results = {}, origin = null, geoTimer = null;
   const state = Object.assign({ region: "All", countries: [], dists: DISTS.slice() }, store.get("state") || {});
 
   function km(a,b){ const R=6371, t=Math.PI/180, dLa=(b[0]-a[0])*t, dLo=(b[1]-a[1])*t;
@@ -230,7 +287,7 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
   }
 
   document.addEventListener("click", e => {
-    const b = e.target.closest("button.chip"); if(!b) return;
+    const b = e.target.closest("button.chip"); if(!b || !(b.dataset.region||b.dataset.country||b.dataset.dist)) return;
     if (b.dataset.region){ state.region = b.dataset.region; state.countries = state.countries.filter(c => state.region==="All" || regionOf(c)===state.region); }
     if (b.dataset.country){ const c=b.dataset.country; state.countries = state.countries.includes(c) ? state.countries.filter(x=>x!==c) : state.countries.concat(c); }
     if (b.dataset.dist){ const d=b.dataset.dist; state.dists = state.dists.includes(d) ? state.dists.filter(x=>x!==d) : state.dists.concat(d); }
@@ -276,6 +333,54 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
     $("count").textContent = rows.length + (rows.length===1 ? " race" : " races");
     $("list").innerHTML = rows.length ? rows.map(card).join("") :
       '<div class="empty">No open or opening-soon races match these filters. Try a wider range, more countries or a longer date window.</div>';
+    document.querySelectorAll("#list .cover").forEach(el => { const r = races.find(x => x.id === el.dataset.cover); if (r) paintCover(el, r); });
+  }
+
+  // ---- Covers: freely licensed landmark photos from Wikipedia / Wikimedia Commons ----
+  const HUES = {Thailand:16, Vietnam:350, Cambodia:38, Laos:200, Malaysia:220, Philippines:265, India:28, Singapore:0, Indonesia:150, "Hong Kong":330};
+  function coverBg(r){ const h = HUES[r.country] ?? 190; return `linear-gradient(135deg,hsl(${(h+200)%360} 45% 22%),hsl(${h} 70% 46%))`; }
+  function routeSvg(r){
+    let s = 0; for (const ch of r.id) s = (s*31 + ch.charCodeAt(0)) >>> 0;
+    const rnd = () => (s = (s*1103515245 + 12345) >>> 0) / 4294967296;
+    let d = "M -10 " + (60 + rnd()*40);
+    for (let x = 30; x <= 420; x += 50) d += ` Q ${x-25} ${20+rnd()*120} ${x} ${40+rnd()*90}`;
+    return `<svg class="route" viewBox="0 0 400 175" preserveAspectRatio="none" aria-hidden="true"><path d="${d}"/></svg>`;
+  }
+  const coverCache = {};
+  function getCover(r){
+    if (!r.wiki || !r.wiki.length) return Promise.resolve(null);
+    if (coverCache[r.id]) return coverCache[r.id];
+    const k = "cover:" + r.id, saved = (() => { try { return JSON.parse(sessionStorage.getItem(k)); } catch(e){ return null; } })();
+    if (saved) return (coverCache[r.id] = Promise.resolve(saved.src ? saved : null));
+    coverCache[r.id] = (async () => {
+      for (const t of r.wiki){
+        try {
+          const res = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t));
+          if (!res.ok) continue;
+          const j = await res.json();
+          const src = j.originalimage && j.originalimage.source;
+          if (!src) continue;
+          const file = decodeURIComponent(src.split("/").pop());
+          const thumb = (j.thumbnail && j.thumbnail.source || src).replace(/\/(\d+)px-/, "/1280px-");
+          const out = { src: thumb, full: src, credit: "https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(file), title: j.title };
+          try { sessionStorage.setItem(k, JSON.stringify(out)); } catch(e){}
+          return out;
+        } catch(e){}
+      }
+      try { sessionStorage.setItem(k, JSON.stringify({})); } catch(e){}
+      return null;
+    })();
+    return coverCache[r.id];
+  }
+  function paintCover(el, r){
+    getCover(r).then(c => {
+      if (!c || !el.isConnected) return;
+      const img = new Image(); img.alt = ""; img.decoding = "async";
+      img.onload = () => { img.classList.add("on"); el.querySelector("svg.route")?.remove(); };
+      img.onerror = () => { if (img.src !== c.full && !img.dataset.retry){ img.dataset.retry = 1; img.src = c.full; } };
+      img.src = c.src; el.prepend(img);
+      const cr = el.querySelector(".credit"); if (cr) cr.innerHTML = `<a href="${c.credit}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:inherit">Photo: Wikimedia Commons</a>`;
+    });
   }
 
   function card({r, reg, dist}){
@@ -284,17 +389,82 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
     const regLine = reg.cls==="soon"
       ? (r.regOpens ? "Registration opens "+fmtDate(r.regOpens) : esc(r.regOpensNote || "Registration date TBA"))
       : (r.regCloses ? "Registration closes "+fmtDate(r.regCloses) : "Open until full");
-    return `<article class="card">
-      <div class="bib" aria-label="Race day ${fmtDate(r.date)}"><div class="d">${+d}</div><div class="m">${MS[+m-1]}</div><div class="y">${y}</div>${r.dateTentative?'<div class="t">expected</div>':''}</div>
+    const hasRes = !!resultsFor(r);
+    return `<article class="card" tabindex="0" role="button" data-id="${esc(r.id)}" aria-label="Open ${esc(r.name)}">
+      <div class="cover" data-cover="${esc(r.id)}" style="--cover-bg:${coverBg(r)}">${routeSvg(r)}
+        <span class="pill ${reg.cls}">${reg.label}</span>
+        <div class="bib" aria-label="Race day ${fmtDate(r.date)}"><span class="d">${+d}</span><span class="m">${MS[+m-1]}</span><span class="y">${y}${r.dateTentative?' · expected':''}</span></div>
+        <span class="credit"></span>
+      </div>
       <div class="body">
-        <div class="top"><div><h2>${esc(r.name)}</h2><div class="where">${esc(r.city)}, ${esc(r.country)}${dist!=null?" · "+Math.round(dist).toLocaleString()+" km away":""}</div></div>
-        <span class="pill ${reg.cls}">${reg.label}</span></div>
+        <div><h2>${esc(r.name)}</h2><div class="where">${esc(r.city)}, ${esc(r.country)}${dist!=null?" · "+Math.round(dist).toLocaleString()+" km away":""}</div></div>
         <div class="dist">${dists}</div>
-        ${r.priceNote?`<div class="where">${esc(r.priceNote)}</div>`:""}
         <p class="facts">${esc(r.facts)}</p>
-        <div class="meta"><span>${regLine}</span><a href="${esc(r.url)}" target="_blank" rel="noopener">Race info ↗</a><span class="rel">Checked ${fmtDate(r.checked)}</span></div>
+        <div class="meta"><span>${regLine}</span><span class="cue">${hasRes ? "Details & past winners →" : "Details & registration →"}</span></div>
       </div></article>`;
   }
+
+  // ---- Detail sheet ----
+  function resultsFor(r){ const key = r.id.replace(/-\d{4}$/, ""); const x = results[key]; return x && Object.keys(x.distances || {}).length ? x : null; }
+  function podiumList(arr){
+    if (!arr || !arr.length) return '<p class="small">Not published yet.</p>';
+    return "<ol>" + arr.slice(0,10).map(p => `<li><span class="pl">${p.p}</span><span class="nm">${esc(p.n)}${p.c?`<small>${esc(p.c)}</small>`:""}</span><span class="tm">${esc(p.t || "—")}</span></li>`).join("") + "</ol>";
+  }
+  function openRace(id, push){
+    const r = races.find(x => x.id === id); if (!r) return;
+    const reg = regState(r) || {cls:"soon", label:"Not open"};
+    const res = resultsFor(r);
+    const regLine = reg.cls==="soon"
+      ? (r.regOpens ? "Registration opens "+fmtDate(r.regOpens) : esc(r.regOpensNote || "Registration date TBA"))
+      : (r.regCloses ? "Registration closes "+fmtDate(r.regCloses) : "Open until full");
+    const dists = res ? Object.keys(res.distances) : [];
+    const sheet = $("sheet");
+    sheet.innerHTML = `
+      <div class="hero" style="--cover-bg:${coverBg(r)}">${routeSvg(r)}
+        <button class="close" type="button" aria-label="Close">✕</button>
+        <span class="credit"></span>
+        <div class="cap"><span class="pill ${reg.cls}" style="align-self:flex-start">${reg.label}</span>
+          <h2 id="sheetTitle">${esc(r.name)}</h2>
+          <div>${fmtDate(r.date)}${r.dateTentative?" (expected)":""} · ${esc(r.city)}, ${esc(r.country)}</div></div>
+      </div>
+      <div class="sbody">
+        <p class="facts">${esc(r.facts)}</p>
+        <div class="cta">
+          ${reg.cls==="soon" ? "" : `<a class="btn primary" href="${esc(r.regUrl || r.url)}" target="_blank" rel="noopener">Register ↗</a>`}
+          <a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Official race info ↗</a>
+        </div>
+        <section class="sec"><h3>Distances & prices</h3>
+          <div style="overflow-x:auto"><table class="ptable"><thead><tr><th>Distance</th><th class="num">Entry fee</th></tr></thead><tbody>
+          ${r.distances.map(x => `<tr><td>${esc(x.d)}</td><td class="num">${esc(x.price || "see website")}</td></tr>`).join("")}
+          </tbody></table></div>
+          <p class="small">${regLine}${r.priceNote ? " · " + esc(r.priceNote) : ""}</p>
+        </section>
+        <section class="sec"><h3>Past winners</h3>
+          ${res ? `<p class="small">Last edition: ${esc(res.edition)}${res.date ? ", " + fmtDate(res.date) : ""}</p>
+            <div class="tabs" role="tablist">${dists.map((d,i) => `<button type="button" class="chip" role="tab" data-rtab="${d}" aria-pressed="${i===0}">${d==="42K"?"Marathon":d==="21K"?"Half":d}</button>`).join("")}</div>
+            <div id="podium"></div>
+            <p class="small">Source: <a href="${esc(res.source)}" target="_blank" rel="noopener">race report</a>${res.fullResults ? ` · <a href="${esc(res.fullResults)}" target="_blank" rel="noopener">Full results ↗</a>` : ""}. More places are added as official results are found.</p>`
+          : `<p class="small">Winners for this race haven't been collected yet. They are added during the daily update.${(results[r.id.replace(/-\d{4}$/,"")]||{}).fullResults ? ` <a href="${esc(results[r.id.replace(/-\d{4}$/,"")].fullResults)}" target="_blank" rel="noopener">Official results ↗</a>` : ""}</p>`}
+        </section>
+        <p class="small">Data checked ${fmtDate(r.checked)}. Confirm details on the official site before paying.</p>
+      </div>`;
+    const showTab = d => {
+      sheet.querySelectorAll("[data-rtab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.rtab===d));
+      const g = res.distances[d];
+      sheet.querySelector("#podium").innerHTML = `<div class="podium"><div><h4>Men</h4>${podiumList(g.men)}</div><div><h4>Women</h4>${podiumList(g.women)}</div></div>`;
+    };
+    if (res && dists.length) showTab(dists[0]);
+    sheet.querySelectorAll("[data-rtab]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); showTab(b.dataset.rtab); }));
+    sheet.querySelector(".close").addEventListener("click", () => sheet.close());
+    paintCover(sheet.querySelector(".hero"), r);
+    if (!sheet.open) sheet.showModal();
+    sheet.scrollTop = 0;
+    if (push !== false) history.replaceState(null, "", "#" + r.id);
+  }
+  $("sheet").addEventListener("close", () => history.replaceState(null, "", location.pathname + location.search));
+  $("sheet").addEventListener("click", e => { if (e.target === $("sheet")) $("sheet").close(); });
+  $("list").addEventListener("click", e => { if (e.target.closest("a")) return; const c = e.target.closest(".card"); if (c) openRace(c.dataset.id); });
+  $("list").addEventListener("keydown", e => { if ((e.key==="Enter"||e.key===" ") && e.target.classList.contains("card")){ e.preventDefault(); openRace(e.target.dataset.id); } });
 
   function renderNews(items){
     if (!items || !items.length) return;
@@ -311,13 +481,15 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
 
   Promise.all([
     fetch("data/races.json", {cache:"no-cache"}).then(r => r.json()),
-    fetch("data/news.json", {cache:"no-cache"}).then(r => r.json()).catch(() => null)
-  ]).then(([rd, nd]) => {
-    races = rd.races || [];
+    fetch("data/news.json", {cache:"no-cache"}).then(r => r.json()).catch(() => null),
+    fetch("data/results.json", {cache:"no-cache"}).then(r => r.json()).catch(() => null)
+  ]).then(([rd, nd, rs]) => {
+    races = rd.races || []; results = (rs && rs.results) || {};
     const t = new Date(rd.updated);
     $("stamp").textContent = "Data checked " + t.toLocaleString("en-GB",{timeZone:"Asia/Bangkok",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}) + " Bangkok time · updates daily at 07:00";
     buildChips(); renderNews(nd && nd.items); render();
     if ($("place").value) geocode();
+    const h = location.hash.slice(1); if (h && races.some(x => x.id === h)) openRace(h, false);
   }).catch(() => { $("stamp").textContent = "Couldn't load race data. Refresh the page to try again."; });
 })();
 </script>

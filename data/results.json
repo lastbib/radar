@@ -1,0 +1,200 @@
+{
+  "updated": "2026-10-12",
+  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
+  "results": {
+    "hcmc-marathon": {
+      "edition": "2025 (8th edition)",
+      "date": "2025-12-07",
+      "source": "https://vietnamnews.vn/sports/1731386/simaneh-le-win-techcombank-hcm-city-international-marathon.html",
+      "fullResults": "",
+      "distances": {
+        "42K": {
+          "men": [
+            {"p": 1, "n": "Ayalew Seleshi Simaneh", "c": "Ethiopia", "t": "2:23:13"},
+            {"p": 2, "n": "Wondale Melsew Baye", "c": "Ethiopia", "t": "2:23:25"},
+            {"p": 3, "n": "Kebede Leta Girma", "c": "Ethiopia", "t": "2:23:34"},
+            {"p": 4, "n": "Damte Wendwesen Tilahun", "c": "Ethiopia", "t": "2:23:54"},
+            {"p": 5, "n": "Hosea Kogei", "c": "Kenya", "t": "2:24:34"}
+          ],
+          "women": [
+            {"p": 1, "n": "Phạm Thị Hồng Lệ", "c": "Vietnam", "t": "2:48:10"},
+            {"p": 2, "n": "Mohamed Yenework Husen", "c": "Ethiopia", "t": ""},
+            {"p": 3, "n": "Birehan Marta Tinsae", "c": "Ethiopia", "t": ""},
+            {"p": 4, "n": "Zega Mestu Sirabzu", "c": "Ethiopia", "t": ""},
+            {"p": 5, "n": "Doãn Oanh", "c": "Vietnam", "t": ""}
+          ]
+        },
+        "21K": {
+          "men": [
+            {"p": 1, "n": "Dương Minh Hùng", "c": "Vietnam", "t": "1:09:25"},
+            {"p": 2, "n": "Phạm Ngọc Phan", "c": "Vietnam", "t": ""}
+          ],
+          "women": []
+        }
+      }
+    },
+    "vnexpress-hanoi-midnight": {
+      "edition": "2025",
+      "date": "2025-11-30",
+      "source": "https://vietnamnews.vn/sports/1730810/kenyan-kemboi-vietnamese-le-triumph-at-midnight-marathon.html",
+      "fullResults": "",
+      "distances": {
+        "42K": {
+          "men": [
+            {"p": 1, "n": "Ezekiel Kipruto Kemboi", "c": "Kenya", "t": "2:24:20"},
+            {"p": 2, "n": "Takele Kure", "c": "", "t": "2:26:31"},
+            {"p": 3, "n": "Trịnh Minh Tâm", "c": "Vietnam", "t": "2:27:00"},
+            {"p": 4, "n": "Huỳnh Anh Khôi", "c": "Vietnam", "t": "2:29:59"}
+          ],
+          "women": [
+            {"p": 1, "n": "Phạm Thị Hồng Lệ", "c": "Vietnam", "t": "2:56:06"},
+            {"p": 2, "n": "Vũ Khánh Linh", "c": "Vietnam", "t": "+0:44"},
+            {"p": 3, "n": "Nguyễn Thị Trà Giang", "c": "Vietnam", "t": "3:00:13"}
+          ]
+        },
+        "21K": {
+          "men": [
+            {"p": 1, "n": "Samuel Kalalei", "c": "Kenya", "t": "1:08:55"},
+            {"p": 2, "n": "Hoàng Viết Vỹ Ly", "c": "Vietnam", "t": ""},
+            {"p": 3, "n": "Nguyễn Hoàng Thịnh", "c": "Vietnam", "t": ""}
+          ],
+          "women": [
+            {"p": 1, "n": "Doãn Thị Oanh", "c": "Vietnam", "t": "1:19:13"},
+            {"p": 2, "n": "Hoàng Thị Ngọc Anh", "c": "Vietnam", "t": "1:20:30"}
+          ]
+        },
+        "10K": {
+          "men": [{"p": 1, "n": "Yeunsik Ham", "c": "South Korea", "t": ""}],
+          "women": [{"p": 1, "n": "Nguyễn Thị Hồng Hạnh", "c": "Vietnam", "t": ""}]
+        }
+      }
+    },
+    "goa-river-marathon": {
+      "edition": "2025 (15th edition)",
+      "date": "2025-12-14",
+      "source": "https://www.thegoan.net/sports/petra-nilesh-win-goa-river-marathon/140542.html",
+      "fullResults": "",
+      "distances": {
+        "42K": {
+          "men": [
+            {"p": 1, "n": "Nilesh Kulaye", "c": "India (Maharashtra)", "t": "2:48:52"},
+            {"p": 2, "n": "Nitin Tumbade", "c": "India (Maharashtra)", "t": "2:51:06"},
+            {"p": 3, "n": "Vinayak Jambotkar", "c": "India (Karnataka)", "t": "2:51:16"}
+          ],
+          "women": [
+            {"p": 1, "n": "Petra Pastorova", "c": "Czech Republic", "t": "3:04:29"},
+            {"p": 2, "n": "Jasmitha Kodenkiri", "c": "India (Karnataka)", "t": "3:46:08"},
+            {"p": 3, "n": "Sharmila Kadam", "c": "India (Maharashtra)", "t": "4:11:25"}
+          ]
+        },
+        "21K": {
+          "men": [
+            {"p": 1, "n": "Humen Senapati", "c": "India (Assam)", "t": "1:11:05"},
+            {"p": 2, "n": "Omkar Baikar", "c": "India (Maharashtra)", "t": "1:11:50"},
+            {"p": 3, "n": "Harichandra Velip", "c": "India (Goa)", "t": "1:21:40"}
+          ],
+          "women": [
+            {"p": 1, "n": "Rutuja Patil", "c": "India (Goa)", "t": "1:31:25"},
+            {"p": 2, "n": "Shreya Patil", "c": "India (Maharashtra)", "t": "1:34:08"},
+            {"p": 3, "n": "Ghazi Tanna", "c": "India (Goa)", "t": "1:37:42"}
+          ]
+        },
+        "10K": {
+          "men": [
+            {"p": 1, "n": "Aniket Santosh Shingare", "c": "India (Goa)", "t": "30:38"},
+            {"p": 2, "n": "Pruthviraj Ramesh Kamble", "c": "India (Goa)", "t": "30:51"},
+            {"p": 3, "n": "Mohit Kumar Patel", "c": "India (Uttar Pradesh)", "t": "30:56"}
+          ],
+          "women": [
+            {"p": 1, "n": "Rohini Patil", "c": "India (Maharashtra)", "t": "40:15"},
+            {"p": 2, "n": "Farheen Firdose", "c": "India (Karnataka)", "t": "40:34"},
+            {"p": 3, "n": "Nikita Marle", "c": "India (Maharashtra)", "t": "42:54"}
+          ]
+        }
+      }
+    },
+    "laguna-phuket-marathon": {
+      "edition": "2026 (20th edition)",
+      "date": "2026-06-14",
+      "source": "https://en.thairath.co.th/sport/others/2939424",
+      "fullResults": "",
+      "distances": {
+        "42K": {
+          "men": [{"p": 1, "n": "Zhipeng Huang", "c": "China", "t": "2:45:35"}],
+          "women": [{"p": 1, "n": "Ling Wu", "c": "China", "t": "3:03:46"}]
+        }
+      }
+    },
+    "cebu-marathon": {
+      "edition": "2024",
+      "date": "2024-01-14",
+      "source": "https://www.sunstar.com.ph/cebu/kenyan-runner-defends-crown",
+      "fullResults": "",
+      "distances": {
+        "42K": {
+          "men": [
+            {"p": 1, "n": "Eric Chepsiror", "c": "Kenya", "t": "2:33:50"},
+            {"p": 2, "n": "Florendo Lapiz", "c": "Philippines", "t": "2:35:37"},
+            {"p": 3, "n": "Joseph Mururi", "c": "", "t": "2:42:19"}
+          ],
+          "women": [
+            {"p": 1, "n": "Artjoy Torregosa", "c": "Philippines", "t": "3:12:14"},
+            {"p": 2, "n": "Maricar Camacho", "c": "Philippines", "t": "3:14:39"},
+            {"p": 3, "n": "Jennylyn Nobleza", "c": "Philippines", "t": "3:18:41"}
+          ]
+        }
+      }
+    },
+    "penang-bridge-marathon": {
+      "edition": "2022",
+      "date": "2022-12-11",
+      "source": "https://thesun.my/?p=408112",
+      "fullResults": "",
+      "distances": {
+        "42K": {
+          "men": [
+            {"p": 1, "n": "Geoffrey Birgen", "c": "Kenya", "t": "2:14:35"},
+            {"p": 2, "n": "Moses Kiptoo Kurgat", "c": "Kenya", "t": "2:17:39"},
+            {"p": 3, "n": "James Cherotich Tallam", "c": "Kenya", "t": "2:20:55"}
+          ],
+          "women": [
+            {"p": 1, "n": "Peninah Kigen", "c": "Kenya", "t": "2:46:07"},
+            {"p": 2, "n": "Sheila Jepkosgei Chesang", "c": "Kenya", "t": "2:46:15"},
+            {"p": 3, "n": "Edinah Mutahi", "c": "Kenya", "t": "2:48:03"}
+          ]
+        },
+        "21K": {
+          "men": [
+            {"p": 1, "n": "Samperu Mathew", "c": "Kenya", "t": "1:00:51"},
+            {"p": 2, "n": "James Kahura", "c": "Kenya", "t": "1:02:01"},
+            {"p": 3, "n": "David Kibet", "c": "Kenya", "t": "1:11:04"}
+          ],
+          "women": [
+            {"p": 1, "n": "Alice Muthoni Koigi", "c": "Kenya", "t": "1:21:07"},
+            {"p": 2, "n": "Emily Jepkoech", "c": "Kenya", "t": "1:31:48"},
+            {"p": 3, "n": "Kellyn Tan Lay Wah", "c": "Malaysia", "t": "1:32:43"}
+          ]
+        },
+        "10K": {
+          "men": [
+            {"p": 1, "n": "Kipchirchir Lel", "c": "Kenya", "t": "34:19"},
+            {"p": 2, "n": "Ruveshwaran Balachandran", "c": "Malaysia", "t": "38:30"},
+            {"p": 3, "n": "Mohamad Haris", "c": "Malaysia", "t": "39:37"}
+          ],
+          "women": [
+            {"p": 1, "n": "Joline Tan Li Jun", "c": "Malaysia", "t": "43:35"},
+            {"p": 2, "n": "Tan Yin Jen", "c": "Malaysia", "t": "45:14"},
+            {"p": 3, "n": "Ang Yik Ching", "c": "Malaysia", "t": "48:00"}
+          ]
+        }
+      }
+    },
+    "angkor-wat-half": {
+      "edition": "",
+      "date": "",
+      "source": "",
+      "fullResults": "https://results.checkpointspot.asia?c=2",
+      "distances": {}
+    }
+  }
+}
