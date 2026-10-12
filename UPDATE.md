@@ -63,3 +63,8 @@ The site (`index.html`) reads both files; GitHub Pages republishes on every push
 - Every distance with a known fee also gets numbers for the currency converter: `"amt": 950000, "cur": "VND"` (ISO code), plus `"qual": "from" | "upto" | "approx"` when the price is a range start, a maximum, or from a previous edition. Keep `price` as the human-readable original. Use the price currently on sale.
 - Every race needs `facts_de`: the same two sentences in natural German.
 - Every news item needs `text_de`: the same alert in German.
+
+## Majors and certified races
+- Always track the Abbott World Marathon Majors (Tokyo, Boston, London, Sydney, Berlin, Chicago, New York) and World Athletics Label races in Asia and the Middle East (e.g. Dubai, Abu Dhabi, RAK Half, Xiamen, Seoul, Daegu, Taipei, Mumbai, Delhi, Singapore, Hong Kong). Track their ballot/lottery windows closely; these are the most important alerts.
+- `cert` lists certifications: `major`, `wa-platinum`, `wa-gold`, `wa-label`, `wa-elite`, `aims`, `bq` (Boston qualifier). Only add a tag you confirmed in a source.
+- Country names for new regions: "United Arab Emirates", "Germany", "United Kingdom", "United States", "Australia" (add others to ISO/REGIONS in index.html if needed).

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:45:00+07:00",
+ "updated": "2026-10-12T20:15:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -52,7 +52,8 @@
     "Wat_Phra_Kaew"
    ],
    "regUrl": "https://race.thai.run",
-   "facts_de": "Thailands klassischer Großstadtmarathon wird seit 1988 ausgetragen und startet und endet auf der Sanam Chai Road direkt am Großen Palast. Der Marathon startet um Mitternacht, um der Hitze zu entgehen – das Ziel erreichst du gegen Sonnenaufgang zwischen den Wahrzeichen der Altstadt."
+   "facts_de": "Thailands klassischer Großstadtmarathon wird seit 1988 ausgetragen und startet und endet auf der Sanam Chai Road direkt am Großen Palast. Der Marathon startet um Mitternacht, um der Hitze zu entgehen – das Ziel erreichst du gegen Sonnenaufgang zwischen den Wahrzeichen der Altstadt.",
+   "cert": []
   },
   {
    "id": "amazing-thailand-marathon-bangkok-2026",
@@ -92,7 +93,11 @@
     "Wat_Arun"
    ],
    "regUrl": "https://fatmarathoner.com/bangkok-marathon/",
-   "facts_de": "Thailands größtes Laufevent mit über 48.000 Teilnehmern am Rennwochenende. Mit World-Athletics-Label und AIMS-Zertifizierung."
+   "facts_de": "Thailands größtes Laufevent mit über 48.000 Teilnehmern am Rennwochenende. Mit World-Athletics-Label und AIMS-Zertifizierung.",
+   "cert": [
+    "wa-label",
+    "aims"
+   ]
   },
   {
    "id": "chiang-mai-marathon-2026",
@@ -137,7 +142,8 @@
     "Chiang_Mai"
    ],
    "regUrl": "https://worldsmarathons.com/marathon/chiang-mai-marathon",
-   "facts_de": "Start ist am Tha-Phae-Tor, die Strecke führt am Wassergraben der Altstadt und an Lanna-Tempeln vorbei, mit dem Doi Suthep im Hintergrund. Der Lauf beschließt Thailands Marathonserie im kühlen, nebligen Dezember des Nordens."
+   "facts_de": "Start ist am Tha-Phae-Tor, die Strecke führt am Wassergraben der Altstadt und an Lanna-Tempeln vorbei, mit dem Doi Suthep im Hintergrund. Der Lauf beschließt Thailands Marathonserie im kühlen, nebligen Dezember des Nordens.",
+   "cert": []
   },
   {
    "id": "buriram-marathon-2027",
@@ -174,7 +180,11 @@
     "Phanom_Rung"
    ],
    "regUrl": "https://en.thairath.co.th/sport/others/2947739",
-   "facts_de": "Thailands wichtigster Nachtmarathon mit World-Athletics-Label und Zieleinlauf im Chang International Circuit. Über 32.000 Startplätze, die meist schnell ausverkauft sind."
+   "facts_de": "Thailands wichtigster Nachtmarathon mit World-Athletics-Label und Zieleinlauf im Chang International Circuit. Über 32.000 Startplätze, die meist schnell ausverkauft sind.",
+   "cert": [
+    "wa-label",
+    "aims"
+   ]
   },
   {
    "id": "khon-kaen-marathon-2027",
@@ -212,7 +222,8 @@
     "Khon_Kaen"
    ],
    "regUrl": "https://registration.khonkaenmarathon.com",
-   "facts_de": "Das größte internationale Laufevent im Nordosten Thailands, organisiert von der Khon Kaen University. Neben Marathon und Halbmarathon gibt es eine ungewöhnliche 11,5-km-Strecke."
+   "facts_de": "Das größte internationale Laufevent im Nordosten Thailands, organisiert von der Khon Kaen University. Neben Marathon und Halbmarathon gibt es eine ungewöhnliche 11,5-km-Strecke.",
+   "cert": []
   },
   {
    "id": "bangsaen42-2026",
@@ -241,7 +252,8 @@
     "Bang_Saen"
    ],
    "regUrl": "https://racecast.io/race/bangsaen42-chonburi-marathon",
-   "facts_de": "Ein reiner Marathon entlang des Strands von Bang Saen und durch den Markt von Ang Sila, erstmals 2017 ausgetragen. Der Schwesterlauf Bangsaen21 findet im Dezember statt."
+   "facts_de": "Ein reiner Marathon entlang des Strands von Bang Saen und durch den Markt von Ang Sila, erstmals 2017 ausgetragen. Der Schwesterlauf Bangsaen21 findet im Dezember statt.",
+   "cert": []
   },
   {
    "id": "bangsaen21-2026",
@@ -270,7 +282,8 @@
     "Bang_Saen"
    ],
    "regUrl": "https://www.hdsports.org/running/thailand-races-running-calendar",
-   "facts_de": "Thailands bekanntester Halbmarathon an der Strandpromenade von Bang Saen in Chonburi."
+   "facts_de": "Thailands bekanntester Halbmarathon an der Strandpromenade von Bang Saen in Chonburi.",
+   "cert": []
   },
   {
    "id": "korat-marathon-2026",
@@ -307,7 +320,8 @@
     "Nakhon_Ratchasima"
    ],
    "regUrl": "https://www.marathons.com/en/events/korat-marathon_bHMYZ",
-   "facts_de": "Ein Nachtlauf durch das Zentrum von Korat, vorbei an Parks und Seen – Tor zum Khao Yai und zu den Khmer-Ruinen von Phimai."
+   "facts_de": "Ein Nachtlauf durch das Zentrum von Korat, vorbei an Parks und Seen – Tor zum Khao Yai und zu den Khmer-Ruinen von Phimai.",
+   "cert": []
   },
   {
    "id": "laguna-phuket-marathon-2027",
@@ -362,7 +376,11 @@
     "Phuket_province"
    ],
    "regUrl": "https://www.phuketmarathon.com",
-   "facts_de": "Phukets größtes Sportevent und Boston-Qualifikationslauf, vorbei an Kautschuk- und Ananasplantagen, Dörfern und dem Strand von Nai Yang. 5 und 10 km laufen samstags in den Sonnenuntergang, Marathon und Halbmarathon sonntags in den Sonnenaufgang."
+   "facts_de": "Phukets größtes Sportevent und Boston-Qualifikationslauf, vorbei an Kautschuk- und Ananasplantagen, Dörfern und dem Strand von Nai Yang. 5 und 10 km laufen samstags in den Sonnenuntergang, Marathon und Halbmarathon sonntags in den Sonnenaufgang.",
+   "cert": [
+    "aims",
+    "bq"
+   ]
   },
   {
    "id": "samui-half-marathon-2027",
@@ -401,7 +419,8 @@
     "Ko_Samui"
    ],
    "regUrl": "https://www.bangkokairways.run",
-   "facts_de": "Das wichtigste Straßenrennen der Insel: Start am Central Samui in Chaweng, dann hinaus nach Laem Chengmon und zum Bangrak Pier. Veranstaltet von Bangkok Airways als Teil seiner Boutique-Laufserie."
+   "facts_de": "Das wichtigste Straßenrennen der Insel: Start am Central Samui in Chaweng, dann hinaus nach Laem Chengmon und zum Bangrak Pier. Veranstaltet von Bangkok Airways als Teil seiner Boutique-Laufserie.",
+   "cert": []
   },
   {
    "id": "samui-neon-run-2027",
@@ -436,7 +455,8 @@
     "Chaweng_Beach"
    ],
    "regUrl": "https://www.runlah.com",
-   "facts_de": "Ein Neon-Nachtlauf mit Start um 19 Uhr am Central Samui entlang der Chaweng Road und des South Chaweng Beach. 2026 liefen über 3.000 Teilnehmer mit, gut 30 % mehr als im Vorjahr."
+   "facts_de": "Ein Neon-Nachtlauf mit Start um 19 Uhr am Central Samui entlang der Chaweng Road und des South Chaweng Beach. 2026 liefen über 3.000 Teilnehmer mit, gut 30 % mehr als im Vorjahr.",
+   "cert": []
   },
   {
    "id": "angkor-wat-half-2026",
@@ -482,7 +502,10 @@
     "Angkor_Wat"
    ],
    "regUrl": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026",
-   "facts_de": "Seit 1996 im UNESCO-Welterbe Angkor ausgetragen, mit Start und Ziel bei Sonnenaufgang vor Angkor Wat. Die Strecke führt am Bayon-Tempel in Angkor Thom vorbei."
+   "facts_de": "Seit 1996 im UNESCO-Welterbe Angkor ausgetragen, mit Start und Ziel bei Sonnenaufgang vor Angkor Wat. Die Strecke führt am Bayon-Tempel in Angkor Thom vorbei.",
+   "cert": [
+    "aims"
+   ]
   },
   {
    "id": "hcmc-marathon-2026",
@@ -529,7 +552,8 @@
     "Saigon_Notre-Dame_Cathedral_Basilica"
    ],
    "regUrl": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon",
-   "facts_de": "Vietnams wichtigster Marathon mit über 23.000 Läufern aus 81 Ländern im Jahr 2025. Start ist am Tor des Saigoner Zoos, das Ziel liegt in Empire City in Thu Thiem mit der Skyline im Rücken."
+   "facts_de": "Vietnams wichtigster Marathon mit über 23.000 Läufern aus 81 Ländern im Jahr 2025. Start ist am Tor des Saigoner Zoos, das Ziel liegt in Empire City in Thu Thiem mit der Skyline im Rücken.",
+   "cert": []
   },
   {
    "id": "vnexpress-hanoi-midnight-2026",
@@ -580,7 +604,8 @@
     "Hanoi"
    ],
    "regUrl": "https://vnexpress.net/marathon",
-   "facts_de": "Start um Mitternacht in Hoan Kiem, durch die Altstadt vorbei an Oper, Ho-Chi-Minh-Mausoleum und Long-Bien-Brücke. Teil von Vietnams größter Laufserie."
+   "facts_de": "Start um Mitternacht in Hoan Kiem, durch die Altstadt vorbei an Oper, Ho-Chi-Minh-Mausoleum und Long-Bien-Brücke. Teil von Vietnams größter Laufserie.",
+   "cert": []
   },
   {
    "id": "vnexpress-quy-nhon-2027",
@@ -621,7 +646,8 @@
     "Quy_Nhơn"
    ],
    "regUrl": "https://www.marathons.com/de/events/vnexpress-marathon-quy-nhon_ZdHZ7",
-   "facts_de": "Ein Lauf am Meer durch die Küstenstadt Quy Nhon an Vietnams Zentralküste. Eine Station der VnExpress-Marathonserie."
+   "facts_de": "Ein Lauf am Meer durch die Küstenstadt Quy Nhon an Vietnams Zentralküste. Eine Station der VnExpress-Marathonserie.",
+   "cert": []
   },
   {
    "id": "penang-bridge-marathon-2026",
@@ -665,7 +691,8 @@
     "Penang_Bridge"
    ],
    "regUrl": "https://thesun.my/news/malaysia-news/penang-bridge-run-registration-open-hj13926256/",
-   "facts_de": "Der längste Brückenlauf Südostasiens führt nachts über Penangs 24 km lange zweite Brücke. Seitenwind und lange ungeschützte Abschnitte machen ihn zu einem der härteren Rennen der Region."
+   "facts_de": "Der längste Brückenlauf Südostasiens führt nachts über Penangs 24 km lange zweite Brücke. Seitenwind und lange ungeschützte Abschnitte machen ihn zu einem der härteren Rennen der Region.",
+   "cert": []
   },
   {
    "id": "cebu-marathon-2027",
@@ -707,7 +734,11 @@
     "Cebu_City"
    ],
    "regUrl": "https://cebumarathon.com",
-   "facts_de": "Der Marathon überquert den 8,9 km langen Cebu–Cordova Link Expressway und führt durch den Cebu South Coastal Tunnel. 2027 mit neuem Veranstalter, 10.500 Startplätzen und zur Zeit des Sinulog-Festivals."
+   "facts_de": "Der Marathon überquert den 8,9 km langen Cebu–Cordova Link Expressway und führt durch den Cebu South Coastal Tunnel. 2027 mit neuem Veranstalter, 10.500 Startplätzen und zur Zeit des Sinulog-Festivals.",
+   "cert": [
+    "aims",
+    "bq"
+   ]
   },
   {
    "id": "singapore-marathon-2026",
@@ -755,7 +786,11 @@
     "Marina_Bay,_Singapore"
    ],
    "regUrl": "https://fatmarathoner.com/singapore-marathon/",
-   "facts_de": "Südostasiens einziger Marathon mit World-Athletics-Gold-Label."
+   "facts_de": "Südostasiens einziger Marathon mit World-Athletics-Gold-Label.",
+   "cert": [
+    "wa-gold",
+    "aims"
+   ]
   },
   {
    "id": "borobudur-marathon-2026",
@@ -791,7 +826,8 @@
     "Borobudur"
    ],
    "regUrl": "https://www.marathons.com/evenements/borobudur-marathon/",
-   "facts_de": "Startplätze per Losverfahren, rund um den Tempel von Borobudur."
+   "facts_de": "Startplätze per Losverfahren, rund um den Tempel von Borobudur.",
+   "cert": []
   },
   {
    "id": "vientiane-marathon-2026",
@@ -833,7 +869,8 @@
     "Vientiane"
    ],
    "regUrl": "https://nt2run.namtheun2.com/vientiane-marathon-2026",
-   "facts_de": "Vorbei am Patuxai und am Mekong-Ufer in der Hauptstadt von Laos. Der Termin kann sich auf den 20. Dezember verschieben."
+   "facts_de": "Vorbei am Patuxai und am Mekong-Ufer in der Hauptstadt von Laos. Der Termin kann sich auf den 20. Dezember verschieben.",
+   "cert": []
   },
   {
    "id": "goa-river-marathon-2026",
@@ -875,7 +912,8 @@
     "Goa"
    ],
    "regUrl": "https://skfgoarivermarathon.com",
-   "facts_de": "Die 15. Ausgabe folgt dem Zuari-Fluss ab Chicalim – eine der schönsten Marathonstrecken Indiens. Der Dezember bringt in Goa 20–28 °C, wenig Luftfeuchtigkeit und klaren Himmel."
+   "facts_de": "Die 15. Ausgabe folgt dem Zuari-Fluss ab Chicalim – eine der schönsten Marathonstrecken Indiens. Der Dezember bringt in Goa 20–28 °C, wenig Luftfeuchtigkeit und klaren Himmel.",
+   "cert": []
   },
   {
    "id": "tata-mumbai-marathon-2027",
@@ -912,7 +950,11 @@
     "Bandra–Worli_Sea_Link"
    ],
    "regUrl": "https://tatamumbaimarathon.procam.in",
-   "facts_de": "Asiens größter Marathon mit World-Athletics-Gold-Label. Charity-Startplätze sind eventuell noch erhältlich."
+   "facts_de": "Asiens größter Marathon mit World-Athletics-Gold-Label. Charity-Startplätze sind eventuell noch erhältlich.",
+   "cert": [
+    "wa-gold",
+    "aims"
+   ]
   },
   {
    "id": "pune-marathon-2026",
@@ -953,7 +995,8 @@
     "Pune"
    ],
    "regUrl": "https://www.marathons.com/en/events/pune-marathon/",
-   "facts_de": "Einer der ältesten Marathons Indiens, ausgetragen seit 1983."
+   "facts_de": "Einer der ältesten Marathons Indiens, ausgetragen seit 1983.",
+   "cert": []
   },
   {
    "id": "chennai-marathon-2027",
@@ -990,7 +1033,8 @@
     "Chennai"
    ],
    "regUrl": "https://werun.world/courses/?country=IN",
-   "facts_de": "Chennais größtes Straßenrennen Anfang Januar."
+   "facts_de": "Chennais größtes Straßenrennen Anfang Januar.",
+   "cert": []
   },
   {
    "id": "jaipur-marathon-2027",
@@ -1023,7 +1067,8 @@
     "Jaipur"
    ],
    "regUrl": "https://werun.world/courses/?country=IN",
-   "facts_de": "Ein Winterlauf durch Rajasthans Rosa Stadt."
+   "facts_de": "Ein Winterlauf durch Rajasthans Rosa Stadt.",
+   "cert": []
   },
   {
    "id": "hong-kong-marathon-2027",
@@ -1060,7 +1105,11 @@
     "Hong_Kong"
    ],
    "regUrl": "https://news.rthk.hk/rthk/en/component/k2/1868832-20260904.htm",
-   "facts_de": "30. Ausgabe mit Rekord von 78.000 Startplätzen, Vergabe per Losverfahren."
+   "facts_de": "30. Ausgabe mit Rekord von 78.000 Startplätzen, Vergabe per Losverfahren.",
+   "cert": [
+    "wa-gold",
+    "aims"
+   ]
   },
   {
    "id": "okinawa-marathon-2027",
@@ -1097,7 +1146,8 @@
    "wiki": [
     "Katsuren_Castle",
     "Okinawa_City"
-   ]
+   ],
+   "cert": []
   },
   {
    "id": "osaka-marathon-2027",
@@ -1130,6 +1180,10 @@
    "wiki": [
     "Osaka_Castle",
     "Dōtonbori"
+   ],
+   "cert": [
+    "wa-platinum",
+    "aims"
    ]
   },
   {
@@ -1157,6 +1211,11 @@
    "checked": "2026-10-12",
    "wiki": [
     "Tokyo_Metropolitan_Government_Building"
+   ],
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
    ]
   },
   {
@@ -1186,6 +1245,9 @@
    "checked": "2026-10-12",
    "wiki": [
     "Heian_Shrine"
+   ],
+   "cert": [
+    "aims"
    ]
   },
   {
@@ -1213,7 +1275,8 @@
    "checked": "2026-10-12",
    "wiki": [
     "Nagoya_Castle"
-   ]
+   ],
+   "cert": []
   },
   {
    "id": "seoul-marathon-2027",
@@ -1245,6 +1308,10 @@
    "wiki": [
     "Gwanghwamun",
     "Gyeongbokgung"
+   ],
+   "cert": [
+    "wa-platinum",
+    "aims"
    ]
   },
   {
@@ -1283,7 +1350,8 @@
    "wiki": [
     "Bomun_Lake",
     "Gyeongju"
-   ]
+   ],
+   "cert": []
   },
   {
    "id": "wan-jin-shi-marathon-2027",
@@ -1313,6 +1381,9 @@
    "wiki": [
     "Yehliu",
     "Jinshan_District"
+   ],
+   "cert": [
+    "wa-gold"
    ]
   },
   {
@@ -1344,6 +1415,10 @@
    "checked": "2026-10-12",
    "wiki": [
     "Taipei_101"
+   ],
+   "cert": [
+    "wa-gold",
+    "aims"
    ]
   },
   {
@@ -1374,6 +1449,10 @@
    "wiki": [
     "Gulangyu",
     "Xiamen"
+   ],
+   "cert": [
+    "aims",
+    "bq"
    ]
   },
   {
@@ -1403,6 +1482,356 @@
    "checked": "2026-10-12",
    "wiki": [
     "Canton_Tower"
+   ],
+   "cert": []
+  },
+  {
+   "id": "berlin-marathon-2027",
+   "name": "Berlin Marathon",
+   "city": "Berlin",
+   "country": "Germany",
+   "lat": 52.5163,
+   "lon": 13.3777,
+   "date": "2027-09-26",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "€205 (2026 fee)",
+     "amt": 205,
+     "cur": "EUR",
+     "qual": "approx"
+    }
+   ],
+   "status": "open",
+   "regOpens": "2026-10-01",
+   "regCloses": "2026-11-12",
+   "priceNote": "Entry by lottery. Results in early December.",
+   "relevance": 99,
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
+   ],
+   "facts": "The fastest marathon on the planet: more men's world records have been set here than anywhere else, on a flat loop that finishes through the Brandenburg Gate. Around 50,000 runners take part each September.",
+   "facts_de": "Der schnellste Marathon der Welt: Hier wurden mehr Männer-Weltrekorde gelaufen als irgendwo sonst, auf einem flachen Rundkurs mit Zieleinlauf durch das Brandenburger Tor. Jeden September laufen rund 50.000 Teilnehmer mit.",
+   "url": "https://www.bmw-berlin-marathon.com/en/",
+   "regUrl": "https://www.bmw-berlin-marathon.com/en/",
+   "source": "https://therunningchannel.com/apply-major-marathons-2027/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Brandenburg_Gate"
+   ]
+  },
+  {
+   "id": "chicago-marathon-2027",
+   "name": "Bank of America Chicago Marathon",
+   "city": "Chicago",
+   "country": "United States",
+   "lat": 41.8757,
+   "lon": -87.6244,
+   "date": "2027-10-10",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "US$260 (non-US residents)",
+     "amt": 260,
+     "cur": "USD"
+    }
+   ],
+   "status": "open",
+   "regOpens": "2026-10-08",
+   "regCloses": "2026-10-29",
+   "priceNote": "Non-guaranteed lottery; draw results 8 Dec 2026. Charity entry US$335 + US$2,500 fundraising.",
+   "relevance": 98,
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
+   ],
+   "facts": "A flat, fast loop starting and finishing in Grant Park that passes through 29 Chicago neighbourhoods. The 2027 edition is the 49th running.",
+   "facts_de": "Ein flacher, schneller Rundkurs mit Start und Ziel im Grant Park, der durch 29 Stadtviertel Chicagos führt. 2027 findet die 49. Ausgabe statt.",
+   "url": "https://www.chicagomarathon.com",
+   "regUrl": "https://www.chicagomarathon.com",
+   "source": "https://www.marathonballot.com/news/chicago-2027-ballot-dates-announced",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Grant_Park_(Chicago)",
+    "Chicago"
+   ]
+  },
+  {
+   "id": "sydney-marathon-2027",
+   "name": "TCS Sydney Marathon",
+   "city": "Sydney",
+   "country": "Australia",
+   "lat": -33.8523,
+   "lon": 151.2108,
+   "date": "2027-08-29",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "A$330 (international)",
+     "amt": 330,
+     "cur": "AUD"
+    }
+   ],
+   "status": "open",
+   "regOpens": "2026-09-29",
+   "regCloses": "2026-10-19",
+   "priceNote": "Entry by ballot.",
+   "relevance": 96,
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
+   ],
+   "facts": "The newest World Marathon Major crosses the Sydney Harbour Bridge and finishes on the steps of the Opera House. It joined the Majors in 2025.",
+   "facts_de": "Der jüngste World Marathon Major überquert die Sydney Harbour Bridge und endet an den Stufen des Opernhauses. Seit 2025 gehört er zu den Majors.",
+   "url": "https://www.sydneymarathon.com",
+   "regUrl": "https://www.sydneymarathon.com",
+   "source": "https://therunningchannel.com/apply-major-marathons-2027/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Sydney_Harbour_Bridge",
+    "Sydney_Opera_House"
+   ]
+  },
+  {
+   "id": "new-york-city-marathon-2027",
+   "name": "TCS New York City Marathon",
+   "city": "New York",
+   "country": "United States",
+   "lat": 40.7712,
+   "lon": -73.9742,
+   "date": "2027-11-07",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "≈ US$331 (2026 fee)",
+     "amt": 331,
+     "cur": "USD",
+     "qual": "approx"
+    }
+   ],
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Drawing application expected February 2027.",
+   "regCloses": "",
+   "relevance": 99,
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
+   ],
+   "facts": "The world's largest marathon runs through all five boroughs, starting on the Verrazzano-Narrows Bridge and finishing in Central Park. Over 55,000 runners finish every November.",
+   "facts_de": "Der größte Marathon der Welt führt durch alle fünf Stadtbezirke, startet auf der Verrazzano-Narrows Bridge und endet im Central Park. Jeden November kommen über 55.000 Läufer ins Ziel.",
+   "url": "https://www.nyrr.org/tcsnycmarathon",
+   "regUrl": "https://www.nyrr.org/tcsnycmarathon",
+   "source": "https://therunningchannel.com/apply-major-marathons-2027/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Verrazzano-Narrows_Bridge",
+    "Central_Park"
+   ]
+  },
+  {
+   "id": "london-marathon-2027",
+   "name": "TCS London Marathon",
+   "city": "London",
+   "country": "United Kingdom",
+   "lat": 51.5033,
+   "lon": -0.1196,
+   "date": "2027-04-25",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "£225 (international)",
+     "amt": 225,
+     "cur": "GBP"
+    }
+   ],
+   "status": "closed",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 98,
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
+   ],
+   "facts": "Ballot closed; good-for-age entry is for UK residents only.",
+   "facts_de": "Losverfahren beendet; Good-for-Age-Startplätze nur für Einwohner Großbritanniens.",
+   "url": "https://www.tcslondonmarathon.com",
+   "source": "https://www.marathonballot.com/news/london-marathon-2027-good-for-age",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Tower_Bridge"
+   ]
+  },
+  {
+   "id": "boston-marathon-2027",
+   "name": "Boston Marathon",
+   "city": "Boston",
+   "country": "United States",
+   "lat": 42.3496,
+   "lon": -71.0785,
+   "date": "2027-04-19",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "US$260",
+     "amt": 260,
+     "cur": "USD"
+    }
+   ],
+   "status": "closed",
+   "regOpens": "2026-09-14",
+   "regCloses": "2026-09-18",
+   "relevance": 99,
+   "cert": [
+    "major",
+    "wa-platinum",
+    "aims"
+   ],
+   "facts": "Qualifier registration ran 14–18 September 2026.",
+   "facts_de": "Die Anmeldung für qualifizierte Läufer lief vom 14.–18. September 2026.",
+   "url": "https://www.baa.org",
+   "source": "https://therunningchannel.com/apply-major-marathons-2027/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Boston"
+   ]
+  },
+  {
+   "id": "dubai-marathon-2027",
+   "name": "Dubai Marathon",
+   "city": "Dubai",
+   "country": "United Arab Emirates",
+   "lat": 25.1412,
+   "lon": 55.1853,
+   "date": "2027-01-17",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "US$150",
+     "amt": 150,
+     "cur": "USD"
+    },
+    {
+     "d": "10K",
+     "price": "US$85",
+     "amt": 85,
+     "cur": "USD"
+    }
+   ],
+   "priceNote": "Also a 4K fun run (US$50). First come, first served until sold out.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 86,
+   "cert": [
+    "wa-gold",
+    "bq"
+   ],
+   "facts": "One of the fastest courses in the world, at sea level with only 4 m of elevation difference; the men's record is 2:03:34. Since 2021 every men's winner has won on his marathon debut.",
+   "facts_de": "Eine der schnellsten Strecken der Welt, auf Meereshöhe mit nur 4 m Höhenunterschied; der Männerrekord liegt bei 2:03:34. Seit 2021 hat jeder Sieger bei den Männern sein Marathondebüt gewonnen.",
+   "url": "https://www.dubaimarathon.org",
+   "regUrl": "https://www.dubaimarathon.org",
+   "source": "https://fatmarathoner.com/dubai-marathon-2027-guide/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Burj_Al_Arab",
+    "Dubai"
+   ]
+  },
+  {
+   "id": "abu-dhabi-marathon-2026",
+   "name": "ADNOC Abu Dhabi Marathon",
+   "city": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "lat": 24.4166,
+   "lon": 54.4536,
+   "date": "2026-12-12",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "AED 382 (early bird AED 306)",
+     "amt": 382,
+     "cur": "AED"
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Also a 2-person marathon relay and a 2.5K. Fees plus VAT.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 82,
+   "cert": [
+    "wa-gold",
+    "aims",
+    "bq"
+   ],
+   "facts": "A flat closed-road loop from Zayed Sports City past the Corniche, Qasr Al Hosn and the Sheikh Zayed Grand Mosque. Upgraded to a World Athletics Gold Label for 2026; the men's course record is 2:04:40.",
+   "facts_de": "Ein flacher Rundkurs auf gesperrten Straßen von der Zayed Sports City vorbei an der Corniche, Qasr Al Hosn und der Sheikh-Zayed-Moschee. 2026 zum World-Athletics-Gold-Label aufgewertet; Streckenrekord der Männer 2:04:40.",
+   "url": "https://www.adnocabudhabimarathon.com",
+   "regUrl": "https://www.adnocabudhabimarathon.com",
+   "source": "https://fatmarathoner.com/adnoc-abu-dhabi-marathon/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Sheikh_Zayed_Grand_Mosque"
+   ]
+  },
+  {
+   "id": "ras-al-khaimah-half-2027",
+   "name": "Ras Al Khaimah Half Marathon",
+   "city": "Al Marjan Island",
+   "country": "United Arab Emirates",
+   "lat": 25.674,
+   "lon": 55.777,
+   "date": "2027-02-13",
+   "dateTentative": true,
+   "distances": [
+    {
+     "d": "21K",
+     "price": "US$80",
+     "amt": 80,
+     "cur": "USD"
+    },
+    {
+     "d": "10K",
+     "price": "US$50",
+     "amt": 50,
+     "cur": "USD"
+    },
+    {
+     "d": "5K",
+     "price": "US$30",
+     "amt": 30,
+     "cur": "USD"
+    }
+   ],
+   "status": "unknown",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 80,
+   "cert": [
+    "wa-gold"
+   ],
+   "facts": "Four world records have been set on this flat island course; Jacob Kiplimo ran 57:56 here in 2022. Race mornings are a cool 10–15°C.",
+   "facts_de": "Auf dieser flachen Inselstrecke wurden vier Weltrekorde gelaufen; Jacob Kiplimo lief hier 2022 57:56. Am Renntag ist es morgens angenehm kühl mit 10–15 °C.",
+   "url": "https://www.rakhalfmarathon.com",
+   "source": "https://fatmarathoner.com/ras-al-khaimah-half-marathon-guide/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Al_Marjan_Island",
+    "Ras_Al_Khaimah"
    ]
   }
  ]

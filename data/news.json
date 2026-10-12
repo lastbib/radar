@@ -49,6 +49,27 @@
    "raceId": "okinawa-marathon-2027",
    "text": "New: Okinawa Marathon (21 Feb) has entries open until 13 Dec, from ¥11,000.",
    "text_de": "Neu: Für den Okinawa Marathon (21. Feb.) ist die Anmeldung bis 13. Dez. offen, ab ¥11.000."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "closing",
+   "raceId": "sydney-marathon-2027",
+   "text": "Sydney Marathon 2027 ballot closes 19 Oct.",
+   "text_de": "Das Los-Verfahren für den Sydney Marathon 2027 endet am 19. Okt."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "opened",
+   "raceId": "chicago-marathon-2027",
+   "text": "Chicago Marathon 2027 lottery is open until 29 Oct.",
+   "text_de": "Die Lotterie für den Chicago Marathon 2027 ist bis 29. Okt. offen."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "opened",
+   "raceId": "berlin-marathon-2027",
+   "text": "Berlin Marathon 2027 lottery is open until 12 Nov.",
+   "text_de": "Die Lotterie für den Berlin-Marathon 2027 ist bis 12. Nov. offen."
   }
  ]
 }

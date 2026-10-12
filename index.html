@@ -139,6 +139,15 @@ h2{font:700 1.12rem/1.25 var(--f-display);margin:0;text-wrap:balance}
 .cover .pill.open,.hero .pill.open{background:#dcf3e6;color:#14804a}
 .cover .pill.closing,.cover .pill.almost_full,.hero .pill.closing,.hero .pill.almost_full{background:#fdeed3;color:#ad6200}
 .cover .pill.soon,.hero .pill.soon{background:#e0ecf9;color:#22609f}
+.badges{display:flex;flex-wrap:wrap;gap:5px}
+.bdg{display:inline-flex;align-items:center;gap:4px;font:700 .68rem var(--f-body);letter-spacing:.04em;text-transform:uppercase;border-radius:6px;padding:3px 7px;border:1px solid var(--line);color:var(--muted);background:var(--surface)}
+.bdg.major{background:linear-gradient(135deg,#f6d36b,#d79a1f);color:#3b2300;border-color:transparent}
+.bdg.wa-platinum{background:#e4e8ee;color:#2b3442;border-color:#c5ccd6}
+.bdg.wa-gold{background:#fbefc8;color:#7a5600;border-color:#efd88a}
+.bdg.wa-label,.bdg.wa-elite{background:var(--sea-soft);color:var(--sea);border-color:transparent}
+.bdg.aims{background:var(--soon-soft);color:var(--soon);border-color:transparent}
+.bdg.bq{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.cover .majorflag{position:absolute;left:8px;top:44px;z-index:3;font:800 .7rem var(--f-display);letter-spacing:.06em;text-transform:uppercase;background:linear-gradient(135deg,#f6d36b,#d79a1f);color:#3b2300;border-radius:999px;padding:4px 9px}
 .dist{display:flex;flex-wrap:wrap;gap:6px}
 .dist span{font:400 .78rem var(--f-mono);border-radius:7px;padding:4px 8px;background:var(--sea-soft);color:var(--ink)}
 .dist b{font-weight:600}
@@ -219,7 +228,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
       </div>
     </div>
     <div class="intro">
-      <h1 data-i18n-html="headline">Find your next <em>start line</em> in Asia</h1>
+      <h1 data-i18n-html="headline">Find your next <em>start line</em></h1>
       <p class="sub" data-i18n="tagline">Marathons, half marathons and 10Ks across Southeast Asia and India. Only races you can still enter.</p>
       <div class="stamp" id="stamp">…</div>
     </div>
@@ -249,6 +258,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
         </label>
       </div>
       <div class="group"><span class="glabel" data-i18n="distance">Distance</span><div class="chips" id="dists"></div></div>
+      <div class="group"><span class="glabel" data-i18n="level">Race level</span><div class="chips" id="levels"></div></div>
       <details class="more" id="more">
         <summary data-i18n="moreFilters">+ Region & countries</summary>
         <div class="inner">
@@ -282,10 +292,10 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
 <script>
 (function(){
   const T = {
-    en:{headline:'Find your next <em>start line</em> in Asia',tagline:"Marathons, half marathons and 10Ks across Southeast Asia and India. Only races you can still enter.",
+    en:{headline:'Find your next <em>start line</em>',tagline:"Marathons, half marathons and 10Ks across Asia, plus the World Marathon Majors and top certified races. Only races you can still enter.",
       near:"Near",placeholder:"e.g. Chiang Mai, Koh Samui, Goa",useLoc:"My location",within:"Within",any:"Any distance",from:"Race day from",to:"to",sort:"Sort by",
       s_rel:"Relevance",s_date:"Race date",s_near:"Distance from place",s_price:"Lowest price",distance:"Distance",moreFilters:"+ Region & countries",region:"Region",countries:"Countries",
-      allAsia:"All Asia",sea:"Southeast Asia",southAsia:"South Asia",eastAsia:"East Asia",marathon:"Marathon",half:"Half",
+      allAsia:"Worldwide",sea:"Southeast Asia",southAsia:"South Asia",eastAsia:"East Asia",me:"Middle East",eu:"Europe",am:"Americas",oc:"Oceania",level:"Race level",lvAll:"All races",lvCert:"Certified only",lvMajor:"World Marathon Majors",b_major:"World Major",b_plat:"WA Platinum",b_gold:"WA Gold",b_label:"WA Label",b_elite:"WA Elite",b_aims:"AIMS",b_bq:"Boston qualifier",certH:"Certification",marathon:"Marathon",half:"Half",
       alerts:"Registration alerts",how:"How this works",local:"Local",watchlist:"Watchlist",
       how1:"Race data is checked every morning at 7:00 Bangkok time against organiser sites and race listings. Only races whose registration is confirmed open or opening soon are shown; closed, sold-out and not-yet-verified races are hidden. Prices marked ≈ come from the previous edition, and converted prices are approximate. Always confirm on the official site before paying.",
       how2:"Relevance combines a race's size, international profile, certification (World Athletics, AIMS) and how much of a destination race it is. Cover photos are from Wikimedia Commons.",
@@ -302,10 +312,10 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
       checked:"Data checked {0}. Confirm details on the official site before paying.",dataChecked:"Data checked {0} Bangkok time · updates daily at 07:00",loadErr:"Couldn't load race data. Refresh the page to try again.",
       wTitle:"Your watchlist",wEmpty:"Nothing saved yet. Tap Watch on any race to save it here and compare prices and dates side by side.",remove:"Remove",
       c_date:"Race day",c_place:"Location",c_status:"Status",c_reg:"Registration",c_rel:"Relevance",fromQ:"from",uptoQ:"up to",ratesLive:"Converted at today's exchange rates.",ratesFallback:"Converted at approximate exchange rates.",close:"Close",cheapest:"Green = cheapest for that distance.",allC:"All countries"},
-    de:{headline:'Finde deine nächste <em>Startlinie</em> in Asien',tagline:"Marathons, Halbmarathons und 10-km-Läufe in Südostasien und Indien. Nur Rennen, für die du dich noch anmelden kannst.",
+    de:{headline:'Finde deine nächste <em>Startlinie</em>',tagline:"Marathons, Halbmarathons und 10-km-Läufe in Asien, dazu die World Marathon Majors und die besten zertifizierten Rennen. Nur Rennen, für die du dich noch anmelden kannst.",
       near:"In der Nähe von",placeholder:"z. B. Chiang Mai, Koh Samui, Goa",useLoc:"Mein Standort",within:"Umkreis",any:"Beliebig",from:"Renntag ab",to:"bis",sort:"Sortieren nach",
       s_rel:"Relevanz",s_date:"Renndatum",s_near:"Entfernung",s_price:"Niedrigster Preis",distance:"Distanz",moreFilters:"+ Region & Länder",region:"Region",countries:"Länder",
-      allAsia:"Ganz Asien",sea:"Südostasien",southAsia:"Südasien",eastAsia:"Ostasien",marathon:"Marathon",half:"Halb",
+      allAsia:"Weltweit",sea:"Südostasien",southAsia:"Südasien",eastAsia:"Ostasien",me:"Naher Osten",eu:"Europa",am:"Amerika",oc:"Ozeanien",level:"Rennkategorie",lvAll:"Alle Rennen",lvCert:"Nur zertifizierte",lvMajor:"World Marathon Majors",b_major:"World Major",b_plat:"WA Platin",b_gold:"WA Gold",b_label:"WA Label",b_elite:"WA Elite",b_aims:"AIMS",b_bq:"Boston-Quali",certH:"Zertifizierung",marathon:"Marathon",half:"Halb",
       alerts:"Anmelde-Hinweise",how:"So funktioniert's",local:"Lokal",watchlist:"Merkliste",
       how1:"Die Renndaten werden jeden Morgen um 7:00 Uhr Bangkoker Zeit mit Veranstalterseiten und Rennportalen abgeglichen. Angezeigt werden nur Rennen mit bestätigt offener oder bald startender Anmeldung; geschlossene, ausverkaufte und noch nicht geprüfte Rennen sind ausgeblendet. Mit ≈ markierte Preise stammen aus dem Vorjahr, umgerechnete Preise sind Näherungswerte. Prüfe vor dem Bezahlen immer die offizielle Seite.",
       how2:"Die Relevanz berücksichtigt Größe, internationales Profil, Zertifizierung (World Athletics, AIMS) und wie sehr ein Rennen ein Reiseziel ist. Titelfotos von Wikimedia Commons.",
@@ -337,7 +347,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
   }
 
   let currency = store.get("cur") || "local";
-  let rates = {USD:1,THB:33.5,EUR:0.88,VND:26000,MYR:4.25,SGD:1.3,INR:85,PHP:57,IDR:16300,KHR:4050,LAK:21800,HKD:7.8,JPY:150,KRW:1380,CNY:7.2,TWD:32}, ratesLive = false;
+  let rates = {USD:1,THB:33.5,EUR:0.88,VND:26000,MYR:4.25,SGD:1.3,INR:85,PHP:57,IDR:16300,KHR:4050,LAK:21800,HKD:7.8,JPY:150,KRW:1380,CNY:7.2,TWD:32,AED:3.67,GBP:0.76,AUD:1.52}, ratesLive = false;
   const SYM = {THB:"฿",EUR:"€",USD:"$"};
   const convert = x => (!x.amt || !x.cur || !rates[x.cur] || !rates[currency]) ? null : x.amt / rates[x.cur] * rates[currency];
   function priceText(x){
@@ -348,25 +358,28 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
   }
   const minPriceUSD = r => { const v = r.distances.filter(x => x.amt && rates[x.cur]).map(x => x.amt / rates[x.cur]); return v.length ? Math.min(...v) : Infinity; };
 
-  const REGIONS = {"Southeast Asia":["Thailand","Vietnam","Cambodia","Laos","Malaysia","Singapore","Indonesia","Philippines","Myanmar","Brunei","Timor-Leste"],"South Asia":["India","Sri Lanka","Nepal","Bangladesh","Bhutan","Maldives","Pakistan"],"East Asia":["Hong Kong","Taiwan","Japan","South Korea","China","Macau","Mongolia"]};
-  const RLABEL = {"All":"allAsia","Southeast Asia":"sea","South Asia":"southAsia","East Asia":"eastAsia"};
+  const REGIONS = {"Southeast Asia":["Thailand","Vietnam","Cambodia","Laos","Malaysia","Singapore","Indonesia","Philippines","Myanmar","Brunei","Timor-Leste"],"South Asia":["India","Sri Lanka","Nepal","Bangladesh","Bhutan","Maldives","Pakistan"],"East Asia":["Hong Kong","Taiwan","Japan","South Korea","China","Macau","Mongolia"],"Middle East":["United Arab Emirates","Qatar","Oman","Saudi Arabia","Bahrain","Jordan"],"Europe":["Germany","United Kingdom","France","Netherlands","Spain","Italy","Austria","Czech Republic"],"Americas":["United States","Canada","Mexico","Brazil"],"Oceania":["Australia","New Zealand"]};
+  const RLABEL = {"All":"allAsia","Southeast Asia":"sea","South Asia":"southAsia","East Asia":"eastAsia","Middle East":"me","Europe":"eu","Americas":"am","Oceania":"oc"};
   const regionOf = c => Object.keys(REGIONS).find(r => REGIONS[r].includes(c)) || "Other";
   const GAZ = {"bangkok":[13.7563,100.5018],"chiang mai":[18.7883,98.9853],"chiang rai":[19.9105,99.8406],"koh samui":[9.512,100.0136],"samui":[9.512,100.0136],"koh phangan":[9.7319,100.0136],"koh tao":[10.0956,99.8404],"surat thani":[9.1382,99.3215],"phuket":[7.8804,98.3923],"krabi":[8.0863,98.9063],"pattaya":[12.9236,100.8825],"hua hin":[12.5684,99.9577],"khon kaen":[16.4322,102.8236],"korat":[14.9799,102.0978],"buriram":[14.993,103.1029],"udon thani":[17.4138,102.787],"hat yai":[7.0084,100.4767],"siem reap":[13.3671,103.8448],"phnom penh":[11.5564,104.9282],"ho chi minh city":[10.8231,106.6297],"saigon":[10.8231,106.6297],"hanoi":[21.0285,105.8542],"da nang":[16.0544,108.2022],"hue":[16.4637,107.5909],"quy nhon":[13.7765,109.2237],"nha trang":[12.2388,109.1967],"vientiane":[17.9757,102.6331],"luang prabang":[19.8856,102.1347],"kuala lumpur":[3.139,101.6869],"penang":[5.4164,100.3327],"singapore":[1.3521,103.8198],"bali":[-8.4095,115.1889],"jakarta":[-6.2088,106.8456],"yogyakarta":[-7.7956,110.3695],"manila":[14.5995,120.9842],"cebu":[10.3157,123.8854],"goa":[15.2993,74.124],"mumbai":[19.076,72.8777],"delhi":[28.7041,77.1025],"bengaluru":[12.9716,77.5946],"chennai":[13.0827,80.2707],"kolkata":[22.5726,88.3639],"pune":[18.5204,73.8567],"hyderabad":[17.385,78.4867],"jaipur":[26.9124,75.7873],"agra":[27.1767,78.0081],"colombo":[6.9271,79.8612],"kathmandu":[27.7172,85.324],"hong kong":[22.3193,114.1694],"taipei":[25.033,121.5654],"tokyo":[35.6762,139.6503],"seoul":[37.5665,126.978],"osaka":[34.6937,135.5023],"kyoto":[35.0116,135.7681],"okinawa":[26.3344,127.8056],"naha":[26.2124,127.6809],"fukuoka":[33.5904,130.4017],"sapporo":[43.0618,141.3545],"busan":[35.1796,129.0756],"gyeongju":[35.8562,129.2247],"jeju":[33.4996,126.5312],"shanghai":[31.2304,121.4737],"beijing":[39.9042,116.4074],"guangzhou":[23.1291,113.2644],"shenzhen":[22.5431,114.0579],"xiamen":[24.4798,118.0894],"kaohsiung":[22.6273,120.3014],"taichung":[24.1477,120.6736]};
   const DISTS = ["42K","21K","10K"];
   const $ = id => document.getElementById(id);
   const todayISO = new Date(Date.now() + 7*3600e3).toISOString().slice(0,10);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-  const ISO = {Thailand:"th",Vietnam:"vn",Cambodia:"kh",Laos:"la",Malaysia:"my",Singapore:"sg",Indonesia:"id",Philippines:"ph",Myanmar:"mm",India:"in","Sri Lanka":"lk",Nepal:"np","Hong Kong":"hk",Taiwan:"tw",Japan:"jp","South Korea":"kr",China:"cn",Macau:"mo"};
+  const ISO = {Thailand:"th",Vietnam:"vn",Cambodia:"kh",Laos:"la",Malaysia:"my",Singapore:"sg",Indonesia:"id",Philippines:"ph",Myanmar:"mm",India:"in","Sri Lanka":"lk",Nepal:"np","Hong Kong":"hk",Taiwan:"tw",Japan:"jp","South Korea":"kr",China:"cn",Macau:"mo","United Arab Emirates":"ae",Germany:"de","United Kingdom":"gb","United States":"us",Australia:"au"};
   const flagImg = (c, cls) => ISO[c] ? `<img class="${cls||"flag"}" src="https://flagcdn.com/w80/${ISO[c]}.png" alt="" loading="lazy" width="30" height="20">` : "";
-  const FLAGCOL = {Thailand:["#a51931","#f4f5f8","#2d2a4a","#f4f5f8","#a51931"],Vietnam:["#da251d","#ffff00","#da251d"],Cambodia:["#032ea1","#e00025","#032ea1"],Laos:["#ce1126","#002868","#ce1126"],Malaysia:["#cc0001","#ffffff","#010066","#ffcc00"],Singapore:["#ef3340","#ffffff"],Indonesia:["#ce1126","#ffffff"],Philippines:["#0038a8","#ce1126","#fcd116"],India:["#ff9933","#ffffff","#138808"],"Hong Kong":["#de2910","#ffffff"],Taiwan:["#fe0000","#000095"],Japan:["#ffffff","#bc002d","#ffffff"],"South Korea":["#ffffff","#cd2e3a","#0047a0","#000000"],China:["#ee1c25","#ffff00"]};
+  const FLAGCOL = {Thailand:["#a51931","#f4f5f8","#2d2a4a","#f4f5f8","#a51931"],Vietnam:["#da251d","#ffff00","#da251d"],Cambodia:["#032ea1","#e00025","#032ea1"],Laos:["#ce1126","#002868","#ce1126"],Malaysia:["#cc0001","#ffffff","#010066","#ffcc00"],Singapore:["#ef3340","#ffffff"],Indonesia:["#ce1126","#ffffff"],Philippines:["#0038a8","#ce1126","#fcd116"],India:["#ff9933","#ffffff","#138808"],"Hong Kong":["#de2910","#ffffff"],Taiwan:["#fe0000","#000095"],Japan:["#ffffff","#bc002d","#ffffff"],"South Korea":["#ffffff","#cd2e3a","#0047a0","#000000"],China:["#ee1c25","#ffff00"],Germany:["#000000","#dd0000","#ffce00"],"United Kingdom":["#012169","#ffffff","#c8102e"],"United States":["#b22234","#ffffff","#3c3b6e"],Australia:["#012169","#ffffff","#e4002b"],"United Arab Emirates":["#00732f","#ffffff","#000000","#ff0000"]};
   const flagStrip = c => FLAGCOL[c] ? `<span class="flagstrip">${FLAGCOL[c].map(x => `<i style="background:${x}"></i>`).join("")}</span>` : "";
+  const BL = {major:"b_major","wa-platinum":"b_plat","wa-gold":"b_gold","wa-label":"b_label","wa-elite":"b_elite",aims:"b_aims",bq:"b_bq"};
+  const badges = r => (r.cert && r.cert.length) ? `<div class="badges">${r.cert.map(c => `<span class="bdg ${c}">${t(BL[c]||c)}</span>`).join("")}</div>` : "";
+  const isCert = r => (r.cert||[]).some(c => c!=="bq");
   const km = (a,b) => { const R=6371,r=Math.PI/180,dA=(b[0]-a[0])*r,dO=(b[1]-a[1])*r,h=Math.sin(dA/2)**2+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin(dO/2)**2; return 2*R*Math.asin(Math.sqrt(h)); };
   const daysUntil = iso => Math.round((new Date(iso+"T00:00:00Z") - new Date(todayISO+"T00:00:00Z"))/864e5);
   const dName = d => d==="42K" ? t("marathon") : d==="21K" ? t("half") : d;
   const facts = r => (lang==="de" && r.facts_de) ? r.facts_de : r.facts;
 
   let races = [], results = {}, news = [], updated = "", origin = null, geoTimer = null, openId = null;
-  const state = Object.assign({region:"All", countries:[], dists:DISTS.slice()}, store.get("state") || {});
+  const state = Object.assign({region:"All", countries:[], dists:DISTS.slice(), level:"all"}, store.get("state") || {});
   let watch = store.get("watch") || [];
 
   function regState(r){
@@ -384,7 +397,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
     ? (r.regOpens ? t("regOpens", fmtDate(r.regOpens)) : (lang==="en" && r.regOpensNote) ? esc(r.regOpensNote) : t("regTBA"))
     : (r.regCloses ? t("regCloses", fmtDate(r.regCloses)) : t("untilFull"));
 
-  const HUES = {Thailand:18, Vietnam:350, Cambodia:38, Laos:200, Malaysia:220, Philippines:265, India:28, Singapore:0, Indonesia:150, "Hong Kong":330, Japan:350, "South Korea":215, China:5, Taiwan:230};
+  const HUES = {Thailand:18, Vietnam:350, Cambodia:38, Laos:200, Malaysia:220, Philippines:265, India:28, Singapore:0, Indonesia:150, "Hong Kong":330, Japan:350, "South Korea":215, China:5, Taiwan:230, Germany:45, "United States":220, "United Kingdom":225, Australia:200, "United Arab Emirates":35};
   const coverBg = r => { const h = HUES[r.country] ?? 190; return `linear-gradient(135deg,hsl(${(h+190)%360} 50% 20%),hsl(${h} 75% 52%))`; };
   function routeSvg(r){
     let s = 0; for (const ch of r.id) s = (s*31 + ch.charCodeAt(0)) >>> 0;
@@ -432,12 +445,14 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
     $("regions").innerHTML = Object.keys(RLABEL).map(r => `<button type="button" class="chip" data-region="${r}" aria-pressed="${state.region===r}">${t(RLABEL[r])}</button>`).join("");
     const cs = [...new Set(races.map(r => r.country))].filter(c => state.region==="All" || regionOf(c)===state.region).sort();
     $("countries").innerHTML = cs.map(c => `<button type="button" class="chip" data-country="${esc(c)}" aria-pressed="${state.countries.includes(c)}">${esc(c)}</button>`).join("");
+    $("levels").innerHTML = [["all","lvAll"],["cert","lvCert"],["major","lvMajor"]].map(([v,k]) => `<button type="button" class="chip" data-level="${v}" aria-pressed="${state.level===v}">${t(k)}</button>`).join("");
     $("dists").innerHTML = DISTS.map(d => `<button type="button" class="chip" data-dist="${d}" aria-pressed="${state.dists.includes(d)}">${dName(d)}</button>`).join("");
   }
   $("filters").addEventListener("click", e => {
     const b = e.target.closest("button.chip"); if (!b) return;
     if (b.dataset.region){ state.region = b.dataset.region; state.countries = state.countries.filter(c => state.region==="All" || regionOf(c)===state.region); }
     if (b.dataset.country){ const c = b.dataset.country; state.countries = state.countries.includes(c) ? state.countries.filter(x => x!==c) : state.countries.concat(c); }
+    if (b.dataset.level){ state.level = b.dataset.level; }
     if (b.dataset.dist){ const d = b.dataset.dist; state.dists = state.dists.includes(d) ? state.dists.filter(x => x!==d) : state.dists.concat(d); }
     buildChips(); render();
   });
@@ -498,7 +513,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
     $("count").scrollIntoView({behavior:"smooth", block:"start"});
   });
   function render(){
-    store.set("state", {region:state.region, countries:state.countries, dists:state.dists, radius:$("radius").value, from:$("from").value, to:$("to").value, sort:$("sort").value, place:origin&&origin.mine ? "" : $("place").value});
+    store.set("state", {region:state.region, countries:state.countries, dists:state.dists, level:state.level, radius:$("radius").value, from:$("from").value, to:$("to").value, sort:$("sort").value, place:origin&&origin.mine ? "" : $("place").value});
     const radius = +$("radius").value, from = $("from").value, to = $("to").value, sort = $("sort").value;
     let rows = races.map(r => ({r, reg:regState(r), dist: origin ? km(origin.ll,[r.lat,r.lon]) : null}))
       .filter(x => x.reg)
@@ -506,6 +521,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
       .filter(x => !state.countries.length || state.countries.includes(x.r.country))
       .filter(x => (!from || x.r.date >= from) && (!to || x.r.date <= to))
       .filter(x => x.r.distances.some(d => state.dists.includes(d.d)))
+      .filter(x => state.level==="all" || (state.level==="cert" ? isCert(x.r) : (x.r.cert||[]).includes("major")))
       .filter(x => !radius || !origin || x.dist <= radius);
     const byRel = (a,b) => b.r.relevance - a.r.relevance || a.r.date.localeCompare(b.r.date);
     if (sort==="date") rows.sort((a,b) => a.r.date.localeCompare(b.r.date) || byRel(a,b));
@@ -525,12 +541,13 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
     return `<article class="card" tabindex="0" data-id="${esc(r.id)}" aria-label="${esc(r.name)}">
       <div class="cover" data-cover="${esc(r.id)}" style="--cover-bg:${coverBg(r)}">${routeSvg(r)}
         <button type="button" class="star" data-watch="${esc(r.id)}" aria-pressed="${w}">${starSvg}<span>${w ? t("watching") : t("watch")}</span></button>
-        <span class="pill ${reg.cls}">${reg.label}</span>
+        <span class="pill ${reg.cls}">${reg.label}</span>${(r.cert||[]).includes("major") ? `<span class="majorflag">★ ${t("b_major")}</span>` : ""}
         <div class="bib"><span class="d">${+d}</span><span class="m">${MS[lang][+m-1]}</span><span class="y">${y}${r.dateTentative ? " · "+t("expected") : ""}</span></div>
         <span class="credit"></span>${flagStrip(r.country)}
       </div>
       <div class="body">
         <div><h2>${esc(r.name)}</h2><div class="where">${flagImg(r.country)}${esc(r.city)}, ${esc(r.country)}${dist!=null ? " · "+t("kmAway", Math.round(dist).toLocaleString()) : ""}</div></div>
+        ${badges(r)}
         <div class="dist">${dists}</div>
         <p class="facts">${esc(facts(r))}</p>
         <div class="meta"><span>${regLine(r, reg)}</span><span class="cue">${resultsFor(r) ? t("detailsW") : t("details")}</span></div>
@@ -567,6 +584,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
         ${row(t("c_status"), r => { const g = regState(r); return g ? `<span class="pill ${g.cls}">${g.label}</span>` : `<span class="pill">${t("notOpen")}</span>`; })}
         ${row(t("c_reg"), r => regLine(r, regState(r)))}
         ${allD.map(d => { const b = cheapest(d); return row(dName(d), r => { const x = r.distances.find(z => z.d===d); if (!x) return "—"; const p = priceText(x) || t("seeSite"); return `<span class="${b===r.id ? "best" : ""}">${esc(p)}</span>${currency!=="local" && x.amt ? `<span class="orig">${esc(x.price)}</span>` : ""}`; }); }).join("")}
+        ${row(t("certH"), r => badges(r) || "—")}
         ${row(t("c_rel"), r => r.relevance + "/100")}
         </tbody></table></div>
         <p class="small">${t("cheapest")} ${currency==="local" ? "" : (ratesLive ? t("ratesLive") : t("ratesFallback"))}</p>`;
@@ -597,6 +615,7 @@ dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
           <div>${fmtDate(r.date)}${r.dateTentative ? " ("+t("expected")+")" : ""} · ${flagImg(r.country)}${esc(r.city)}, ${esc(r.country)}</div></div>${flagStrip(r.country)}
       </div>
       <div class="sbody">
+        ${badges(r)}
         <p class="facts">${esc(facts(r))}</p>
         <div class="cta">
           ${reg.cls==="open" || reg.cls==="closing" || reg.cls==="almost_full" ? `<a class="btn primary" href="${esc(r.regUrl || r.url)}" target="_blank" rel="noopener">${t("register")} ↗</a>` : ""}
