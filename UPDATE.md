@@ -58,3 +58,8 @@ The site (`index.html`) reads both files; GitHub Pages republishes on every push
 - `data/results.json` → `results[<race id without the -YYYY suffix>]` holds the latest edition's winners:
   `{"edition":"2025","date":"YYYY-MM-DD","source":"url","fullResults":"url","distances":{"42K":{"men":[{"p":1,"n":"Name","c":"Country","t":"2:10:00"}],"women":[...]},"21K":{...},"10K":{...}}}`
 - Each run, fill results for 2–3 races that have none, and extend existing ones toward the top 10 per gender per distance when official results pages are readable. Only enter places and times you actually read in a source. After a race takes place, replace its entry with the new edition.
+
+## Prices, currency and German text
+- Every distance with a known fee also gets numbers for the currency converter: `"amt": 950000, "cur": "VND"` (ISO code), plus `"qual": "from" | "upto" | "approx"` when the price is a range start, a maximum, or from a previous edition. Keep `price` as the human-readable original. Use the price currently on sale.
+- Every race needs `facts_de`: the same two sentences in natural German.
+- Every news item needs `text_de`: the same alert in German.

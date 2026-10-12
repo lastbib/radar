@@ -7,318 +7,462 @@
 <meta name="description" content="Marathons, half marathons and 10Ks across Southeast Asia and India with open or soon-opening registration, checked daily.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
-/* Layout: a filter panel ("start corral") above a single column of race cards, each led by a bib-style date block. */
+/* Layout: a full-bleed lagoon-to-sunrise hero holding the search card, then race cards with photo covers on an aqua-mist ground. */
 :root{
-  --bg:#f5f7f8; --surface:#ffffff; --ink:#12202a; --muted:#5a6a75; --line:#dbe2e7;
-  --accent:#e2550b; --accent-ink:#ffffff; --accent-soft:#fde9dd;
-  --open:#1d7f46; --open-soft:#e2f3e8; --warn:#b26a00; --warn-soft:#fbefd9; --soon:#2c64a3; --soon-soft:#e3edf8;
-  --f-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
-  --f-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --bg:#e9f4f2; --surface:#ffffff; --field:#f5fbfa; --ink:#0f2a33; --muted:#527079; --line:#cde3e0;
+  --accent:#f2602f; --accent-ink:#ffffff; --accent-soft:#ffe7dd; --sea:#0b5e64; --sea-soft:#d9eeec;
+  --open:#14804a; --open-soft:#dcf3e6; --warn:#ad6200; --warn-soft:#fdeed3; --soon:#22609f; --soon-soft:#e0ecf9;
+  --hero-a:#07303a; --hero-b:#0d6a6b; --hero-c:#ff8a5b; --chip-on-ink:#ffffff;
+  --f-display:"Bricolage Grotesque","Avenir Next","Segoe UI",sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
-  --r:10px; color-scheme:light;
+  --r:14px; color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0e161c; --surface:#16212a; --ink:#e6edf1; --muted:#95a5b0; --line:#273641;
-  --accent:#ff7a2f; --accent-ink:#1a0d04; --accent-soft:#3a2214;
-  --open:#5cc98a; --open-soft:#163225; --warn:#f0b04a; --warn-soft:#3a2c12; --soon:#7fb2ec; --soon-soft:#172b42; color-scheme:dark}}
+  --bg:#06191e; --surface:#0d262c; --field:#0a1f24; --ink:#e3f1f0; --muted:#8eb0b2; --line:#1d3f45;
+  --accent:#ff7a4b; --accent-ink:#1d0b03; --accent-soft:#3b2017; --sea:#5cc6c4; --sea-soft:#123a3e;
+  --open:#5fd193; --open-soft:#123426; --warn:#f2b250; --warn-soft:#3a2b10; --soon:#86b8ef; --soon-soft:#15304d;
+  --hero-a:#031418; --hero-b:#0a4a4d; --hero-c:#c4572f; --chip-on-ink:#06191e; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0e161c; --surface:#16212a; --ink:#e6edf1; --muted:#95a5b0; --line:#273641;
-  --accent:#ff7a2f; --accent-ink:#1a0d04; --accent-soft:#3a2214;
-  --open:#5cc98a; --open-soft:#163225; --warn:#f0b04a; --warn-soft:#3a2c12; --soon:#7fb2ec; --soon-soft:#172b42; color-scheme:dark}
+  --bg:#06191e; --surface:#0d262c; --field:#0a1f24; --ink:#e3f1f0; --muted:#8eb0b2; --line:#1d3f45;
+  --accent:#ff7a4b; --accent-ink:#1d0b03; --accent-soft:#3b2017; --sea:#5cc6c4; --sea-soft:#123a3e;
+  --open:#5fd193; --open-soft:#123426; --warn:#f2b250; --warn-soft:#3a2b10; --soon:#86b8ef; --soon-soft:#15304d;
+  --hero-a:#031418; --hero-b:#0a4a4d; --hero-c:#c4572f; --chip-on-ink:#06191e; color-scheme:dark}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-body);padding:env(safe-area-inset-top,0) 16px env(safe-area-inset-bottom,0)}
-.wrap{max-width:860px;margin:0 auto;padding-block:20px 48px;display:flex;flex-direction:column;gap:18px}
-header{display:flex;flex-direction:column;gap:6px}
-h1{font:800 clamp(2.2rem,7vw,3.4rem)/.95 var(--f-display);letter-spacing:.01em;margin:0;text-transform:uppercase;text-wrap:balance}
-h1 span{color:var(--accent)}
-.sub{color:var(--muted);margin:0;max-width:62ch}
-.stamp{font:400 .78rem var(--f-mono);color:var(--muted)}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:flex;flex-direction:column;gap:14px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--f-body)}
+.wrap{max-width:900px;margin:0 auto;padding-inline:16px}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.hero-band{position:relative;color:#fff;background:radial-gradient(120% 90% at 85% 110%, var(--hero-c) 0%, transparent 55%),linear-gradient(160deg,var(--hero-a) 0%,var(--hero-b) 70%);padding-top:env(safe-area-inset-top,0px)}
+.hero-band::before{content:"";position:absolute;inset:0;opacity:.16;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='240' viewBox='0 0 600 240'><g fill='none' stroke='white' stroke-width='1.2'><path d='M0 60 Q150 20 300 60 T600 60'/><path d='M0 100 Q150 60 300 100 T600 100'/><path d='M0 140 Q150 100 300 140 T600 140'/><path d='M0 180 Q150 140 300 180 T600 180'/><path d='M0 220 Q150 180 300 220 T600 220'/></g></svg>");background-size:600px 240px}
+.topbar{position:relative;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding-block:14px}
+.logo{display:flex;align-items:center;gap:10px;font:800 1.15rem/1 var(--f-display);text-transform:uppercase}
+.logo .tag{background:#fff;color:#0f2a33;border-radius:6px;padding:6px 9px 5px;position:relative;font-size:.95rem}
+.logo .tag::before,.logo .tag::after{content:"";position:absolute;top:4px;width:4px;height:4px;border-radius:50%;background:#b8c6cb}
+.logo .tag::before{left:3px}.logo .tag::after{right:3px}
+.logo .tag b{color:#f2602f}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.seg{display:flex;border:1px solid rgba(255,255,255,.4);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:transparent;color:#fff;font:700 .8rem var(--f-body);padding:7px 11px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:#fff;color:#0f2a33}
+.tsel{width:auto;font:700 .8rem var(--f-body);color:#fff;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.4);border-radius:999px;padding:7px 10px}
+.tsel option{color:#0f2a33}
+.wbtn{display:inline-flex;align-items:center;gap:6px;font:700 .82rem var(--f-body);color:#0f2a33;background:#fff;border:0;border-radius:999px;padding:8px 13px;cursor:pointer}
+.wbtn .n{background:#f2602f;color:#fff;border-radius:999px;min-width:20px;padding:1px 6px;font-size:.74rem;text-align:center}
+.intro{position:relative;padding-block:16px 24px;display:flex;flex-direction:column;gap:10px}
+h1{font:800 clamp(2.1rem,7.5vw,3.6rem)/.98 var(--f-display);margin:0;letter-spacing:-.01em;text-wrap:balance;max-width:16ch}
+h1 em{font-style:normal;color:#ffb48f}
+.sub{margin:0;max-width:56ch;color:rgba(255,255,255,.88);font-size:1.02rem}
+.stamp{font:400 .76rem var(--f-mono);color:rgba(255,255,255,.72)}
+
+.search{position:relative;margin-bottom:-56px;z-index:2;background:var(--surface);color:var(--ink);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:14px;box-shadow:0 18px 40px -18px rgba(4,30,36,.55)}
 .row{display:grid;grid-template-columns:2fr 1fr;gap:10px}
 .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
-@media (max-width:560px){.row,.row3{grid-template-columns:1fr 1fr}.row .place{grid-column:1/-1}}
-label.f{display:flex;flex-direction:column;gap:4px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:0}
-input,select{font:16px var(--f-body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 11px;width:100%;min-width:0}
-input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:600px){.row,.row3{grid-template-columns:1fr 1fr}.row .place{grid-column:1/-1}}
+label.f{display:flex;flex-direction:column;gap:5px;font-size:.74rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--sea);min-width:0}
+input,select{font:16px var(--f-body);color:var(--ink);background:var(--field);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;width:100%;min-width:0}
+input:focus,select:focus{border-color:var(--sea);outline:none;box-shadow:0 0 0 3px var(--sea-soft)}
+.placewrap{display:flex;gap:8px;min-width:0}
+.locbtn{flex:none;display:inline-flex;align-items:center;gap:6px;font:700 .85rem var(--f-body);text-transform:none;letter-spacing:0;color:var(--sea);background:var(--sea-soft);border:0;border-radius:10px;padding:0 12px;cursor:pointer;white-space:nowrap}
+.locbtn svg{width:16px;height:16px}
 .group{display:flex;flex-direction:column;gap:6px}
-.glabel{font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.glabel{font-size:.74rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--sea)}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font:700 .86rem var(--f-body);border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
-.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.hint{font-size:.85rem;color:var(--muted);margin:0}
+.chip{font:600 .86rem var(--f-body);border:1.5px solid var(--line);background:var(--field);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--sea);border-color:var(--sea);color:var(--chip-on-ink)}
+.hint{font-size:.84rem;color:var(--muted);margin:0}
 .hint.err{color:var(--warn)}
+details.more summary{cursor:pointer;font-weight:700;color:var(--sea);font-size:.9rem;list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more[open] summary{margin-bottom:12px}
+details.more .inner{display:flex;flex-direction:column;gap:14px}
+
+main{padding-top:76px;padding-bottom:48px;display:flex;flex-direction:column;gap:18px}
+.news{background:var(--surface);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:8px;border:1px solid var(--line)}
+.news h3{font:800 1.15rem var(--f-display);margin:0;display:flex;align-items:center;gap:8px}
+.news h3 .dot{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.news ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.news li{display:grid;grid-template-columns:56px 1fr;gap:8px;align-items:baseline;font-size:.92rem}
+.news .when{font:400 .74rem var(--f-mono);color:var(--muted)}
 .bar{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
-.count{font:800 1.5rem var(--f-display);text-transform:uppercase;letter-spacing:.02em}
-.list{display:flex;flex-direction:column;gap:12px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
-.card:hover{transform:translateY(-2px);box-shadow:0 10px 24px -14px rgba(10,20,30,.45)}
-.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.cover{position:relative;aspect-ratio:16/7;max-width:100%;overflow:hidden;background:var(--cover-bg,linear-gradient(135deg,#1f4b5e,#e2550b))}
-.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s ease,transform 6s ease}
-.cover img.on{opacity:1}
-.card:hover .cover img.on{transform:scale(1.07)}
-.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 35%,rgba(0,0,0,.62))}
-.cover svg.route{position:absolute;inset:0;width:100%;height:100%}
-.cover svg.route path{fill:none;stroke:rgba(255,255,255,.55);stroke-width:3;stroke-dasharray:6 8}
-.cover .pill{position:absolute;top:10px;right:10px;z-index:2;box-shadow:0 2px 8px rgba(0,0,0,.2)}
-.cover .credit{position:absolute;right:8px;bottom:6px;z-index:2;font:400 .62rem var(--f-mono);color:rgba(255,255,255,.75)}
-.bib{position:absolute;left:12px;bottom:-1px;z-index:2;background:#fff;color:#12202a;border-radius:8px 8px 0 0;padding:8px 12px 6px;display:flex;align-items:baseline;gap:6px;box-shadow:0 -2px 10px rgba(0,0,0,.18)}
-.bib::before,.bib::after{content:"";position:absolute;top:6px;width:5px;height:5px;border-radius:50%;background:#c9d1d6}
-.bib::before{left:5px}.bib::after{right:5px}
-.bib .d{font:800 1.9rem/1 var(--f-display);color:#e2550b;font-variant-numeric:tabular-nums}
-.bib .m{font:700 1rem/1 var(--f-display);text-transform:uppercase;letter-spacing:.06em}
-.bib .y{font:400 .72rem var(--f-mono);color:#5a6a75}
-.bib .t{font:400 .65rem var(--f-mono);color:#5a6a75}
-.cue{font:700 .8rem var(--f-body);color:var(--accent)}
-/* Race detail sheet */
-dialog.sheet{border:0;padding:0;margin:auto auto 0;width:min(760px,100%);max-width:100%;max-height:92vh;border-radius:16px 16px 0 0;background:var(--surface);color:var(--ink);overflow:auto;box-shadow:0 -20px 60px rgba(0,0,0,.35)}
-dialog.sheet::backdrop{background:rgba(8,14,20,.55);backdrop-filter:blur(2px)}
-@media (min-width:800px){dialog.sheet{margin:auto;border-radius:16px;max-height:88vh}}
-.hero{position:relative;aspect-ratio:16/8;max-width:100%;overflow:hidden;background:var(--cover-bg,linear-gradient(135deg,#1f4b5e,#e2550b))}
-.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s ease}
-.hero img.on{opacity:1}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,0) 30%,rgba(0,0,0,.7))}
-.hero .cap{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;color:#fff;display:flex;flex-direction:column;gap:4px}
-.hero h2{font:800 clamp(1.7rem,6vw,2.6rem)/1 var(--f-display);text-transform:uppercase;letter-spacing:.01em;color:#fff}
-.hero .credit{position:absolute;right:10px;top:10px;z-index:2;font:400 .62rem var(--f-mono);color:rgba(255,255,255,.8)}
-.hero .credit a{color:inherit}
-.close{position:absolute;left:10px;top:10px;z-index:3;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font:700 1.2rem var(--f-body);cursor:pointer}
-.sbody{padding:18px 16px 26px;display:flex;flex-direction:column;gap:18px}
-.cta{display:flex;flex-wrap:wrap;gap:10px}
-.btn{display:inline-flex;align-items:center;gap:6px;font:700 1rem var(--f-body);text-decoration:none;border-radius:10px;padding:12px 18px;border:1px solid var(--line);color:var(--ink);background:var(--bg)}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-.sec h3{font:800 1.25rem var(--f-display);text-transform:uppercase;letter-spacing:.02em;margin:0 0 8px}
-.ptable{width:100%;border-collapse:collapse;font-size:.92rem}
-.ptable td,.ptable th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
-.ptable th{font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.ptable td.num,.ptable th.num{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
-.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
-.podium{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media (max-width:560px){.podium{grid-template-columns:1fr}}
-.podium h4{margin:0 0 4px;font:700 .78rem var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.podium ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-.podium li{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line);font-size:.92rem;min-width:0}
-.podium li .pl{font:800 1.1rem var(--f-display);color:var(--muted)}
-.podium li:nth-child(1) .pl{color:#c9971c}.podium li:nth-child(2) .pl{color:#8f9aa3}.podium li:nth-child(3) .pl{color:#a8673a}
-.podium li .nm{min-width:0}
-.podium li .nm small{display:block;color:var(--muted);font-size:.78rem}
-.podium li .tm{font:600 .85rem var(--f-mono);font-variant-numeric:tabular-nums}
-.small{font-size:.84rem;color:var(--muted)}
-.small a{color:var(--accent)}
-.body{padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
-.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}
-h2{font:700 1.08rem/1.25 var(--f-body);margin:0;text-wrap:balance}
-.where{font-size:.9rem;color:var(--muted)}
-.pill{font:700 .74rem var(--f-body);letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:4px 10px;white-space:nowrap}
+.count{font:800 1.6rem var(--f-display)}
+.rel{font:400 .74rem var(--f-mono);color:var(--muted)}
+.list{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:700px){.list{grid-template-columns:1fr}}
+
+.card{background:var(--surface);border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden;cursor:pointer;box-shadow:0 1px 0 var(--line),0 8px 22px -16px rgba(4,30,36,.45);transition:transform .22s ease,box-shadow .22s ease;min-width:0}
+.card:hover{transform:translateY(-3px);box-shadow:0 1px 0 var(--line),0 16px 30px -16px rgba(4,30,36,.55)}
+.cover,.hero{position:relative;max-width:100%;overflow:hidden;background:var(--cover-bg)}
+.cover{aspect-ratio:16/8}.hero{aspect-ratio:16/8}
+.cover img,.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s ease,transform 6s ease}
+.cover img.on,.hero img.on{opacity:1}
+.card:hover .cover img.on{transform:scale(1.08)}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.2),rgba(0,0,0,0) 35%,rgba(0,0,0,.55))}
+svg.route{position:absolute;inset:0;width:100%;height:100%}
+svg.route path{fill:none;stroke:rgba(255,255,255,.6);stroke-width:3;stroke-dasharray:6 8}
+.cover .pill{position:absolute;top:10px;right:10px;z-index:2}
+.star{position:absolute;top:8px;left:8px;z-index:3;display:inline-flex;align-items:center;gap:5px;border:0;border-radius:999px;padding:6px 10px;background:rgba(6,25,30,.55);color:#fff;font:700 .78rem var(--f-body);cursor:pointer;backdrop-filter:blur(4px)}
+.star svg,.btn svg{width:15px;height:15px}
+.star[aria-pressed="true"]{background:#fff;color:#c2410c}
+.star[aria-pressed="true"] svg{fill:#f2602f;stroke:#f2602f}
+.credit{position:absolute;right:8px;bottom:6px;z-index:2;font:400 .6rem var(--f-mono);color:rgba(255,255,255,.8)}
+.credit a{color:inherit}
+.bib{position:absolute;left:12px;bottom:-1px;z-index:2;background:#fff;color:#0f2a33;border-radius:8px 8px 0 0;padding:8px 12px 5px;display:flex;align-items:baseline;gap:6px}
+.bib::before,.bib::after{content:"";position:absolute;top:5px;width:5px;height:5px;border-radius:50%;background:#c3cfd2}
+.bib::before{left:4px}.bib::after{right:4px}
+.bib .d{font:800 1.8rem/1 var(--f-display);color:#f2602f;font-variant-numeric:tabular-nums}
+.bib .m{font:800 .95rem/1 var(--f-display);text-transform:uppercase;letter-spacing:.05em}
+.bib .y{font:400 .7rem var(--f-mono);color:#527079}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:9px;min-width:0;flex:1}
+h2{font:700 1.12rem/1.25 var(--f-display);margin:0;text-wrap:balance}
+.where{font-size:.88rem;color:var(--muted)}
+.pill{display:inline-block;font:700 .72rem var(--f-body);letter-spacing:.05em;text-transform:uppercase;border-radius:999px;padding:4px 10px;white-space:nowrap;background:var(--sea-soft);color:var(--muted)}
 .pill.open{background:var(--open-soft);color:var(--open)}
 .pill.closing,.pill.almost_full{background:var(--warn-soft);color:var(--warn)}
 .pill.soon{background:var(--soon-soft);color:var(--soon)}
+.cover .pill.open,.hero .pill.open{background:#dcf3e6;color:#14804a}
+.cover .pill.closing,.cover .pill.almost_full,.hero .pill.closing,.hero .pill.almost_full{background:#fdeed3;color:#ad6200}
+.cover .pill.soon,.hero .pill.soon{background:#e0ecf9;color:#22609f}
 .dist{display:flex;flex-wrap:wrap;gap:6px}
-.dist span{font:400 .8rem var(--f-mono);border:1px solid var(--line);border-radius:6px;padding:3px 7px;background:var(--bg)}
+.dist span{font:400 .78rem var(--f-mono);border-radius:7px;padding:4px 8px;background:var(--sea-soft);color:var(--ink)}
 .dist b{font-weight:600}
-.facts{margin:0;font-size:.95rem;max-width:68ch}
-.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.84rem;color:var(--muted)}
-.meta a{color:var(--accent);font-weight:700;text-decoration:none}
-.meta a:hover{text-decoration:underline}
-.rel{font:400 .74rem var(--f-mono);color:var(--muted)}
-.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:22px;text-align:center;color:var(--muted)}
-.news{display:flex;flex-direction:column;gap:8px}
-.news h3{font:800 1.3rem var(--f-display);text-transform:uppercase;letter-spacing:.02em;margin:0}
-.news ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
-.news li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;font-size:.92rem}
-.news .when{font:400 .74rem var(--f-mono);color:var(--muted)}
-.news .k{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--warn);margin-right:6px}
-.news .k.sold_out{background:var(--accent)}
-.news .k.opened,.news .k.new{background:var(--open)}
-details summary{cursor:pointer;font-weight:700}
-footer{font-size:.82rem;color:var(--muted);max-width:68ch}
+.facts{margin:0;font-size:.94rem;max-width:68ch}
+.meta{margin-top:auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 14px;font-size:.84rem;color:var(--muted)}
+.cue{font-weight:700;color:var(--accent)}
+.empty{grid-column:1/-1;background:var(--surface);border:1.5px dashed var(--line);border-radius:var(--r);padding:24px;text-align:center;color:var(--muted)}
+footer{font-size:.84rem;color:var(--muted);max-width:68ch}
+footer summary{cursor:pointer;font-weight:700;color:var(--sea)}
+
+dialog.sheet{border:0;padding:0;margin:auto auto 0;width:min(780px,100%);max-width:100%;max-height:92vh;border-radius:20px 20px 0 0;background:var(--surface);color:var(--ink);overflow:auto;box-shadow:0 -20px 60px rgba(0,0,0,.35)}
+dialog.sheet::backdrop{background:rgba(3,18,22,.6);backdrop-filter:blur(3px)}
+@media (min-width:820px){dialog.sheet{margin:auto;border-radius:20px;max-height:88vh}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,0) 30%,rgba(0,0,0,.72))}
+.hero .cap{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;color:#fff;display:flex;flex-direction:column;gap:5px}
+.hero h2{font:800 clamp(1.6rem,6vw,2.5rem)/1.02 var(--f-display);color:#fff}
+.hero .credit{top:12px;bottom:auto;left:12px;right:auto}
+.close{position:absolute;right:12px;top:12px;z-index:3;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font:700 1.1rem var(--f-body);cursor:pointer}
+.sheethead{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:16px 16px 0}
+.sheethead h2{font:800 1.5rem var(--f-display)}
+.sheethead .close{position:static;background:var(--sea-soft);color:var(--sea)}
+.sbody{padding:18px 16px 28px;display:flex;flex-direction:column;gap:20px}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:7px;font:700 1rem var(--f-body);text-decoration:none;border-radius:12px;padding:12px 18px;border:1.5px solid var(--line);color:var(--ink);background:var(--field);cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
+.btn[aria-pressed="true"] svg{fill:var(--accent)}
+.sec h3{font:800 1.2rem var(--f-display);margin:0 0 8px}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.ptable{width:100%;border-collapse:collapse;font-size:.92rem}
+.ptable td,.ptable th{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.ptable th{font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--sea)}
+.num{text-align:right!important;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.orig{display:block;font-size:.74rem;color:var(--muted);font-family:var(--f-body)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.podium{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:560px){.podium{grid-template-columns:1fr}}
+.podium h4{margin:0 0 4px;font:700 .74rem var(--f-body);letter-spacing:.07em;text-transform:uppercase;color:var(--sea)}
+.podium ol{list-style:none;margin:0;padding:0}
+.podium li{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.podium .pl{font:800 1.1rem var(--f-display);color:var(--muted)}
+.podium li:nth-child(1) .pl{color:#c9971c}.podium li:nth-child(2) .pl{color:#8f9aa3}.podium li:nth-child(3) .pl{color:#b0703f}
+.podium .nm{min-width:0}.podium .nm small{display:block;color:var(--muted);font-size:.78rem}
+.podium .tm{font:600 .85rem var(--f-mono)}
+.small{font-size:.84rem;color:var(--muted);margin:0}
+.cmp{border-collapse:separate;border-spacing:0;font-size:.9rem;min-width:100%}
+.cmp th,.cmp td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;min-width:150px}
+.cmp th.rowh{position:sticky;left:0;background:var(--surface);min-width:96px;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--sea);z-index:1}
+.cmp thead td{font:700 .98rem/1.25 var(--f-display)}
+.cmp .best{color:var(--open);font-weight:700}
+.rm{margin-top:6px;font:600 .78rem var(--f-body);color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline}
+
 @media (prefers-reduced-motion:no-preference){
-  .card{animation:rise .35s ease both}@keyframes rise{from{transform:translateY(8px)}to{transform:none}}
+  .card{animation:rise .4s ease both}@keyframes rise{from{transform:translateY(10px);opacity:.4}to{transform:none;opacity:1}}
   .hero img.on{animation:kb 16s ease-out both}@keyframes kb{from{transform:scale(1.14)}to{transform:scale(1)}}
-  dialog.sheet[open]{animation:up .32s cubic-bezier(.2,.8,.2,1)}@keyframes up{from{transform:translateY(60px);opacity:.3}to{transform:none;opacity:1}}
-  .cover svg.route path{animation:dash 20s linear infinite}@keyframes dash{to{stroke-dashoffset:-280}}
+  dialog.sheet[open]{animation:up .34s cubic-bezier(.2,.8,.2,1)}@keyframes up{from{transform:translateY(60px);opacity:.3}to{transform:none;opacity:1}}
+  svg.route path{animation:dash 20s linear infinite}@keyframes dash{to{stroke-dashoffset:-280}}
+  .news h3 .dot{animation:ping 2s ease-out infinite}@keyframes ping{0%{box-shadow:0 0 0 0 var(--accent)}80%,100%{box-shadow:0 0 0 8px transparent}}
+  .star[aria-pressed="true"] svg{animation:pop .35s ease}@keyframes pop{50%{transform:scale(1.35)}}
 }
 @media (prefers-reduced-motion:reduce){.card,.cover img{transition:none}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>Last <span>Bib</span> Radar</h1>
-    <p class="sub">Marathons, half marathons and 10Ks across Southeast Asia and India. Only races with registration open or opening soon are shown.</p>
-    <div class="stamp" id="stamp">Loading race data…</div>
-  </header>
-
-  <form class="panel" id="filters" autocomplete="off">
-    <div class="row">
-      <label class="f place">Near
-        <input id="place" type="text" placeholder="e.g. Chiang Mai, Koh Samui, Goa" list="placeList">
-        <datalist id="placeList"></datalist>
-      </label>
-      <label class="f">Within
-        <select id="radius">
-          <option value="0">Any distance</option>
-          <option value="50">50 km</option>
-          <option value="100">100 km</option>
-          <option value="250">250 km</option>
-          <option value="500">500 km</option>
-          <option value="1000">1,000 km</option>
-          <option value="2000">2,000 km</option>
-          <option value="4000">4,000 km</option>
+<header class="hero-band">
+  <div class="wrap">
+    <div class="topbar">
+      <div class="logo"><span class="tag">Last <b>Bib</b></span><span>Radar</span></div>
+      <div class="tools">
+        <div class="seg" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="de">DE</button></div>
+        <select class="tsel" id="cur" aria-label="Currency">
+          <option value="local" data-i18n="local">Local</option>
+          <option value="THB">฿ THB</option>
+          <option value="EUR">€ EUR</option>
+          <option value="USD">$ USD</option>
         </select>
-      </label>
+        <button type="button" class="wbtn" id="openWatch"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span data-i18n="watchlist">Watchlist</span><span class="n" id="wcount">0</span></button>
+      </div>
     </div>
-    <p class="hint" id="geoHint">Type a place to see distances. Choose a range to limit results around it.</p>
+    <div class="intro">
+      <h1 data-i18n-html="headline">Find your next <em>start line</em> in Asia</h1>
+      <p class="sub" data-i18n="tagline">Marathons, half marathons and 10Ks across Southeast Asia and India. Only races you can still enter.</p>
+      <div class="stamp" id="stamp">…</div>
+    </div>
+    <form class="search" id="filters" autocomplete="off">
+      <div class="row">
+        <label class="f place"><span data-i18n="near">Near</span>
+          <span class="placewrap">
+            <input id="place" type="text" list="placeList" data-i18n-ph="placeholder" placeholder="e.g. Chiang Mai, Koh Samui, Goa">
+            <button type="button" class="locbtn" id="locBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg><span data-i18n="useLoc">My location</span></button>
+          </span>
+          <datalist id="placeList"></datalist>
+        </label>
+        <label class="f"><span data-i18n="within">Within</span>
+          <select id="radius">
+            <option value="0" data-i18n="any">Any distance</option>
+            <option value="50">50 km</option><option value="100">100 km</option><option value="250">250 km</option>
+            <option value="500">500 km</option><option value="1000">1,000 km</option><option value="2000">2,000 km</option><option value="4000">4,000 km</option>
+          </select>
+        </label>
+      </div>
+      <p class="hint" id="geoHint"></p>
+      <div class="row3">
+        <label class="f"><span data-i18n="from">Race day from</span><input id="from" type="date"></label>
+        <label class="f"><span data-i18n="to">to</span><input id="to" type="date"></label>
+        <label class="f"><span data-i18n="sort">Sort by</span>
+          <select id="sort"><option value="relevance" data-i18n="s_rel">Relevance</option><option value="date" data-i18n="s_date">Race date</option><option value="near" data-i18n="s_near">Distance from place</option><option value="price" data-i18n="s_price">Lowest price</option></select>
+        </label>
+      </div>
+      <div class="group"><span class="glabel" data-i18n="distance">Distance</span><div class="chips" id="dists"></div></div>
+      <details class="more" id="more">
+        <summary data-i18n="moreFilters">+ Region & countries</summary>
+        <div class="inner">
+          <div class="group"><span class="glabel" data-i18n="region">Region</span><div class="chips" id="regions"></div></div>
+          <div class="group"><span class="glabel" data-i18n="countries">Countries</span><div class="chips" id="countries"></div></div>
+        </div>
+      </details>
+    </form>
+  </div>
+</header>
 
-    <div class="group">
-      <span class="glabel">Region</span>
-      <div class="chips" id="regions"></div>
-    </div>
-    <div class="group">
-      <span class="glabel">Countries</span>
-      <div class="chips" id="countries"></div>
-    </div>
-
-    <div class="row3">
-      <label class="f">Race day from<input id="from" type="date"></label>
-      <label class="f">to<input id="to" type="date"></label>
-      <label class="f">Sort by
-        <select id="sort">
-          <option value="relevance">Relevance</option>
-          <option value="date">Race date</option>
-          <option value="near">Distance from place</option>
-        </select>
-      </label>
-    </div>
-
-    <div class="group">
-      <span class="glabel">Distance</span>
-      <div class="chips" id="dists"></div>
-    </div>
-  </form>
-
-  <section class="panel news" id="newsBox" hidden>
-    <h3>Registration alerts</h3>
+<main class="wrap">
+  <section class="news" id="newsBox" hidden>
+    <h3><span class="dot"></span><span data-i18n="alerts">Registration alerts</span></h3>
     <ul id="news"></ul>
   </section>
-
-  <div class="bar">
-    <div class="count" id="count">—</div>
-    <div class="rel" id="sortNote">Sorted by relevance</div>
-  </div>
+  <div class="bar"><div class="count" id="count">—</div><div class="rel" id="sortNote"></div></div>
   <div class="list" id="list"></div>
-
   <footer>
-    <details>
-      <summary>How this works</summary>
-      <p>Race data is checked every morning at 7:00 Bangkok time against organiser sites and race listings. Races whose registration has closed or sold out are removed automatically. Prices marked ≈ come from the previous edition. Always confirm on the official site before paying.</p>
-      <p>Relevance combines a race's size, international profile, certification (World Athletics, AIMS) and how much of a destination race it is.</p>
+    <details><summary data-i18n="how">How this works</summary>
+      <p data-i18n="how1"></p>
+      <p data-i18n="how2"></p>
     </details>
   </footer>
-</div>
+</main>
 
 <dialog class="sheet" id="sheet" aria-labelledby="sheetTitle"></dialog>
+<dialog class="sheet" id="wsheet" aria-labelledby="wTitle"></dialog>
 
 <script>
 (function(){
-  const REGIONS = {
-    "Southeast Asia": ["Thailand","Vietnam","Cambodia","Laos","Malaysia","Singapore","Indonesia","Philippines","Myanmar","Brunei","Timor-Leste"],
-    "South Asia": ["India","Sri Lanka","Nepal","Bangladesh","Bhutan","Maldives","Pakistan"],
-    "East Asia": ["Hong Kong","Taiwan","Japan","South Korea","China","Macau","Mongolia"]
+  const T = {
+    en:{headline:'Find your next <em>start line</em> in Asia',tagline:"Marathons, half marathons and 10Ks across Southeast Asia and India. Only races you can still enter.",
+      near:"Near",placeholder:"e.g. Chiang Mai, Koh Samui, Goa",useLoc:"My location",within:"Within",any:"Any distance",from:"Race day from",to:"to",sort:"Sort by",
+      s_rel:"Relevance",s_date:"Race date",s_near:"Distance from place",s_price:"Lowest price",distance:"Distance",moreFilters:"+ Region & countries",region:"Region",countries:"Countries",
+      allAsia:"All Asia",sea:"Southeast Asia",southAsia:"South Asia",eastAsia:"East Asia",marathon:"Marathon",half:"Half",
+      alerts:"Registration alerts",how:"How this works",local:"Local",watchlist:"Watchlist",
+      how1:"Race data is checked every morning at 7:00 Bangkok time against organiser sites and race listings. Only races whose registration is confirmed open or opening soon are shown; closed, sold-out and not-yet-verified races are hidden. Prices marked ≈ come from the previous edition, and converted prices are approximate. Always confirm on the official site before paying.",
+      how2:"Relevance combines a race's size, international profile, certification (World Athletics, AIMS) and how much of a destination race it is. Cover photos are from Wikimedia Commons.",
+      hintIdle:"Type a place or use your location to see distances.",showingFrom:"Distances from {0}.",lookingUp:"Looking up {0}…",notFound:"Couldn't find {0}. Try a city or island name.",
+      lookupDown:"Place lookup is unavailable right now. Try a major city name.",locating:"Finding your location…",locDenied:"Location not shared. You can type a place instead.",myLoc:"your location",
+      races:"{0} races",race:"1 race",sortedRel:"Sorted by relevance",sortedDate:"Sorted by race date",sortedNear:"Sorted by distance",sortedPrice:"Sorted by lowest price",
+      open:"Open",closesIn:"Closes in {0} d",almostFull:"Almost full",soon:"Opening soon",notOpen:"Not open",
+      regOpens:"Registration opens {0}",regTBA:"Registration date TBA",regCloses:"Registration closes {0}",untilFull:"Open until full",
+      details:"Details & registration →",detailsW:"Details & past winners →",watch:"Watch",watching:"Watching",kmAway:"{0} km away",expected:"expected",
+      empty:"No open or opening-soon races match these filters. Try a wider range, more distances or a longer date window.",
+      register:"Register",official:"Official race info",pricesH:"Distances & prices",entry:"Entry fee",seeSite:"see website",
+      winnersH:"Past winners",lastEd:"Last edition: {0}",men:"Men",women:"Women",notPub:"Not published yet.",source:"Source",report:"race report",full:"Full results",
+      moreAdded:"More places are added as official results are found.",noWin:"Winners for this race haven't been collected yet. They are added during the daily update.",
+      checked:"Data checked {0}. Confirm details on the official site before paying.",dataChecked:"Data checked {0} Bangkok time · updates daily at 07:00",loadErr:"Couldn't load race data. Refresh the page to try again.",
+      wTitle:"Your watchlist",wEmpty:"Nothing saved yet. Tap Watch on any race to save it here and compare prices and dates side by side.",remove:"Remove",
+      c_date:"Race day",c_place:"Location",c_status:"Status",c_reg:"Registration",c_rel:"Relevance",fromQ:"from",uptoQ:"up to",ratesLive:"Converted at today's exchange rates.",ratesFallback:"Converted at approximate exchange rates.",close:"Close",cheapest:"Green = cheapest for that distance."},
+    de:{headline:'Finde deine nächste <em>Startlinie</em> in Asien',tagline:"Marathons, Halbmarathons und 10-km-Läufe in Südostasien und Indien. Nur Rennen, für die du dich noch anmelden kannst.",
+      near:"In der Nähe von",placeholder:"z. B. Chiang Mai, Koh Samui, Goa",useLoc:"Mein Standort",within:"Umkreis",any:"Beliebig",from:"Renntag ab",to:"bis",sort:"Sortieren nach",
+      s_rel:"Relevanz",s_date:"Renndatum",s_near:"Entfernung",s_price:"Niedrigster Preis",distance:"Distanz",moreFilters:"+ Region & Länder",region:"Region",countries:"Länder",
+      allAsia:"Ganz Asien",sea:"Südostasien",southAsia:"Südasien",eastAsia:"Ostasien",marathon:"Marathon",half:"Halb",
+      alerts:"Anmelde-Hinweise",how:"So funktioniert's",local:"Lokal",watchlist:"Merkliste",
+      how1:"Die Renndaten werden jeden Morgen um 7:00 Uhr Bangkoker Zeit mit Veranstalterseiten und Rennportalen abgeglichen. Angezeigt werden nur Rennen mit bestätigt offener oder bald startender Anmeldung; geschlossene, ausverkaufte und noch nicht geprüfte Rennen sind ausgeblendet. Mit ≈ markierte Preise stammen aus dem Vorjahr, umgerechnete Preise sind Näherungswerte. Prüfe vor dem Bezahlen immer die offizielle Seite.",
+      how2:"Die Relevanz berücksichtigt Größe, internationales Profil, Zertifizierung (World Athletics, AIMS) und wie sehr ein Rennen ein Reiseziel ist. Titelfotos von Wikimedia Commons.",
+      hintIdle:"Gib einen Ort ein oder nutze deinen Standort, um Entfernungen zu sehen.",showingFrom:"Entfernungen ab {0}.",lookingUp:"Suche {0}…",notFound:"{0} nicht gefunden. Versuche eine Stadt oder Insel.",
+      lookupDown:"Ortssuche gerade nicht verfügbar. Versuche eine größere Stadt.",locating:"Standort wird ermittelt…",locDenied:"Standort nicht freigegeben. Du kannst stattdessen einen Ort eingeben.",myLoc:"deinem Standort",
+      races:"{0} Rennen",race:"1 Rennen",sortedRel:"Sortiert nach Relevanz",sortedDate:"Sortiert nach Renndatum",sortedNear:"Sortiert nach Entfernung",sortedPrice:"Sortiert nach Preis",
+      open:"Offen",closesIn:"Endet in {0} T.",almostFull:"Fast voll",soon:"Bald offen",notOpen:"Nicht offen",
+      regOpens:"Anmeldung ab {0}",regTBA:"Anmeldestart noch offen",regCloses:"Anmeldeschluss {0}",untilFull:"Offen bis ausgebucht",
+      details:"Details & Anmeldung →",detailsW:"Details & Sieger →",watch:"Merken",watching:"Gemerkt",kmAway:"{0} km entfernt",expected:"voraussichtlich",
+      empty:"Keine offenen Rennen für diese Filter. Versuche einen größeren Umkreis, mehr Distanzen oder einen längeren Zeitraum.",
+      register:"Anmelden",official:"Offizielle Infos",pricesH:"Distanzen & Preise",entry:"Startgebühr",seeSite:"siehe Website",
+      winnersH:"Letzte Sieger",lastEd:"Letzte Ausgabe: {0}",men:"Männer",women:"Frauen",notPub:"Noch nicht veröffentlicht.",source:"Quelle",report:"Rennbericht",full:"Alle Ergebnisse",
+      moreAdded:"Weitere Platzierungen werden ergänzt, sobald offizielle Ergebnisse vorliegen.",noWin:"Für dieses Rennen sind noch keine Sieger erfasst. Sie werden beim täglichen Update ergänzt.",
+      checked:"Daten geprüft am {0}. Prüfe vor dem Bezahlen die offizielle Seite.",dataChecked:"Daten geprüft {0} (Bangkok) · tägliches Update um 07:00",loadErr:"Renndaten konnten nicht geladen werden. Lade die Seite neu.",
+      wTitle:"Deine Merkliste",wEmpty:"Noch nichts gemerkt. Tippe bei einem Rennen auf Merken, um Preise und Termine hier nebeneinander zu vergleichen.",remove:"Entfernen",
+      c_date:"Renntag",c_place:"Ort",c_status:"Status",c_reg:"Anmeldung",c_rel:"Relevanz",fromQ:"ab",uptoQ:"bis",ratesLive:"Umgerechnet zum heutigen Wechselkurs.",ratesFallback:"Umgerechnet zu Näherungskursen.",close:"Schließen",cheapest:"Grün = günstigster Preis für diese Distanz."}
   };
+  const store = { get(k){ try { return JSON.parse(localStorage.getItem("lbr:"+k)); } catch(e){ return null; } }, set(k,v){ try { localStorage.setItem("lbr:"+k, JSON.stringify(v)); } catch(e){} } };
+  let lang = store.get("lang") || ((navigator.language||"").toLowerCase().startsWith("de") ? "de" : "en");
+  const t = (k, ...a) => (T[lang][k] ?? T.en[k] ?? k).replace(/\{(\d)\}/g, (_,i) => a[i]);
+  const MS = {en:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], de:["Jan","Feb","Mär","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"]};
+  const fmtDate = iso => { if(!iso) return ""; const [y,m,d] = iso.split("-"); return (lang==="de" ? +d+". " : +d+" ") + MS[lang][+m-1] + " " + y; };
+  function applyLang(){
+    document.documentElement.lang = lang;
+    document.querySelectorAll("[data-i18n]").forEach(el => el.textContent = t(el.dataset.i18n));
+    document.querySelectorAll("[data-i18n-html]").forEach(el => el.innerHTML = t(el.dataset.i18nHtml));
+    document.querySelectorAll("[data-i18n-ph]").forEach(el => el.placeholder = t(el.dataset.i18nPh));
+    document.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang===lang));
+  }
+
+  let currency = store.get("cur") || "local";
+  let rates = {USD:1,THB:33.5,EUR:0.88,VND:26000,MYR:4.25,SGD:1.3,INR:85,PHP:57,IDR:16300,KHR:4050,LAK:21800,HKD:7.8}, ratesLive = false;
+  const SYM = {THB:"฿",EUR:"€",USD:"$"};
+  const convert = x => (!x.amt || !x.cur || !rates[x.cur] || !rates[currency]) ? null : x.amt / rates[x.cur] * rates[currency];
+  function priceText(x){
+    if (currency === "local" || !x.amt) return x.price || "";
+    const v = convert(x); if (v == null) return x.price || "";
+    const q = x.qual==="from" ? t("fromQ")+" " : x.qual==="upto" ? t("uptoQ")+" " : "";
+    return q + "≈ " + SYM[currency] + Math.round(v).toLocaleString(lang==="de"?"de-DE":"en-US");
+  }
+  const minPriceUSD = r => { const v = r.distances.filter(x => x.amt && rates[x.cur]).map(x => x.amt / rates[x.cur]); return v.length ? Math.min(...v) : Infinity; };
+
+  const REGIONS = {"Southeast Asia":["Thailand","Vietnam","Cambodia","Laos","Malaysia","Singapore","Indonesia","Philippines","Myanmar","Brunei","Timor-Leste"],"South Asia":["India","Sri Lanka","Nepal","Bangladesh","Bhutan","Maldives","Pakistan"],"East Asia":["Hong Kong","Taiwan","Japan","South Korea","China","Macau","Mongolia"]};
+  const RLABEL = {"All":"allAsia","Southeast Asia":"sea","South Asia":"southAsia","East Asia":"eastAsia"};
   const regionOf = c => Object.keys(REGIONS).find(r => REGIONS[r].includes(c)) || "Other";
-  const GAZ = {
-    "bangkok":[13.7563,100.5018],"chiang mai":[18.7883,98.9853],"chiang rai":[19.9105,99.8406],"koh samui":[9.512,100.0136],"samui":[9.512,100.0136],
-    "koh phangan":[9.7319,100.0136],"koh tao":[10.0956,99.8404],"surat thani":[9.1382,99.3215],"phuket":[7.8804,98.3923],"krabi":[8.0863,98.9063],
-    "pattaya":[12.9236,100.8825],"hua hin":[12.5684,99.9577],"khon kaen":[16.4322,102.8236],"korat":[14.9799,102.0978],"buriram":[14.9930,103.1029],
-    "udon thani":[17.4138,102.7870],"hat yai":[7.0084,100.4767],"ayutthaya":[14.3532,100.5689],"kanchanaburi":[14.0228,99.5328],
-    "siem reap":[13.3671,103.8448],"phnom penh":[11.5564,104.9282],"ho chi minh city":[10.8231,106.6297],"saigon":[10.8231,106.6297],"hanoi":[21.0285,105.8542],
-    "da nang":[16.0544,108.2022],"hue":[16.4637,107.5909],"quy nhon":[13.7765,109.2237],"nha trang":[12.2388,109.1967],"vientiane":[17.9757,102.6331],
-    "luang prabang":[19.8856,102.1347],"kuala lumpur":[3.139,101.6869],"penang":[5.4164,100.3327],"singapore":[1.3521,103.8198],"bali":[-8.4095,115.1889],
-    "jakarta":[-6.2088,106.8456],"yogyakarta":[-7.7956,110.3695],"manila":[14.5995,120.9842],"cebu":[10.3157,123.8854],"yangon":[16.8409,96.1735],
-    "goa":[15.2993,74.124],"mumbai":[19.076,72.8777],"delhi":[28.7041,77.1025],"new delhi":[28.6139,77.209],"bengaluru":[12.9716,77.5946],"bangalore":[12.9716,77.5946],
-    "chennai":[13.0827,80.2707],"kolkata":[22.5726,88.3639],"pune":[18.5204,73.8567],"hyderabad":[17.385,78.4867],"jaipur":[26.9124,75.7873],"agra":[27.1767,78.0081],
-    "colombo":[6.9271,79.8612],"kathmandu":[27.7172,85.324],"hong kong":[22.3193,114.1694],"taipei":[25.033,121.5654],"tokyo":[35.6762,139.6503],"seoul":[37.5665,126.978]
-  };
+  const GAZ = {"bangkok":[13.7563,100.5018],"chiang mai":[18.7883,98.9853],"chiang rai":[19.9105,99.8406],"koh samui":[9.512,100.0136],"samui":[9.512,100.0136],"koh phangan":[9.7319,100.0136],"koh tao":[10.0956,99.8404],"surat thani":[9.1382,99.3215],"phuket":[7.8804,98.3923],"krabi":[8.0863,98.9063],"pattaya":[12.9236,100.8825],"hua hin":[12.5684,99.9577],"khon kaen":[16.4322,102.8236],"korat":[14.9799,102.0978],"buriram":[14.993,103.1029],"udon thani":[17.4138,102.787],"hat yai":[7.0084,100.4767],"siem reap":[13.3671,103.8448],"phnom penh":[11.5564,104.9282],"ho chi minh city":[10.8231,106.6297],"saigon":[10.8231,106.6297],"hanoi":[21.0285,105.8542],"da nang":[16.0544,108.2022],"hue":[16.4637,107.5909],"quy nhon":[13.7765,109.2237],"nha trang":[12.2388,109.1967],"vientiane":[17.9757,102.6331],"luang prabang":[19.8856,102.1347],"kuala lumpur":[3.139,101.6869],"penang":[5.4164,100.3327],"singapore":[1.3521,103.8198],"bali":[-8.4095,115.1889],"jakarta":[-6.2088,106.8456],"yogyakarta":[-7.7956,110.3695],"manila":[14.5995,120.9842],"cebu":[10.3157,123.8854],"goa":[15.2993,74.124],"mumbai":[19.076,72.8777],"delhi":[28.7041,77.1025],"bengaluru":[12.9716,77.5946],"chennai":[13.0827,80.2707],"kolkata":[22.5726,88.3639],"pune":[18.5204,73.8567],"hyderabad":[17.385,78.4867],"jaipur":[26.9124,75.7873],"agra":[27.1767,78.0081],"colombo":[6.9271,79.8612],"kathmandu":[27.7172,85.324],"hong kong":[22.3193,114.1694],"taipei":[25.033,121.5654],"tokyo":[35.6762,139.6503],"seoul":[37.5665,126.978]};
   const DISTS = ["42K","21K","10K"];
-  const MS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const $ = id => document.getElementById(id);
-  const todayISO = (() => { const d = new Date(Date.now() + 7*3600e3); return d.toISOString().slice(0,10); })(); // Bangkok date
-  const store = {
-    get(k){ try { return JSON.parse(localStorage.getItem("arf:"+k)); } catch(e){ return null; } },
-    set(k,v){ try { localStorage.setItem("arf:"+k, JSON.stringify(v)); } catch(e){} }
-  };
+  const todayISO = new Date(Date.now() + 7*3600e3).toISOString().slice(0,10);
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const km = (a,b) => { const R=6371,r=Math.PI/180,dA=(b[0]-a[0])*r,dO=(b[1]-a[1])*r,h=Math.sin(dA/2)**2+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin(dO/2)**2; return 2*R*Math.asin(Math.sqrt(h)); };
+  const daysUntil = iso => Math.round((new Date(iso+"T00:00:00Z") - new Date(todayISO+"T00:00:00Z"))/864e5);
+  const dName = d => d==="42K" ? t("marathon") : d==="21K" ? t("half") : d;
+  const facts = r => (lang==="de" && r.facts_de) ? r.facts_de : r.facts;
 
-  let races = [], results = {}, origin = null, geoTimer = null;
-  const state = Object.assign({ region: "All", countries: [], dists: DISTS.slice() }, store.get("state") || {});
+  let races = [], results = {}, news = [], updated = "", origin = null, geoTimer = null, openId = null;
+  const state = Object.assign({region:"All", countries:[], dists:DISTS.slice()}, store.get("state") || {});
+  let watch = store.get("watch") || [];
 
-  function km(a,b){ const R=6371, t=Math.PI/180, dLa=(b[0]-a[0])*t, dLo=(b[1]-a[1])*t;
-    const h=Math.sin(dLa/2)**2+Math.cos(a[0]*t)*Math.cos(b[0]*t)*Math.sin(dLo/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
-  function fmtDate(iso){ if(!iso) return ""; const [y,m,d]=iso.split("-"); return +d+" "+MS[+m-1]+" "+y; }
-  function daysUntil(iso){ return Math.round((new Date(iso+"T00:00:00Z") - new Date(todayISO+"T00:00:00Z"))/864e5); }
-  function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
-
-  // Visible only when registration is open, closing soon, almost full, or opening soon.
   function regState(r){
     if (r.date < todayISO) return null;
     if (r.status === "open" || r.status === "almost_full"){
       if (r.regCloses && r.regCloses < todayISO) return null;
-      if (r.status === "almost_full") return {cls:"almost_full", label:"Almost full"};
-      if (r.regCloses && daysUntil(r.regCloses) <= 14) return {cls:"closing", label:"Closes in "+daysUntil(r.regCloses)+" d"};
-      return {cls:"open", label:"Open"};
+      if (r.status === "almost_full") return {cls:"almost_full", label:t("almostFull")};
+      if (r.regCloses && daysUntil(r.regCloses) <= 14) return {cls:"closing", label:t("closesIn", daysUntil(r.regCloses))};
+      return {cls:"open", label:t("open")};
     }
-    if (r.status === "soon") return {cls:"soon", label:"Opening soon"};
+    if (r.status === "soon") return {cls:"soon", label:t("soon")};
     return null;
+  }
+  const regLine = (r, reg) => reg && reg.cls==="soon"
+    ? (r.regOpens ? t("regOpens", fmtDate(r.regOpens)) : (lang==="en" && r.regOpensNote) ? esc(r.regOpensNote) : t("regTBA"))
+    : (r.regCloses ? t("regCloses", fmtDate(r.regCloses)) : t("untilFull"));
+
+  const HUES = {Thailand:18, Vietnam:350, Cambodia:38, Laos:200, Malaysia:220, Philippines:265, India:28, Singapore:0, Indonesia:150, "Hong Kong":330};
+  const coverBg = r => { const h = HUES[r.country] ?? 190; return `linear-gradient(135deg,hsl(${(h+190)%360} 50% 20%),hsl(${h} 75% 52%))`; };
+  function routeSvg(r){
+    let s = 0; for (const ch of r.id) s = (s*31 + ch.charCodeAt(0)) >>> 0;
+    const rnd = () => (s = (s*1103515245 + 12345) >>> 0) / 4294967296;
+    let d = "M -10 " + (60 + rnd()*40);
+    for (let x = 30; x <= 420; x += 50) d += ` Q ${x-25} ${20+rnd()*120} ${x} ${40+rnd()*90}`;
+    return `<svg class="route" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true"><path d="${d}"/></svg>`;
+  }
+  const coverCache = {};
+  function getCover(r){
+    if (!r.wiki || !r.wiki.length) return Promise.resolve(null);
+    if (coverCache[r.id]) return coverCache[r.id];
+    const k = "lbr-cover:" + r.id;
+    let saved = null; try { saved = JSON.parse(sessionStorage.getItem(k)); } catch(e){}
+    if (saved) return (coverCache[r.id] = Promise.resolve(saved.src ? saved : null));
+    return (coverCache[r.id] = (async () => {
+      for (const ti of r.wiki){
+        try {
+          const res = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(ti));
+          if (!res.ok) continue;
+          const j = await res.json(), src = j.originalimage && j.originalimage.source;
+          if (!src) continue;
+          const file = decodeURIComponent(src.split("/").pop());
+          const out = {src:(j.thumbnail && j.thumbnail.source || src).replace(/\/(\d+)px-/, "/1280px-"), full:src, credit:"https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(file)};
+          try { sessionStorage.setItem(k, JSON.stringify(out)); } catch(e){}
+          return out;
+        } catch(e){}
+      }
+      try { sessionStorage.setItem(k, "{}"); } catch(e){}
+      return null;
+    })());
+  }
+  function paintCover(el, r){
+    getCover(r).then(c => {
+      if (!c || !el.isConnected || el.querySelector("img")) return;
+      const img = new Image(); img.alt = ""; img.decoding = "async";
+      img.onload = () => { img.classList.add("on"); el.querySelector("svg.route")?.remove(); };
+      img.onerror = () => { if (!img.dataset.retry){ img.dataset.retry = 1; img.src = c.full; } };
+      img.src = c.src; el.prepend(img);
+      const cr = el.querySelector(".credit"); if (cr) cr.innerHTML = `<a href="${c.credit}" target="_blank" rel="noopener">Photo: Wikimedia Commons</a>`;
+    });
   }
 
   function buildChips(){
-    const regionEl = $("regions");
-    regionEl.innerHTML = ["All","Southeast Asia","South Asia","East Asia"].map(r =>
-      `<button type="button" class="chip" data-region="${r}" aria-pressed="${state.region===r}">${r==="All"?"All Asia":r}</button>`).join("");
-    const inRegion = [...new Set(races.map(r => r.country))]
-      .filter(c => state.region==="All" || regionOf(c)===state.region).sort();
-    $("countries").innerHTML = inRegion.map(c =>
-      `<button type="button" class="chip" data-country="${esc(c)}" aria-pressed="${state.countries.includes(c)}">${esc(c)}</button>`).join("")
-      || '<span class="hint">No countries in this region yet.</span>';
-    $("dists").innerHTML = DISTS.map(d => `<button type="button" class="chip" data-dist="${d}" aria-pressed="${state.dists.includes(d)}">${d==="42K"?"Marathon":d==="21K"?"Half":"10K"}</button>`).join("");
+    $("regions").innerHTML = Object.keys(RLABEL).map(r => `<button type="button" class="chip" data-region="${r}" aria-pressed="${state.region===r}">${t(RLABEL[r])}</button>`).join("");
+    const cs = [...new Set(races.map(r => r.country))].filter(c => state.region==="All" || regionOf(c)===state.region).sort();
+    $("countries").innerHTML = cs.map(c => `<button type="button" class="chip" data-country="${esc(c)}" aria-pressed="${state.countries.includes(c)}">${esc(c)}</button>`).join("");
+    $("dists").innerHTML = DISTS.map(d => `<button type="button" class="chip" data-dist="${d}" aria-pressed="${state.dists.includes(d)}">${dName(d)}</button>`).join("");
   }
-
-  document.addEventListener("click", e => {
-    const b = e.target.closest("button.chip"); if(!b || !(b.dataset.region||b.dataset.country||b.dataset.dist)) return;
+  $("filters").addEventListener("click", e => {
+    const b = e.target.closest("button.chip"); if (!b) return;
     if (b.dataset.region){ state.region = b.dataset.region; state.countries = state.countries.filter(c => state.region==="All" || regionOf(c)===state.region); }
-    if (b.dataset.country){ const c=b.dataset.country; state.countries = state.countries.includes(c) ? state.countries.filter(x=>x!==c) : state.countries.concat(c); }
-    if (b.dataset.dist){ const d=b.dataset.dist; state.dists = state.dists.includes(d) ? state.dists.filter(x=>x!==d) : state.dists.concat(d); }
+    if (b.dataset.country){ const c = b.dataset.country; state.countries = state.countries.includes(c) ? state.countries.filter(x => x!==c) : state.countries.concat(c); }
+    if (b.dataset.dist){ const d = b.dataset.dist; state.dists = state.dists.includes(d) ? state.dists.filter(x => x!==d) : state.dists.concat(d); }
     buildChips(); render();
   });
-
   ["radius","from","to","sort"].forEach(id => $(id).addEventListener("change", () => { state[id] = $(id).value; render(); }));
   $("filters").addEventListener("submit", e => e.preventDefault());
   $("place").addEventListener("input", () => { state.place = $("place").value; clearTimeout(geoTimer); geoTimer = setTimeout(geocode, 500); });
 
+  function setHint(msg, err){ const h = $("geoHint"); h.textContent = msg; h.classList.toggle("err", !!err); }
   async function geocode(){
-    const q = $("place").value.trim(), hint = $("geoHint");
-    hint.classList.remove("err");
-    if (!q){ origin = null; hint.textContent = "Type a place to see distances. Choose a range to limit results around it."; render(); return; }
+    const q = $("place").value.trim();
+    if (!q){ origin = null; setHint(t("hintIdle")); render(); return; }
+    if (origin && origin.mine && q === origin.label) return;
     const key = q.toLowerCase();
-    if (GAZ[key]){ origin = {ll:GAZ[key], name:q}; hint.textContent = "Showing distances from "+q+"."; render(); return; }
-    hint.textContent = "Looking up "+q+"…";
+    if (GAZ[key]){ origin = {ll:GAZ[key], name:q}; setHint(t("showingFrom", q)); render(); return; }
+    setHint(t("lookingUp", q));
     try {
-      const res = await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&q="+encodeURIComponent(q), {headers:{"Accept-Language":"en"}});
-      const j = await res.json();
+      const j = await (await fetch("https://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + encodeURIComponent(q))).json();
       if (q !== $("place").value.trim()) return;
-      if (j[0]){ origin = {ll:[+j[0].lat,+j[0].lon], name:j[0].display_name.split(",").slice(0,2).join(",")}; hint.textContent = "Showing distances from "+origin.name+"."; }
-      else { origin = null; hint.textContent = "Couldn't find "+q+". Try a city or island name."; hint.classList.add("err"); }
-    } catch(err){ origin = null; hint.textContent = "Place lookup is unavailable right now. Try a major city name."; hint.classList.add("err"); }
+      if (j[0]){ origin = {ll:[+j[0].lat,+j[0].lon], name:j[0].display_name.split(",").slice(0,2).join(",")}; setHint(t("showingFrom", origin.name)); }
+      else { origin = null; setHint(t("notFound", q), true); }
+    } catch(e){ origin = null; setHint(t("lookupDown"), true); }
     render();
   }
+  $("locBtn").addEventListener("click", () => {
+    if (!navigator.geolocation){ setHint(t("locDenied"), true); return; }
+    setHint(t("locating"));
+    navigator.geolocation.getCurrentPosition(async pos => {
+      const ll = [pos.coords.latitude, pos.coords.longitude];
+      let name = t("myLoc");
+      try { const j = await (await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&zoom=10&lat=${ll[0]}&lon=${ll[1]}`)).json();
+        const a = j.address || {}; name = a.city || a.town || a.village || a.county || a.state || name; } catch(e){}
+      origin = {ll, name, mine:true, label:name};
+      $("place").value = name; state.place = "";
+      setHint(t("showingFrom", name)); render();
+    }, () => setHint(t("locDenied"), true), {enableHighAccuracy:false, timeout:10000, maximumAge:600000});
+  });
 
+  const starSvg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>';
   function render(){
-    store.set("state", {region:state.region, countries:state.countries, dists:state.dists, radius:$("radius").value, from:$("from").value, to:$("to").value, sort:$("sort").value, place:$("place").value});
+    store.set("state", {region:state.region, countries:state.countries, dists:state.dists, radius:$("radius").value, from:$("from").value, to:$("to").value, sort:$("sort").value, place:origin&&origin.mine ? "" : $("place").value});
     const radius = +$("radius").value, from = $("from").value, to = $("to").value, sort = $("sort").value;
-    let rows = races.map(r => ({r, reg: regState(r), dist: origin ? km(origin.ll,[r.lat,r.lon]) : null}))
+    let rows = races.map(r => ({r, reg:regState(r), dist: origin ? km(origin.ll,[r.lat,r.lon]) : null}))
       .filter(x => x.reg)
       .filter(x => state.region==="All" || regionOf(x.r.country)===state.region)
       .filter(x => !state.countries.length || state.countries.includes(x.r.country))
@@ -328,169 +472,165 @@ footer{font-size:.82rem;color:var(--muted);max-width:68ch}
     const byRel = (a,b) => b.r.relevance - a.r.relevance || a.r.date.localeCompare(b.r.date);
     if (sort==="date") rows.sort((a,b) => a.r.date.localeCompare(b.r.date) || byRel(a,b));
     else if (sort==="near" && origin) rows.sort((a,b) => a.dist - b.dist || byRel(a,b));
+    else if (sort==="price") rows.sort((a,b) => minPriceUSD(a.r) - minPriceUSD(b.r) || byRel(a,b));
     else rows.sort(byRel);
-    $("sortNote").textContent = sort==="date" ? "Sorted by race date" : (sort==="near" && origin) ? "Sorted by distance" : "Sorted by relevance";
-    $("count").textContent = rows.length + (rows.length===1 ? " race" : " races");
-    $("list").innerHTML = rows.length ? rows.map(card).join("") :
-      '<div class="empty">No open or opening-soon races match these filters. Try a wider range, more countries or a longer date window.</div>';
-    document.querySelectorAll("#list .cover").forEach(el => { const r = races.find(x => x.id === el.dataset.cover); if (r) paintCover(el, r); });
+    $("sortNote").textContent = t(sort==="date" ? "sortedDate" : (sort==="near" && origin) ? "sortedNear" : sort==="price" ? "sortedPrice" : "sortedRel");
+    $("count").textContent = rows.length===1 ? t("race") : t("races", rows.length);
+    $("list").innerHTML = rows.length ? rows.map(card).join("") : `<div class="empty">${t("empty")}</div>`;
+    $("list").querySelectorAll(".cover").forEach(el => { const r = races.find(x => x.id === el.dataset.cover); if (r) paintCover(el, r); });
+    $("wcount").textContent = watch.filter(id => races.some(r => r.id===id)).length;
   }
-
-  // ---- Covers: freely licensed landmark photos from Wikipedia / Wikimedia Commons ----
-  const HUES = {Thailand:16, Vietnam:350, Cambodia:38, Laos:200, Malaysia:220, Philippines:265, India:28, Singapore:0, Indonesia:150, "Hong Kong":330};
-  function coverBg(r){ const h = HUES[r.country] ?? 190; return `linear-gradient(135deg,hsl(${(h+200)%360} 45% 22%),hsl(${h} 70% 46%))`; }
-  function routeSvg(r){
-    let s = 0; for (const ch of r.id) s = (s*31 + ch.charCodeAt(0)) >>> 0;
-    const rnd = () => (s = (s*1103515245 + 12345) >>> 0) / 4294967296;
-    let d = "M -10 " + (60 + rnd()*40);
-    for (let x = 30; x <= 420; x += 50) d += ` Q ${x-25} ${20+rnd()*120} ${x} ${40+rnd()*90}`;
-    return `<svg class="route" viewBox="0 0 400 175" preserveAspectRatio="none" aria-hidden="true"><path d="${d}"/></svg>`;
-  }
-  const coverCache = {};
-  function getCover(r){
-    if (!r.wiki || !r.wiki.length) return Promise.resolve(null);
-    if (coverCache[r.id]) return coverCache[r.id];
-    const k = "cover:" + r.id, saved = (() => { try { return JSON.parse(sessionStorage.getItem(k)); } catch(e){ return null; } })();
-    if (saved) return (coverCache[r.id] = Promise.resolve(saved.src ? saved : null));
-    coverCache[r.id] = (async () => {
-      for (const t of r.wiki){
-        try {
-          const res = await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(t));
-          if (!res.ok) continue;
-          const j = await res.json();
-          const src = j.originalimage && j.originalimage.source;
-          if (!src) continue;
-          const file = decodeURIComponent(src.split("/").pop());
-          const thumb = (j.thumbnail && j.thumbnail.source || src).replace(/\/(\d+)px-/, "/1280px-");
-          const out = { src: thumb, full: src, credit: "https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(file), title: j.title };
-          try { sessionStorage.setItem(k, JSON.stringify(out)); } catch(e){}
-          return out;
-        } catch(e){}
-      }
-      try { sessionStorage.setItem(k, JSON.stringify({})); } catch(e){}
-      return null;
-    })();
-    return coverCache[r.id];
-  }
-  function paintCover(el, r){
-    getCover(r).then(c => {
-      if (!c || !el.isConnected) return;
-      const img = new Image(); img.alt = ""; img.decoding = "async";
-      img.onload = () => { img.classList.add("on"); el.querySelector("svg.route")?.remove(); };
-      img.onerror = () => { if (img.src !== c.full && !img.dataset.retry){ img.dataset.retry = 1; img.src = c.full; } };
-      img.src = c.src; el.prepend(img);
-      const cr = el.querySelector(".credit"); if (cr) cr.innerHTML = `<a href="${c.credit}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="color:inherit">Photo: Wikimedia Commons</a>`;
-    });
-  }
-
   function card({r, reg, dist}){
-    const [y,m,d] = r.date.split("-");
-    const dists = r.distances.map(x => `<span><b>${esc(x.d)}</b>${x.price ? " · "+esc(x.price) : ""}</span>`).join("");
-    const regLine = reg.cls==="soon"
-      ? (r.regOpens ? "Registration opens "+fmtDate(r.regOpens) : esc(r.regOpensNote || "Registration date TBA"))
-      : (r.regCloses ? "Registration closes "+fmtDate(r.regCloses) : "Open until full");
-    const hasRes = !!resultsFor(r);
-    return `<article class="card" tabindex="0" role="button" data-id="${esc(r.id)}" aria-label="Open ${esc(r.name)}">
+    const [y,m,d] = r.date.split("-"), w = watch.includes(r.id);
+    const dists = r.distances.map(x => { const p = priceText(x); return `<span><b>${esc(x.d)}</b>${p ? " · "+esc(p) : ""}</span>`; }).join("");
+    return `<article class="card" tabindex="0" data-id="${esc(r.id)}" aria-label="${esc(r.name)}">
       <div class="cover" data-cover="${esc(r.id)}" style="--cover-bg:${coverBg(r)}">${routeSvg(r)}
+        <button type="button" class="star" data-watch="${esc(r.id)}" aria-pressed="${w}">${starSvg}<span>${w ? t("watching") : t("watch")}</span></button>
         <span class="pill ${reg.cls}">${reg.label}</span>
-        <div class="bib" aria-label="Race day ${fmtDate(r.date)}"><span class="d">${+d}</span><span class="m">${MS[+m-1]}</span><span class="y">${y}${r.dateTentative?' · expected':''}</span></div>
+        <div class="bib"><span class="d">${+d}</span><span class="m">${MS[lang][+m-1]}</span><span class="y">${y}${r.dateTentative ? " · "+t("expected") : ""}</span></div>
         <span class="credit"></span>
       </div>
       <div class="body">
-        <div><h2>${esc(r.name)}</h2><div class="where">${esc(r.city)}, ${esc(r.country)}${dist!=null?" · "+Math.round(dist).toLocaleString()+" km away":""}</div></div>
+        <div><h2>${esc(r.name)}</h2><div class="where">${esc(r.city)}, ${esc(r.country)}${dist!=null ? " · "+t("kmAway", Math.round(dist).toLocaleString()) : ""}</div></div>
         <div class="dist">${dists}</div>
-        <p class="facts">${esc(r.facts)}</p>
-        <div class="meta"><span>${regLine}</span><span class="cue">${hasRes ? "Details & past winners →" : "Details & registration →"}</span></div>
+        <p class="facts">${esc(facts(r))}</p>
+        <div class="meta"><span>${regLine(r, reg)}</span><span class="cue">${resultsFor(r) ? t("detailsW") : t("details")}</span></div>
       </div></article>`;
   }
 
-  // ---- Detail sheet ----
-  function resultsFor(r){ const key = r.id.replace(/-\d{4}$/, ""); const x = results[key]; return x && Object.keys(x.distances || {}).length ? x : null; }
-  function podiumList(arr){
-    if (!arr || !arr.length) return '<p class="small">Not published yet.</p>';
-    return "<ol>" + arr.slice(0,10).map(p => `<li><span class="pl">${p.p}</span><span class="nm">${esc(p.n)}${p.c?`<small>${esc(p.c)}</small>`:""}</span><span class="tm">${esc(p.t || "—")}</span></li>`).join("") + "</ol>";
+  function toggleWatch(id){
+    watch = watch.includes(id) ? watch.filter(x => x!==id) : watch.concat(id);
+    store.set("watch", watch);
+    document.querySelectorAll("[data-watch]").forEach(b => {
+      if (b.dataset.watch !== id || b.classList.contains("rm")) return;
+      const on = watch.includes(id); b.setAttribute("aria-pressed", on);
+      const s = b.querySelector("span"); if (s) s.textContent = on ? t("watching") : t("watch");
+    });
+    $("wcount").textContent = watch.filter(i => races.some(r => r.id===i)).length;
+    if ($("wsheet").open) openWatchlist();
   }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-watch]"); if (b){ e.preventDefault(); e.stopPropagation(); toggleWatch(b.dataset.watch); } }, true);
+
+  function openWatchlist(){
+    const list = watch.map(id => races.find(r => r.id===id)).filter(Boolean);
+    const sh = $("wsheet");
+    let body;
+    if (!list.length) body = `<p class="small" style="font-size:.95rem">${t("wEmpty")}</p>`;
+    else {
+      const allD = ["42K","21K","10K","5K"].filter(d => list.some(r => r.distances.some(x => x.d===d)));
+      const cheapest = d => { let best = null, bv = Infinity, n = 0; list.forEach(r => { const x = r.distances.find(z => z.d===d); if (x && x.amt && rates[x.cur]){ n++; const v = x.amt / rates[x.cur]; if (v < bv){ bv = v; best = r.id; } } }); return n > 1 ? best : null; };
+      const row = (label, f) => `<tr><th class="rowh" scope="row">${label}</th>${list.map(r => `<td>${f(r)}</td>`).join("")}</tr>`;
+      body = `<div class="tablewrap"><table class="cmp">
+        <thead><tr><th class="rowh"></th>${list.map(r => `<td>${esc(r.name)}<br><button type="button" class="rm" data-watch="${esc(r.id)}">${t("remove")}</button></td>`).join("")}</tr></thead>
+        <tbody>
+        ${row(t("c_date"), r => fmtDate(r.date) + (r.dateTentative ? ` <span class="orig">${t("expected")}</span>` : ""))}
+        ${row(t("c_place"), r => esc(r.city) + ", " + esc(r.country))}
+        ${row(t("c_status"), r => { const g = regState(r); return g ? `<span class="pill ${g.cls}">${g.label}</span>` : `<span class="pill">${t("notOpen")}</span>`; })}
+        ${row(t("c_reg"), r => regLine(r, regState(r)))}
+        ${allD.map(d => { const b = cheapest(d); return row(dName(d), r => { const x = r.distances.find(z => z.d===d); if (!x) return "—"; const p = priceText(x) || t("seeSite"); return `<span class="${b===r.id ? "best" : ""}">${esc(p)}</span>${currency!=="local" && x.amt ? `<span class="orig">${esc(x.price)}</span>` : ""}`; }); }).join("")}
+        ${row(t("c_rel"), r => r.relevance + "/100")}
+        </tbody></table></div>
+        <p class="small">${t("cheapest")} ${currency==="local" ? "" : (ratesLive ? t("ratesLive") : t("ratesFallback"))}</p>`;
+    }
+    sh.innerHTML = `<div class="sheethead"><h2 id="wTitle">${t("wTitle")}</h2><button type="button" class="close" aria-label="${t("close")}">✕</button></div><div class="sbody">${body}</div>`;
+    sh.querySelector(".close").addEventListener("click", () => sh.close());
+    if (!sh.open) sh.showModal();
+  }
+  $("openWatch").addEventListener("click", openWatchlist);
+  $("wsheet").addEventListener("click", e => { if (e.target === $("wsheet")) $("wsheet").close(); });
+
+  function resultsFor(r){ const x = results[r.id.replace(/-\d{4}$/, "")]; return x && Object.keys(x.distances || {}).length ? x : null; }
+  const podiumList = a => !a || !a.length ? `<p class="small">${t("notPub")}</p>` :
+    "<ol>" + a.slice(0,10).map(p => `<li><span class="pl">${p.p}</span><span class="nm">${esc(p.n)}${p.c ? `<small>${esc(p.c)}</small>` : ""}</span><span class="tm">${esc(p.t || "—")}</span></li>`).join("") + "</ol>";
   function openRace(id, push){
     const r = races.find(x => x.id === id); if (!r) return;
-    const reg = regState(r) || {cls:"soon", label:"Not open"};
-    const res = resultsFor(r);
-    const regLine = reg.cls==="soon"
-      ? (r.regOpens ? "Registration opens "+fmtDate(r.regOpens) : esc(r.regOpensNote || "Registration date TBA"))
-      : (r.regCloses ? "Registration closes "+fmtDate(r.regCloses) : "Open until full");
-    const dists = res ? Object.keys(res.distances) : [];
-    const sheet = $("sheet");
-    sheet.innerHTML = `
+    openId = id;
+    const reg = regState(r) || {cls:"", label:t("notOpen")}, res = resultsFor(r), w = watch.includes(r.id);
+    const ds = res ? Object.keys(res.distances) : [];
+    const anyRes = results[r.id.replace(/-\d{4}$/, "")] || {};
+    const sh = $("sheet");
+    sh.innerHTML = `
       <div class="hero" style="--cover-bg:${coverBg(r)}">${routeSvg(r)}
-        <button class="close" type="button" aria-label="Close">✕</button>
         <span class="credit"></span>
+        <button class="close" type="button" aria-label="${t("close")}">✕</button>
         <div class="cap"><span class="pill ${reg.cls}" style="align-self:flex-start">${reg.label}</span>
           <h2 id="sheetTitle">${esc(r.name)}</h2>
-          <div>${fmtDate(r.date)}${r.dateTentative?" (expected)":""} · ${esc(r.city)}, ${esc(r.country)}</div></div>
+          <div>${fmtDate(r.date)}${r.dateTentative ? " ("+t("expected")+")" : ""} · ${esc(r.city)}, ${esc(r.country)}</div></div>
       </div>
       <div class="sbody">
-        <p class="facts">${esc(r.facts)}</p>
+        <p class="facts">${esc(facts(r))}</p>
         <div class="cta">
-          ${reg.cls==="soon" ? "" : `<a class="btn primary" href="${esc(r.regUrl || r.url)}" target="_blank" rel="noopener">Register ↗</a>`}
-          <a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">Official race info ↗</a>
+          ${reg.cls==="open" || reg.cls==="closing" || reg.cls==="almost_full" ? `<a class="btn primary" href="${esc(r.regUrl || r.url)}" target="_blank" rel="noopener">${t("register")} ↗</a>` : ""}
+          <button type="button" class="btn" data-watch="${esc(r.id)}" aria-pressed="${w}">${starSvg}<span>${w ? t("watching") : t("watch")}</span></button>
+          <a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">${t("official")} ↗</a>
         </div>
-        <section class="sec"><h3>Distances & prices</h3>
-          <div style="overflow-x:auto"><table class="ptable"><thead><tr><th>Distance</th><th class="num">Entry fee</th></tr></thead><tbody>
-          ${r.distances.map(x => `<tr><td>${esc(x.d)}</td><td class="num">${esc(x.price || "see website")}</td></tr>`).join("")}
+        <section class="sec"><h3>${t("pricesH")}</h3>
+          <div class="tablewrap"><table class="ptable"><thead><tr><th>${t("distance")}</th><th class="num">${t("entry")}</th></tr></thead><tbody>
+          ${r.distances.map(x => `<tr><td>${esc(dName(x.d))}${x.d!==dName(x.d) ? ` <span class="orig">${esc(x.d)}</span>` : ""}</td><td class="num">${esc(priceText(x) || t("seeSite"))}${currency!=="local" && x.amt ? `<span class="orig">${esc(x.price)}</span>` : ""}</td></tr>`).join("")}
           </tbody></table></div>
-          <p class="small">${regLine}${r.priceNote ? " · " + esc(r.priceNote) : ""}</p>
+          <p class="small">${regLine(r, reg)}${lang==="en" && r.priceNote ? " · " + esc(r.priceNote) : ""}</p>
         </section>
-        <section class="sec"><h3>Past winners</h3>
-          ${res ? `<p class="small">Last edition: ${esc(res.edition)}${res.date ? ", " + fmtDate(res.date) : ""}</p>
-            <div class="tabs" role="tablist">${dists.map((d,i) => `<button type="button" class="chip" role="tab" data-rtab="${d}" aria-pressed="${i===0}">${d==="42K"?"Marathon":d==="21K"?"Half":d}</button>`).join("")}</div>
+        <section class="sec"><h3>${t("winnersH")}</h3>
+          ${res ? `<p class="small">${t("lastEd", esc(res.edition))}${res.date ? ", " + fmtDate(res.date) : ""}</p>
+            <div class="tabs" style="margin-top:8px">${ds.map((d,i) => `<button type="button" class="chip" data-rtab="${d}" aria-pressed="${i===0}">${dName(d)}</button>`).join("")}</div>
             <div id="podium"></div>
-            <p class="small">Source: <a href="${esc(res.source)}" target="_blank" rel="noopener">race report</a>${res.fullResults ? ` · <a href="${esc(res.fullResults)}" target="_blank" rel="noopener">Full results ↗</a>` : ""}. More places are added as official results are found.</p>`
-          : `<p class="small">Winners for this race haven't been collected yet. They are added during the daily update.${(results[r.id.replace(/-\d{4}$/,"")]||{}).fullResults ? ` <a href="${esc(results[r.id.replace(/-\d{4}$/,"")].fullResults)}" target="_blank" rel="noopener">Official results ↗</a>` : ""}</p>`}
+            <p class="small" style="margin-top:8px">${t("source")}: <a href="${esc(res.source)}" target="_blank" rel="noopener">${t("report")}</a>${res.fullResults ? ` · <a href="${esc(res.fullResults)}" target="_blank" rel="noopener">${t("full")} ↗</a>` : ""}. ${t("moreAdded")}</p>`
+          : `<p class="small">${t("noWin")}${anyRes.fullResults ? ` <a href="${esc(anyRes.fullResults)}" target="_blank" rel="noopener">${t("full")} ↗</a>` : ""}</p>`}
         </section>
-        <p class="small">Data checked ${fmtDate(r.checked)}. Confirm details on the official site before paying.</p>
+        <p class="small">${t("checked", fmtDate(r.checked))}</p>
       </div>`;
-    const showTab = d => {
-      sheet.querySelectorAll("[data-rtab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.rtab===d));
-      const g = res.distances[d];
-      sheet.querySelector("#podium").innerHTML = `<div class="podium"><div><h4>Men</h4>${podiumList(g.men)}</div><div><h4>Women</h4>${podiumList(g.women)}</div></div>`;
-    };
-    if (res && dists.length) showTab(dists[0]);
-    sheet.querySelectorAll("[data-rtab]").forEach(b => b.addEventListener("click", e => { e.stopPropagation(); showTab(b.dataset.rtab); }));
-    sheet.querySelector(".close").addEventListener("click", () => sheet.close());
-    paintCover(sheet.querySelector(".hero"), r);
-    if (!sheet.open) sheet.showModal();
-    sheet.scrollTop = 0;
+    const showTab = d => { sh.querySelectorAll("[data-rtab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.rtab===d)); const g = res.distances[d];
+      sh.querySelector("#podium").innerHTML = `<div class="podium"><div><h4>${t("men")}</h4>${podiumList(g.men)}</div><div><h4>${t("women")}</h4>${podiumList(g.women)}</div></div>`; };
+    if (res && ds.length) showTab(ds[0]);
+    sh.querySelectorAll("[data-rtab]").forEach(b => b.addEventListener("click", () => showTab(b.dataset.rtab)));
+    sh.querySelector(".close").addEventListener("click", () => sh.close());
+    paintCover(sh.querySelector(".hero"), r);
+    if (!sh.open) sh.showModal();
+    sh.scrollTop = 0;
     if (push !== false) history.replaceState(null, "", "#" + r.id);
   }
-  $("sheet").addEventListener("close", () => history.replaceState(null, "", location.pathname + location.search));
+  $("sheet").addEventListener("close", () => { openId = null; history.replaceState(null, "", location.pathname + location.search); });
   $("sheet").addEventListener("click", e => { if (e.target === $("sheet")) $("sheet").close(); });
-  $("list").addEventListener("click", e => { if (e.target.closest("a")) return; const c = e.target.closest(".card"); if (c) openRace(c.dataset.id); });
+  $("list").addEventListener("click", e => { if (e.target.closest("a,button")) return; const c = e.target.closest(".card"); if (c) openRace(c.dataset.id); });
   $("list").addEventListener("keydown", e => { if ((e.key==="Enter"||e.key===" ") && e.target.classList.contains("card")){ e.preventDefault(); openRace(e.target.dataset.id); } });
 
-  function renderNews(items){
-    if (!items || !items.length) return;
-    const shown = items.slice().sort((a,b) => b.date.localeCompare(a.date)).slice(0,8);
-    $("news").innerHTML = shown.map(n => `<li><span class="when">${fmtDate(n.date).replace(/ \d{4}$/,"")}</span><span><i class="k ${esc(n.type)}"></i>${esc(n.text)}</span></li>`).join("");
+  function renderNews(){
+    if (!news.length) return;
+    const shown = news.slice().sort((a,b) => b.date.localeCompare(a.date)).slice(0,6);
+    $("news").innerHTML = shown.map(n => `<li><span class="when">${fmtDate(n.date).replace(/ \d{4}$/,"")}</span><span>${esc(lang==="de" && n.text_de ? n.text_de : n.text)}</span></li>`).join("");
     $("newsBox").hidden = false;
   }
+  function stamp(){ if (updated) $("stamp").textContent = t("dataChecked", new Date(updated).toLocaleString(lang==="de"?"de-DE":"en-GB",{timeZone:"Asia/Bangkok",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})); }
+  function refresh(){
+    applyLang(); buildChips(); renderNews(); stamp();
+    if (!$("geoHint").classList.contains("err")) setHint(origin ? t("showingFrom", origin.name) : t("hintIdle"));
+    render();
+    if (openId && $("sheet").open) openRace(openId, false);
+    if ($("wsheet").open) openWatchlist();
+  }
 
-  // Restore saved filters
+  document.querySelectorAll("[data-lang]").forEach(b => b.addEventListener("click", () => { lang = b.dataset.lang; store.set("lang", lang); refresh(); }));
+  $("cur").value = currency;
+  $("cur").addEventListener("change", () => { currency = $("cur").value; store.set("cur", currency); refresh(); });
+  fetch("https://open.er-api.com/v6/latest/USD").then(r => r.json()).then(j => { if (j && j.rates){ rates = Object.assign(rates, j.rates); ratesLive = true; if (races.length) refresh(); } }).catch(()=>{});
+
   ["radius","from","to","sort"].forEach(id => { if (state[id] != null) $(id).value = state[id]; });
   if (!$("from").value) $("from").value = todayISO;
-  if (state.place){ $("place").value = state.place; }
-  $("placeList").innerHTML = Object.keys(GAZ).map(k => `<option value="${k.replace(/\b\w/g,c=>c.toUpperCase())}">`).join("");
+  if (state.place) $("place").value = state.place;
+  if (state.countries.length || state.region !== "All") $("more").open = true;
+  $("placeList").innerHTML = Object.keys(GAZ).map(k => `<option value="${k.replace(/\b\w/g, c => c.toUpperCase())}">`).join("");
+  applyLang(); setHint(t("hintIdle"));
 
   Promise.all([
     fetch("data/races.json", {cache:"no-cache"}).then(r => r.json()),
     fetch("data/news.json", {cache:"no-cache"}).then(r => r.json()).catch(() => null),
     fetch("data/results.json", {cache:"no-cache"}).then(r => r.json()).catch(() => null)
   ]).then(([rd, nd, rs]) => {
-    races = rd.races || []; results = (rs && rs.results) || {};
-    const t = new Date(rd.updated);
-    $("stamp").textContent = "Data checked " + t.toLocaleString("en-GB",{timeZone:"Asia/Bangkok",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}) + " Bangkok time · updates daily at 07:00";
-    buildChips(); renderNews(nd && nd.items); render();
+    races = rd.races || []; updated = rd.updated; news = (nd && nd.items) || []; results = (rs && rs.results) || {};
+    refresh();
     if ($("place").value) geocode();
     const h = location.hash.slice(1); if (h && races.some(x => x.id === h)) openRace(h, false);
-  }).catch(() => { $("stamp").textContent = "Couldn't load race data. Refresh the page to try again."; });
+  }).catch(() => { $("stamp").textContent = t("loadErr"); });
 })();
 </script>
 </body>

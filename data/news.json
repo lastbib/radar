@@ -1,10 +1,40 @@
 {
-  "updated": "2026-10-12T15:30:00+07:00",
-  "items": [
-    {"date": "2026-10-12", "type": "closing", "raceId": "vnexpress-hanoi-midnight-2026", "text": "Hanoi Midnight early-bird prices end 15 Oct. Each distance goes up ₫130,000–200,000 after that."},
-    {"date": "2026-10-12", "type": "closing", "raceId": "angkor-wat-half-2026", "text": "Angkor Wat Half Marathon registration closes 23 Oct. No late or race-day entries."},
-    {"date": "2026-10-12", "type": "closing", "raceId": "bangkok-marathon-2027", "text": "Bangkok Marathon (10 Jan) registration closes 31 Oct, or earlier if it fills."},
-    {"date": "2026-10-12", "type": "price", "raceId": "chiang-mai-marathon-2026", "text": "Chiang Mai Marathon's current price step ends 31 Oct. Registration closes 20 Nov."},
-    {"date": "2026-10-12", "type": "sold_out", "raceId": "amazing-thailand-marathon-bangkok-2026", "text": "Amazing Thailand Marathon Bangkok (29 Nov) is sold out."}
-  ]
+ "updated": "2026-10-12T15:30:00+07:00",
+ "items": [
+  {
+   "date": "2026-10-12",
+   "type": "closing",
+   "raceId": "vnexpress-hanoi-midnight-2026",
+   "text": "Hanoi Midnight early-bird prices end 15 Oct. Each distance goes up ₫130,000–200,000 after that.",
+   "text_de": "Die Frühbucherpreise für den Hanoi Midnight enden am 15. Okt. Danach steigt jede Distanz um ₫130.000–200.000."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "closing",
+   "raceId": "angkor-wat-half-2026",
+   "text": "Angkor Wat Half Marathon registration closes 23 Oct. No late or race-day entries.",
+   "text_de": "Anmeldeschluss für den Angkor Wat Halbmarathon ist der 23. Okt. Keine Nach- oder Renntagsanmeldungen."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "closing",
+   "raceId": "bangkok-marathon-2027",
+   "text": "Bangkok Marathon (10 Jan) registration closes 31 Oct, or earlier if it fills.",
+   "text_de": "Anmeldeschluss für den Bangkok Marathon (10. Jan.) ist der 31. Okt. – oder früher, falls ausgebucht."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "price",
+   "raceId": "chiang-mai-marathon-2026",
+   "text": "Chiang Mai Marathon's current price step ends 31 Oct. Registration closes 20 Nov.",
+   "text_de": "Die aktuelle Preisstufe beim Chiang Mai Marathon endet am 31. Okt. Anmeldeschluss ist der 20. Nov."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "sold_out",
+   "raceId": "amazing-thailand-marathon-bangkok-2026",
+   "text": "Amazing Thailand Marathon Bangkok (29 Nov) is sold out.",
+   "text_de": "Der Amazing Thailand Marathon Bangkok (29. Nov.) ist ausverkauft."
+  }
+ ]
 }

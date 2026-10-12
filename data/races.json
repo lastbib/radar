@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T15:30:00+07:00",
+ "updated": "2026-10-12T16:10:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -12,19 +12,31 @@
    "distances": [
     {
      "d": "42K",
-     "price": "from ฿830 (foreigners)"
+     "price": "from ฿830 (foreigners)",
+     "amt": 830,
+     "cur": "THB",
+     "qual": "from"
     },
     {
      "d": "21K",
-     "price": "from ฿830"
+     "price": "from ฿830",
+     "amt": 830,
+     "cur": "THB",
+     "qual": "from"
     },
     {
      "d": "10K",
-     "price": "from ฿830"
+     "price": "from ฿830",
+     "amt": 830,
+     "cur": "THB",
+     "qual": "from"
     },
     {
      "d": "5K",
-     "price": "from ฿550 (Thai)"
+     "price": "from ฿550 (Thai)",
+     "amt": 550,
+     "cur": "THB",
+     "qual": "from"
     }
    ],
    "status": "open",
@@ -39,7 +51,8 @@
     "Grand_Palace",
     "Wat_Phra_Kaew"
    ],
-   "regUrl": "https://race.thai.run"
+   "regUrl": "https://race.thai.run",
+   "facts_de": "Thailands klassischer Großstadtmarathon wird seit 1988 ausgetragen und startet und endet auf der Sanam Chai Road direkt am Großen Palast. Der Marathon startet um Mitternacht, um der Hitze zu entgehen – das Ziel erreichst du gegen Sonnenaufgang zwischen den Wahrzeichen der Altstadt."
   },
   {
    "id": "amazing-thailand-marathon-bangkok-2026",
@@ -52,7 +65,10 @@
    "distances": [
     {
      "d": "42K",
-     "price": "฿1,500–1,800"
+     "price": "฿1,500–1,800",
+     "amt": 1500,
+     "cur": "THB",
+     "qual": "from"
     },
     {
      "d": "21K",
@@ -75,7 +91,8 @@
     "Democracy_Monument",
     "Wat_Arun"
    ],
-   "regUrl": "https://fatmarathoner.com/bangkok-marathon/"
+   "regUrl": "https://fatmarathoner.com/bangkok-marathon/",
+   "facts_de": "Thailands größtes Laufevent mit über 48.000 Teilnehmern am Rennwochenende. Mit World-Athletics-Label und AIMS-Zertifizierung."
   },
   {
    "id": "chiang-mai-marathon-2026",
@@ -88,7 +105,10 @@
    "distances": [
     {
      "d": "42K",
-     "price": "up to ฿2,400"
+     "price": "up to ฿2,400",
+     "amt": 2400,
+     "cur": "THB",
+     "qual": "upto"
     },
     {
      "d": "21K",
@@ -96,7 +116,10 @@
     },
     {
      "d": "10K",
-     "price": "from ฿700"
+     "price": "from ฿700",
+     "amt": 700,
+     "cur": "THB",
+     "qual": "from"
     }
    ],
    "priceNote": "฿700–2,400 depending on distance. Current price step ends 31 Oct.",
@@ -113,7 +136,8 @@
     "Wat_Phra_That_Doi_Suthep",
     "Chiang_Mai"
    ],
-   "regUrl": "https://worldsmarathons.com/marathon/chiang-mai-marathon"
+   "regUrl": "https://worldsmarathons.com/marathon/chiang-mai-marathon",
+   "facts_de": "Start ist am Tha-Phae-Tor, die Strecke führt am Wassergraben der Altstadt und an Lanna-Tempeln vorbei, mit dem Doi Suthep im Hintergrund. Der Lauf beschließt Thailands Marathonserie im kühlen, nebligen Dezember des Nordens."
   },
   {
    "id": "buriram-marathon-2027",
@@ -149,7 +173,8 @@
     "Chang_International_Circuit",
     "Phanom_Rung"
    ],
-   "regUrl": "https://en.thairath.co.th/sport/others/2947739"
+   "regUrl": "https://en.thairath.co.th/sport/others/2947739",
+   "facts_de": "Thailands wichtigster Nachtmarathon mit World-Athletics-Label und Zieleinlauf im Chang International Circuit. Über 32.000 Startplätze, die meist schnell ausverkauft sind."
   },
   {
    "id": "khon-kaen-marathon-2027",
@@ -186,7 +211,8 @@
     "Bueng_Kaen_Nakhon",
     "Khon_Kaen"
    ],
-   "regUrl": "https://registration.khonkaenmarathon.com"
+   "regUrl": "https://registration.khonkaenmarathon.com",
+   "facts_de": "Das größte internationale Laufevent im Nordosten Thailands, organisiert von der Khon Kaen University. Neben Marathon und Halbmarathon gibt es eine ungewöhnliche 11,5-km-Strecke."
   },
   {
    "id": "bangsaen42-2026",
@@ -214,7 +240,8 @@
     "Bang_Saen_Beach",
     "Bang_Saen"
    ],
-   "regUrl": "https://racecast.io/race/bangsaen42-chonburi-marathon"
+   "regUrl": "https://racecast.io/race/bangsaen42-chonburi-marathon",
+   "facts_de": "Ein reiner Marathon entlang des Strands von Bang Saen und durch den Markt von Ang Sila, erstmals 2017 ausgetragen. Der Schwesterlauf Bangsaen21 findet im Dezember statt."
   },
   {
    "id": "bangsaen21-2026",
@@ -242,7 +269,8 @@
     "Bang_Saen_Beach",
     "Bang_Saen"
    ],
-   "regUrl": "https://www.hdsports.org/running/thailand-races-running-calendar"
+   "regUrl": "https://www.hdsports.org/running/thailand-races-running-calendar",
+   "facts_de": "Thailands bekanntester Halbmarathon an der Strandpromenade von Bang Saen in Chonburi."
   },
   {
    "id": "korat-marathon-2026",
@@ -278,7 +306,8 @@
     "Thao_Suranari_Monument",
     "Nakhon_Ratchasima"
    ],
-   "regUrl": "https://www.marathons.com/en/events/korat-marathon_bHMYZ"
+   "regUrl": "https://www.marathons.com/en/events/korat-marathon_bHMYZ",
+   "facts_de": "Ein Nachtlauf durch das Zentrum von Korat, vorbei an Parks und Seen – Tor zum Khao Yai und zu den Khmer-Ruinen von Phimai."
   },
   {
    "id": "laguna-phuket-marathon-2027",
@@ -291,19 +320,31 @@
    "distances": [
     {
      "d": "42K",
-     "price": "≈ €96"
+     "price": "≈ €96",
+     "amt": 96,
+     "cur": "EUR",
+     "qual": "approx"
     },
     {
      "d": "21K",
-     "price": "≈ €87"
+     "price": "≈ €87",
+     "amt": 87,
+     "cur": "EUR",
+     "qual": "approx"
     },
     {
      "d": "10K",
-     "price": "≈ €38 (10.5K, Sat 12 Jun)"
+     "price": "≈ €38 (10.5K, Sat 12 Jun)",
+     "amt": 38,
+     "cur": "EUR",
+     "qual": "approx"
     },
     {
      "d": "5K",
-     "price": "≈ €21"
+     "price": "≈ €21",
+     "amt": 21,
+     "cur": "EUR",
+     "qual": "approx"
     }
    ],
    "priceNote": "Prices from the previous edition.",
@@ -320,7 +361,8 @@
     "Bang_Tao_Beach",
     "Phuket_province"
    ],
-   "regUrl": "https://www.phuketmarathon.com"
+   "regUrl": "https://www.phuketmarathon.com",
+   "facts_de": "Phukets größtes Sportevent und Boston-Qualifikationslauf, vorbei an Kautschuk- und Ananasplantagen, Dörfern und dem Strand von Nai Yang. 5 und 10 km laufen samstags in den Sonnenuntergang, Marathon und Halbmarathon sonntags in den Sonnenaufgang."
   },
   {
    "id": "samui-half-marathon-2027",
@@ -358,7 +400,8 @@
     "Chaweng_Beach",
     "Ko_Samui"
    ],
-   "regUrl": "https://www.bangkokairways.run"
+   "regUrl": "https://www.bangkokairways.run",
+   "facts_de": "Das wichtigste Straßenrennen der Insel: Start am Central Samui in Chaweng, dann hinaus nach Laem Chengmon und zum Bangrak Pier. Veranstaltet von Bangkok Airways als Teil seiner Boutique-Laufserie."
   },
   {
    "id": "samui-neon-run-2027",
@@ -392,7 +435,8 @@
     "Ko_Samui",
     "Chaweng_Beach"
    ],
-   "regUrl": "https://www.runlah.com"
+   "regUrl": "https://www.runlah.com",
+   "facts_de": "Ein Neon-Nachtlauf mit Start um 19 Uhr am Central Samui entlang der Chaweng Road und des South Chaweng Beach. 2026 liefen über 3.000 Teilnehmer mit, gut 30 % mehr als im Vorjahr."
   },
   {
    "id": "angkor-wat-half-2026",
@@ -405,15 +449,24 @@
    "distances": [
     {
      "d": "21K",
-     "price": "≈ US$60"
+     "price": "≈ US$60",
+     "amt": 60,
+     "cur": "USD",
+     "qual": "approx"
     },
     {
      "d": "10K",
-     "price": "≈ US$45"
+     "price": "≈ US$45",
+     "amt": 45,
+     "cur": "USD",
+     "qual": "approx"
     },
     {
      "d": "5K",
-     "price": "≈ US$35"
+     "price": "≈ US$35",
+     "amt": 35,
+     "cur": "USD",
+     "qual": "approx"
     }
    ],
    "priceNote": "Prices from the 2025 edition.",
@@ -428,7 +481,8 @@
    "wiki": [
     "Angkor_Wat"
    ],
-   "regUrl": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026"
+   "regUrl": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026",
+   "facts_de": "Seit 1996 im UNESCO-Welterbe Angkor ausgetragen, mit Start und Ziel bei Sonnenaufgang vor Angkor Wat. Die Strecke führt am Bayon-Tempel in Angkor Thom vorbei."
   },
   {
    "id": "hcmc-marathon-2026",
@@ -441,7 +495,10 @@
    "distances": [
     {
      "d": "42K",
-     "price": "up to ₫2,290,000"
+     "price": "up to ₫2,290,000",
+     "amt": 2290000,
+     "cur": "VND",
+     "qual": "upto"
     },
     {
      "d": "21K",
@@ -453,7 +510,10 @@
     },
     {
      "d": "5K",
-     "price": "from ₫650,000"
+     "price": "from ₫650,000",
+     "amt": 650000,
+     "cur": "VND",
+     "qual": "from"
     }
    ],
    "status": "open",
@@ -468,7 +528,8 @@
     "Ho_Chi_Minh_City",
     "Saigon_Notre-Dame_Cathedral_Basilica"
    ],
-   "regUrl": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon"
+   "regUrl": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon",
+   "facts_de": "Vietnams wichtigster Marathon mit über 23.000 Läufern aus 81 Ländern im Jahr 2025. Start ist am Tor des Saigoner Zoos, das Ziel liegt in Empire City in Thu Thiem mit der Skyline im Rücken."
   },
   {
    "id": "vnexpress-hanoi-midnight-2026",
@@ -481,19 +542,27 @@
    "distances": [
     {
      "d": "42K",
-     "price": "₫950,000 → ₫1,150,000"
+     "price": "₫950,000 → ₫1,150,000",
+     "amt": 950000,
+     "cur": "VND"
     },
     {
      "d": "21K",
-     "price": "₫790,000 → ₫950,000"
+     "price": "₫790,000 → ₫950,000",
+     "amt": 790000,
+     "cur": "VND"
     },
     {
      "d": "10K",
-     "price": "₫620,000 → ₫790,000"
+     "price": "₫620,000 → ₫790,000",
+     "amt": 620000,
+     "cur": "VND"
     },
     {
      "d": "5K",
-     "price": "₫500,000 → ₫620,000"
+     "price": "₫500,000 → ₫620,000",
+     "amt": 500000,
+     "cur": "VND"
     }
    ],
    "priceNote": "Early-bird price until 15 Oct, then regular price. Late tier runs 7–19 Nov.",
@@ -510,7 +579,8 @@
     "Long_Biên_Bridge",
     "Hanoi"
    ],
-   "regUrl": "https://vnexpress.net/marathon"
+   "regUrl": "https://vnexpress.net/marathon",
+   "facts_de": "Start um Mitternacht in Hoan Kiem, durch die Altstadt vorbei an Oper, Ho-Chi-Minh-Mausoleum und Long-Bien-Brücke. Teil von Vietnams größter Laufserie."
   },
   {
    "id": "vnexpress-quy-nhon-2027",
@@ -550,7 +620,8 @@
    "wiki": [
     "Quy_Nhơn"
    ],
-   "regUrl": "https://www.marathons.com/de/events/vnexpress-marathon-quy-nhon_ZdHZ7"
+   "regUrl": "https://www.marathons.com/de/events/vnexpress-marathon-quy-nhon_ZdHZ7",
+   "facts_de": "Ein Lauf am Meer durch die Küstenstadt Quy Nhon an Vietnams Zentralküste. Eine Station der VnExpress-Marathonserie."
   },
   {
    "id": "penang-bridge-marathon-2026",
@@ -563,15 +634,21 @@
    "distances": [
     {
      "d": "42K",
-     "price": "RM150"
+     "price": "RM150",
+     "amt": 150,
+     "cur": "MYR"
     },
     {
      "d": "21K",
-     "price": "RM140"
+     "price": "RM140",
+     "amt": 140,
+     "cur": "MYR"
     },
     {
      "d": "10K",
-     "price": "RM120"
+     "price": "RM120",
+     "amt": 120,
+     "cur": "MYR"
     }
    ],
    "priceNote": "Regular prices. RM30 early-bird discount for 42K and 21K.",
@@ -587,7 +664,8 @@
     "Sultan_Abdul_Halim_Muadzam_Shah_Bridge",
     "Penang_Bridge"
    ],
-   "regUrl": "https://thesun.my/news/malaysia-news/penang-bridge-run-registration-open-hj13926256/"
+   "regUrl": "https://thesun.my/news/malaysia-news/penang-bridge-run-registration-open-hj13926256/",
+   "facts_de": "Der längste Brückenlauf Südostasiens führt nachts über Penangs 24 km lange zweite Brücke. Seitenwind und lange ungeschützte Abschnitte machen ihn zu einem der härteren Rennen der Region."
   },
   {
    "id": "cebu-marathon-2027",
@@ -628,7 +706,8 @@
     "Cebu–Cordova_Link_Expressway",
     "Cebu_City"
    ],
-   "regUrl": "https://cebumarathon.com"
+   "regUrl": "https://cebumarathon.com",
+   "facts_de": "Der Marathon überquert den 8,9 km langen Cebu–Cordova Link Expressway und führt durch den Cebu South Coastal Tunnel. 2027 mit neuem Veranstalter, 10.500 Startplätzen und zur Zeit des Sinulog-Festivals."
   },
   {
    "id": "singapore-marathon-2026",
@@ -641,19 +720,27 @@
    "distances": [
     {
      "d": "42K",
-     "price": "S$208"
+     "price": "S$208",
+     "amt": 208,
+     "cur": "SGD"
     },
     {
      "d": "21K",
-     "price": "S$188"
+     "price": "S$188",
+     "amt": 188,
+     "cur": "SGD"
     },
     {
      "d": "10K",
-     "price": "S$150"
+     "price": "S$150",
+     "amt": 150,
+     "cur": "SGD"
     },
     {
      "d": "5K",
-     "price": "S$118"
+     "price": "S$118",
+     "amt": 118,
+     "cur": "SGD"
     }
    ],
    "status": "closed",
@@ -667,7 +754,8 @@
    "wiki": [
     "Marina_Bay,_Singapore"
    ],
-   "regUrl": "https://fatmarathoner.com/singapore-marathon/"
+   "regUrl": "https://fatmarathoner.com/singapore-marathon/",
+   "facts_de": "Südostasiens einziger Marathon mit World-Athletics-Gold-Label."
   },
   {
    "id": "borobudur-marathon-2026",
@@ -702,7 +790,8 @@
    "wiki": [
     "Borobudur"
    ],
-   "regUrl": "https://www.marathons.com/evenements/borobudur-marathon/"
+   "regUrl": "https://www.marathons.com/evenements/borobudur-marathon/",
+   "facts_de": "Startplätze per Losverfahren, rund um den Tempel von Borobudur."
   },
   {
    "id": "vientiane-marathon-2026",
@@ -743,7 +832,8 @@
     "Patuxai",
     "Vientiane"
    ],
-   "regUrl": "https://nt2run.namtheun2.com/vientiane-marathon-2026"
+   "regUrl": "https://nt2run.namtheun2.com/vientiane-marathon-2026",
+   "facts_de": "Vorbei am Patuxai und am Mekong-Ufer in der Hauptstadt von Laos. Der Termin kann sich auf den 20. Dezember verschieben."
   },
   {
    "id": "goa-river-marathon-2026",
@@ -784,7 +874,8 @@
     "Zuari_River",
     "Goa"
    ],
-   "regUrl": "https://skfgoarivermarathon.com"
+   "regUrl": "https://skfgoarivermarathon.com",
+   "facts_de": "Die 15. Ausgabe folgt dem Zuari-Fluss ab Chicalim – eine der schönsten Marathonstrecken Indiens. Der Dezember bringt in Goa 20–28 °C, wenig Luftfeuchtigkeit und klaren Himmel."
   },
   {
    "id": "tata-mumbai-marathon-2027",
@@ -820,7 +911,8 @@
     "Chhatrapati_Shivaji_Maharaj_Terminus",
     "Bandra–Worli_Sea_Link"
    ],
-   "regUrl": "https://tatamumbaimarathon.procam.in"
+   "regUrl": "https://tatamumbaimarathon.procam.in",
+   "facts_de": "Asiens größter Marathon mit World-Athletics-Gold-Label. Charity-Startplätze sind eventuell noch erhältlich."
   },
   {
    "id": "pune-marathon-2026",
@@ -860,7 +952,8 @@
     "Shaniwar_Wada",
     "Pune"
    ],
-   "regUrl": "https://www.marathons.com/en/events/pune-marathon/"
+   "regUrl": "https://www.marathons.com/en/events/pune-marathon/",
+   "facts_de": "Einer der ältesten Marathons Indiens, ausgetragen seit 1983."
   },
   {
    "id": "chennai-marathon-2027",
@@ -896,7 +989,8 @@
     "Marina_Beach",
     "Chennai"
    ],
-   "regUrl": "https://werun.world/courses/?country=IN"
+   "regUrl": "https://werun.world/courses/?country=IN",
+   "facts_de": "Chennais größtes Straßenrennen Anfang Januar."
   },
   {
    "id": "jaipur-marathon-2027",
@@ -928,7 +1022,8 @@
     "Hawa_Mahal",
     "Jaipur"
    ],
-   "regUrl": "https://werun.world/courses/?country=IN"
+   "regUrl": "https://werun.world/courses/?country=IN",
+   "facts_de": "Ein Winterlauf durch Rajasthans Rosa Stadt."
   },
   {
    "id": "hong-kong-marathon-2027",
@@ -964,7 +1059,8 @@
     "Victoria_Harbour",
     "Hong_Kong"
    ],
-   "regUrl": "https://news.rthk.hk/rthk/en/component/k2/1868832-20260904.htm"
+   "regUrl": "https://news.rthk.hk/rthk/en/component/k2/1868832-20260904.htm",
+   "facts_de": "30. Ausgabe mit Rekord von 78.000 Startplätzen, Vergabe per Losverfahren."
   }
  ]
 }
