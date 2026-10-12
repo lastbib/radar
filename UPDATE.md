@@ -5,7 +5,7 @@ The site (`index.html`) reads both files; GitHub Pages republishes on every push
 
 ## Scope
 - Road races only: marathon (42K), half marathon (21K), 10K. Races that also offer 5K or other distances are fine.
-- Countries: Southeast Asia and India first (Thailand incl. islands like Koh Samui, Phuket; Vietnam, Cambodia, Laos, Malaysia, Singapore, Indonesia, Philippines, Myanmar; India). Then wider Asia (Sri Lanka, Nepal, Hong Kong, Taiwan, Japan, Korea) as time allows.
+- Countries: Southeast Asia and India first (Thailand incl. islands like Koh Samui, Phuket; Vietnam, Cambodia, Laos, Malaysia, Singapore, Indonesia, Philippines, Myanmar; India). Also cover East Asia every run: Japan, South Korea, China, Taiwan and Hong Kong (big city races plus regional ones such as Okinawa, Gyeongju, Xiamen). Then Sri Lanka and Nepal as time allows. Use country names exactly as in the ISO map in index.html so flags show.
 - Race dates from today up to ~12 months ahead.
 
 ## Each run

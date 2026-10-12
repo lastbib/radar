@@ -35,6 +35,20 @@
    "raceId": "amazing-thailand-marathon-bangkok-2026",
    "text": "Amazing Thailand Marathon Bangkok (29 Nov) is sold out.",
    "text_de": "Der Amazing Thailand Marathon Bangkok (29. Nov.) ist ausverkauft."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "closing",
+   "raceId": "osaka-marathon-2027",
+   "text": "Osaka Marathon charity entries close 19 Oct. The general lottery is already closed.",
+   "text_de": "Charity-Startplätze für den Osaka Marathon gibt es nur noch bis 19. Okt. Die Lotterie ist bereits geschlossen."
+  },
+  {
+   "date": "2026-10-12",
+   "type": "new",
+   "raceId": "okinawa-marathon-2027",
+   "text": "New: Okinawa Marathon (21 Feb) has entries open until 13 Dec, from ¥11,000.",
+   "text_de": "Neu: Für den Okinawa Marathon (21. Feb.) ist die Anmeldung bis 13. Dez. offen, ab ¥11.000."
   }
  ]
 }

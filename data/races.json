@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T16:10:00+07:00",
+ "updated": "2026-10-12T17:45:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -1061,6 +1061,349 @@
    ],
    "regUrl": "https://news.rthk.hk/rthk/en/component/k2/1868832-20260904.htm",
    "facts_de": "30. Ausgabe mit Rekord von 78.000 Startplätzen, Vergabe per Losverfahren."
+  },
+  {
+   "id": "okinawa-marathon-2027",
+   "name": "Okinawa Marathon",
+   "city": "Okinawa City",
+   "country": "Japan",
+   "lat": 26.312,
+   "lon": 127.807,
+   "date": "2027-02-21",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "¥11,000",
+     "amt": 11000,
+     "cur": "JPY"
+    },
+    {
+     "d": "10K",
+     "price": "¥7,500",
+     "amt": 7500,
+     "cur": "JPY"
+    }
+   ],
+   "status": "open",
+   "regOpens": "2026-08-01",
+   "regCloses": "2026-12-13",
+   "relevance": 74,
+   "facts": "A subtropical winter marathon that passes the World Heritage ruins of Katsuren Castle and runs through Kadena Air Base around the 30 km mark. The first half is flat; the second half rolls, with a 6 h 15 min cut-off.",
+   "facts_de": "Ein subtropischer Wintermarathon vorbei an der Welterbe-Burgruine Katsuren, bei km 30 geht es durch die Kadena Air Base. Die erste Hälfte ist flach, die zweite wellig, Zielschluss nach 6:15 Stunden.",
+   "url": "https://jtbsports.jp/en/detail/gd3q7",
+   "regUrl": "https://jtbsports.jp/en/detail/gd3q7",
+   "source": "https://jtbsports.jp/en/detail/gd3q7",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Katsuren_Castle",
+    "Okinawa_City"
+   ]
+  },
+  {
+   "id": "osaka-marathon-2027",
+   "name": "Osaka Marathon",
+   "city": "Osaka",
+   "country": "Japan",
+   "lat": 34.6863,
+   "lon": 135.52,
+   "date": "2027-02-28",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "US$145 + charity (min. US$10)",
+     "amt": 155,
+     "cur": "USD",
+     "qual": "from"
+    }
+   ],
+   "priceNote": "General lottery closed. Charity runner entry, first come first served.",
+   "status": "open",
+   "regOpens": "2026-07-28",
+   "regCloses": "2026-10-19",
+   "relevance": 88,
+   "facts": "A World Athletics Platinum Label race from the prefectural government building to Osaka Castle Park, past Midosuji Boulevard and the Dotonbori canal district. Only about 21 m of total elevation change makes it one of Japan's fastest courses.",
+   "facts_de": "Ein Rennen mit World-Athletics-Platinum-Label vom Präfekturgebäude zum Park der Burg Osaka, vorbei am Midosuji-Boulevard und am Kanalviertel Dotonbori. Mit nur etwa 21 m Höhenunterschied eine der schnellsten Strecken Japans.",
+   "url": "https://www.osaka-marathon.com/2027/en/",
+   "regUrl": "https://www.osaka-marathon.com/2027/en/",
+   "source": "https://fatmarathoner.com/osaka-marathon-guide/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Osaka_Castle",
+    "Dōtonbori"
+   ]
+  },
+  {
+   "id": "tokyo-marathon-2027",
+   "name": "Tokyo Marathon",
+   "city": "Tokyo",
+   "country": "Japan",
+   "lat": 35.6896,
+   "lon": 139.6917,
+   "date": "2027-03-07",
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    }
+   ],
+   "status": "closed",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 98,
+   "facts": "Abbott World Marathon Major. 2027 lottery and charity entries have closed.",
+   "facts_de": "Abbott World Marathon Major. Lotterie und Charity-Startplätze für 2027 sind geschlossen.",
+   "url": "https://www.marathon.tokyo/en/",
+   "source": "https://athleticsillustrated.com/tokyo-marathon-2027-charity-overseas-runners-applications/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Tokyo_Metropolitan_Government_Building"
+   ]
+  },
+  {
+   "id": "kyoto-marathon-2027",
+   "name": "Kyoto Marathon",
+   "city": "Kyoto",
+   "country": "Japan",
+   "lat": 35.016,
+   "lon": 135.7823,
+   "date": "2027-02-21",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "¥35,000",
+     "amt": 35000,
+     "cur": "JPY"
+    }
+   ],
+   "status": "closed",
+   "regOpens": "2026-07-16",
+   "regCloses": "2026-09-30",
+   "relevance": 86,
+   "facts": "Passes seven World Heritage sites and finishes at Heian Shrine.",
+   "facts_de": "Vorbei an sieben Welterbestätten, Ziel am Heian-Schrein.",
+   "url": "https://kyoto-marathon.com/en/",
+   "source": "https://jtbsports.jp/en/detail/6imut",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Heian_Shrine"
+   ]
+  },
+  {
+   "id": "nagoya-womens-marathon-2027",
+   "name": "Nagoya Women's Marathon",
+   "city": "Nagoya",
+   "country": "Japan",
+   "lat": 35.1859,
+   "lon": 136.9475,
+   "date": "2027-03-14",
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    }
+   ],
+   "status": "closed",
+   "regOpens": "2026-08-11",
+   "regCloses": "2026-09-23",
+   "relevance": 80,
+   "facts": "The world's largest women-only marathon.",
+   "facts_de": "Der größte reine Frauenmarathon der Welt.",
+   "url": "https://womens-marathon.nagoya/en/",
+   "source": "https://en.himalpress.com/international-entries-open-for-nagoya-womens-marathon-2027/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Nagoya_Castle"
+   ]
+  },
+  {
+   "id": "seoul-marathon-2027",
+   "name": "Seoul Marathon",
+   "city": "Seoul",
+   "country": "South Korea",
+   "lat": 37.5759,
+   "lon": 126.9768,
+   "date": "2027-03-21",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "≈ US$100–120"
+    },
+    {
+     "d": "10K",
+     "price": "≈ US$60–70"
+    }
+   ],
+   "status": "unknown",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 92,
+   "facts": "Asia's oldest continuously held marathon, run since 1931, from Gwanghwamun Plaza to the 1988 Olympic Stadium in Jamsil. World Athletics Platinum Label; the 2026 edition sold out in minutes.",
+   "facts_de": "Asiens ältester durchgehend ausgetragener Marathon (seit 1931) vom Gwanghwamun-Platz ins Olympiastadion von 1988 in Jamsil. World-Athletics-Platinum-Label; 2026 war er in Minuten ausverkauft.",
+   "url": "https://en.seoul-marathon.com",
+   "source": "https://fatmarathoner.com/?p=6923",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Gwanghwamun",
+    "Gyeongbokgung"
+   ]
+  },
+  {
+   "id": "gyeongju-cherry-blossom-marathon-2027",
+   "name": "Gyeongju Cherry Blossom Marathon",
+   "city": "Gyeongju",
+   "country": "South Korea",
+   "lat": 35.842,
+   "lon": 129.281,
+   "date": "2027-04-03",
+   "dateTentative": true,
+   "distances": [
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Usually opens in winter; 2026 entries ran until 10 Feb.",
+   "regCloses": "",
+   "relevance": 62,
+   "facts": "Runs around Bomun Lake in the old Silla capital, on paths lined with cherry trees timed for peak blossom. The 2026 race was the 33rd edition.",
+   "facts_de": "Rund um den Bomun-See in der alten Silla-Hauptstadt, auf Wegen voller Kirschbäume zur Zeit der Blüte. 2026 fand die 33. Ausgabe statt.",
+   "url": "https://www.trazy.com/experience/detail/gyeongju-cherry-blossom-marathon",
+   "source": "https://www.trazy.com/experience/detail/gyeongju-cherry-blossom-marathon",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Bomun_Lake",
+    "Gyeongju"
+   ]
+  },
+  {
+   "id": "wan-jin-shi-marathon-2027",
+   "name": "New Taipei City Wan Jin Shi Marathon",
+   "city": "New Taipei (North Coast)",
+   "country": "Taiwan",
+   "lat": 25.2235,
+   "lon": 121.6386,
+   "date": "2027-03-14",
+   "dateTentative": true,
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    }
+   ],
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Lottery entry expected mid–late October (2026 edition: 17–30 Oct).",
+   "regCloses": "",
+   "relevance": 80,
+   "facts": "Taiwan's first World Athletics Gold Label race, running along the rugged North Coast between Wanli, Jinshan and Shimen. Entry is by lottery, with results announced in early November.",
+   "facts_de": "Taiwans erstes Rennen mit World-Athletics-Gold-Label, entlang der wilden Nordküste zwischen Wanli, Jinshan und Shimen. Startplätze per Los, Ergebnisse Anfang November.",
+   "url": "https://wanjinshi-marathon.com.tw/en/",
+   "source": "https://www.info.ntpc.gov.tw/?p=158218",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Yehliu",
+    "Jinshan_District"
+   ]
+  },
+  {
+   "id": "taipei-marathon-2026",
+   "name": "Taipei Marathon",
+   "city": "Taipei",
+   "country": "Taiwan",
+   "lat": 25.0375,
+   "lon": 121.5637,
+   "date": "2026-12-20",
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    },
+    {
+     "d": "21K",
+     "price": ""
+    }
+   ],
+   "status": "unknown",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 84,
+   "facts": "World Athletics Gold Label race from Taipei City Hall past 24 city landmarks to Taipei Municipal Stadium. The marathon is capped at 9,000 runners.",
+   "facts_de": "Rennen mit World-Athletics-Gold-Label vom Rathaus vorbei an 24 Wahrzeichen zum Taipei Municipal Stadium. Der Marathon ist auf 9.000 Läufer begrenzt.",
+   "url": "https://worldsmarathons.com/marathon/taipei-marathon",
+   "source": "https://worldsmarathons.com/marathon/taipei-marathon/register",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Taipei_101"
+   ]
+  },
+  {
+   "id": "xiamen-marathon-2027",
+   "name": "C&D Xiamen Marathon",
+   "city": "Xiamen",
+   "country": "China",
+   "lat": 24.4798,
+   "lon": 118.0894,
+   "date": "2027-01-10",
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    }
+   ],
+   "priceNote": "International entry only via official travel packages; 2027 prices not yet published.",
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "2027 international packages coming soon.",
+   "regCloses": "",
+   "relevance": 78,
+   "facts": "China's premier coastal marathon along Xiamen's island seafront, with typical race-day temperatures of 18–22°C. AIMS-certified, a Boston qualifier and an Abbott Age Group World Championship qualifying race.",
+   "facts_de": "Chinas bekanntester Küstenmarathon entlang der Uferpromenade von Xiamen bei meist 18–22 °C. AIMS-zertifiziert, Boston-Qualifikation und Qualifikationslauf für die Abbott-Altersklassen-WM.",
+   "url": "https://marathontours.com/en-us/events/xiamen-marathon/",
+   "source": "https://marathontours.com/en-us/events/xiamen-marathon/",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Gulangyu",
+    "Xiamen"
+   ]
+  },
+  {
+   "id": "guangzhou-marathon-2026",
+   "name": "Guangzhou Marathon",
+   "city": "Guangzhou",
+   "country": "China",
+   "lat": 23.14,
+   "lon": 113.325,
+   "date": "2026-12-20",
+   "distances": [
+    {
+     "d": "42K",
+     "price": "¥180 (CNY)",
+     "amt": 180,
+     "cur": "CNY"
+    }
+   ],
+   "status": "closed",
+   "regOpens": "2026-09-02",
+   "regCloses": "2026-09-11",
+   "relevance": 76,
+   "facts": "Classic route from Tianhe Sports Center to Haixinsha, 30,000 places.",
+   "facts_de": "Klassische Strecke vom Tianhe-Sportzentrum nach Haixinsha, 30.000 Startplätze.",
+   "url": "https://www.guangzhou-marathon.com",
+   "source": "https://info.newsgd.com/node_28ab3f3552/c1aa1a00c1.shtml",
+   "checked": "2026-10-12",
+   "wiki": [
+    "Canton_Tower"
+   ]
   }
  ]
 }
