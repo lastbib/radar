@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-13T07:30:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -1774,6 +1774,444 @@
     }
    },
    "distances": {}
+  },
+  "singapore-marathon": {
+   "edition": "2025",
+   "date": "2025-12-07",
+   "source": "https://www.sportsidioten.no/resultater/singapore-marathon-2025/",
+   "fullResults": "https://www.sportsidioten.no/resultater/singapore-marathon-2025/",
+   "records": {
+    "men": {
+     "t": "2:11:25",
+     "n": "Luke Kibet",
+     "c": "Kenya",
+     "y": 2009
+    },
+    "women": {
+     "t": "2:28:54",
+     "n": "Priscah Cherono",
+     "c": "Kenya",
+     "y": 2019
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Abel Boniface Sikowo",
+       "c": "Uganda",
+       "t": "2:15:40"
+      },
+      {
+       "p": 2,
+       "n": "Mathew Samperu",
+       "c": "Kenya",
+       "t": "2:15:46"
+      },
+      {
+       "p": 3,
+       "n": "Wisley Kimeli",
+       "c": "Kenya",
+       "t": "2:15:53"
+      },
+      {
+       "p": 4,
+       "n": "Mathew Job Chekwurui",
+       "c": "Uganda",
+       "t": "2:16:08"
+      },
+      {
+       "p": 5,
+       "n": "Laban Kipngetich Korir",
+       "c": "Kenya",
+       "t": "2:17:20"
+      },
+      {
+       "p": 6,
+       "n": "Mica Kiplagat Cheserek",
+       "c": "Kenya",
+       "t": "2:17:40"
+      },
+      {
+       "p": 7,
+       "n": "Moses Kibet",
+       "c": "Kenya",
+       "t": "2:19:20"
+      },
+      {
+       "p": 8,
+       "n": "Munyo Solomon Mutai",
+       "c": "Uganda",
+       "t": "2:20:07"
+      },
+      {
+       "p": 9,
+       "n": "Kodai Ogawa",
+       "c": "Japan",
+       "t": "2:24:53"
+      },
+      {
+       "p": 10,
+       "n": "Yuma Morii",
+       "c": "Japan",
+       "t": "2:29:44"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Shuko Genemo",
+       "c": "Ethiopia",
+       "t": "2:41:24"
+      },
+      {
+       "p": 2,
+       "n": "Rodah Jepkorir Tanui",
+       "c": "Kenya",
+       "t": "2:41:33"
+      },
+      {
+       "p": 3,
+       "n": "Faith Chepkoech",
+       "c": "Kenya",
+       "t": "2:41:39"
+      },
+      {
+       "p": 4,
+       "n": "Dalila Abdulkadir Gosa",
+       "c": "Bahrain",
+       "t": "2:42:13"
+      },
+      {
+       "p": 5,
+       "n": "Viola Jelagat Kibiwot",
+       "c": "Kenya",
+       "t": "2:42:58"
+      },
+      {
+       "p": 6,
+       "n": "Sharon Chelimo Arusho",
+       "c": "Kenya",
+       "t": "2:43:16"
+      },
+      {
+       "p": 7,
+       "n": "Emily Chepkemoi Arusio",
+       "c": "Kenya",
+       "t": "2:43:34"
+      },
+      {
+       "p": 8,
+       "n": "Yezna Mekonene Ademasu",
+       "c": "Ethiopia",
+       "t": "2:43:48"
+      },
+      {
+       "p": 9,
+       "n": "Sharon Jemutai Cherop",
+       "c": "Kenya",
+       "t": "2:45:06"
+      },
+      {
+       "p": 10,
+       "n": "Rachel See",
+       "c": "Singapore",
+       "t": "2:58:15"
+      }
+     ]
+    }
+   }
+  },
+  "tata-mumbai-marathon": {
+   "edition": "2026",
+   "date": "2026-01-18",
+   "source": "https://www.watchathletics.com/page/7278/results-tata-mumbai-marathon-2026",
+   "fullResults": "https://www.watchathletics.com/page/7278/results-tata-mumbai-marathon-2026",
+   "records": {
+    "men": {
+     "t": "2:07:32",
+     "n": "Hayle Lemi",
+     "c": "Ethiopia",
+     "y": 2023
+    },
+    "women": {
+     "t": "2:24:15",
+     "n": "Anchialem Haymanot",
+     "c": "Ethiopia",
+     "y": 2023
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Tadu Abate Deme",
+       "c": "Ethiopia",
+       "t": "2:09:55"
+      },
+      {
+       "p": 2,
+       "n": "Leonard Langat",
+       "c": "Kenya",
+       "t": "2:10:10"
+      },
+      {
+       "p": 3,
+       "n": "Merhawi Kesete Weldemaryam",
+       "c": "Eritrea",
+       "t": "2:10:22"
+      },
+      {
+       "p": 4,
+       "n": "Gada Gemsisa Gudeta",
+       "c": "Ethiopia",
+       "t": "2:10:49"
+      },
+      {
+       "p": 5,
+       "n": "Victor Kiplangat",
+       "c": "Uganda",
+       "t": "2:11:02"
+      },
+      {
+       "p": 6,
+       "n": "Benjamin Kigen",
+       "c": "Kenya",
+       "t": "2:15:28"
+      },
+      {
+       "p": 7,
+       "n": "Kidanemariam Dessie Asfie",
+       "c": "Ethiopia",
+       "t": "2:15:36"
+      },
+      {
+       "p": 8,
+       "n": "Kelkile Gezehegn Woldaregaye",
+       "c": "Ethiopia",
+       "t": "2:16:48"
+      },
+      {
+       "p": 9,
+       "n": "Assefa Maru Haile",
+       "c": "Ethiopia",
+       "t": "2:18:10"
+      },
+      {
+       "p": 10,
+       "n": "Kartik Karkera",
+       "c": "India",
+       "t": "2:19:55"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Yeshi Kalayu Chekole",
+       "c": "Ethiopia",
+       "t": "2:25:13"
+      },
+      {
+       "p": 2,
+       "n": "Kidsan Alema Gebremedhin",
+       "c": "Ethiopia",
+       "t": "2:27:35"
+      },
+      {
+       "p": 3,
+       "n": "Gojjam Tsegaye Enyew",
+       "c": "Ethiopia",
+       "t": "2:28:27"
+      },
+      {
+       "p": 4,
+       "n": "Birke Debele Beyene",
+       "c": "Ethiopia",
+       "t": "2:30:22"
+      },
+      {
+       "p": 5,
+       "n": "Medina Deme Armino",
+       "c": "Ethiopia",
+       "t": "2:33:02"
+      },
+      {
+       "p": 6,
+       "n": "Zemenay Ayana Demilew",
+       "c": "Ethiopia",
+       "t": "2:34:02"
+      },
+      {
+       "p": 7,
+       "n": "Tigest Worku Anagaw",
+       "c": "Ethiopia",
+       "t": "2:36:15"
+      },
+      {
+       "p": 8,
+       "n": "Ayantu Idossa Eshete",
+       "c": "Ethiopia",
+       "t": "2:36:33"
+      },
+      {
+       "p": 9,
+       "n": "Asmare Beyene Assefa",
+       "c": "Ethiopia",
+       "t": "2:36:42"
+      }
+     ]
+    }
+   }
+  },
+  "hong-kong-marathon": {
+   "edition": "2026",
+   "date": "2026-01-18",
+   "source": "https://worldathletics.org/competition/calendar-results/results/7235568",
+   "fullResults": "https://worldathletics.org/competition/calendar-results/results/7235568",
+   "records": {
+    "men": {
+     "t": "2:09:20",
+     "n": "Barnabas Kiptum",
+     "c": "Kenya",
+     "y": 2019
+    },
+    "women": {
+     "t": "2:26:13",
+     "n": "Volha Mazuronak",
+     "c": "Belarus",
+     "y": 2019
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Melaku Belachew",
+       "c": "Ethiopia",
+       "t": "2:09:39"
+      },
+      {
+       "p": 2,
+       "n": "Silas Too",
+       "c": "Kenya",
+       "t": "2:09:56"
+      },
+      {
+       "p": 3,
+       "n": "Francis Kipkorir Langat",
+       "c": "Kenya",
+       "t": "2:09:59"
+      },
+      {
+       "p": 4,
+       "n": "Douglass Kimeli Kiprugut",
+       "c": "Kenya",
+       "t": "2:10:17"
+      },
+      {
+       "p": 5,
+       "n": "Edwin Koech",
+       "c": "Kenya",
+       "t": "2:10:24"
+      },
+      {
+       "p": 6,
+       "n": "Il Ryong Han",
+       "c": "North Korea",
+       "t": "2:10:39"
+      },
+      {
+       "p": 7,
+       "n": "Kipkemoi Kiprono",
+       "c": "Kenya",
+       "t": "2:10:53"
+      },
+      {
+       "p": 8,
+       "n": "Gemechu Yadesa",
+       "c": "Ethiopia",
+       "t": "2:10:54"
+      },
+      {
+       "p": 9,
+       "n": "Mekuant Ayenew",
+       "c": "Ethiopia",
+       "t": "2:11:07"
+      },
+      {
+       "p": 10,
+       "n": "Anderson Seroi",
+       "c": "Kenya",
+       "t": "2:11:46"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Shitaye Eshete",
+       "c": "Bahrain",
+       "t": "2:27:03"
+      },
+      {
+       "p": 2,
+       "n": "Nigsti Haftu",
+       "c": "Ethiopia",
+       "t": "2:29:13"
+      },
+      {
+       "p": 3,
+       "n": "Linet Chepkwemoi Masai",
+       "c": "Kenya",
+       "t": "2:29:23"
+      },
+      {
+       "p": 4,
+       "n": "Adilo Saeda Kedir",
+       "c": "Ethiopia",
+       "t": "2:30:00"
+      },
+      {
+       "p": 5,
+       "n": "Kwang-Ok Ri",
+       "c": "North Korea",
+       "t": "2:30:44"
+      },
+      {
+       "p": 6,
+       "n": "Caroline Cheptanui Kilel",
+       "c": "Kenya",
+       "t": "2:31:08"
+      },
+      {
+       "p": 7,
+       "n": "Melkitu Workneh",
+       "c": "Ethiopia",
+       "t": "2:32:29"
+      },
+      {
+       "p": 8,
+       "n": "Emily Chebet",
+       "c": "Kenya",
+       "t": "2:32:30"
+      },
+      {
+       "p": 9,
+       "n": "Jon Su Gyong",
+       "c": "North Korea",
+       "t": "2:35:33"
+      },
+      {
+       "p": 10,
+       "n": "Pak Sol Gyong",
+       "c": "North Korea",
+       "t": "2:35:37"
+      }
+     ]
+    }
+   }
   }
  }
 }

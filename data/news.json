@@ -1,6 +1,90 @@
 {
- "updated": "2026-10-12T15:30:00+07:00",
+ "updated": "2026-10-13T07:30:00+07:00",
  "items": [
+  {
+   "date": "2026-10-13",
+   "type": "opened",
+   "raceId": "jaipur-marathon-2027",
+   "text": "AU Jaipur Marathon (14 Feb) registration is open until 5 Feb, from ₹599 plus GST.",
+   "text_de": "Die Anmeldung für den AU Jaipur Marathon (14. Feb.) ist bis 5. Feb. offen, ab ₹599 zzgl. GST."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "price",
+   "raceId": "angkor-wat-half-2026",
+   "text": "Angkor Wat Half Marathon now costs US$70 (21K), US$55 (10K) and US$45 (5K) for foreigners until entries close on 23 Oct.",
+   "text_de": "Der Angkor Wat Halbmarathon kostet für Ausländer jetzt US$70 (21K), US$55 (10K) und US$45 (5K), Anmeldeschluss 23. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "sold_out",
+   "raceId": "penang-bridge-marathon-2026",
+   "text": "Penang Bridge Marathon (13 Dec) is sold out; the last marathon slots closed 11 Oct.",
+   "text_de": "Der Penang Bridge Marathon (13. Dez.) ist ausverkauft; die letzten Marathonplätze gab es bis 11. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "almost_full",
+   "raceId": "singapore-marathon-2026",
+   "text": "Singapore Marathon (6 Dec) has reopened entries: limited international marathon and half slots, 10K/5K until 31 Oct.",
+   "text_de": "Der Singapore Marathon (6. Dez.) hat die Anmeldung wieder geöffnet: wenige internationale Marathon- und Halbmarathonplätze, 10K/5K bis 31. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "closing",
+   "raceId": "xiamen-marathon-2027",
+   "text": "Xiamen Marathon (10 Jan) ballot closes 14 Oct at 18:00 China time; results on 22 Oct.",
+   "text_de": "Die Lotterie für den Xiamen Marathon (10. Jan.) endet am 14. Okt. um 18 Uhr chinesischer Zeit; Ergebnisse am 22. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "opened",
+   "raceId": "seoul-marathon-2027",
+   "text": "Seoul Marathon (21 Mar) overseas marathon entry is open until 30 Nov at US$150; a sub-5:00 marathon is required and the 10K is full.",
+   "text_de": "Für den Seoul Marathon (21. März) ist die Auslandsanmeldung bis 30. Nov. offen, US$150; nötig ist ein Marathon unter 5:00, der 10K ist ausgebucht."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "closing",
+   "raceId": "kaohsiung-fubon-marathon-2027",
+   "text": "Kaohsiung Fubon Marathon registration closes 23 Oct.",
+   "text_de": "Anmeldeschluss für den Kaohsiung Fubon Marathon ist der 23. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "raceId": "kaohsiung-fubon-marathon-2027",
+   "text": "New: Kaohsiung Fubon Marathon (10 Jan) with a new point-to-point course; entries close 23 Oct.",
+   "text_de": "Neu: Kaohsiung Fubon Marathon (10. Jan.) mit neuer Punkt-zu-Punkt-Strecke; Anmeldeschluss 23. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "raceId": "vnexpress-marathon-hai-phong-2026",
+   "text": "New: VnExpress Marathon Hai Phong (27 Dec), a flat PB course; early-bird prices end 28 Oct.",
+   "text_de": "Neu: VnExpress Marathon Hai Phong (27. Dez.), flache Bestzeitstrecke; Frühbucherpreise bis 28. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "raceId": "vizag-navy-marathon-2026",
+   "text": "New: Vizag Navy Marathon (13 Dec), AIMS-accredited, open with early-bird fees until 31 Oct.",
+   "text_de": "Neu: Vizag Navy Marathon (13. Dez.), AIMS-vermessen, Frühbucherpreise bis 31. Okt."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "raceId": "scenic-marathon-nakhon-phanom-2026",
+   "text": "New: Scenic Marathon Nakhon Phanom (13 Dec) along the Mekong, entries until 31 Oct, from €22.",
+   "text_de": "Neu: Scenic Marathon Nakhon Phanom (13. Dez.) am Mekong, Anmeldung bis 31. Okt., ab €22."
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "raceId": "kochi-ryoma-marathon-2027",
+   "text": "New: Kochi Ryoma Marathon (21 Feb) on Shikoku, ¥13,000, first come first served until 31 Oct.",
+   "text_de": "Neu: Kochi Ryoma Marathon (21. Feb.) auf Shikoku, ¥13.000, Anmeldung nach Eingang bis 31. Okt."
+  },
   {
    "date": "2026-10-12",
    "type": "closing",
