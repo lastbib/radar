@@ -1,6 +1,76 @@
 {
- "updated": "2026-10-13T07:30:00+07:00",
+ "updated": "2026-10-14T07:45:00+07:00",
  "items": [
+  {
+   "date": "2026-10-14",
+   "type": "opened",
+   "raceId": "vientiane-marathon-2026",
+   "text": "Vientiane International Marathon is confirmed for 6 Dec, with entries listed from US$40 (10K) to US$70 (marathon).",
+   "text_de": "Der Vientiane International Marathon ist für den 6. Dez. bestätigt; Startplätze gibt es ab US$40 (10K) bis US$70 (Marathon)."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "price",
+   "raceId": "laguna-phuket-marathon-2027",
+   "text": "Laguna Phuket Marathon (13 Jun 2027) early-bird entries are listed at about US$95 for the marathon and US$85 for the half.",
+   "text_de": "Für den Laguna Phuket Marathon (13. Juni 2027) gibt es Frühbucherplätze für etwa US$95 (Marathon) und US$85 (Halbmarathon)."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "opened",
+   "raceId": "pune-marathon-2026",
+   "text": "Pune International Marathon (6 Dec), the 40th edition, is open for entries from ₹750 (5K) to ₹2,000 (42K) until it sells out.",
+   "text_de": "Für den Pune International Marathon (6. Dez.), die 40. Ausgabe, läuft die Anmeldung bis zum Ausverkauf, von ₹750 (5K) bis ₹2.000 (42K)."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "opened",
+   "raceId": "chennai-marathon-2027",
+   "text": "Freshworks Chennai Marathon (3 Jan) registration is open on the official site, first come first served.",
+   "text_de": "Die Anmeldung für den Freshworks Chennai Marathon (3. Jan.) ist auf der offiziellen Website offen, nach Eingang."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "price",
+   "raceId": "berlin-marathon-2027",
+   "text": "Berlin Marathon 2027 entry now costs €215 (up from €205); the lottery is open until 12 Nov.",
+   "text_de": "Der Berlin-Marathon 2027 kostet jetzt €215 (vorher €205); die Verlosung läuft bis 12. Nov."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "date_change",
+   "raceId": "ras-al-khaimah-half-2027",
+   "text": "Ras Al Khaimah Half Marathon 2027 is confirmed for Saturday 30 Jan, earlier than the expected mid-February date; registration opens soon.",
+   "text_de": "Der Ras Al Khaimah Halbmarathon 2027 findet am Samstag, 30. Jan., statt, früher als der erwartete Termin Mitte Februar; die Anmeldung öffnet bald."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "new",
+   "raceId": "halong-bay-heritage-marathon-2026",
+   "text": "New: Halong Bay Heritage Marathon (22 Nov), Vietnam's only World Athletics Label road race, is still open, with international entries from €30 (5K) to €77 (42K) until 15 Oct.",
+   "text_de": "Neu: Der Halong Bay Heritage Marathon (22. Nov.), Vietnams einziger Straßenlauf mit World-Athletics-Label, ist noch offen, mit internationalen Startplätzen von €30 (5K) bis €77 (42K) bis 15. Okt."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "new",
+   "raceId": "khao-yai-marathon-2027",
+   "text": "New: B-Quik Khao Yai Marathon (10 Jan) runs through the World Heritage forest at Khao Yai, with entries from ฿500 open until 30 Nov.",
+   "text_de": "Neu: Der B-Quik Khao Yai Marathon (10. Jan.) führt durch das Welterbe-Waldgebiet von Khao Yai, Anmeldung ab ฿500 bis 30. Nov."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "new",
+   "raceId": "daegu-marathon-2027",
+   "text": "New: Daegu Marathon (28 Feb) marathon sign-up is open until 18 Oct at ₩90,000, with 10K and 5K entries from 26 Oct.",
+   "text_de": "Neu: Für den Daegu Marathon (28. Feb.) läuft die Marathon-Anmeldung bis 18. Okt. für ₩90.000, 10K und 5K folgen ab 26. Okt."
+  },
+  {
+   "date": "2026-10-14",
+   "type": "new",
+   "raceId": "kagawa-marathon-2027",
+   "text": "New: Kagawa Marathon (21 Mar) in Takamatsu opens general entry on RUNNET on 15 Oct at 20:00 JST, first come, first served.",
+   "text_de": "Neu: Der Kagawa Marathon (21. März) in Takamatsu öffnet die allgemeine Anmeldung auf RUNNET am 15. Okt. um 20:00 Uhr (JST), nach dem Prinzip „wer zuerst kommt“."
+  },
   {
    "date": "2026-10-13",
    "type": "opened",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T07:30:00+07:00",
+ "updated": "2026-10-14T07:45:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -2208,6 +2208,444 @@
        "n": "Pak Sol Gyong",
        "c": "North Korea",
        "t": "2:35:37"
+      }
+     ]
+    }
+   }
+  },
+  "tokyo-marathon": {
+   "edition": "2026",
+   "date": "2026-03-01",
+   "source": "https://www.watchathletics.com/article/13624/tokyo-marathon-takele-defends-title-in-sprint-finish-kosgei-smashes-course-record",
+   "fullResults": "https://www.watchathletics.com/page/7440/results-tokyo-marathon-2026",
+   "records": {
+    "men": {
+     "t": "2:02:16",
+     "n": "Benson Kipruto",
+     "c": "Kenya",
+     "y": 2024
+    },
+    "women": {
+     "t": "2:14:29",
+     "n": "Brigid Kosgei",
+     "c": "Kenya",
+     "y": 2026
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Tadesse Takele",
+       "c": "Ethiopia",
+       "t": "2:03:37"
+      },
+      {
+       "p": 2,
+       "n": "Geoffrey Toroitich",
+       "c": "Kenya",
+       "t": "2:03:37"
+      },
+      {
+       "p": 3,
+       "n": "Alexander Mutiso",
+       "c": "Kenya",
+       "t": "2:03:38"
+      },
+      {
+       "p": 4,
+       "n": "Daniel Mateiko",
+       "c": "Kenya",
+       "t": "2:03:44"
+      },
+      {
+       "p": 5,
+       "n": "Muktar Edris",
+       "c": "Ethiopia",
+       "t": "2:04:07"
+      },
+      {
+       "p": 6,
+       "n": "Iliass Aouani",
+       "c": "Italy",
+       "t": "2:04:26"
+      },
+      {
+       "p": 7,
+       "n": "Selemon Barega",
+       "c": "Ethiopia",
+       "t": "2:05:00"
+      },
+      {
+       "p": 8,
+       "n": "Seifu Tura",
+       "c": "Ethiopia",
+       "t": "2:05:02"
+      },
+      {
+       "p": 9,
+       "n": "Vincent Kipkemoi Ngetich",
+       "c": "Kenya",
+       "t": "2:05:21"
+      },
+      {
+       "p": 10,
+       "n": "Shifera Tamru",
+       "c": "Ethiopia",
+       "t": "2:05:56"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Brigid Kosgei",
+       "c": "Kenya",
+       "t": "2:14:29"
+      },
+      {
+       "p": 2,
+       "n": "Bertukan Welde",
+       "c": "Ethiopia",
+       "t": "2:16:36"
+      },
+      {
+       "p": 3,
+       "n": "Hawi Feysa",
+       "c": "Ethiopia",
+       "t": "2:17:39"
+      },
+      {
+       "p": 4,
+       "n": "Sutume Asefa Kebede",
+       "c": "Ethiopia",
+       "t": "2:17:39"
+      },
+      {
+       "p": 5,
+       "n": "Megertu Alemu",
+       "c": "Ethiopia",
+       "t": "2:18:50"
+      },
+      {
+       "p": 6,
+       "n": "Viola Cheptoo",
+       "c": "Kenya",
+       "t": "2:19:05"
+      },
+      {
+       "p": 7,
+       "n": "Mestawut Fikir",
+       "c": "Ethiopia",
+       "t": "2:20:00"
+      },
+      {
+       "p": 8,
+       "n": "Aberu Ayana",
+       "c": "Ethiopia",
+       "t": "2:20:30"
+      },
+      {
+       "p": 9,
+       "n": "Pascalia Jepkogei",
+       "c": "Kenya",
+       "t": "2:21:39"
+      },
+      {
+       "p": 10,
+       "n": "Ai Hosoda",
+       "c": "Japan",
+       "t": "2:23:39"
+      }
+     ]
+    }
+   }
+  },
+  "boston-marathon": {
+   "edition": "2026",
+   "date": "2026-04-20",
+   "source": "https://marathonhandbook.com/2026-boston-marathon-results/",
+   "fullResults": "https://www.watchathletics.com/article/13666/results-boston-marathon-2026",
+   "records": {
+    "men": {
+     "t": "2:01:52",
+     "n": "John Korir",
+     "c": "Kenya",
+     "y": 2026
+    },
+    "women": {
+     "t": "2:17:22",
+     "n": "Sharon Lokedi",
+     "c": "Kenya",
+     "y": 2025
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "John Korir",
+       "c": "Kenya",
+       "t": "2:01:52"
+      },
+      {
+       "p": 2,
+       "n": "Alphonce Felix Simbu",
+       "c": "Tanzania",
+       "t": "2:02:47"
+      },
+      {
+       "p": 3,
+       "n": "Benson Kipruto",
+       "c": "Kenya",
+       "t": "2:02:50"
+      },
+      {
+       "p": 4,
+       "n": "Hailemaryam Kiros",
+       "c": "Ethiopia",
+       "t": "2:03:42"
+      },
+      {
+       "p": 5,
+       "n": "Zouhair Talbi",
+       "c": "Morocco",
+       "t": "2:03:45"
+      },
+      {
+       "p": 6,
+       "n": "Tebello Ramakongoana",
+       "c": "Lesotho",
+       "t": "2:04:18"
+      },
+      {
+       "p": 7,
+       "n": "Charles Hicks",
+       "c": "United Kingdom",
+       "t": "2:04:35"
+      },
+      {
+       "p": 8,
+       "n": "Richard Ringer",
+       "c": "Germany",
+       "t": "2:04:47"
+      },
+      {
+       "p": 9,
+       "n": "Alex Masai",
+       "c": "Kenya",
+       "t": "2:05:32"
+      },
+      {
+       "p": 10,
+       "n": "Milkesa Mengesha",
+       "c": "Ethiopia",
+       "t": "2:05:35"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Sharon Lokedi",
+       "c": "Kenya",
+       "t": "2:18:51"
+      },
+      {
+       "p": 2,
+       "n": "Loice Chemnung",
+       "c": "Kenya",
+       "t": "2:19:35"
+      },
+      {
+       "p": 3,
+       "n": "Mary Ngugi-Cooper",
+       "c": "Kenya",
+       "t": "2:20:07"
+      },
+      {
+       "p": 4,
+       "n": "Mercy Chelangat",
+       "c": "Kenya",
+       "t": "2:20:30"
+      },
+      {
+       "p": 5,
+       "n": "Jess McClain",
+       "c": "United States",
+       "t": "2:20:49"
+      },
+      {
+       "p": 6,
+       "n": "Irine Cheptai",
+       "c": "Kenya",
+       "t": "2:20:54"
+      },
+      {
+       "p": 7,
+       "n": "Workenesh Edesa",
+       "c": "Ethiopia",
+       "t": "2:21:52"
+      },
+      {
+       "p": 8,
+       "n": "Annie Frisbie",
+       "c": "United States",
+       "t": "2:22:00"
+      },
+      {
+       "p": 9,
+       "n": "Emily Sisson",
+       "c": "United States",
+       "t": "2:22:39"
+      },
+      {
+       "p": 10,
+       "n": "Carrie Ellwood",
+       "c": "United States",
+       "t": "2:22:53"
+      }
+     ]
+    }
+   }
+  },
+  "london-marathon": {
+   "edition": "2026",
+   "date": "2026-04-26",
+   "source": "https://www.nbcsports.com/olympics/news/london-marathon-results-2026",
+   "fullResults": "https://www.watchathletics.com/article/13676/london-marathon-2026-results",
+   "records": {
+    "men": {
+     "t": "1:59:30",
+     "n": "Sabastian Sawe",
+     "c": "Kenya",
+     "y": 2026
+    }
+   },
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Sabastian Sawe",
+       "c": "Kenya",
+       "t": "1:59:30"
+      },
+      {
+       "p": 2,
+       "n": "Yomif Kejelcha",
+       "c": "Ethiopia",
+       "t": "1:59:41"
+      },
+      {
+       "p": 3,
+       "n": "Jacob Kiplimo",
+       "c": "Uganda",
+       "t": "2:00:28"
+      },
+      {
+       "p": 4,
+       "n": "Amos Kipruto",
+       "c": "Kenya",
+       "t": "2:01:39"
+      },
+      {
+       "p": 5,
+       "n": "Tamirat Tola",
+       "c": "Ethiopia",
+       "t": "2:02:59"
+      },
+      {
+       "p": 6,
+       "n": "Deresa Geleta",
+       "c": "Ethiopia",
+       "t": "2:03:23"
+      },
+      {
+       "p": 7,
+       "n": "Addisu Gobena",
+       "c": "Ethiopia",
+       "t": "2:05:23"
+      },
+      {
+       "p": 8,
+       "n": "Geoffrey Kamworor",
+       "c": "Kenya",
+       "t": "2:05:38"
+      },
+      {
+       "p": 9,
+       "n": "Peter Lynch",
+       "c": "Ireland",
+       "t": "2:06:08"
+      },
+      {
+       "p": 10,
+       "n": "Mahamed Mahamed",
+       "c": "United Kingdom",
+       "t": "2:06:14"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Tigst Assefa",
+       "c": "Ethiopia",
+       "t": "2:15:41"
+      },
+      {
+       "p": 2,
+       "n": "Hellen Obiri",
+       "c": "Kenya",
+       "t": "2:15:53"
+      },
+      {
+       "p": 3,
+       "n": "Joyciline Jepkosgei",
+       "c": "Kenya",
+       "t": "2:15:55"
+      },
+      {
+       "p": 4,
+       "n": "Degitu Azimeraw",
+       "c": "Ethiopia",
+       "t": "2:19:13"
+      },
+      {
+       "p": 5,
+       "n": "Catherine Reline Amanang'ole",
+       "c": "Kenya",
+       "t": "2:21:20"
+      },
+      {
+       "p": 6,
+       "n": "Eunice Chebichii Chumba",
+       "c": "Bahrain",
+       "t": "2:23:44"
+      },
+      {
+       "p": 7,
+       "n": "Eilish McColgan",
+       "c": "United Kingdom",
+       "t": "2:24:51"
+      },
+      {
+       "p": 8,
+       "n": "Julia Paternain",
+       "c": "Uruguay",
+       "t": "2:25:47"
+      },
+      {
+       "p": 9,
+       "n": "Rose Harvey",
+       "c": "United Kingdom",
+       "t": "2:26:14"
+      },
+      {
+       "p": 10,
+       "n": "Marta Galimany",
+       "c": "Spain",
+       "t": "2:27:38"
       }
      ]
     }
