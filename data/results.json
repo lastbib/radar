@@ -2650,6 +2650,355 @@
      ]
     }
    }
+  },
+  "seoul-marathon": {
+   "edition": "2026",
+   "date": "2026-03-15",
+   "source": "https://worldathletics.org/competition/calendar-results/results/7235569",
+   "fullResults": "https://worldathletics.org/competition/calendar-results/results/7235569",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Haftu Teklu",
+       "c": "Ethiopia",
+       "t": "2:04:22"
+      },
+      {
+       "p": 2,
+       "n": "Getaneh Molla",
+       "c": "Ethiopia",
+       "t": "2:04:23"
+      },
+      {
+       "p": 3,
+       "n": "Gilbert Kibet",
+       "c": "Kenya",
+       "t": "2:04:31"
+      },
+      {
+       "p": 4,
+       "n": "Tsegaye Getachew",
+       "c": "Ethiopia",
+       "t": "2:04:32"
+      },
+      {
+       "p": 5,
+       "n": "Sufaro Woliyi",
+       "c": "Ethiopia",
+       "t": "2:04:35"
+      },
+      {
+       "p": 6,
+       "n": "Enock Kinyamal",
+       "c": "Kenya",
+       "t": "2:04:46"
+      },
+      {
+       "p": 7,
+       "n": "Little Nick Kitundu",
+       "c": "Kenya",
+       "t": "2:05:55"
+      },
+      {
+       "p": 8,
+       "n": "Haftamu Gebresilase",
+       "c": "Ethiopia",
+       "t": "2:05:58"
+      },
+      {
+       "p": 9,
+       "n": "Douglass Kimeli Kiprugut",
+       "c": "Kenya",
+       "t": "2:06:40"
+      },
+      {
+       "p": 10,
+       "n": "Jie He",
+       "c": "China",
+       "t": "2:08:15"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Haven Hailu Desse",
+       "c": "Ethiopia",
+       "t": "2:19:09"
+      },
+      {
+       "p": 2,
+       "n": "Bekelech Gudeta",
+       "c": "Ethiopia",
+       "t": "2:19:39"
+      },
+      {
+       "p": 3,
+       "n": "Bosena Mulatie",
+       "c": "Ethiopia",
+       "t": "2:19:47"
+      },
+      {
+       "p": 4,
+       "n": "Joyce Chepkemoi Tele",
+       "c": "Kenya",
+       "t": "2:19:50"
+      },
+      {
+       "p": 5,
+       "n": "Tiruye Mesfin",
+       "c": "Ethiopia",
+       "t": "2:20:45"
+      },
+      {
+       "p": 6,
+       "n": "Ayinadis Teshome",
+       "c": "Ethiopia",
+       "t": "2:20:51"
+      },
+      {
+       "p": 7,
+       "n": "Betelihem Afenigus",
+       "c": "Ethiopia",
+       "t": "2:23:45"
+      },
+      {
+       "p": 8,
+       "n": "Anchialem Haymanot",
+       "c": "Ethiopia",
+       "t": "2:24:09"
+      },
+      {
+       "p": 9,
+       "n": "Maor Tiyouri",
+       "c": "Israel",
+       "t": "2:29:30"
+      },
+      {
+       "p": 10,
+       "n": "Bing Wu",
+       "c": "China",
+       "t": "2:32:25"
+      }
+     ]
+    }
+   },
+   "records": {
+    "men": {
+     "t": "2:04:22",
+     "n": "Haftu Teklu",
+     "c": "Ethiopia",
+     "y": 2026
+    }
+   }
+  },
+  "nagoya-womens-marathon": {
+   "edition": "2026",
+   "date": "2026-03-08",
+   "source": "https://worldathletics.org/competitions/world-athletics-label-road-races/calendar-results/7236072/result",
+   "fullResults": "https://worldathletics.org/competitions/world-athletics-label-road-races/calendar-results/7236072/result",
+   "distances": {
+    "42K": {
+     "men": [],
+     "women": [
+      {
+       "p": 1,
+       "n": "Sheila Chepkirui",
+       "c": "Kenya",
+       "t": "2:21:54"
+      },
+      {
+       "p": 2,
+       "n": "Sayaka Sato",
+       "c": "Japan",
+       "t": "2:21:56"
+      },
+      {
+       "p": 3,
+       "n": "Aynalem Desta",
+       "c": "Ethiopia",
+       "t": "2:22:37"
+      },
+      {
+       "p": 4,
+       "n": "Rika Kaseda",
+       "c": "Japan",
+       "t": "2:22:53"
+      },
+      {
+       "p": 5,
+       "n": "Natsuki Omori",
+       "c": "Japan",
+       "t": "2:23:45"
+      },
+      {
+       "p": 6,
+       "n": "Sora Shinozakura",
+       "c": "Japan",
+       "t": "2:24:34"
+      },
+      {
+       "p": 7,
+       "n": "Rino Goshima",
+       "c": "Japan",
+       "t": "2:24:44"
+      },
+      {
+       "p": 8,
+       "n": "Genevieve Gregson",
+       "c": "Australia",
+       "t": "2:25:06"
+      },
+      {
+       "p": 9,
+       "n": "Aika Murakami",
+       "c": "Japan",
+       "t": "2:25:07"
+      },
+      {
+       "p": 10,
+       "n": "Yuna Takahashi",
+       "c": "Japan",
+       "t": "2:25:58"
+      }
+     ]
+    }
+   }
+  },
+  "taipei-marathon": {
+   "edition": "2025",
+   "date": "2025-12-21",
+   "source": "https://world-track.org/2025/12/2025-taipei-marathon-results-kenyas-bethwel-kibet-and-ethiopias-gadise-mulu-take-titles/",
+   "fullResults": "https://www.watchathletics.com/article/13555/results-taipei-marathon-2025",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Bethwel Kibet",
+       "c": "Kenya",
+       "t": "2:09:31"
+      },
+      {
+       "p": 2,
+       "n": "Jonathan Samanayo Korir",
+       "c": "Kenya",
+       "t": "2:09:51"
+      },
+      {
+       "p": 3,
+       "n": "Wilfred Kirwa Kigen",
+       "c": "Kenya",
+       "t": "2:10:30"
+      },
+      {
+       "p": 4,
+       "n": "Tafese Delelegn",
+       "c": "Ethiopia",
+       "t": "2:11:04"
+      },
+      {
+       "p": 5,
+       "n": "Aredom Degefa",
+       "c": "Ethiopia",
+       "t": "2:11:14"
+      },
+      {
+       "p": 6,
+       "n": "Maru Teferi",
+       "c": "Israel",
+       "t": "2:11:48"
+      },
+      {
+       "p": 7,
+       "n": "David Barmasai Tumo",
+       "c": "Kenya",
+       "t": "2:13:43"
+      },
+      {
+       "p": 8,
+       "n": "Jeremia Njeri",
+       "c": "Kenya",
+       "t": "2:14:17"
+      },
+      {
+       "p": 9,
+       "n": "Samuel Kamiti",
+       "c": "Kenya",
+       "t": "2:14:30"
+      },
+      {
+       "p": 10,
+       "n": "Okubay Tsegay",
+       "c": "Eritrea",
+       "t": "2:17:00"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Gadise Mulu",
+       "c": "Ethiopia",
+       "t": "2:24:17"
+      },
+      {
+       "p": 2,
+       "n": "Tirfi Tsegaye",
+       "c": "Ethiopia",
+       "t": "2:24:49"
+      },
+      {
+       "p": 3,
+       "n": "Volha Mazuronak",
+       "c": "Belarus",
+       "t": "2:29:39"
+      },
+      {
+       "p": 4,
+       "n": "Sharon Kiptugen",
+       "c": "Kenya",
+       "t": "2:33:52"
+      },
+      {
+       "p": 5,
+       "n": "Visiline Jepkesho",
+       "c": "Kenya",
+       "t": "2:36:10"
+      },
+      {
+       "p": 6,
+       "n": "Truphena Chepchirchir",
+       "c": "Kenya",
+       "t": "2:39:22"
+      },
+      {
+       "p": 7,
+       "n": "Jemimah Wayua",
+       "c": "Kenya",
+       "t": "2:40:51"
+      },
+      {
+       "p": 8,
+       "n": "Tomomi Nakajima",
+       "c": "Japan",
+       "t": "2:41:00"
+      },
+      {
+       "p": 9,
+       "n": "Yoshimi Tanaka",
+       "c": "Japan",
+       "t": "2:46:26"
+      },
+      {
+       "p": 10,
+       "n": "Chih-Hsuan Chang",
+       "c": "Taiwan",
+       "t": "2:47:14"
+      }
+     ]
+    }
+   }
   }
  }
 }

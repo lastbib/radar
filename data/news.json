@@ -1,6 +1,69 @@
 {
- "updated": "2026-10-14T07:45:00+07:00",
+ "updated": "2026-10-15T07:30:00+07:00",
  "items": [
+  {
+   "date": "2026-10-15",
+   "type": "opened",
+   "raceId": "wan-jin-shi-marathon-2027",
+   "text": "The lottery for the New Taipei City Wan Jin Shi Marathon (21 March 2027) opened on 15 October and runs until 30 October at 12:00.",
+   "text_de": "Die Verlosung für den New Taipei City Wan Jin Shi Marathon (21. März 2027) hat am 15. Oktober begonnen und läuft bis zum 30. Oktober, 12 Uhr."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "closing",
+   "raceId": "chicago-marathon-2027",
+   "text": "Chicago Marathon 2027 (10 Oct 2027): the application window closes on 29 Oct 2026 at 2 pm US Central Time.",
+   "text_de": "Chicago Marathon 2027 (10. Okt. 2027): Die Bewerbungsphase endet am 29. Okt. 2026 um 14 Uhr US-Central-Time."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "price",
+   "raceId": "vnexpress-hanoi-midnight-2026",
+   "text": "VnExpress Marathon Hanoi Midnight (29 Nov) early-bird prices end today (15 Oct); from 16 Oct the marathon costs ₫1,150,000 until 6 Nov.",
+   "text_de": "Beim VnExpress Marathon Hanoi Midnight (29. Nov.) enden die Frühbucherpreise heute (15. Okt.); ab 16. Okt. kostet der Marathon bis 6. Nov. ₫1.150.000."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "closing",
+   "raceId": "halong-bay-heritage-marathon-2026",
+   "text": "Halong Bay Heritage Marathon (22 Nov 2026): Worlds Marathons sales close on 15 Oct, and the organiser's final price tier runs until 22 Oct 2026.",
+   "text_de": "Halong Bay Heritage Marathon (22. Nov. 2026): Der Verkauf über Worlds Marathons endet am 15. Okt., die letzte Preisstufe des Veranstalters läuft bis 22. Okt. 2026."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "sold_out",
+   "raceId": "buriram-marathon-2027",
+   "text": "Buriram Marathon (23 Jan 2027) is sold out: every distance shows as full on RunningConnect.",
+   "text_de": "Der Buriram Marathon (23. Januar 2027) ist ausverkauft: Auf RunningConnect sind alle Distanzen als voll markiert."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "new",
+   "raceId": "trang-an-marathon-2026",
+   "text": "New: Trang An Marathon (15 Nov) takes runners through the UNESCO karst landscape of Ninh Binh, with entries open until 30 October.",
+   "text_de": "Neu: Der Trang An Marathon (15. Nov.) führt durch die UNESCO-Karstlandschaft von Ninh Binh, Anmeldung bis 30. Oktober."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "new",
+   "raceId": "can-tho-heritage-marathon-2026",
+   "text": "New: Can Tho Heritage Marathon (20 Dec) offers AIMS-measured 21K, 10K and 5K courses along the Mekong's Hau River.",
+   "text_de": "Neu: Der Can Tho Heritage Marathon (20. Dez.) bietet AIMS-vermessene Strecken über 21, 10 und 5 km am Hau-Fluss im Mekongdelta."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "new",
+   "raceId": "tokashiki-marathon-2027",
+   "text": "New: Tokashiki Marathon (6 Feb) is an intimate island half marathon and 10K in Okinawa's Kerama Islands, open for entries until 11 December.",
+   "text_de": "Neu: Der Tokashiki Marathon (6. Feb.) ist ein kleiner Insel-Halbmarathon mit 10-km-Lauf auf den Kerama-Inseln vor Okinawa, Anmeldung bis 11. Dezember."
+  },
+  {
+   "date": "2026-10-15",
+   "type": "new",
+   "raceId": "vadodara-international-marathon-2027",
+   "text": "New: MG Vadodara International Marathon (7 Feb), one of India's biggest mass races, has confirmed its 2027 date, with entries opening via the organiser's portal.",
+   "text_de": "Neu: Der MG Vadodara International Marathon (7. Feb.), einer der größten Massenläufe Indiens, hat seinen Termin für 2027 bestätigt; die Anmeldung läuft über das Portal des Veranstalters."
+  },
   {
    "date": "2026-10-14",
    "type": "opened",
