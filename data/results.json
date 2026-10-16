@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T07:45:00+07:00",
+ "updated": "2026-10-16T07:30:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -2995,6 +2995,306 @@
        "n": "Chih-Hsuan Chang",
        "c": "Taiwan",
        "t": "2:47:14"
+      }
+     ]
+    }
+   }
+  },
+  "daegu-marathon": {
+   "edition": "2026",
+   "date": "2026-02-22",
+   "source": "https://athleticsillustrated.com/kenyan-lilian-kasait-debuts-in-the-marathon-and-runs-21931-for-the-win-in-daegu/",
+   "fullResults": "https://www.watchathletics.com/page/7403/results-daegu-marathon-2026",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Gabriel Gerald Geay",
+       "c": "Tanzania",
+       "t": "2:08:08"
+      },
+      {
+       "p": 2,
+       "n": "Chimdesa Debele Gudeta",
+       "c": "Ethiopia",
+       "t": "2:08:08"
+      },
+      {
+       "p": 3,
+       "n": "Emmanuel Daoudi Dinday",
+       "c": "Tanzania",
+       "t": "2:08:16"
+      },
+      {
+       "p": 4,
+       "n": "Samsom Amare Hailemikael",
+       "c": "Eritrea",
+       "t": "2:08:38"
+      },
+      {
+       "p": 5,
+       "n": "Gerba Beata Dibaba",
+       "c": "Ethiopia",
+       "t": "2:10:02"
+      },
+      {
+       "p": 6,
+       "n": "Stanley Kiprotic Bet",
+       "c": "Kenya",
+       "t": "2:10:31"
+      },
+      {
+       "p": 7,
+       "n": "Gosa Ambelu Chala",
+       "c": "Ethiopia",
+       "t": "2:10:55"
+      },
+      {
+       "p": 8,
+       "n": "Degenere Megersa Moreta",
+       "c": "Ethiopia",
+       "t": "2:11:07"
+      },
+      {
+       "p": 9,
+       "n": "Charles Kiprotich Rono",
+       "c": "Kenya",
+       "t": "2:11:37"
+      },
+      {
+       "p": 10,
+       "n": "Leonard Chemongues",
+       "c": "Uganda",
+       "t": "2:14:29"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Lilian Kasait",
+       "c": "Kenya",
+       "t": "2:19:31"
+      },
+      {
+       "p": 2,
+       "n": "Meseret Belete",
+       "c": "Ethiopia",
+       "t": "2:19:51"
+      },
+      {
+       "p": 3,
+       "n": "Evaline Chirchir",
+       "c": "Kenya",
+       "t": "2:20:47"
+      },
+      {
+       "p": 4,
+       "n": "Khufu Tahir Dadiso",
+       "c": "Ethiopia",
+       "t": "2:28:19"
+      },
+      {
+       "p": 5,
+       "n": "Obseni Getacher Isle",
+       "c": "Ethiopia",
+       "t": "2:28:25"
+      },
+      {
+       "p": 6,
+       "n": "Kebene Challah",
+       "c": "Ethiopia",
+       "t": "2:28:36"
+      },
+      {
+       "p": 7,
+       "n": "Choi Jeong-yoon",
+       "c": "South Korea",
+       "t": "2:32:33"
+      },
+      {
+       "p": 8,
+       "n": "Hisigsaihan Galbadrach",
+       "c": "Mongolia",
+       "t": "2:36:37"
+      },
+      {
+       "p": 9,
+       "n": "Lee Su-min",
+       "c": "South Korea",
+       "t": "2:39:16"
+      },
+      {
+       "p": 10,
+       "n": "Kim Eun-mi",
+       "c": "South Korea",
+       "t": "2:39:28"
+      }
+     ]
+    }
+   }
+  },
+  "guangzhou-marathon": {
+   "edition": "2025",
+   "date": "2025-12-21",
+   "source": "https://worldathletics.org/competition/calendar-results/results/7220889",
+   "fullResults": "https://worldathletics.org/competition/calendar-results/results/7220889",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Afewerk Mesfin",
+       "c": "Ethiopia",
+       "t": "2:12:23"
+      },
+      {
+       "p": 2,
+       "n": "Felix Kirwa",
+       "c": "Kenya",
+       "t": "2:12:25"
+      },
+      {
+       "p": 3,
+       "n": "Xiciren Zha",
+       "c": "China",
+       "t": "2:14:06"
+      },
+      {
+       "p": 4,
+       "n": "Kenneth Keter",
+       "c": "Kenya",
+       "t": "2:15:02"
+      },
+      {
+       "p": 5,
+       "n": "Chunlong Yang",
+       "c": "China",
+       "t": "2:17:57"
+      },
+      {
+       "p": 6,
+       "n": "Cairen Suolang",
+       "c": "China",
+       "t": "2:18:34"
+      },
+      {
+       "p": 7,
+       "n": "Youfa Zhou",
+       "c": "China",
+       "t": "2:20:15"
+      },
+      {
+       "p": 8,
+       "n": "Guomin Deng",
+       "c": "China",
+       "t": "2:20:22"
+      },
+      {
+       "p": 9,
+       "n": "Bingxian Cai",
+       "c": "China",
+       "t": "2:22:11"
+      },
+      {
+       "p": 10,
+       "n": "Pumou Li",
+       "c": "China",
+       "t": "2:23:06"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Joyce Chepkemoi Tele",
+       "c": "Kenya",
+       "t": "2:22:40"
+      },
+      {
+       "p": 2,
+       "n": "Betelihem Afenigus",
+       "c": "Ethiopia",
+       "t": "2:27:52"
+      },
+      {
+       "p": 3,
+       "n": "Chimdesa Kumsa",
+       "c": "Ethiopia",
+       "t": "2:31:37"
+      },
+      {
+       "p": 4,
+       "n": "Veronica Maina",
+       "c": "Kenya",
+       "t": "2:32:55"
+      },
+      {
+       "p": 5,
+       "n": "Changqin Ding",
+       "c": "China",
+       "t": "2:35:40"
+      },
+      {
+       "p": 6,
+       "n": "Xiaofang Tang",
+       "c": "China",
+       "t": "2:40:26"
+      },
+      {
+       "p": 7,
+       "n": "Jinting Song",
+       "c": "China",
+       "t": "2:41:41"
+      },
+      {
+       "p": 8,
+       "n": "Yingcui Li",
+       "c": "China",
+       "t": "2:45:36"
+      },
+      {
+       "p": 9,
+       "n": "Xiaoli Yang",
+       "c": "China",
+       "t": "2:47:57"
+      },
+      {
+       "p": 10,
+       "n": "Ling Wu",
+       "c": "China",
+       "t": "2:51:03"
+      }
+     ]
+    }
+   }
+  },
+  "pune-marathon": {
+   "edition": "2025",
+   "date": "2025-12-07",
+   "source": "https://newsonair.gov.in/mr/pune-marathon/",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Terefe Haimanot",
+       "c": "Ethiopia",
+       "t": "2:20:08"
+      },
+      {
+       "p": 3,
+       "n": "Tritha Pun",
+       "c": "India",
+       "t": ""
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Sakshi Jadia",
+       "c": "India",
+       "t": "2:39:37"
       }
      ]
     }

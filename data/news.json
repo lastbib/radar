@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T07:30:00+07:00",
+ "updated": "2026-10-16T07:30:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -287,6 +287,69 @@
    "raceId": "berlin-marathon-2027",
    "text": "Berlin Marathon 2027 lottery is open until 12 Nov.",
    "text_de": "Die Lotterie für den Berlin-Marathon 2027 ist bis 12. Nov. offen."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "sold_out",
+   "raceId": "bangsaen42-2026",
+   "text": "Bangsaen42 Chonburi Marathon (15 Nov 2026) is full: registration has closed after the 12,000-runner field filled.",
+   "text_de": "Der Bangsaen42 Chonburi Marathon (15. Nov. 2026) ist ausgebucht: Die Anmeldung ist geschlossen, alle 12.000 Startplätze sind vergeben."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "price",
+   "raceId": "halong-bay-heritage-marathon-2026",
+   "text": "Halong Bay Heritage Marathon (22 Nov 2026): Worlds Marathons sales have ended; entries are still available via Finishers at €34.70 (5K) to €88.80 (marathon) until 22 Oct.",
+   "text_de": "Halong Bay Heritage Marathon (22. Nov. 2026): Der Verkauf über Worlds Marathons ist beendet; Startplätze gibt es noch über Finishers für €34,70 (5K) bis €88,80 (Marathon) bis 22. Okt."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "closing",
+   "raceId": "trang-an-marathon-2026",
+   "text": "Trang An Marathon (15 Nov 2026) registration closes on 30 Oct, with entries from €27 (5K) to €48 (marathon).",
+   "text_de": "Anmeldeschluss für den Trang An Marathon (15. Nov. 2026) ist der 30. Okt.; Startplätze kosten €27 (5K) bis €48 (Marathon)."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "closing",
+   "raceId": "daegu-marathon-2027",
+   "text": "Daegu Marathon (28 Feb 2027): marathon sign-up closes on 18 Oct (₩90,000, 15,000 places, first come first served); 10K and 5K sign-up follows 26 Oct-1 Nov.",
+   "text_de": "Daegu Marathon (28. Feb. 2027): Die Marathon-Anmeldung endet am 18. Okt. (₩90.000, 15.000 Plätze, nach Eingang); die Anmeldung für 10K und 5K folgt vom 26. Okt. bis 1. Nov."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "opened",
+   "raceId": "kagawa-marathon-2027",
+   "text": "Kagawa Marathon (21 Mar 2027) general entry opened on RUNNET on 15 Oct at ¥14,000, with 7,200 general and 300 overseas places until 23 Nov or until full; last year it sold out in under two hours.",
+   "text_de": "Beim Kagawa Marathon (21. März 2027) ist die allgemeine Anmeldung auf RUNNET seit 15. Okt. offen: ¥14.000, 7.200 allgemeine und 300 Auslandsplätze bis 23. Nov. oder bis ausgebucht; im Vorjahr war er in unter zwei Stunden voll."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "new",
+   "raceId": "ishigaki-island-marathon-2027",
+   "text": "New: Ishigaki Island Marathon (17 Jan) - full, half and 10K on Japan's subtropical southern island, entries open until 24 Oct.",
+   "text_de": "Neu: Ishigaki Island Marathon (17. Jan) - Marathon, Halbmarathon und 10 km auf Japans subtropischer Südinsel, Anmeldung bis 24. Okt. offen."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "new",
+   "raceId": "nagano-marathon-2027",
+   "text": "New: Nagano Marathon (18 Apr) - Olympic-city marathon in the Japanese Alps, entries open first come first served until 1 Nov.",
+   "text_de": "Neu: Nagano Marathon (18. Apr) - Marathon in der Olympiastadt in den Japanischen Alpen, Anmeldung nach Eingang bis 1. Nov. offen."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "new",
+   "raceId": "promise-run-the-dam-khun-dan-2027",
+   "text": "New: Promise Run The Dam Khun Dan Half Marathon (31 Jan) - half marathon and 10K at a dam below Khao Yai, early bird from 850 THB.",
+   "text_de": "Neu: Promise Run The Dam Khun Dan Halbmarathon (31. Jan) - Halbmarathon und 10 km an einem Staudamm unterhalb des Khao Yai, Frühbucher ab 850 THB."
+  },
+  {
+   "date": "2026-10-16",
+   "type": "new",
+   "raceId": "jbg-kolkata-marathon-2026",
+   "text": "New: JBG Kolkata Marathon (29 Nov) - full, half, 10K and 5K from Red Road by the Maidan, entries open from ₹600.",
+   "text_de": "Neu: JBG Kolkata Marathon (29. Nov) - Marathon, Halbmarathon, 10 km und 5 km ab der Red Road am Maidan, Anmeldung offen ab ₹600."
   }
  ]
 }
