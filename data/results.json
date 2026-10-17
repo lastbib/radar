@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T07:30:00+07:00",
+ "updated": "2026-10-17T07:30:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -364,9 +364,9 @@
    }
   },
   "cebu-marathon": {
-   "edition": "2024",
-   "date": "2024-01-14",
-   "source": "https://www.sunstar.com.ph/cebu/kenyan-runner-defends-crown",
+   "edition": "2026",
+   "date": "2026-01-11",
+   "source": "https://cebudailynews.inquirer.net/687137/cebu-marathon-torregosa-hits-sub-3-mark-chepsiror-keeps-crown",
    "fullResults": "",
    "distances": {
     "42K": {
@@ -375,39 +375,141 @@
        "p": 1,
        "n": "Eric Chepsiror",
        "c": "Kenya",
-       "t": "2:33:50"
+       "t": "2:30:53"
       },
       {
        "p": 2,
        "n": "Florendo Lapiz",
-       "c": "Philippines",
-       "t": "2:35:37"
+       "c": "",
+       "t": "2:32:46"
       },
       {
        "p": 3,
-       "n": "Joseph Mururi",
+       "n": "Luka Lagat",
+       "c": "Kenya",
+       "t": "2:32:53"
+      },
+      {
+       "p": 4,
+       "n": "John Leardo Malojo",
        "c": "",
-       "t": "2:42:19"
+       "t": "2:36:58"
+      },
+      {
+       "p": 5,
+       "n": "Joseph Kigongo",
+       "c": "Kenya",
+       "t": "2:37:33"
       }
      ],
      "women": [
       {
        "p": 1,
        "n": "Artjoy Torregosa",
-       "c": "Philippines",
-       "t": "3:12:14"
+       "c": "",
+       "t": "2:53:17"
       },
       {
        "p": 2,
-       "n": "Maricar Camacho",
-       "c": "Philippines",
-       "t": "3:14:39"
+       "n": "Lizane Abella",
+       "c": "",
+       "t": "3:13:33"
       },
       {
        "p": 3,
-       "n": "Jennylyn Nobleza",
-       "c": "Philippines",
-       "t": "3:18:41"
+       "n": "April Joy Alampayan",
+       "c": "",
+       "t": "3:16:06"
+      },
+      {
+       "p": 4,
+       "n": "Kay Razel Cundangan",
+       "c": "",
+       "t": "3:16:37"
+      },
+      {
+       "p": 5,
+       "n": "April Rose Diaz",
+       "c": "",
+       "t": "3:20:31"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Daniel Boiwo",
+       "c": "Kenya",
+       "t": "1:09:00"
+      },
+      {
+       "p": 2,
+       "n": "Richard Salaño",
+       "c": "",
+       "t": "1:10:09"
+      },
+      {
+       "p": 3,
+       "n": "Rogen Aguirre",
+       "c": "",
+       "t": "1:11:04"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Michelle Zamora",
+       "c": "",
+       "t": "1:25:47"
+      },
+      {
+       "p": 2,
+       "n": "Jessa Mae Roda",
+       "c": "",
+       "t": "1:27:50"
+      },
+      {
+       "p": 3,
+       "n": "Pia Englyst",
+       "c": "Switzerland",
+       "t": "1:29:51"
+      }
+     ]
+    },
+    "10K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Mark Mahinay",
+       "c": "",
+       "t": "32:32"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Edna Magtubo",
+       "c": "",
+       "t": "38:31"
+      }
+     ]
+    },
+    "5K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Dhem AJ Monton",
+       "c": "",
+       "t": "15:07"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Jasrain Mizzy Noval",
+       "c": "",
+       "t": "19:43"
       }
      ]
     }
@@ -3295,6 +3397,342 @@
        "n": "Sakshi Jadia",
        "c": "India",
        "t": "2:39:37"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Sachin Yadav",
+       "c": "India",
+       "t": ""
+      },
+      {
+       "p": 2,
+       "n": "Raj Tiwari",
+       "c": "",
+       "t": ""
+      },
+      {
+       "p": 3,
+       "n": "Mukesh Kumar",
+       "c": "",
+       "t": ""
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Bharti",
+       "c": "",
+       "t": ""
+      },
+      {
+       "p": 2,
+       "n": "Ravina Gaikwad",
+       "c": "",
+       "t": ""
+      }
+     ]
+    }
+   }
+  },
+  "nagano-marathon": {
+   "edition": "2026",
+   "date": "2026-04-19",
+   "source": "https://worldathletics.org/competition/calendar-results/results/7237763",
+   "fullResults": "https://worldathletics.org/competition/calendar-results/results/7237763",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Daichi Atsura",
+       "c": "Japan",
+       "t": "2:12:08"
+      },
+      {
+       "p": 2,
+       "n": "Shuya Iwami",
+       "c": "Japan",
+       "t": "2:12:43"
+      },
+      {
+       "p": 3,
+       "n": "Kaede Shinohara",
+       "c": "Japan",
+       "t": "2:15:04"
+      },
+      {
+       "p": 4,
+       "n": "Keigo Yano",
+       "c": "Japan",
+       "t": "2:17:52"
+      },
+      {
+       "p": 5,
+       "n": "Yoshiki Murase",
+       "c": "Japan",
+       "t": "2:19:20"
+      },
+      {
+       "p": 6,
+       "n": "Kota Ishikawa",
+       "c": "Japan",
+       "t": "2:19:34"
+      },
+      {
+       "p": 7,
+       "n": "Sohei Wada",
+       "c": "Japan",
+       "t": "2:21:02"
+      },
+      {
+       "p": 8,
+       "n": "Ryohei Iwabuchi",
+       "c": "Japan",
+       "t": "2:21:58"
+      },
+      {
+       "p": 9,
+       "n": "Sota Yamamoto",
+       "c": "Japan",
+       "t": "2:22:34"
+      },
+      {
+       "p": 10,
+       "n": "Hideyuki Ikegami",
+       "c": "Japan",
+       "t": "2:22:34"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Anna Matsuda",
+       "c": "Japan",
+       "t": "2:39:43"
+      },
+      {
+       "p": 2,
+       "n": "Saki Shimada",
+       "c": "Japan",
+       "t": "2:41:13"
+      },
+      {
+       "p": 3,
+       "n": "Yoshimi Tanaka",
+       "c": "Japan",
+       "t": "2:47:30"
+      },
+      {
+       "p": 4,
+       "n": "Yuki Nomoto",
+       "c": "Japan",
+       "t": "2:54:42"
+      },
+      {
+       "p": 5,
+       "n": "Kanako Miyano",
+       "c": "Japan",
+       "t": "2:54:44"
+      },
+      {
+       "p": 6,
+       "n": "Chiaki Yamada",
+       "c": "Japan",
+       "t": "2:55:38"
+      },
+      {
+       "p": 7,
+       "n": "Momoko Iijima",
+       "c": "Japan",
+       "t": "2:58:19"
+      },
+      {
+       "p": 8,
+       "n": "Hana Hibino",
+       "c": "Japan",
+       "t": "2:58:37"
+      }
+     ]
+    }
+   }
+  },
+  "kyoto-marathon": {
+   "edition": "2026",
+   "date": "2026-02-15",
+   "source": "https://zutto-sports.com/kyoto-marathon-result",
+   "fullResults": "https://runnet.jp/record/smp/racetopshow.do?raceId=379588",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "森井 勇磨 (Yuma Morii)",
+       "c": "",
+       "t": "2:17:38"
+      },
+      {
+       "p": 2,
+       "n": "板垣 辰矢",
+       "c": "",
+       "t": "2:20:56"
+      },
+      {
+       "p": 3,
+       "n": "日下 聖也",
+       "c": "",
+       "t": "2:21:09"
+      },
+      {
+       "p": 4,
+       "n": "奥田 龍星",
+       "c": "",
+       "t": "2:23:32"
+      },
+      {
+       "p": 5,
+       "n": "西村 広和",
+       "c": "",
+       "t": "2:24:14"
+      },
+      {
+       "p": 6,
+       "n": "行場 竹彦",
+       "c": "",
+       "t": "2:24:43"
+      },
+      {
+       "p": 7,
+       "n": "北村 友也",
+       "c": "",
+       "t": "2:25:08"
+      },
+      {
+       "p": 8,
+       "n": "伊藤 裕世",
+       "c": "",
+       "t": "2:25:15"
+      },
+      {
+       "p": 9,
+       "n": "住谷 亮太",
+       "c": "",
+       "t": "2:25:28"
+      },
+      {
+       "p": 10,
+       "n": "田中 祥幸",
+       "c": "",
+       "t": "2:25:51"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "深田 望友",
+       "c": "",
+       "t": "2:37:39"
+      },
+      {
+       "p": 2,
+       "n": "廣川 風佳",
+       "c": "",
+       "t": "2:43:25"
+      },
+      {
+       "p": 3,
+       "n": "太田 美紀子",
+       "c": "",
+       "t": "2:50:06"
+      },
+      {
+       "p": 4,
+       "n": "今泉 野乃香",
+       "c": "",
+       "t": "2:52:07"
+      },
+      {
+       "p": 5,
+       "n": "李 瑶",
+       "c": "",
+       "t": "2:52:44"
+      },
+      {
+       "p": 6,
+       "n": "杉本 有紀",
+       "c": "",
+       "t": "2:53:29"
+      },
+      {
+       "p": 7,
+       "n": "井上 未来",
+       "c": "",
+       "t": "2:54:34"
+      },
+      {
+       "p": 8,
+       "n": "地石 三奈",
+       "c": "",
+       "t": "3:01:10"
+      },
+      {
+       "p": 9,
+       "n": "髙橋 佑子",
+       "c": "",
+       "t": "3:01:44"
+      },
+      {
+       "p": 10,
+       "n": "藤井 千裕",
+       "c": "",
+       "t": "3:03:18"
+      }
+     ]
+    }
+   }
+  },
+  "kaohsiung-fubon-marathon": {
+   "edition": "2026",
+   "date": "2026-01-11",
+   "source": "https://newtalk.tw/news/view/2026-01-12/1014365",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Naoya Sakuda",
+       "c": "Japan",
+       "t": "2:14:43"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Jemimah Wayua Musau",
+       "c": "Kenya",
+       "t": "2:37:10"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Junji Hisada",
+       "c": "Japan",
+       "t": "1:08:55"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "謝千鶴",
+       "c": "",
+       "t": "1:23:08"
       }
      ]
     }
