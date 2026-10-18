@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T07:30:00+07:00",
+ "updated": "2026-10-18T07:30:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -434,6 +434,62 @@
    "raceId": "wan-jin-shi-marathon-2027",
    "text": "Wan Jin Shi Marathon (21 Mar 2027) lottery entry closes on 30 Oct.",
    "text_de": "Die Losanmeldung für den Wan Jin Shi Marathon (21. März 2027) endet am 30. Oktober."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "closing",
+   "raceId": "kagoshima-marathon-2027",
+   "text": "Entry for the Kagoshima Marathon (7 Mar 2027) closes on 31 October 2026 unless the 10,000 places fill earlier.",
+   "text_de": "Die Anmeldung zum Kagoshima-Marathon (7.3.2027) endet am 31. Oktober 2026, sofern die 10.000 Plätze nicht vorher vergeben sind."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "closing",
+   "raceId": "mandiri-bintan-marathon-2026",
+   "text": "Registration for the Mandiri Bintan Marathon (21-22 Nov 2026) closes on 23 Oct 2026.",
+   "text_de": "Die Anmeldung zum Mandiri Bintan Marathon (21.-22. Nov. 2026) endet am 23. Okt. 2026."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "closing",
+   "raceId": "allianz-world-run-khao-yai-2026",
+   "text": "Registration for the Allianz Ayudhya World Run Thailand Series in Pak Chong (Khao Yai) on 22 November 2026 closes on 20 October.",
+   "text_de": "Die Anmeldung für den Allianz Ayudhya World Run Thailand Series in Pak Chong (Khao Yai) am 22. November 2026 schließt am 20. Oktober."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "closing",
+   "raceId": "ica-international-half-marathon-colombo-2026",
+   "text": "Registration for the ICA International Half Marathon Colombo on 13 December 2026 closes on 31 October.",
+   "text_de": "Die Anmeldung für den ICA International Half Marathon Colombo am 13. Dezember 2026 schließt am 31. Oktober."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "new",
+   "raceId": "danang-international-marathon-2027",
+   "text": "New: Danang International Marathon (21 Mar) - beachfront race with 9,000 runners from 75 countries, entries open until 31 Jan from €40.",
+   "text_de": "Neu: Danang International Marathon (21. März) - Strandrennen mit 9.000 Läufern aus 75 Ländern, Anmeldung bis 31. Jan. ab 40 €."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "new",
+   "raceId": "vasai-virar-mayors-marathon-2026",
+   "text": "New: Vasai-Virar Mayor's Marathon (13 Dec) - one of India's biggest domestic races with 20,000+ runners, entries now open from about ₹800.",
+   "text_de": "Neu: Vasai-Virar Mayor's Marathon (13. Dez.) - einer der größten Läufe Indiens mit über 20.000 Teilnehmern, Anmeldung offen ab ca. 800 ₹."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "new",
+   "raceId": "ust-trivandrum-marathon-2026",
+   "text": "New: UST Trivandrum Marathon (15 Nov) - 15,000+ runners expected in Kerala's capital, with 42K, 21K, 10K and 5K. Entries open now.",
+   "text_de": "Neu: UST Trivandrum Marathon (15. Nov.) - über 15.000 Läufer in Keralas Hauptstadt erwartet, mit 42K, 21K, 10K und 5K. Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-10-18",
+   "type": "new",
+   "raceId": "rock-n-roll-taitung-2027",
+   "text": "New: Rock 'n' Roll Taitung (13 Mar) - afternoon half marathon between mountains and Pacific with live bands, early-bird entries from NT$980.",
+   "text_de": "Neu: Rock 'n' Roll Taitung (13. März) - Halbmarathon am Nachmittag zwischen Bergen und Pazifik mit Live-Bands, Frühbucher ab NT$980."
   }
  ]
 }

@@ -3737,6 +3737,148 @@
      ]
     }
    }
+  },
+  "khon-kaen-marathon": {
+   "edition": "2026 (21st edition)",
+   "date": "2026-01-11",
+   "source": "https://www.kku.ac.th/en/265234/",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Moges Abate Tefera",
+       "c": "Ethiopia",
+       "t": "2:18:11"
+      },
+      {
+       "p": 2,
+       "n": "Barnabas Kiplimo",
+       "c": "Kenya",
+       "t": "2:21:22"
+      },
+      {
+       "p": 3,
+       "n": "Wendwesen Damte",
+       "c": "Ethiopia",
+       "t": "2:21:33"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Marta Tinsae Birehan",
+       "c": "Ethiopia",
+       "t": "2:45:51"
+      },
+      {
+       "p": 2,
+       "n": "Nancy Githiga",
+       "c": "Kenya",
+       "t": "2:47:40"
+      },
+      {
+       "p": 3,
+       "n": "Hajer Kahsay Berhe",
+       "c": "Ethiopia",
+       "t": "2:52:34"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kindu Sewmehon Tiruneh",
+       "c": "Ethiopia",
+       "t": "1:07:37"
+      },
+      {
+       "p": 2,
+       "n": "Pongsit Chinphawo",
+       "c": "Thailand",
+       "t": "1:14:09"
+      },
+      {
+       "p": 3,
+       "n": "Thanachat Kongudom",
+       "c": "Thailand",
+       "t": "1:16:14"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Lodkeo Inthakoumman",
+       "c": "Laos",
+       "t": "1:21:43"
+      },
+      {
+       "p": 2,
+       "n": "Faya Hussen Ogato",
+       "c": "Ethiopia",
+       "t": "1:25:43"
+      },
+      {
+       "p": 3,
+       "n": "Ornanong Wongsorn",
+       "c": "Thailand",
+       "t": "1:26:03"
+      }
+     ]
+    }
+   }
+  },
+  "halong-bay-heritage-marathon": {
+   "edition": "2025",
+   "date": "2025-11-23",
+   "source": "https://vietnamnews.vn/sports/1730282/ha-long-heritage-international-marathon-unites-global-runners-in-record-breaking-moments.html",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kennedy Kiprop Chelimo",
+       "c": "Kenya",
+       "t": "2:13:57"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Caroline Jepkemei Kimosop",
+       "c": "Kenya",
+       "t": "2:43:26"
+      },
+      {
+       "p": 3,
+       "n": "Phạm Thị Hồng Lệ",
+       "c": "Vietnam",
+       "t": "2:48:06"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Edwin Yebei Kiptoo",
+       "c": "Kenya",
+       "t": "1:11:23"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Doãn Thị Oanh",
+       "c": "",
+       "t": "1:19:53"
+      }
+     ]
+    }
+   }
   }
  }
 }
