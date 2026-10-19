@@ -3879,6 +3879,402 @@
      ]
     }
    }
+  },
+  "amazing-thailand-marathon-bangkok": {
+   "edition": "2025 (8th edition)",
+   "date": "2025-11-30",
+   "source": "https://worldathletics.org/competition/calendar-results/results/7224299",
+   "fullResults": "https://my.raceresult.com/374029/",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Agunafr Bekele",
+       "c": "Ethiopia",
+       "t": "2:14:27"
+      },
+      {
+       "p": 2,
+       "n": "Tariku Abdi",
+       "c": "Ethiopia",
+       "t": "2:19:15"
+      },
+      {
+       "p": 3,
+       "n": "Krzysztof Hadas",
+       "c": "Poland",
+       "t": "2:19:24"
+      },
+      {
+       "p": 4,
+       "n": "Takele Habtemariyam",
+       "c": "Ethiopia",
+       "t": "2:20:32"
+      },
+      {
+       "p": 5,
+       "n": "Abera Kuma",
+       "c": "Ethiopia",
+       "t": "2:22:40"
+      },
+      {
+       "p": 6,
+       "n": "Wendwesen Tilahun",
+       "c": "Ethiopia",
+       "t": "2:23:34"
+      },
+      {
+       "p": 7,
+       "n": "Tsegaye Keress",
+       "c": "Ethiopia",
+       "t": "2:23:41"
+      },
+      {
+       "p": 8,
+       "n": "Teferi Tola",
+       "c": "Ethiopia",
+       "t": "2:24:14"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Eunice Nyawira Muchiri",
+       "c": "Kenya",
+       "t": "2:39:27"
+      },
+      {
+       "p": 2,
+       "n": "Hajer Berhe",
+       "c": "Ethiopia",
+       "t": "2:43:49"
+      },
+      {
+       "p": 3,
+       "n": "Meseret Desalegn",
+       "c": "Ethiopia",
+       "t": "2:47:55"
+      },
+      {
+       "p": 4,
+       "n": "Saron Molla",
+       "c": "Ethiopia",
+       "t": "2:48:36"
+      },
+      {
+       "p": 5,
+       "n": "Yeshiemebet Nguse",
+       "c": "Ethiopia",
+       "t": "2:48:39"
+      },
+      {
+       "p": 6,
+       "n": "Nancy Githaiga",
+       "c": "Kenya",
+       "t": "2:48:49"
+      },
+      {
+       "p": 7,
+       "n": "Ling Wu",
+       "c": "China",
+       "t": "2:53:47"
+      },
+      {
+       "p": 8,
+       "n": "Zhiyan Ni",
+       "c": "China",
+       "t": "2:55:10"
+      }
+     ]
+    }
+   },
+   "records": {
+    "men": {
+     "t": "2:14:27",
+     "n": "Agunafr Bekele",
+     "c": "Ethiopia",
+     "y": 2025
+    },
+    "women": {
+     "t": "2:39:27",
+     "n": "Eunice Nyawira Muchiri",
+     "c": "Kenya",
+     "y": 2025
+    }
+   }
+  },
+  "borobudur-marathon": {
+   "edition": "2025",
+   "date": "2025-11-16",
+   "source": "https://worldathletics.org/competition/calendar-results/results/7229140",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Ezra Kipchumba Kering",
+       "c": "Kenya",
+       "t": "2:17:33"
+      },
+      {
+       "p": 2,
+       "n": "Alex Korio",
+       "c": "Kenya",
+       "t": "2:17:43"
+      },
+      {
+       "p": 3,
+       "n": "Kiprop Tonui",
+       "c": "Kenya",
+       "t": "2:18:01"
+      },
+      {
+       "p": 4,
+       "n": "Edwin Cheruiyot Soi",
+       "c": "Kenya",
+       "t": "2:20:21"
+      },
+      {
+       "p": 5,
+       "n": "Amos Kipkemoi Cheruiyot",
+       "c": "Kenya",
+       "t": "2:21:24"
+      },
+      {
+       "p": 6,
+       "n": "Geoffrey Kiprotich Birgen",
+       "c": "Kenya",
+       "t": "2:21:43"
+      },
+      {
+       "p": 7,
+       "n": "Jimnah Kariuki",
+       "c": "Kenya",
+       "t": "2:23:55"
+      },
+      {
+       "p": 8,
+       "n": "James Tallam Cheruitich",
+       "c": "Kenya",
+       "t": "2:24:21"
+      },
+      {
+       "p": 9,
+       "n": "Joseph Mwangi",
+       "c": "Kenya",
+       "t": "2:31:35"
+      },
+      {
+       "p": 10,
+       "n": "Paul Kibet",
+       "c": "Kenya",
+       "t": "2:32:41"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Margaret Agai",
+       "c": "Kenya",
+       "t": "2:43:55"
+      },
+      {
+       "p": 2,
+       "n": "Truphena Chepchirchir",
+       "c": "Kenya",
+       "t": "2:43:55"
+      },
+      {
+       "p": 3,
+       "n": "Caroline Cheptanui Kilel",
+       "c": "Kenya",
+       "t": "2:44:12"
+      },
+      {
+       "p": 4,
+       "n": "Kalkidan Debeb",
+       "c": "Ethiopia",
+       "t": "2:46:22"
+      },
+      {
+       "p": 5,
+       "n": "Maureen Jepkoech Kiprono",
+       "c": "Kenya",
+       "t": "2:48:35"
+      },
+      {
+       "p": 6,
+       "n": "Lydia Naliaka",
+       "c": "Kenya",
+       "t": "2:50:28"
+      },
+      {
+       "p": 7,
+       "n": "Zipora Wanjiru",
+       "c": "Kenya",
+       "t": "2:53:57"
+      },
+      {
+       "p": 8,
+       "n": "Khishigsaikhan Galbadrakh",
+       "c": "Mongolia",
+       "t": "2:54:43"
+      },
+      {
+       "p": 9,
+       "n": "Tiansi Anggraini",
+       "c": "Indonesia",
+       "t": "3:02:07"
+      },
+      {
+       "p": 10,
+       "n": "Handayani Irma",
+       "c": "Indonesia",
+       "t": "3:02:37"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Dawit Fikadu Admasu",
+       "c": "Bahrain",
+       "t": "1:04:54"
+      },
+      {
+       "p": 2,
+       "n": "Bernard Musau Wambua",
+       "c": "Kenya",
+       "t": "1:04:57"
+      },
+      {
+       "p": 3,
+       "n": "Moses Kibet",
+       "c": "Kenya",
+       "t": "1:05:04"
+      },
+      {
+       "p": 4,
+       "n": "Charles Munyua",
+       "c": "Kenya",
+       "t": "1:05:49"
+      },
+      {
+       "p": 5,
+       "n": "Peter Ndungocou",
+       "c": "Kenya",
+       "t": "1:06:25"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Lucy Nthenya Ndambuki",
+       "c": "Kenya",
+       "t": "1:13:05"
+      },
+      {
+       "p": 2,
+       "n": "Nympha Kiteta Kivalo",
+       "c": "Kenya",
+       "t": "1:13:35"
+      },
+      {
+       "p": 3,
+       "n": "Evangeline Makena",
+       "c": "Kenya",
+       "t": "1:14:08"
+      },
+      {
+       "p": 4,
+       "n": "Nefriana Ariance",
+       "c": "Indonesia",
+       "t": "1:24:20"
+      },
+      {
+       "p": 5,
+       "n": "Eva Desiana",
+       "c": "Indonesia",
+       "t": "1:30:31"
+      }
+     ]
+    }
+   }
+  },
+  "chennai-marathon": {
+   "edition": "2026",
+   "date": "2026-01-04",
+   "source": "https://www.tribuneindia.com/news/business/ethiopians-tsegaye-molla-and-senait-kefelegn-lesharge-win-at-freshworks-chennai-marathon-2026-powered-by-ashok-leyland/",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Tsegaye Molla",
+       "c": "Ethiopia",
+       "t": "2:26:22"
+      },
+      {
+       "p": 2,
+       "n": "Juma Wycliffe",
+       "t": "2:27:19"
+      },
+      {
+       "p": 3,
+       "n": "Nilesh Arsekar",
+       "t": "2:28:56"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Senait Kefelegn Lesharge",
+       "c": "Ethiopia",
+       "t": "3:07:30"
+      },
+      {
+       "p": 2,
+       "n": "Firehiwot Shemsu",
+       "t": "3:10:29"
+      },
+      {
+       "p": 3,
+       "n": "Seema",
+       "t": "3:17:55"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Sandeep Devrari",
+       "t": "1:09:18"
+      },
+      {
+       "p": 2,
+       "n": "Akhil Jadhav",
+       "t": "1:11:06"
+      },
+      {
+       "p": 3,
+       "n": "Makesh S",
+       "t": "1:16:26"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Divya S",
+       "t": "1:27:44"
+      }
+     ]
+    }
+   }
   }
  }
 }

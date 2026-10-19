@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T07:30:00+07:00",
+ "updated": "2026-10-19T07:30:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -490,6 +490,76 @@
    "raceId": "rock-n-roll-taitung-2027",
    "text": "New: Rock 'n' Roll Taitung (13 Mar) - afternoon half marathon between mountains and Pacific with live bands, early-bird entries from NT$980.",
    "text_de": "Neu: Rock 'n' Roll Taitung (13. März) - Halbmarathon am Nachmittag zwischen Bergen und Pazifik mit Live-Bands, Frühbucher ab NT$980."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "closing",
+   "raceId": "osaka-marathon-2027",
+   "text": "Osaka Marathon overseas charity entry closes today, 19 October at 17:00 JST, or sooner if the places run out.",
+   "text_de": "Die Charity-Anmeldung für ausländische Läufer beim Osaka-Marathon endet heute, am 19. Oktober um 17:00 Uhr japanischer Zeit, oder früher, wenn die Plätze vergeben sind."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "closing",
+   "raceId": "angkor-wat-half-2026",
+   "text": "Registration for the Angkor Wat International Half Marathon closes on 23 October, with no late or race-day entries.",
+   "text_de": "Die Anmeldung zum Angkor Wat International Half Marathon endet am 23. Oktober – Nachmeldungen am Renntag gibt es nicht."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "closing",
+   "raceId": "kaohsiung-fubon-marathon-2027",
+   "text": "Registration for the Kaohsiung Fubon Marathon closes on 23 October, or earlier if the places run out.",
+   "text_de": "Die Anmeldung zum Kaohsiung Fubon Marathon endet am 23. Oktober oder schon früher, wenn alle Plätze vergeben sind."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "closing",
+   "raceId": "sydney-marathon-2027",
+   "text": "The TCS Sydney Marathon 2027 ballot closed on 19 October; selected runners will be told on 3 November.",
+   "text_de": "Die Losverlosung für den TCS Sydney Marathon 2027 ist am 19. Oktober zu Ende gegangen; die Ausgelosten erfahren es am 3. November."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "closing",
+   "raceId": "bangkok-marathon-2027",
+   "text": "Registration for the Bangkok Marathon on 10 January 2027 closes on 31 October, or earlier if entries fill up.",
+   "text_de": "Die Anmeldung zum Bangkok Marathon am 10. Januar 2027 endet am 31. Oktober, bei vorzeitiger Ausbuchung auch früher."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "closing",
+   "raceId": "nagano-marathon-2027",
+   "text": "Entries for the Nagano Marathon on 18 April 2027 close on 1 November, or earlier once all 10,000 places are taken.",
+   "text_de": "Die Anmeldung zum Nagano-Marathon am 18. April 2027 endet am 1. November, oder früher, sobald alle 10.000 Plätze vergeben sind."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "new",
+   "raceId": "rock-n-roll-manila-2026",
+   "text": "New: Rock 'n' Roll Manila (29 Nov) - AIMS-certified loop through old Manila from Luneta Park, entries from PHP 1,998.",
+   "text_de": "Neu: Rock 'n' Roll Manila (29. Nov) - AIMS-zertifizierte Runde durch das alte Manila ab dem Luneta Park, Startplätze ab 1.998 PHP."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "new",
+   "raceId": "federal-bank-kochi-marathon-2027",
+   "text": "New: Federal Bank Kochi Marathon (14 Feb) - flat pre-dawn race on Kerala's coast, entries from ₹630.",
+   "text_de": "Neu: Federal Bank Kochi Marathon (14. Feb) - flaches Rennen vor Sonnenaufgang an Keralas Küste, Startplätze ab 630 ₹."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "new",
+   "raceId": "kasumigaura-marathon-2027",
+   "text": "New: Kasumigaura Marathon (18 Apr) - lakeside spring marathon near Tokyo, entries from ¥6,000.",
+   "text_de": "Neu: Kasumigaura-Marathon (18. Apr) - Frühlingsmarathon am See nahe Tokio, Startplätze ab 6.000 ¥."
+  },
+  {
+   "date": "2026-10-19",
+   "type": "new",
+   "raceId": "tenzing-hillary-everest-marathon-2027",
+   "text": "New: Everest Marathon (29 May) - from Everest Base Camp down to Namche Bazaar, entries from US$999.",
+   "text_de": "Neu: Everest-Marathon (29. Mai) - vom Everest Base Camp hinunter nach Namche Bazaar, Startplätze ab 999 US$."
   }
  ]
 }
