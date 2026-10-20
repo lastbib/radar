@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T07:30:00+07:00",
+ "updated": "2026-10-20T07:30:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -560,6 +560,20 @@
    "raceId": "tenzing-hillary-everest-marathon-2027",
    "text": "New: Everest Marathon (29 May) - from Everest Base Camp down to Namche Bazaar, entries from US$999.",
    "text_de": "Neu: Everest-Marathon (29. Mai) - vom Everest Base Camp hinunter nach Namche Bazaar, Startplätze ab 999 US$."
+  },
+  {
+   "date": "2026-10-20",
+   "type": "new",
+   "raceId": "amazing-chiang-rai-marathon-2027",
+   "text": "New: Amazing Chiang Rai Marathon (31 Jan) - flat course past the White and Blue Temples in cool northern mornings, entries from about €16.",
+   "text_de": "Neu: Amazing Chiang Rai Marathon (31. Jan.) - flache Strecke vorbei am Weißen und Blauen Tempel bei kühlen Morgentemperaturen im Norden, Startplätze ab ca. 16 €."
+  },
+  {
+   "date": "2026-10-20",
+   "type": "new",
+   "raceId": "tcs-world-10k-bengaluru-2027",
+   "text": "New: TCS World 10K Bengaluru (25 Apr) - India's World Athletics Gold Label 10K, registration opens later.",
+   "text_de": "Neu: TCS World 10K Bengaluru (25. Apr.) - Indiens 10-km-Lauf mit World-Athletics-Gold-Label, die Anmeldung öffnet später."
   }
  ]
 }
