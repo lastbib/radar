@@ -4275,6 +4275,148 @@
      ]
     }
    }
+  },
+  "danang-international-marathon": {
+   "edition": "2026 (13th edition)",
+   "date": "2026-03-22",
+   "source": "https://en.qdnd.vn/culture-sports/sports/vietnamese-runners-shine-at-da-nang-international-marathon-2026-589064",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Edsel Moral",
+       "c": "Philippines",
+       "t": "2:30:43"
+      },
+      {
+       "p": 2,
+       "n": "Tomoki Tezuka",
+       "c": "Japan",
+       "t": "2:36:19"
+      },
+      {
+       "p": 3,
+       "n": "Cronie Melliza",
+       "c": "",
+       "t": "2:38:51"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Vũ Khánh Linh",
+       "c": "Vietnam",
+       "t": "3:01:20"
+      },
+      {
+       "p": 2,
+       "n": "Yukiko Nomoto",
+       "c": "Japan",
+       "t": "3:03:00"
+      },
+      {
+       "p": 3,
+       "n": "Aleksandra Simakova",
+       "c": "",
+       "t": "3:07:37"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Takemaru Yamasaki",
+       "c": "Japan",
+       "t": "1:12:10"
+      },
+      {
+       "p": 2,
+       "n": "Rinku Hirai",
+       "c": "Japan",
+       "t": "1:12:25"
+      },
+      {
+       "p": 3,
+       "n": "Yuta Masuda",
+       "c": "Japan",
+       "t": "1:13:00"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Triệu Thị Bình",
+       "c": "Vietnam",
+       "t": "1:22:56"
+      },
+      {
+       "p": 2,
+       "n": "Goh Shing Ling",
+       "c": "Singapore",
+       "t": "1:23:33"
+      },
+      {
+       "p": 3,
+       "n": "Đoàn Thị Oanh",
+       "c": "",
+       "t": "1:24:39"
+      }
+     ]
+    }
+   }
+  },
+  "okinawa-marathon": {
+   "edition": "2025 (30th edition; 2026 held online only)",
+   "date": "2025-02-16",
+   "source": "https://ryukyushimpo.jp/tag/2025おきなわマラソン",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Daijiro Seto",
+       "c": "Japan",
+       "t": "2:29:36"
+      },
+      {
+       "p": 2,
+       "n": "Tomohide Nishikawa",
+       "c": "Japan",
+       "t": "2:34:05"
+      },
+      {
+       "p": 3,
+       "n": "Taishi Ebinuma",
+       "c": "Japan",
+       "t": "2:35:11"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Eri Suzuki",
+       "c": "Japan",
+       "t": "2:53:51"
+      },
+      {
+       "p": 2,
+       "n": "Mari Yonekura",
+       "c": "Japan",
+       "t": "3:01:14"
+      },
+      {
+       "p": 3,
+       "n": "Ayano Ikehara",
+       "c": "Japan",
+       "t": "3:04:21"
+      }
+     ]
+    }
+   }
   }
  }
 }

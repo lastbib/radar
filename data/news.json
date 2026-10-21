@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T07:30:00+07:00",
+ "updated": "2026-10-21T07:30:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -574,6 +574,48 @@
    "raceId": "tcs-world-10k-bengaluru-2027",
    "text": "New: TCS World 10K Bengaluru (25 Apr) - India's World Athletics Gold Label 10K, registration opens later.",
    "text_de": "Neu: TCS World 10K Bengaluru (25. Apr.) - Indiens 10-km-Lauf mit World-Athletics-Gold-Label, die Anmeldung öffnet später."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "opened",
+   "raceId": "ras-al-khaimah-half-2027",
+   "text": "Ras Al Khaimah Half Marathon (30 Jan 2027) registration is now open online, with the half marathon at US$80, the 10K at US$50 and the 5K at US$30.",
+   "text_de": "Die Anmeldung zum Ras Al Khaimah Half Marathon (30. Jan. 2027) ist jetzt online geöffnet: Halbmarathon 80 US$, 10K 50 US$ und 5K 30 US$."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "closing",
+   "raceId": "vnexpress-marathon-hai-phong-2026",
+   "text": "VnExpress Marathon Hai Phong (27 Dec): early-bird prices, from ₫550,000 (5K) to ₫1,050,000 (marathon), end on 28 Oct.",
+   "text_de": "VnExpress Marathon Hai Phong (27. Dez.): Die Frühbucherpreise von ₫550.000 (5 km) bis ₫1.050.000 (Marathon) enden am 28. Okt."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "new",
+   "raceId": "kinmen-marathon-2027",
+   "text": "New: Kinmen Marathon (17 Jan) - 20th edition loops the former frontline island past lakes and war tunnels, entries close 30 Oct or when full.",
+   "text_de": "Neu: Kinmen Marathon (17. Jan.) - die 20. Ausgabe umrundet die frühere Frontinsel vorbei an Seen und Kriegstunneln, Anmeldung bis 30. Okt. oder bis ausgebucht."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "new",
+   "raceId": "kozhikode-marathon-2027",
+   "text": "New: India VKC Kozhikode Marathon (10 Jan) - beach-start half marathon on Kerala's Malabar coast, entries open now.",
+   "text_de": "Neu: India VKC Kozhikode Marathon (10. Jan.) - Halbmarathon mit Start am Strand an Keralas Malabarküste, Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "new",
+   "raceId": "scenic-half-marathon-pranburi-2027",
+   "text": "New: Scenic Half Marathon Pranburi (14 Feb) - World Athletics Label half on the coast south of Hua Hin, entries opening soon.",
+   "text_de": "Neu: Scenic Half Marathon Pranburi (14. Feb.) - Halbmarathon mit World-Athletics-Label an der Küste südlich von Hua Hin, Anmeldung öffnet bald."
+  },
+  {
+   "date": "2026-10-21",
+   "type": "new",
+   "raceId": "vientiane-international-half-marathon-2027",
+   "text": "New: Vientiane International Half Marathon (7 Mar) - pre-dawn AIMS half through the Lao capital, entries opening soon.",
+   "text_de": "Neu: Vientiane International Half Marathon (7. März) - AIMS-Halbmarathon vor Sonnenaufgang durch die laotische Hauptstadt, Anmeldung öffnet bald."
   }
  ]
 }

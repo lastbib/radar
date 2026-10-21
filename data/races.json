@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T07:30:00+07:00",
+ "updated": "2026-10-21T07:30:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -42,7 +42,7 @@
    "facts": "Thailand's classic big-city marathon, run since 1988, starts and finishes on Sanam Chai Road beside the Grand Palace. The full marathon starts at midnight to avoid the heat, so you finish around sunrise among the old city's landmarks.",
    "url": "https://www.bkkmarathon.com",
    "source": "https://registers.bkkmarathon.com",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Grand_Palace",
     "Wat_Phra_Kaew"
@@ -132,7 +132,7 @@
    "facts": "Starts at Tha Phae Gate and runs past the old city moat and Lanna temples, with Doi Suthep as the backdrop. It closes Thailand's marathon series in the cool, misty northern December.",
    "url": "https://www.chiangmaimarathon.com/",
    "source": "https://worldsmarathons.com/marathon/chiang-mai-marathon/register",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Tha_Phae_Gate",
     "Wat_Phra_That_Doi_Suthep",
@@ -216,6 +216,13 @@
      "price": "฿700 (11.5K mini)",
      "amt": 700,
      "cur": "THB"
+    },
+    {
+     "d": "5K",
+     "price": "฿500 (5.4K health walk-run; ฿600 competitive)",
+     "amt": 500,
+     "cur": "THB",
+     "qual": "from"
     }
    ],
    "status": "open",
@@ -226,7 +233,7 @@
    "facts": "The largest international running event in Thailand's northeast, organised by Khon Kaen University. Distances include an unusual 11.5K alongside the marathon and half.",
    "url": "https://registration.khonkaenmarathon.com",
    "source": "https://www.khonkaenmarathon.com/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Bueng_Kaen_Nakhon",
     "Khon_Kaen"
@@ -395,7 +402,7 @@
    "facts": "Phuket's largest sporting event and a Boston qualifier, running past rubber and pineapple plantations, villages and Nai Yang beach. The 5K and 10K are Saturday sunset runs; the marathon and half are Sunday sunrise runs.",
    "url": "https://www.phuketmarathon.com",
    "source": "https://www.ahotu.com/evento/laguna-phuket-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Laguna_Phuket",
     "Bang_Tao_Beach",
@@ -431,7 +438,7 @@
      "price": ""
     }
    ],
-   "status": "soon",
+   "status": "unknown",
    "regOpens": "",
    "regOpensNote": "Date TBA. 2026 race was 21 June.",
    "regCloses": "",
@@ -439,14 +446,15 @@
    "facts": "The island's main road race, starting at Central Samui in Chaweng and heading out to Laem Chengmon and Bangrak pier. Run by Bangkok Airways as part of its boutique race series.",
    "url": "https://www.bangkokairways.run",
    "source": "https://www.mitihoon.com/?p=535458",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Chaweng_Beach",
     "Ko_Samui"
    ],
    "regUrl": "https://www.bangkokairways.run",
    "facts_de": "Das wichtigste Straßenrennen der Insel: Start am Central Samui in Chaweng, dann hinaus nach Laem Chengmon und zum Bangrak Pier. Veranstaltet von Bangkok Airways als Teil seiner Boutique-Laufserie.",
-   "cert": []
+   "cert": [],
+   "priceNote": "Official site bangkokairways.run now redirects to a domain-parking page; 2027 edition not confirmed (checked 21 Oct 2026)."
   },
   {
    "id": "samui-neon-run-2027",
@@ -475,7 +483,7 @@
    "facts": "A neon-lit night run starting at 7pm from Central Samui along Chaweng Road and South Chaweng Beach. Over 3,000 runners took part in 2026, up more than 30% on the year before.",
    "url": "https://www.runlah.com",
    "source": "https://worldsmarathons.com/marathon/neon-run-samui",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Ko_Samui",
     "Chaweng_Beach"
@@ -520,7 +528,7 @@
    "facts": "Held since 1996 inside the UNESCO-listed Angkor park, starting and finishing in front of Angkor Wat at sunrise. The course passes the Bayon temple at Angkor Thom.",
    "url": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026",
    "source": "https://kh.checkpointspot.asia/event/Angkor-Wat-International-HM-2026",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Angkor_Wat"
    ],
@@ -569,7 +577,7 @@
    "facts": "Vietnam's flagship marathon, with over 23,000 runners from 81 countries in 2025. It starts at the Saigon Zoo gates and finishes at Empire City in Thu Thiem with the skyline behind you.",
    "url": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon",
    "source": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon/register",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Ho_Chi_Minh_City",
     "Saigon_Notre-Dame_Cathedral_Basilica"
@@ -621,7 +629,7 @@
    "facts": "A midnight start in Hoan Kiem, running through the Old Quarter past the Opera House, Ho Chi Minh Mausoleum and Long Bien Bridge. Part of Vietnam's biggest race series.",
    "url": "https://vnexpress.net/gia-bib-hanoi-midnight-2026-5124065.html",
    "source": "https://vnexpress.net/gia-bib-hanoi-midnight-2026-5124065.html",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Hoàn_Kiếm_Lake",
     "Long_Biên_Bridge",
@@ -665,7 +673,7 @@
    "facts": "A seaside race through the coastal city of Quy Nhon on Vietnam's central coast. One of the stops on the VnExpress Marathon series.",
    "url": "https://www.marathons.com/de/events/vnexpress-marathon-quy-nhon_ZdHZ7",
    "source": "https://www.marathons.com/de/events/vnexpress-marathon-quy-nhon_ZdHZ7",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Quy_Nhơn"
    ],
@@ -760,7 +768,7 @@
    "facts": "The 42K crosses the 8.9 km Cebu–Cordova Link Expressway and runs through the Cebu South Coastal Tunnel. 2027 has a new organiser and 10,500 places, timed with the Sinulog festival season.",
    "url": "https://cebumarathon.com",
    "source": "https://www.sunstar.com.ph/cebu/new-cebu-marathon-era",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Cebu–Cordova_Link_Expressway",
     "Cebu_City"
@@ -813,7 +821,7 @@
    "facts": "Southeast Asia's only World Athletics Gold Label marathon.",
    "url": "https://singaporeinternationalmarathon.com",
    "source": "https://singaporeinternationalmarathon.com/registration-fees/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Marina_Bay,_Singapore"
    ],
@@ -902,7 +910,7 @@
    "facts": "Runs past Patuxai and the Mekong riverside in Laos's capital. The full marathon starts at 3:30am to beat the heat.",
    "url": "https://www.efglaos.com/event/vientiane-international-marathon",
    "source": "https://worldsmarathons.com/marathon/vientiane-international-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Patuxai",
     "Vientiane"
@@ -946,7 +954,7 @@
      "cur": "INR"
     }
    ],
-   "priceNote": "32K ₹2,800. World's Marathons lists international prices from €40 (5K €13, 10K €22, 21K €31, 32K €36) but says tickets cannot be bought there and refers runners to the official site.",
+   "priceNote": "32K ₹2,800. World's Marathons lists international prices (42K €40, 32K €36, 21K €31, 10K €22, 5K €13) but says tickets cannot be bought there and refers runners to the official site.",
    "status": "open",
    "regOpens": "",
    "regCloses": "2026-11-25",
@@ -954,7 +962,7 @@
    "facts": "The 16th edition starts and finishes at Chicalim near Vasco and follows the Zuari River, one of India's most scenic marathon routes. December in Goa brings 20–28°C, low humidity and clear skies.",
    "url": "https://skfgoarivermarathon.com",
    "source": "https://worldsmarathons.com/marathon/goa-river-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Zuari_River",
     "Goa"
@@ -1045,7 +1053,7 @@
    "facts": "Held since 1983, it is one of India's oldest marathons, and the 2026 race is its 40th edition. Runners start and finish at the Baburao Sanas Sports Ground in Pune.",
    "url": "https://www.runindia.in/events/EG68azzTLagpCq6oiCiETg",
    "source": "https://www.runindia.in/events/EG68azzTLagpCq6oiCiETg",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Shaniwar_Wada",
     "Pune"
@@ -1085,7 +1093,7 @@
    "facts": "Organised by the volunteer club Chennai Runners, it drew about 22,000 participants in 2024. Besides the marathon, half marathon and 10K, it offers a 32K 'Twenty Miler'.",
    "url": "https://thechennaimarathon.com/",
    "source": "https://thechennaimarathon.com/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Marina_Beach",
     "Chennai"
@@ -1131,7 +1139,7 @@
    "facts": "A winter race through Rajasthan's Pink City.",
    "url": "https://werun.world/courses/?country=IN",
    "source": "https://fatmarathoner.com/au-jaipur-marathon-race-guide/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Hawa_Mahal",
     "Jaipur"
@@ -1219,7 +1227,7 @@
    "url": "https://jtbsports.jp/en/detail/gd3q7",
    "regUrl": "https://jtbsports.jp/en/detail/gd3q7",
    "source": "https://jtbsports.jp/en/detail/gd3q7",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Katsuren_Castle",
     "Okinawa_City"
@@ -1385,7 +1393,7 @@
    "facts_de": "Asiens ältester durchgehend ausgetragener Marathon (seit 1931) vom Gwanghwamun-Platz ins Olympiastadion von 1988 in Jamsil. World-Athletics-Platinum-Label; 2026 war er in Minuten ausverkauft.",
    "url": "https://en.seoul-marathon.com",
    "source": "https://en.seoul-marathon.com/93",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Gwanghwamun",
     "Gyeongbokgung"
@@ -1429,7 +1437,7 @@
    "facts_de": "Rund um den Bomun-See in der alten Silla-Hauptstadt, auf Wegen voller Kirschbäume zur Zeit der Blüte. 2026 fand die 33. Ausgabe statt.",
    "url": "https://www.trazy.com/experience/detail/gyeongju-cherry-blossom-marathon",
    "source": "https://www.cherrymarathon.co.kr/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Bomun_Lake",
     "Gyeongju"
@@ -1467,8 +1475,8 @@
    "facts": "Taiwan's first World Athletics Gold Label race, running along the rugged North Coast between Wanli, Jinshan and Shimen. Entry is by lottery, with results announced in early November.",
    "facts_de": "Taiwans erstes Rennen mit World-Athletics-Gold-Label, entlang der wilden Nordküste zwischen Wanli, Jinshan und Shimen. Startplätze per Los, Ergebnisse Anfang November.",
    "url": "https://wanjinshi-marathon.com.tw/en/",
-   "source": "https://applealmond.com/posts/328748",
-   "checked": "2026-10-20",
+   "source": "https://www.nownews.com/news/6883637",
+   "checked": "2026-10-21",
    "wiki": [
     "Yehliu",
     "Jinshan_District"
@@ -1614,7 +1622,7 @@
    "url": "https://www.bmw-berlin-marathon.com/en/",
    "regUrl": "https://www.bmw-berlin-marathon.com/en/",
    "source": "https://marathonhandbook.com/berlin-marathon-2027-lottery/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Brandenburg_Gate"
    ]
@@ -1649,8 +1657,8 @@
    "facts_de": "Ein flacher, schneller Rundkurs mit Start und Ziel im Grant Park, der durch 29 Stadtviertel Chicagos führt. 2027 findet die 49. Ausgabe statt.",
    "url": "https://www.chicagomarathon.com",
    "regUrl": "https://www.chicagomarathon.com",
-   "source": "https://www.marathonballot.com/news/chicago-2027-ballot-dates-announced",
-   "checked": "2026-10-20",
+   "source": "https://www.chicagomarathon.com/apply/",
+   "checked": "2026-10-21",
    "wiki": [
     "Grant_Park_(Chicago)",
     "Chicago"
@@ -1725,7 +1733,7 @@
    "url": "https://www.nyrr.org/tcsnycmarathon",
    "regUrl": "https://www.nyrr.org/tcsnycmarathon",
    "source": "https://marathonhandbook.com/the-nyc-marathon-lottery-draws-today/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Verrazzano-Narrows_Bridge",
     "Central_Park"
@@ -1821,10 +1829,10 @@
      "cur": "USD"
     }
    ],
-   "priceNote": "Also a 4K fun run (US$50). First come, first served until sold out.",
+   "priceNote": "Also a 4K fun run (US$50). First come, first served until sold out; World's Marathons lists 3 Jan 2027 as the registration close (EUR 132 / 75 / 44 there).",
    "status": "open",
    "regOpens": "",
-   "regCloses": "",
+   "regCloses": "2027-01-03",
    "relevance": 86,
    "cert": [
     "wa-gold",
@@ -1835,7 +1843,7 @@
    "url": "https://www.dubaimarathon.org",
    "regUrl": "https://www.dubaimarathon.org",
    "source": "https://fatmarathoner.com/dubai-marathon-2027-guide/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Burj_Al_Arab",
     "Dubai"
@@ -1852,26 +1860,24 @@
    "distances": [
     {
      "d": "42K",
-     "price": "AED 382 (early bird AED 306)",
+     "price": "AED 382",
      "amt": 382,
      "cur": "AED"
     },
     {
      "d": "10K",
-     "price": "≈AED 172 (2025 price)",
+     "price": "AED 172",
      "amt": 172,
-     "cur": "AED",
-     "qual": "approx"
+     "cur": "AED"
     },
     {
      "d": "5K",
-     "price": "≈AED 90 (2025 price)",
+     "price": "AED 90",
      "amt": 90,
-     "cur": "AED",
-     "qual": "approx"
+     "cur": "AED"
     }
    ],
-   "priceNote": "Also a 2-person marathon relay and a 2.5K (AED 65 in 2025). 10K/5K shown at 2025 prices; fees plus VAT and service charges.",
+   "priceNote": "Official 2026 fees; service fee, transaction fee and VAT are added at checkout. Also a 2-person marathon team (AED 592) and a 2.5K (AED 65).",
    "status": "open",
    "regOpens": "",
    "regCloses": "",
@@ -1885,8 +1891,8 @@
    "facts_de": "Ein flacher Rundkurs auf gesperrten Straßen von der Zayed Sports City vorbei an der Corniche, Qasr Al Hosn und der Sheikh-Zayed-Moschee. 2026 zum World-Athletics-Gold-Label aufgewertet; Streckenrekord der Männer 2:04:40.",
    "url": "https://www.adnocabudhabimarathon.com",
    "regUrl": "https://www.adnocabudhabimarathon.com",
-   "source": "https://fatmarathoner.com/adnoc-abu-dhabi-marathon/",
-   "checked": "2026-10-20",
+   "source": "https://www.adnocabudhabimarathon.com",
+   "checked": "2026-10-21",
    "wiki": [
     "Sheikh_Zayed_Grand_Mosque"
    ]
@@ -1920,7 +1926,7 @@
      "cur": "USD"
     }
    ],
-   "status": "soon",
+   "status": "open",
    "regOpens": "",
    "regCloses": "2027-01-29",
    "relevance": 80,
@@ -1930,14 +1936,15 @@
    "facts": "Four world records have been set on this flat island course; Jacob Kiplimo ran 57:56 here in 2022. Race mornings are a cool 10–15°C.",
    "facts_de": "Auf dieser flachen Inselstrecke wurden vier Weltrekorde gelaufen; Jacob Kiplimo lief hier 2022 57:56. Am Renntag ist es morgens angenehm kühl mit 10–15 °C.",
    "url": "https://www.rakhalfmarathon.com",
-   "source": "https://rakhalfmarathon.com/",
-   "checked": "2026-10-20",
+   "source": "https://rakhalfmarathon.com/race-info/how-to-register/",
+   "checked": "2026-10-21",
    "wiki": [
     "Al_Marjan_Island",
     "Ras_Al_Khaimah"
    ],
-   "regOpensNote": "Official site says registration is opening soon; online entry closes 29 Jan 2027.",
-   "regUrl": "https://rakhalfmarathon.com/race-info/how-to-register/"
+   "regOpensNote": "",
+   "regUrl": "https://reg.mikatiming.com/rakhalfmarathon/2027",
+   "priceNote": "Online registration only. A 2km fun run (US$20 / AED 74) is also offered. Fees in AED: 21K 295, 10K 185, 5K 110."
   },
   {
    "id": "vnexpress-marathon-hai-phong-2026",
@@ -1984,7 +1991,7 @@
    "url": "https://vm.vnexpress.net/hai-phong-2026",
    "regUrl": "https://vm.vnexpress.net/hai-phong-2026/dang-ky-ca-nhan",
    "source": "https://vm.vnexpress.net/hai-phong-2026",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Haiphong"
    ],
@@ -2035,7 +2042,7 @@
    "url": "https://vizagnavymarathon.run/",
    "regUrl": "https://vizagnavymarathon.run/",
    "source": "https://newsonair.gov.in/eastern-naval-command-to-organise-11th-edition-of-vizag-navy-marathon-in-visakhapatnam-on-dec-13/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Visakhapatnam"
    ],
@@ -2088,7 +2095,7 @@
    "url": "https://scenicmarathon.com/event?event=NSMH",
    "regUrl": "https://worldsmarathons.com/marathon/scenic-half-marathon-nakhon-phanom/register",
    "source": "https://worldsmarathons.com/marathon/scenic-half-marathon-nakhon-phanom/register",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Nakhon_Phanom",
     "Mekong"
@@ -2133,7 +2140,7 @@
    "url": "https://www.khm.com.tw/",
    "regUrl": "https://www.khm.com.tw/",
    "source": "https://www.nownews.com/news/6877272",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Kaohsiung",
     "Love_River"
@@ -2166,8 +2173,8 @@
    "facts_de": "Der nach dem Edo-Zeit-Helden Sakamoto Ryōma benannte Marathon auf Shikoku startet an der Präfekturverwaltung von Kōchi und führt nach Osten an der Pazifikküste entlang bis ins Ziel im Haruno-Sportpark. An den Verpflegungsstellen gibt es lokale Tomaten, Zitrusfrüchte und Reisbällchen mit Bonito, und Schüler servieren den Finishern Shamo-Nabe-Eintopf.",
    "url": "https://jtbsports.jp/en/detail/kvl0j",
    "regUrl": "https://jtbsports.jp/en/detail/kvl0j",
-   "source": "https://rundida.com/ja/marathon/kochi-ryoma/",
-   "checked": "2026-10-20",
+   "source": "https://jtbsports.jp/en/detail/kvl0j",
+   "checked": "2026-10-21",
    "wiki": [
     "Kōchi,_Kōchi",
     "Sakamoto_Ryōma"
@@ -2219,7 +2226,7 @@
    "url": "https://halongmarathon.com/en/home/",
    "regUrl": "https://www.finishers.com/en/event/halong-bay-heritage-marathon",
    "source": "https://www.finishers.com/en/event/halong-bay-heritage-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Ha_Long_Bay",
     "Ha_Long"
@@ -2265,7 +2272,7 @@
    "url": "https://khaoyaimarathon.com/",
    "regUrl": "https://khaoyaimarathon.com/",
    "source": "https://www.thaipost.net/sport-news/1058248/",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Khao_Yai_National_Park",
     "Dong_Phayayen–Khao_Yai_Forest_Complex"
@@ -2310,8 +2317,8 @@
    "facts_de": "2027 werden Start und Ziel vom Daegu-Stadion in den Gukchae-Bosang-Gedenkpark im Stadtzentrum verlegt, und der Start rückt auf 8 Uhr vor, auf einer flachen Stadtstrecke entlang der Dalgubeol-daero. Das Teilnehmerfeld schrumpft von 40.000 auf 32.000, davon 15.000 Marathonplätze, nachdem der Anmeldeansturm im Vorjahr die Server lahmgelegt hatte.",
    "url": "https://daegumarathon.daegu.go.kr/",
    "regUrl": "https://daegumarathon.daegu.go.kr/",
-   "source": "https://www.kbmaeil.com/article/20260920500342",
-   "checked": "2026-10-20",
+   "source": "https://daegumarathon.daegu.go.kr/",
+   "checked": "2026-10-21",
    "wiki": [
     "Daegu"
    ],
@@ -2346,7 +2353,7 @@
    "url": "https://kagawa-marathon.com/",
    "regUrl": "https://runnet.jp/",
    "source": "https://www.pref.kagawa.lg.jp/kouryu/marathon/pr/20261008.html",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Ritsurin_Garden",
     "Takamatsu"
@@ -2398,7 +2405,7 @@
    "url": "https://worldsmarathons.com/marathon/trang-an-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/trang-an-marathon/register",
    "source": "https://worldsmarathons.com/marathon/trang-an-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Tràng_An",
     "Hoa_Lư",
@@ -2445,7 +2452,7 @@
    "url": "https://canthomarathon.com/",
    "regUrl": "https://canthomarathon.com/",
    "source": "https://www.finishers.com/course/can-tho-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Cần_Thơ",
     "Cái_Răng_floating_market"
@@ -2488,7 +2495,7 @@
    "url": "https://ryukyushimpo.jp/sports/entry-5529756.html",
    "regUrl": "https://www.sportsentry.ne.jp/",
    "source": "https://ryukyushimpo.jp/sports/entry-5529756.html",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Tokashiki,_Okinawa",
     "Kerama_Islands"
@@ -2537,7 +2544,7 @@
    "url": "https://vadodaramarathon.com/race_categories",
    "regUrl": "https://racesregistrations.com/event/453",
    "source": "https://vadodaramarathon.com/race_categories",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Vadodara",
     "Laxmi_Vilas_Palace,_Vadodara"
@@ -2587,7 +2594,7 @@
    "url": "https://www.ishigakijima-marathon.jp/",
    "regUrl": "https://jtbsports.jp/en/detail/19d4z",
    "source": "https://jtbsports.jp/en/detail/19d4z",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Ishigaki, Okinawa",
     "Ishigaki Island",
@@ -2624,7 +2631,7 @@
    "url": "https://www.naganomarathon.gr.jp/english",
    "regUrl": "https://amarys-jtb.jp/29thnaganomarathon/",
    "source": "https://www.naganomarathon.gr.jp/english/entry",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Nagano Marathon",
     "Nagano (city)",
@@ -2675,7 +2682,7 @@
    "url": "https://thedam.run/",
    "regUrl": "https://run.checkrace.com/events/KDM27",
    "source": "https://thedam.run/faq",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Khun Dan Prakan Chon Dam",
     "Nakhon Nayok province",
@@ -2731,7 +2738,7 @@
    "url": "https://www.jbgkolkatamarathon.com",
    "regUrl": "https://go.allevents.in/t8281",
    "source": "https://allevents.in/event/80003108113646",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Kolkata",
     "Maidan (Kolkata)",
@@ -2787,7 +2794,7 @@
    "url": "https://www.bankmandiri.co.id/bintan-marathon-2026",
    "regUrl": "https://tix.bintan-resorts.com/events/mbm2026",
    "source": "https://tix.bintan-resorts.com/events/mbm2026",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Bintan_Island",
     "Riau_Islands"
@@ -2825,8 +2832,8 @@
      "cur": "EUR"
     }
    ],
-   "priceNote": "Prices as listed on worldsmarathons.com (EUR); Thai-baht fees on the organiser's site may differ. A 3 km family run is held on Saturday 21 Nov.",
-   "status": "open",
+   "priceNote": "Registration closed on 20 Oct 2026; Worlds Marathons no longer lists prices or sells entries (shows only 'Notify me'). Prices were €26/€21/€19 (21K/10K/5K). A 3 km family run is held on Saturday 21 Nov.",
+   "status": "closed",
    "regOpens": "",
    "regCloses": "2026-10-20",
    "relevance": 42,
@@ -2835,7 +2842,7 @@
    "url": "https://worldsmarathons.com/marathon/world-run-thailand-series",
    "regUrl": "https://worldsmarathons.com/marathon/world-run-thailand-series",
    "source": "https://worldsmarathons.com/marathon/world-run-thailand-series",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Khao_Yai_National_Park",
     "Pak_Chong_district"
@@ -2869,7 +2876,7 @@
    "url": "https://www.kagoshima-marathon.jp/",
    "regUrl": "https://runnet.jp/cgi-bin/?id=394778",
    "source": "https://dime.jp/company_news/detail/?pr=2664056",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Kagoshima",
     "Sakurajima"
@@ -2888,8 +2895,8 @@
    "distances": [
     {
      "d": "21K",
-     "price": "€21",
-     "amt": 21,
+     "price": "€20",
+     "amt": 20,
      "cur": "EUR"
     },
     {
@@ -2915,7 +2922,7 @@
    "url": "https://worldsmarathons.com/marathon/ica-international-half-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/ica-international-half-marathon",
    "source": "https://worldsmarathons.com/marathon/ica-international-half-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Galle_Face_Green",
     "Colombo"
@@ -2934,14 +2941,14 @@
    "distances": [
     {
      "d": "42K",
-     "price": "€72",
-     "amt": 72,
+     "price": "€71",
+     "amt": 71,
      "cur": "EUR"
     },
     {
      "d": "21K",
-     "price": "€64",
-     "amt": 64,
+     "price": "€63",
+     "amt": 63,
      "cur": "EUR"
     },
     {
@@ -2951,7 +2958,7 @@
      "cur": "EUR"
     }
    ],
-   "priceNote": "Current price tier on World's Marathons, valid until 18 Dec 2026; standard prices are €79 / €72 / €45. A 5K is also offered.",
+   "priceNote": "Current price tier on World's Marathons, valid until 18 Dec 2026; standard prices are €78 / €71 / €45. A 5K is also offered.",
    "status": "open",
    "regOpens": "",
    "regCloses": "2027-01-31",
@@ -2961,7 +2968,7 @@
    "url": "https://www.rundanang.com",
    "regUrl": "https://worldsmarathons.com/marathon/da-nang-international-marathon",
    "source": "https://worldsmarathons.com/marathon/da-nang-international-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Da_Nang",
     "Dragon_Bridge_(Da_Nang)",
@@ -3021,7 +3028,7 @@
    "url": "https://www.vvmmm.in",
    "regUrl": "https://www.vvmmm.in",
    "source": "https://www.freepressjournal.in/sports/13th-vasai-virar-mayors-marathon-scheduled-for-december-13-registrations-open-october-15",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Vasai-Virar_Municipal_Corporation_Marathon",
     "Vasai-Virar",
@@ -3069,7 +3076,7 @@
    "url": "https://www.trivandrummarathon.com",
    "regUrl": "https://mysamay.in/public/event/info/e3e02f08-0651-493f-b7eb-953a359bf17f%3Fcmeta%3DNsVT4A0i27",
    "source": "https://www.latestly.com/agency-news/business-news-third-edition-of-the-ust-trivandrum-marathon-scheduled-for-november-15-7373945.html/amp",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Thiruvananthapuram",
     "Technopark,_Trivandrum"
@@ -3108,8 +3115,8 @@
    "facts_de": "Das ist ein Nachmittagsrennen: Es startet um 15:30 Uhr im Taitung Forest Park und führt dich über die Mahengheng Avenue zwischen Bergen und Pazifik entlang. An der Strecke spielen lokale Live-Bands, und das Startpaket wird dir per Post geschickt, eine Abholung vor Ort gibt es nicht.",
    "url": "https://www.runrocknroll.com/events/taitung",
    "regUrl": "https://www.runrocknroll.com/events/taitung/register",
-   "source": "https://www.runrocknroll.com/events/taipei/register",
-   "checked": "2026-10-20",
+   "source": "https://www.runrocknroll.com/events/taitung/register",
+   "checked": "2026-10-21",
    "wiki": [
     "Taitung_City",
     "Taitung_County"
@@ -3162,7 +3169,7 @@
    "url": "https://www.runrocknroll.com/events/manila",
    "regUrl": "https://www.runrocknroll.com/events/manila/register",
    "source": "https://www.runrocknroll.com/events/manila/register",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Rizal_Park",
     "Intramuros",
@@ -3206,7 +3213,7 @@
    "url": "https://kochimarathon.in",
    "regUrl": "https://www.district.in/events/federal-bank-kochi-marathon-2027-buy-tickets",
    "source": "https://www.district.in/events/federal-bank-kochi-marathon-2027-buy-tickets",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Kochi",
     "Marine_Drive,_Kochi"
@@ -3247,7 +3254,7 @@
    "url": "https://kasumigaura-marathon.jp/english",
    "regUrl": "https://kasumigaura-marathon.jp/english",
    "source": "https://kasumigaura-marathon.jp/english",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Lake_Kasumigaura",
     "Tsuchiura"
@@ -3290,7 +3297,7 @@
    "url": "https://www.everestmarathon.com/",
    "regUrl": "https://everestmarathon.com/registration-payment",
    "source": "https://everestmarathon.com/package",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Everest_base_camps",
     "Namche_Bazaar",
@@ -3343,7 +3350,7 @@
    "url": "https://www.tagthai.com/explore/events/p/chiang-rai-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/chiangrai-marathon",
    "source": "https://worldsmarathons.com/marathon/chiangrai-marathon",
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "wiki": [
     "Chiang_Rai",
     "Wat_Rong_Khun"
@@ -3359,7 +3366,7 @@
    "lat": 12.9716,
    "lon": 77.5946,
    "date": "2027-04-25",
-   "dateTentative": true,
+   "dateTentative": false,
    "distances": [
     {
      "d": "10K",
@@ -3376,14 +3383,231 @@
    "facts_de": "Indiens wichtigster 10-km-Lauf ist ein Straßenrennen mit World-Athletics-Gold-Label, das Elitefelder aus Ostafrika nach Bengaluru lockt. Die Ausgabe 2027 ist für den 25. April angekündigt, Startgebühren und Anmeldezeitraum stehen noch aus.",
    "url": "https://tcsworld10k.procam.in/",
    "regUrl": "https://tcsworld10k.procam.in/",
-   "source": "https://fatmarathoner.com/tcs-world-10k-bangalore-2026/",
-   "checked": "2026-10-20",
+   "source": "https://tcsworld10k.procam.in/race-categories/open-10k/how-to-apply",
+   "checked": "2026-10-21",
    "wiki": [
     "Bangalore",
     "TCS_World_10K_Bengaluru"
    ],
    "cert": [
     "wa-gold"
+   ]
+  },
+  {
+   "id": "kinmen-marathon-2027",
+   "name": "Kinmen Marathon 2027 (20th edition)",
+   "city": "Kinmen",
+   "country": "Taiwan",
+   "lat": 24.4329,
+   "lon": 118.3171,
+   "date": "2027-01-17",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    },
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Fees not stated in the organiser announcements; check the registration page. Caps: 2,000 full, 3,300 half, 3,500 10K; entries close when a category is full. A 4K leisure run is held on 16 Jan.",
+   "status": "open",
+   "regOpens": "2026-07-14",
+   "regCloses": "2026-10-30",
+   "relevance": 60,
+   "facts": "The 20th edition runs counterclockwise around the island past Qionglin village, Lake Cihu, Shuangli Lake and old wartime tunnels, a reminder of Kinmen's past as a Cold War frontline. Finishers traditionally take home a bottle of Kinmen kaoliang liquor, upgraded to 58 percent for the anniversary.",
+   "facts_de": "Die 20. Ausgabe führt gegen den Uhrzeigersinn rund um die Insel vorbei am Dorf Qionglin, am Cihu- und Shuangli-See sowie an alten Kriegstunneln, die an Kinmens Vergangenheit als Frontlinie des Kalten Krieges erinnern. Traditionell gibt es für die Finisher eine Flasche Kinmen-Kaoliang-Schnaps, zum Jubiläum in der Variante mit 58 Prozent.",
+   "url": "https://www.sportsnet.org.tw/20270117_web/",
+   "regUrl": "https://www.sportsnet.org.tw/20270117_web/",
+   "source": "https://www.peoplenews.tw/articles/sports-recreation/41973",
+   "checked": "2026-10-21",
+   "wiki": [
+    "Kinmen",
+    "Jincheng,_Kinmen"
+   ],
+   "cert": []
+  },
+  {
+   "id": "kozhikode-marathon-2027",
+   "name": "India VKC Kozhikode Marathon 2027",
+   "city": "Kozhikode",
+   "country": "India",
+   "lat": 11.2588,
+   "lon": 75.7804,
+   "date": "2027-01-10",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Fees not given in the launch announcements; see the official website.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 40,
+   "facts": "Only in its second year, this Kerala race sends its flagship half marathon off from Kozhikode Beach along the Malabar coast, with 10K and 5K options as well. The 2027 edition runs under the anti-drug theme \"No to Drugs, Run for Life\" with footwear brand VKC as title sponsor.",
+   "facts_de": "Das Rennen in Kerala findet erst zum zweiten Mal statt und schickt seinen Hauptlauf, den Halbmarathon, vom Kozhikode Beach entlang der Malabarküste ins Rennen; dazu gibt es 10 km und 5 km. Die Ausgabe 2027 steht unter dem Anti-Drogen-Motto „No to Drugs, Run for Life“, Titelsponsor ist die Schuhmarke VKC.",
+   "url": "https://www.kozhikodemarathon.in/",
+   "regUrl": "https://www.kozhikodemarathon.in/",
+   "source": "https://www.passionateinmarketing.com/?p=759864",
+   "checked": "2026-10-21",
+   "wiki": [
+    "Kozhikode",
+    "Kozhikode_Beach"
+   ],
+   "cert": []
+  },
+  {
+   "id": "twincity-marathon-2027",
+   "name": "Twincity Marathon 2027",
+   "city": "Putrajaya / Cyberjaya",
+   "country": "Malaysia",
+   "lat": 2.9264,
+   "lon": 101.6964,
+   "date": "2027-01-24",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    },
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Fees not published on the listings checked; organiser said they stay close to previous editions. 12K and 3K also offered; shorter races on 23 Jan. The 2026 edition closed in November once 21,000 entries were reached.",
+   "status": "unknown",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 56,
+   "facts": "This AIMS-listed night race links Malaysia's two planned cities, running over the bridges and lakesides of Putrajaya and the flat streets of Cyberjaya. The 12th edition aims for more than 27,000 runners and is paired with the Twin Cultures Festival at the Putrajaya International Convention Centre.",
+   "facts_de": "Das bei AIMS gelistete Nachtrennen verbindet Malaysias zwei Planstädte und führt über die Brücken und Seeufer von Putrajaya sowie durch die flachen Straßen von Cyberjaya. Die 12. Ausgabe peilt über 27.000 Teilnehmende an und wird vom Twin Cultures Festival im Putrajaya International Convention Centre begleitet.",
+   "url": "https://twincitymarathon.com/",
+   "regUrl": "https://twincitymarathon.com/",
+   "source": "https://aims-worldrunning.org/races/10441.html",
+   "checked": "2026-10-21",
+   "wiki": [
+    "Putrajaya",
+    "Cyberjaya"
+   ],
+   "cert": [
+    "aims"
+   ]
+  },
+  {
+   "id": "scenic-half-marathon-pranburi-2027",
+   "name": "Scenic Half Marathon Pranburi 2027",
+   "city": "Pran Buri",
+   "country": "Thailand",
+   "lat": 12.385,
+   "lon": 99.99,
+   "date": "2027-02-14",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Fees and quota not yet shown on the organiser page; entries are limited and close when full. Beach runs (5K/3K) on 13 Feb.",
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Organiser page lists the race but no fees or entry window yet.",
+   "regCloses": "",
+   "relevance": 55,
+   "facts": "A seaside half marathon on the quiet Pran Buri coast south of Hua Hin, it carries a World Athletics Road Race Label and an AIMS-measured course. It is part of the Scenic series, whose beach-based weekends split the 5K and 3K beach runs onto Saturday and the half marathon and 10K onto Sunday.",
+   "facts_de": "Der Halbmarathon an der ruhigen Küste von Pran Buri südlich von Hua Hin trägt ein World-Athletics-Road-Race-Label und hat eine AIMS-vermessene Strecke. Er gehört zur Scenic-Serie, deren Strandwochenenden die 5- und 3-km-Beach-Runs auf den Samstag und Halbmarathon sowie 10 km auf den Sonntag legen.",
+   "url": "https://scenicmarathon.com/event.html?event=PSMH",
+   "regUrl": "https://scenicmarathon.com/event.html?event=PSMH",
+   "source": "https://scenicmarathon.com/event.html?event=PSMH",
+   "checked": "2026-10-21",
+   "wiki": [
+    "Pran_Buri_district",
+    "Khao_Sam_Roi_Yot_National_Park"
+   ],
+   "cert": [
+    "wa-label",
+    "aims"
+   ]
+  },
+  {
+   "id": "vientiane-international-half-marathon-2027",
+   "name": "Vientiane International Half Marathon 2027",
+   "city": "Vientiane",
+   "country": "Laos",
+   "lat": 17.9757,
+   "lon": 102.6331,
+   "date": "2027-03-07",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "21K",
+     "price": "≈US$20-50 (all distances, 2025)",
+     "amt": 50,
+     "cur": "USD",
+     "qual": "approx"
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "priceNote": "2025 fees ranged from about US$20 to US$50 across distances; 2027 fees not yet published.",
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Date listed on the AIMS calendar; registration (via thai.run in 2025) not yet open.",
+   "regCloses": "",
+   "relevance": 45,
+   "facts": "Organised every March by EFG Laos, this AIMS-member race starts before dawn to beat the heat on the streets of the Lao capital. Alongside the half marathon there are 10K and 5K fun-run options, making it a relaxed early-spring trip along the Mekong.",
+   "facts_de": "Das jedes Jahr im März von EFG Laos organisierte AIMS-Mitgliedsrennen startet noch vor Sonnenaufgang, um der Hitze in den Straßen der laotischen Hauptstadt zuvorzukommen. Neben dem Halbmarathon gibt es 10 km und einen 5-km-Fun-Run, was ihn zu einem entspannten Frühjahrsziel am Mekong macht.",
+   "url": "https://www.efglaos.com",
+   "regUrl": "https://www.efglaos.com",
+   "source": "https://aims-worldrunning.org/races/10440.html",
+   "checked": "2026-10-21",
+   "wiki": [
+    "Vientiane",
+    "Pha_That_Luang",
+    "Patuxai"
+   ],
+   "cert": [
+    "aims"
    ]
   }
  ]
