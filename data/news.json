@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T07:30:00+07:00",
+ "updated": "2026-10-23T07:15:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -616,6 +616,55 @@
    "raceId": "vientiane-international-half-marathon-2027",
    "text": "New: Vientiane International Half Marathon (7 Mar) - pre-dawn AIMS half through the Lao capital, entries opening soon.",
    "text_de": "Neu: Vientiane International Half Marathon (7. März) - AIMS-Halbmarathon vor Sonnenaufgang durch die laotische Hauptstadt, Anmeldung öffnet bald."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "closing",
+   "raceId": "kinmen-marathon-2027",
+   "text": "Kinmen Marathon (17 Jan 2027): entries for the marathon, half marathon and 10K close on 30 Oct at 17:00 Taiwan time, or earlier if a category fills.",
+   "text_de": "Kinmen-Marathon (17. Jan. 2027): Die Anmeldung für Marathon, Halbmarathon und 10 km endet am 30. Okt. um 17 Uhr taiwanischer Zeit oder früher, falls eine Kategorie ausgebucht ist."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "sold_out",
+   "raceId": "angkor-wat-half-2026",
+   "text": "Online registration for the Angkor Wat International Half Marathon (6 Dec) now shows as closed, ahead of the 23 October deadline, and late entries are not accepted.",
+   "text_de": "Die Online-Anmeldung zum Angkor Wat International Half Marathon (6. Dez.) wird bereits vor der Frist am 23. Oktober als geschlossen angezeigt, Nachmeldungen sind nicht möglich."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "new",
+   "raceId": "guwahati-international-marathon-2027",
+   "text": "New: Guwahati International Marathon (7 Feb) - first edition crosses the Brahmaputra twice with a ₹1.25 crore prize purse, early-bird entries open now.",
+   "text_de": "Neu: Guwahati International Marathon (7. Feb.) - die erste Ausgabe überquert zweimal den Brahmaputra, 1,25 Crore Rupien Preisgeld, Frühbucher-Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "new",
+   "raceId": "astra-half-marathon-2026",
+   "text": "New: Astra Half Marathon (29 Nov) - PASI-certified half in BSD City on Jakarta's edge, entries open until the 6,000 places are gone.",
+   "text_de": "Neu: Astra Half Marathon (29. Nov.) - von PASI vermessener Halbmarathon in BSD City am Rand von Jakarta, Anmeldung offen bis die 6.000 Plätze vergeben sind."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "new",
+   "raceId": "nha-trang-night-run-2026",
+   "text": "New: Nha Trang Night Run (12 Dec) - evening run along Nha Trang Bay, with a 21K added for the first time, entries open now.",
+   "text_de": "Neu: Nha Trang Night Run (12. Dez.) - Abendlauf entlang der Bucht von Nha Trang, erstmals mit 21 km, Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "new",
+   "raceId": "fukui-sakura-marathon-2027",
+   "text": "New: Fukui Sakura Marathon (28 Mar) - cherry-blossom marathon on a dinosaur-shaped course past Maruoka Castle, entries close 25 Nov.",
+   "text_de": "Neu: Fukui Sakura Marathon (28. März) - Kirschblüten-Marathon auf einer Strecke in Dinosaurierform an der Burg Maruoka vorbei, Anmeldung bis 25. Nov."
+  },
+  {
+   "date": "2026-10-23",
+   "type": "closing",
+   "raceId": "hcmc-marathon-2026",
+   "text": "Registration for the Techcombank Ho Chi Minh City Marathon (6 Dec) closes on 6 November.",
+   "text_de": "Die Anmeldung für den Techcombank Ho Chi Minh City Marathon (6. Dez.) endet am 6. November."
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T07:30:00+07:00",
+ "updated": "2026-10-23T07:15:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -4413,6 +4413,148 @@
        "n": "Ayano Ikehara",
        "c": "Japan",
        "t": "3:04:21"
+      }
+     ]
+    }
+   }
+  },
+  "bangsaen21": {
+   "edition": "2025",
+   "date": "2025-12-21",
+   "source": "https://mybestruns.com/running-news.php/14040",
+   "fullResults": "https://mybestruns.com/results/Bangsaen21",
+   "records": {
+    "men": {
+     "t": "1:01:56",
+     "n": "Josphat Kemei",
+     "c": "Kenya",
+     "y": 2022
+    },
+    "women": {
+     "t": "1:07:45",
+     "n": "Hellen Obiri",
+     "c": "Kenya",
+     "y": 2022
+    }
+   },
+   "distances": {
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Samwel Nyamai Mailu",
+       "c": "Kenya",
+       "t": "1:02:59"
+      },
+      {
+       "p": 2,
+       "n": "Teresa Nyakola",
+       "c": "Ethiopia",
+       "t": "1:03:22"
+      },
+      {
+       "p": 3,
+       "n": "Regasa Seyoum Beharu",
+       "c": "Ethiopia",
+       "t": "1:03:36"
+      },
+      {
+       "p": 4,
+       "n": "Gelana Teshome",
+       "c": "Ethiopia",
+       "t": "1:04:20"
+      },
+      {
+       "p": 5,
+       "n": "Eyob Faniel",
+       "c": "Italy",
+       "t": "1:05:54"
+      },
+      {
+       "p": 6,
+       "n": "Abdi Kebede",
+       "c": "Ethiopia",
+       "t": "1:05:55"
+      },
+      {
+       "p": 7,
+       "n": "Nattawut Innum",
+       "c": "Thailand",
+       "t": "1:10:10"
+      },
+      {
+       "p": 8,
+       "n": "Arthit Soda",
+       "c": "Thailand",
+       "t": "1:10:50"
+      },
+      {
+       "p": 9,
+       "n": "Pongsakorn Suksawat",
+       "c": "Thailand",
+       "t": "1:11:32"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Dolphine Nyaboke Omare",
+       "c": "Kenya",
+       "t": "1:10:14"
+      },
+      {
+       "p": 2,
+       "n": "Beriha Gebreslasie",
+       "c": "Ethiopia",
+       "t": "1:11:12"
+      },
+      {
+       "p": 3,
+       "n": "Mehret Gemeda",
+       "c": "Ethiopia",
+       "t": "1:12:30"
+      },
+      {
+       "p": 4,
+       "n": "Lelise Bekele",
+       "c": "Ethiopia",
+       "t": "1:13:49"
+      },
+      {
+       "p": 5,
+       "n": "Kalkidan Debeb",
+       "c": "Ethiopia",
+       "t": "1:17:59"
+      },
+      {
+       "p": 6,
+       "n": "Pareeya Sonsem",
+       "c": "Thailand",
+       "t": "1:22:05"
+      },
+      {
+       "p": 7,
+       "n": "Ornanong Wongsorn",
+       "c": "Thailand",
+       "t": "1:22:14"
+      },
+      {
+       "p": 8,
+       "n": "Linda Chantachit",
+       "c": "Thailand",
+       "t": "1:24:13"
+      },
+      {
+       "p": 9,
+       "n": "Kawinthida Thadased",
+       "c": "Thailand",
+       "t": "1:25:35"
+      },
+      {
+       "p": 10,
+       "n": "Thanaporn Phatthanothai",
+       "c": "Thailand",
+       "t": "1:25:37"
       }
      ]
     }
