@@ -4559,6 +4559,123 @@
      ]
     }
    }
+  },
+  "vnexpress-marathon-hai-phong": {
+   "edition": "2025",
+   "date": "2025-12-21",
+   "source": "https://vnexpress.net/ket-qua-vnexpress-marathon-hai-phong-4996240.html",
+   "fullResults": "https://vm.vnexpress.net/hai-phong-2025",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Hoàng Viết Vĩ Ly",
+       "c": "Vietnam",
+       "t": "2:26:42"
+      },
+      {
+       "p": 2,
+       "n": "Trịnh Minh Tâm",
+       "c": "Vietnam",
+       "t": "2:28:40"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Phạm Thị Hồng Lệ",
+       "c": "Vietnam",
+       "t": "2:42:20"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Lương Đức Phước",
+       "c": "Vietnam",
+       "t": "1:09:54"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Bùi Thu Hà",
+       "c": "Vietnam",
+       "t": "1:20:29"
+      },
+      {
+       "p": 2,
+       "n": "Đoàn Thu Hằng",
+       "c": "Vietnam",
+       "t": "1:24:28"
+      }
+     ]
+    },
+    "10K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Vũ Minh Đức",
+       "c": "Vietnam",
+       "t": "36:20"
+      },
+      {
+       "p": 2,
+       "n": "Phạm Văn Ngọc",
+       "c": "Vietnam",
+       "t": "37:22"
+      },
+      {
+       "p": 3,
+       "n": "Marin Ganeau",
+       "c": "",
+       "t": "38:55"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Lưu Thị Thu",
+       "c": "Vietnam",
+       "t": "40:09"
+      },
+      {
+       "p": 2,
+       "n": "Trần Duyên",
+       "c": "Vietnam",
+       "t": "40:51"
+      },
+      {
+       "p": 3,
+       "n": "Nguyễn Thị Hồng Hạnh",
+       "c": "Vietnam",
+       "t": "41:14"
+      }
+     ]
+    }
+   }
+  },
+  "kagawa-marathon": {
+   "edition": "2026 (1st edition)",
+   "date": "2026-03-15",
+   "source": "https://news.ksb.co.jp/article/16423469",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Hiroaki Furukawa (古川大晃)",
+       "c": "Japan",
+       "t": "2:16:34"
+      }
+     ],
+     "women": []
+    }
+   }
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T07:15:00+07:00",
+ "updated": "2026-10-24T07:10:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -665,6 +665,83 @@
    "raceId": "hcmc-marathon-2026",
    "text": "Registration for the Techcombank Ho Chi Minh City Marathon (6 Dec) closes on 6 November.",
    "text_de": "Die Anmeldung für den Techcombank Ho Chi Minh City Marathon (6. Dez.) endet am 6. November."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "closing",
+   "raceId": "can-tho-heritage-marathon-2026",
+   "text": "Can Tho Heritage Marathon (20 Dec): standard prices from €24.20 (5K) to €44.90 (half) end on 31 Oct, and late prices of €31.10 to €69 apply from 1 to 15 Nov.",
+   "text_de": "Can Tho Heritage Marathon (20. Dez.): Die Standardpreise von 24,20 € (5 km) bis 44,90 € (Halbmarathon) gelten nur noch bis 31. Okt., danach gelten vom 1. bis 15. Nov. die Spätpreise von 31,10 € bis 69 €."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "opened",
+   "raceId": "amazing-chiang-rai-marathon-2027",
+   "text": "Amazing Chiang Rai Marathon (31 Jan 2027) entries are now on sale via World's Marathons from €16 (5K/10K) to €32 (marathon), until 30 November.",
+   "text_de": "Für den Amazing Chiang Rai Marathon (31. Jan. 2027) laufen jetzt die Anmeldungen über World's Marathons, von 16 € (5 km/10 km) bis 32 € (Marathon), bis zum 30. November."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "closing",
+   "raceId": "daegu-marathon-2027",
+   "text": "Daegu Marathon (28 Feb 2027): 10K and 5K health run sign-up runs only from 26 Oct to 1 Nov, first come first served; the marathon is already full.",
+   "text_de": "Daegu-Marathon (28. Feb. 2027): Die Anmeldung für 10 km und den 5-km-Gesundheitslauf läuft nur vom 26. Okt. bis 1. Nov. nach dem Prinzip „Wer zuerst kommt“; der Marathon ist bereits voll."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "almost_full",
+   "raceId": "kochi-ryoma-marathon-2027",
+   "text": "Kochi Ryoma Marathon (21 Feb 2027) general entry sold out on 19 Oct; only the overseas entry page and 100 hometown-tax places (until 31 Oct) remain.",
+   "text_de": "Der Kochi-Ryoma-Marathon (21. Feb. 2027) ist im allgemeinen Kontingent seit dem 19. Okt. ausverkauft; nur die Auslandsanmeldung und 100 Plätze über die Heimatsteuer (bis 31. Okt.) sind noch gelistet."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "almost_full",
+   "raceId": "kagoshima-marathon-2027",
+   "text": "Kagoshima Marathon (7 Mar 2027) domestic general entry has ended early; only the separate overseas quota via RunJapan may still have places.",
+   "text_de": "Beim Kagoshima-Marathon (7. März 2027) ist die allgemeine Inlandsanmeldung vorzeitig beendet; nur das separate Auslandskontingent über RunJapan könnte noch Plätze haben."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "almost_full",
+   "raceId": "fukui-sakura-marathon-2027",
+   "text": "Fukui Sakura Marathon (28 Mar 2027) general places are full; the overseas-resident quota and race-and-hotel packages (bookings until 13 Nov) remain.",
+   "text_de": "Beim Fukui-Sakura-Marathon (28. März 2027) sind die allgemeinen Plätze voll; das Kontingent für Auslandsansässige und Reisepakete mit Startplatz (Buchung bis 13. Nov.) gibt es noch."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "sold_out",
+   "raceId": "twincity-marathon-2027",
+   "text": "Twincity Marathon 2027 (Putrajaya/Cyberjaya, 23-24 Jan) is sold out in every category, from the full marathon to the kids dash.",
+   "text_de": "Der Twincity Marathon 2027 (Putrajaya/Cyberjaya, 23.-24. Jan.) ist in allen Kategorien ausverkauft, vom Marathon bis zum Kinderlauf."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "new",
+   "raceId": "yen-tu-heritage-marathon-2026",
+   "text": "New: Yên Tử Heritage Marathon (28 Nov) - weekend race past the Zen monasteries of a UNESCO-listed sacred mountain, promo prices from ₫349,000 until 2 Nov, entries close 21 Nov.",
+   "text_de": "Neu: Yên Tử Heritage Marathon (28. Nov.) - Laufwochenende vorbei an den Zen-Klöstern eines heiligen Berges mit UNESCO-Welterbe, Aktionspreise ab 349.000 ₫ bis 2. Nov., Anmeldung bis 21. Nov."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "new",
+   "raceId": "bac-ninh-legacy-marathon-2027",
+   "text": "New: Bắc Ninh Legacy Marathon (10 Jan) - flat course through the quan họ heartland near Hanoi, marathon ₫500,000 at early-bird rate, entries open until 31 Dec.",
+   "text_de": "Neu: Bắc Ninh Legacy Marathon (10. Jan.) - flache Strecke durch die Heimat des Quan-họ-Gesangs nahe Hanoi, Marathon 500.000 ₫ zum Frühbucherpreis, Anmeldung bis 31. Dez."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "new",
+   "raceId": "kota-kinabalu-marathon-2027",
+   "text": "New: Kota Kinabalu Marathon (17 Jan) - midnight start in Sabah's capital with prize money for the 21K and 42K, super-early-bird entries open now.",
+   "text_de": "Neu: Kota Kinabalu Marathon (17. Jan.) - Start um Mitternacht in Sabahs Hauptstadt, Preisgeld über 21 und 42 km, Super-Frühbucher-Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-10-24",
+   "type": "new",
+   "raceId": "agra-taj-half-marathon-2027",
+   "text": "New: Agra Taj Half Marathon (14 Feb) - Valentine's Day half past the Taj Mahal, early-bird entry ₹900, closes 31 Jan.",
+   "text_de": "Neu: Agra Taj Half Marathon (14. Feb.) - Halbmarathon am Valentinstag vorbei am Taj Mahal, Frühbucherpreis 900 ₹, Anmeldung bis 31. Jan."
   }
  ]
 }
