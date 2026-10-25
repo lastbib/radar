@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T07:10:00+07:00",
+ "updated": "2026-10-25T07:10:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -742,6 +742,55 @@
    "raceId": "agra-taj-half-marathon-2027",
    "text": "New: Agra Taj Half Marathon (14 Feb) - Valentine's Day half past the Taj Mahal, early-bird entry ₹900, closes 31 Jan.",
    "text_de": "Neu: Agra Taj Half Marathon (14. Feb.) - Halbmarathon am Valentinstag vorbei am Taj Mahal, Frühbucherpreis 900 ₹, Anmeldung bis 31. Jan."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "new",
+   "raceId": "langkawi-international-half-marathon-2026",
+   "text": "New: Langkawi International Half Marathon (12 Dec) - World Athletics Label half on the island, international entries close 31 Oct.",
+   "text_de": "Neu: Langkawi International Half Marathon (12. Dez.) - Halbmarathon mit World-Athletics-Label auf der Insel, internationale Anmeldung bis 31. Okt."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "closing",
+   "raceId": "langkawi-international-half-marathon-2026",
+   "text": "Langkawi International Half Marathon (12 Dec 2026): international entries close on 31 October; local entries have already closed.",
+   "text_de": "Langkawi International Half Marathon (12. Dez. 2026): Die internationale Anmeldung endet am 31. Oktober, die Anmeldung für Einheimische ist bereits geschlossen."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "new",
+   "raceId": "singlife-cagayan-de-oro-marathon-2026",
+   "text": "New: Singlife Cagayan de Oro Marathon (13 Dec) - Philippine Marathon Majors leg on Mindanao with an international podium, from PHP 1,635.",
+   "text_de": "Neu: Singlife Cagayan de Oro Marathon (13. Dez.) - Etappe der Philippine Marathon Majors auf Mindanao mit eigenem Podium für internationale Läufer, ab 1.635 PHP."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "new",
+   "raceId": "lansaka-marathon-2026",
+   "text": "New: LANSAKA Marathon (6 Dec) - budget village marathon below Khao Luang, southern Thailand's highest peak, from THB 699 (10K).",
+   "text_de": "Neu: LANSAKA Marathon (6. Dez.) - günstiger Dorfmarathon am Fuß des Khao Luang, des höchsten Bergs Südthailands, ab 699 THB (10 km)."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "new",
+   "raceId": "tatmok-marathon-2027",
+   "text": "New: TATMOK Marathon (21 Feb) - national-park marathon in the Phetchabun hills, entries from THB 590.",
+   "text_de": "Neu: TATMOK Marathon (21. Feb.) - Nationalpark-Marathon in den Hügeln von Phetchabun, Startgeld ab 590 THB."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "new",
+   "raceId": "tokushima-marathon-2027",
+   "text": "New: Tokushima Marathon (14 Mar) - 20th edition on a brand-new course to Naruto, first-come entry until 30 Nov at ¥13,000.",
+   "text_de": "Neu: Tokushima Marathon (14. März) - 20. Auflage auf neuer Strecke bis Naruto, Anmeldung nach Eingang bis 30. Nov. für 13.000 ¥."
+  },
+  {
+   "date": "2026-10-25",
+   "type": "sold_out",
+   "raceId": "ishigaki-island-marathon-2027",
+   "text": "Ishigaki Island Marathon (17 Jan 2027): the entry period ended on 24 October.",
+   "text_de": "Ishigaki Island Marathon (17. Jan. 2027): Die Anmeldefrist ist am 24. Oktober abgelaufen."
   }
  ]
 }

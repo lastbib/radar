@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T07:10:00+07:00",
+ "updated": "2026-10-25T07:10:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -42,7 +42,7 @@
    "facts": "Thailand's classic big-city marathon, run since 1988, starts and finishes on Sanam Chai Road beside the Grand Palace. The full marathon starts at midnight to avoid the heat, so you finish around sunrise among the old city's landmarks.",
    "url": "https://www.bkkmarathon.com",
    "source": "https://registers.bkkmarathon.com",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Grand_Palace",
     "Wat_Phra_Kaew"
@@ -177,7 +177,7 @@
    "facts": "Thailand's top night marathon, World Athletics labelled, finishing at Chang International Circuit. Over 32,000 places that usually sell out fast.",
    "url": "https://en.thairath.co.th/sport/others/2947739",
    "source": "https://www.runningconnect.com/event/BRM2027/status",
-   "checked": "2026-10-16",
+   "checked": "2026-10-25",
    "wiki": [
     "Chang_International_Circuit",
     "Phanom_Rung"
@@ -446,7 +446,7 @@
    "facts": "The island's main road race, starting at Central Samui in Chaweng and heading out to Laem Chengmon and Bangrak pier. Run by Bangkok Airways as part of its boutique race series.",
    "url": "https://www.bangkokairways.run",
    "source": "https://www.mitihoon.com/?p=535458",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Chaweng_Beach",
     "Ko_Samui"
@@ -454,7 +454,7 @@
    "regUrl": "https://www.bangkokairways.run",
    "facts_de": "Das wichtigste Straßenrennen der Insel: Start am Central Samui in Chaweng, dann hinaus nach Laem Chengmon und zum Bangrak Pier. Veranstaltet von Bangkok Airways als Teil seiner Boutique-Laufserie.",
    "cert": [],
-   "priceNote": "Official site bangkokairways.run now redirects to a domain-parking page; 2027 edition not confirmed (checked 21 Oct 2026)."
+   "priceNote": "Official site bangkokairways.run redirects to a domain-parking page; no 2027 edition announced yet (checked 25 Oct 2026)."
   },
   {
    "id": "samui-neon-run-2027",
@@ -821,7 +821,7 @@
    "facts": "Southeast Asia's only World Athletics Gold Label marathon.",
    "url": "https://singaporeinternationalmarathon.com",
    "source": "https://singaporeinternationalmarathon.com/registration-fees/",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Marina_Bay,_Singapore"
    ],
@@ -1669,7 +1669,7 @@
    "url": "https://www.chicagomarathon.com",
    "regUrl": "https://www.chicagomarathon.com",
    "source": "https://www.chicagomarathon.com/apply/",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Grant_Park_(Chicago)",
     "Chicago"
@@ -2419,7 +2419,7 @@
    "url": "https://worldsmarathons.com/marathon/trang-an-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/trang-an-marathon/register",
    "source": "https://worldsmarathons.com/marathon/trang-an-marathon",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Tràng_An",
     "Hoa_Lư",
@@ -2596,8 +2596,8 @@
      "cur": "JPY"
     }
    ],
-   "priceNote": "General entry fees via the JTB Sports overseas entry page; first come, first served. The 10 km relay division is already full.",
-   "status": "open",
+   "priceNote": "General entry fees via the JTB Sports overseas entry page; first come, first served. The 10 km relay division is already full. Entry period ended 24 Oct 2026.",
+   "status": "closed",
    "regOpens": "2026-08-20",
    "regOpensNote": "Entry period 20 Aug - 24 Oct 2026 (JST), first come, first served",
    "regCloses": "2026-10-24",
@@ -2608,7 +2608,7 @@
    "url": "https://www.ishigakijima-marathon.jp/",
    "regUrl": "https://jtbsports.jp/en/detail/19d4z",
    "source": "https://jtbsports.jp/en/detail/19d4z",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Ishigaki, Okinawa",
     "Ishigaki Island",
@@ -2890,7 +2890,7 @@
    "url": "https://www.kagoshima-marathon.jp/",
    "regUrl": "https://runnet.jp/cgi-bin/?id=394778",
    "source": "https://rundida.com/ja/marathon/kagoshima/",
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "wiki": [
     "Kagoshima",
     "Sakurajima"
@@ -4007,6 +4007,227 @@
     "Agra"
    ],
    "cert": []
+  },
+  {
+   "id": "singlife-cagayan-de-oro-marathon-2026",
+   "name": "Singlife Cagayan de Oro Marathon 2026",
+   "city": "Cagayan de Oro",
+   "country": "Philippines",
+   "lat": 8.473,
+   "lon": 124.619,
+   "date": "2026-12-13",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "PHP 3,035 (regular)",
+     "amt": 3035,
+     "cur": "PHP"
+    },
+    {
+     "d": "21K",
+     "price": "PHP 2,635 (regular)",
+     "amt": 2635,
+     "cur": "PHP"
+    },
+    {
+     "d": "10K",
+     "price": "PHP 1,835 (regular)",
+     "amt": 1835,
+     "cur": "PHP"
+    },
+    {
+     "d": "5K",
+     "price": "PHP 1,635 (regular)",
+     "amt": 1635,
+     "cur": "PHP"
+    }
+   ],
+   "priceNote": "Regular rate runs 7 Jun to 29 Nov 2026. Late rate from 30 Nov is PHP 3,535 / 3,035 / 2,235 / 2,035. Processing and web fees are extra. Payment by GCash, credit card or GrabPay only.",
+   "status": "open",
+   "regOpens": "2026-05-30",
+   "regCloses": "",
+   "relevance": 55,
+   "cert": [],
+   "facts": "The race is the 8th leg of the Singlife Philippine Marathon Majors and is listed as a World Athletics World Rankings competition. It starts and finishes at SM City CDO Uptown, and the 42K and 21K have separate podiums for international runners.",
+   "facts_de": "Das Rennen ist die 8. Etappe der Singlife Philippine Marathon Majors und als Wettkampf für die World-Athletics-Weltrangliste gelistet. Start und Ziel liegen an der SM City CDO Uptown, und über 42 und 21 km gibt es eigene Podien für internationale Läufer.",
+   "url": "https://raceroster.com/events/2026/130696/singlife-cagayan-de-oro-marathon-2026",
+   "regUrl": "https://raceroster.com/events/2026/130696/singlife-cagayan-de-oro-marathon-2026",
+   "source": "https://raceroster.com/events/2026/130696/singlife-cagayan-de-oro-marathon-2026/page/faqs",
+   "wiki": [
+    "Cagayan_de_Oro",
+    "Mindanao"
+   ],
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "lansaka-marathon-2026",
+   "name": "LANSAKA Marathon 2026",
+   "city": "Lan Saka (Nakhon Si Thammarat)",
+   "country": "Thailand",
+   "lat": 8.437,
+   "lon": 99.775,
+   "date": "2026-12-06",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "THB 999",
+     "amt": 999,
+     "cur": "THB"
+    },
+    {
+     "d": "21K",
+     "price": "THB 899",
+     "amt": 899,
+     "cur": "THB"
+    },
+    {
+     "d": "10K",
+     "price": "THB 699",
+     "amt": 699,
+     "cur": "THB"
+    }
+   ],
+   "priceNote": "There is also a 4 km fun run for THB 399. A VIP entry for any distance costs THB 2,500 and adds a Warrix polo shirt.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 38,
+   "cert": [],
+   "facts": "The race starts and finishes at Khiriwong Bridge in Ban Khiriwong, a village at the foot of Khao Luang, southern Thailand's highest mountain. The longer routes pass the Lansaka district office and Nakhon Si Thammarat Rajabhat University.",
+   "facts_de": "Start und Ziel sind an der Khiriwong-Brücke in Ban Khiriwong, einem Dorf am Fuß des Khao Luang, des höchsten Bergs Südthailands. Die längeren Strecken führen am Bezirksamt von Lansaka und an der Rajabhat-Universität Nakhon Si Thammarat vorbei.",
+   "url": "https://www.runlah.com/en/lsk26",
+   "regUrl": "https://www.runlah.com/en/lsk26/register",
+   "source": "https://www.runlah.com/en/lsk26",
+   "wiki": [
+    "Lan_Saka_district",
+    "Khao_Luang_National_Park",
+    "Nakhon_Si_Thammarat"
+   ],
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "tatmok-marathon-2027",
+   "name": "TATMOK MARATHON 2027",
+   "city": "Phetchabun",
+   "country": "Thailand",
+   "lat": 16.35,
+   "lon": 101.25,
+   "date": "2027-02-21",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "THB 1,090 (regular)",
+     "amt": 1090,
+     "cur": "THB"
+    },
+    {
+     "d": "21K",
+     "price": "THB 890 (regular)",
+     "amt": 890,
+     "cur": "THB"
+    },
+    {
+     "d": "10K",
+     "price": "THB 690 (regular)",
+     "amt": 690,
+     "cur": "THB"
+    },
+    {
+     "d": "5K",
+     "price": "THB 590",
+     "amt": 590,
+     "cur": "THB"
+    }
+   ],
+   "priceNote": "Regular rate since 20 Aug 2026 (the early-bird rate has ended). A charity entry for any distance costs THB 2,000 and includes a receipt for a THB 1,000 donation. Race pack pickup is on 20 Feb.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 40,
+   "cert": [],
+   "facts": "The course starts at the Huai Bong checkpoint at KM 10 inside Tat Mok National Park, a forested park in the hills of Phetchabun known for its multi-tiered waterfall. The Sports Association of Phetchabun organises the race and handles entries on RUNLAH.",
+   "facts_de": "Die Strecke beginnt am Kontrollpunkt Huai Bong bei Kilometer 10 im Tat-Mok-Nationalpark, einem Waldgebiet in den Hügeln von Phetchabun, das für seinen mehrstufigen Wasserfall bekannt ist. Veranstalter ist der Sportverband Phetchabun, die Anmeldung läuft über RUNLAH.",
+   "url": "https://www.runlah.com/en/ttm2027",
+   "regUrl": "https://www.runlah.com/en/ttm2027/register",
+   "source": "https://www.runlah.com/en/ttm2027",
+   "wiki": [
+    "Phetchabun_province",
+    "Phetchabun"
+   ],
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "tokushima-marathon-2027",
+   "name": "Tokushima Marathon 2027 (20th edition)",
+   "city": "Tokushima",
+   "country": "Japan",
+   "lat": 34.0703,
+   "lon": 134.5548,
+   "date": "2027-03-14",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "¥13,000",
+     "amt": 13000,
+     "cur": "JPY"
+    }
+   ],
+   "priceNote": "Optional participation gift planned at ¥3,000 extra. General entry is first come, first served (about 6,100 of roughly 8,500 places) via RUNNET.",
+   "status": "open",
+   "regOpens": "2026-10-01",
+   "regCloses": "2026-11-30",
+   "relevance": 55,
+   "cert": [],
+   "facts": "The 20th edition switches to a brand-new point-to-point course from Tokushima city to Pocari Sweat Stadium in Naruto, with less running on the Yoshino River embankment than before. The time limit has been cut to 6 hours 30 minutes for a field of about 8,500 runners.",
+   "facts_de": "Zur 20. Auflage gibt es eine komplett neue Punkt-zu-Punkt-Strecke von Tokushima bis ins Pocari-Sweat-Stadion in Naruto, mit weniger Abschnitten auf dem Damm am Yoshino-Fluss als bisher. Das Zeitlimit wurde auf 6 Stunden 30 Minuten verkürzt, das Feld umfasst rund 8.500 Läufer.",
+   "url": "https://www.tokushima-marathon.jp/",
+   "regUrl": "https://www.tokushima-marathon.jp/entry/",
+   "source": "https://rundida.com/ja/marathon/tokushima/",
+   "wiki": [
+    "Tokushima_(city)",
+    "Naruto,_Tokushima",
+    "Yoshino_River"
+   ],
+   "checked": "2026-10-25"
+  },
+  {
+   "id": "langkawi-international-half-marathon-2026",
+   "name": "Langkawi International Half Marathon 2026",
+   "city": "Langkawi",
+   "country": "Malaysia",
+   "lat": 6.35,
+   "lon": 99.8,
+   "date": "2026-12-12",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "21K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Half marathon only this year. Local entries closed 20 Oct; international entries close 31 Oct 2026. Fees not shown on the pages checked.",
+   "status": "open",
+   "regOpens": "2026-05-05",
+   "regCloses": "2026-10-31",
+   "relevance": 58,
+   "cert": [
+    "wa-label",
+    "aims"
+   ],
+   "facts": "For 2026 the race drops its other distances and focuses solely on the half marathon, starting at 5 am from the Mahsuri International Exhibition Centre. The mostly flat island course runs past rice fields and sea views, and the organisers aim to make it Malaysia's first Elite Label half marathon by 2027.",
+   "facts_de": "2026 verzichtet das Rennen auf alle anderen Distanzen und konzentriert sich ganz auf den Halbmarathon, Start ist um 5 Uhr am Mahsuri International Exhibition Centre. Die überwiegend flache Inselstrecke führt an Reisfeldern und Meerblicken vorbei, und die Veranstalter wollen bis 2027 Malaysias ersten Halbmarathon mit Elite Label daraus machen.",
+   "url": "https://register.langkawirunners.com/event/langkawi-international-half-marathon-2026",
+   "regUrl": "https://register.langkawirunners.com/event/langkawi-international-half-marathon-2026",
+   "source": "https://www.langkawibook.my/blogs/langkawi-international-half-marathon-2026",
+   "wiki": [
+    "Langkawi",
+    "Mahsuri_International_Exhibition_Centre"
+   ],
+   "checked": "2026-10-25"
   }
  ]
 }
