@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:10:00+07:00",
+ "updated": "2026-10-26T07:00:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -446,7 +446,7 @@
    "facts": "The island's main road race, starting at Central Samui in Chaweng and heading out to Laem Chengmon and Bangrak pier. Run by Bangkok Airways as part of its boutique race series.",
    "url": "https://www.bangkokairways.run",
    "source": "https://www.mitihoon.com/?p=535458",
-   "checked": "2026-10-25",
+   "checked": "2026-10-26",
    "wiki": [
     "Chaweng_Beach",
     "Ko_Samui"
@@ -454,7 +454,7 @@
    "regUrl": "https://www.bangkokairways.run",
    "facts_de": "Das wichtigste Straßenrennen der Insel: Start am Central Samui in Chaweng, dann hinaus nach Laem Chengmon und zum Bangrak Pier. Veranstaltet von Bangkok Airways als Teil seiner Boutique-Laufserie.",
    "cert": [],
-   "priceNote": "Official site bangkokairways.run redirects to a domain-parking page; no 2027 edition announced yet (checked 25 Oct 2026)."
+   "priceNote": "No 2027 edition announced yet; official site bangkokairways.run still not live (checked 26 Oct 2026)."
   },
   {
    "id": "samui-neon-run-2027",
@@ -577,7 +577,7 @@
    "facts": "Vietnam's flagship marathon, with over 23,000 runners from 81 countries in 2025. It starts at the Saigon Zoo gates and finishes at Empire City in Thu Thiem with the skyline behind you.",
    "url": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon",
    "source": "https://worldsmarathons.com/marathon/techcombank-ho-chi-minh-city-international-marathon/register",
-   "checked": "2026-10-24",
+   "checked": "2026-10-26",
    "wiki": [
     "Ho_Chi_Minh_City",
     "Saigon_Notre-Dame_Cathedral_Basilica"
@@ -821,7 +821,7 @@
    "facts": "Southeast Asia's only World Athletics Gold Label marathon.",
    "url": "https://singaporeinternationalmarathon.com",
    "source": "https://singaporeinternationalmarathon.com/registration-fees/",
-   "checked": "2026-10-25",
+   "checked": "2026-10-26",
    "wiki": [
     "Marina_Bay,_Singapore"
    ],
@@ -831,7 +831,7 @@
     "wa-gold",
     "aims"
    ],
-   "priceNote": "Marathon and half: fees page marks local and international as sold out, with limited international slots still available per FAQ. 10K/5K open until 31 Oct or until full. No tiered pricing this year."
+   "priceNote": "Marathon and half: fees page marks local and international as sold out, with limited international slots still available per FAQ. 10K/5K open until 31 Oct or until full. No tiered pricing this year. As of 26 Oct: local marathon slots sold out, limited international marathon/half slots left; 10K and 5K extended to 31 Oct or until full."
   },
   {
    "id": "borobudur-marathon-2026",
@@ -1669,7 +1669,7 @@
    "url": "https://www.chicagomarathon.com",
    "regUrl": "https://www.chicagomarathon.com",
    "source": "https://www.chicagomarathon.com/apply/",
-   "checked": "2026-10-25",
+   "checked": "2026-10-26",
    "wiki": [
     "Grant_Park_(Chicago)",
     "Chicago"
@@ -2321,7 +2321,7 @@
     }
    ],
    "priceNote": "First come, first served. The marathon (15,000 places) filled during its 12–18 Oct sign-up week; places only count once paid (19–25 Oct). 10K (13,000) and 5K health run (4,000) sign-up 26 Oct–1 Nov, payment 2–8 Nov; group entry 16–19 Nov. Unpaid places may be re-offered later.",
-   "status": "soon",
+   "status": "open",
    "regOpens": "2026-10-26",
    "regCloses": "2026-11-01",
    "relevance": 70,
@@ -2330,7 +2330,7 @@
    "url": "https://daegumarathon.daegu.go.kr/",
    "regUrl": "https://daegumarathon.daegu.go.kr/",
    "source": "https://kbmaeil.com/article/20260924500029",
-   "checked": "2026-10-24",
+   "checked": "2026-10-26",
    "wiki": [
     "Daegu"
    ],
@@ -2419,7 +2419,7 @@
    "url": "https://worldsmarathons.com/marathon/trang-an-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/trang-an-marathon/register",
    "source": "https://worldsmarathons.com/marathon/trang-an-marathon",
-   "checked": "2026-10-25",
+   "checked": "2026-10-26",
    "wiki": [
     "Tràng_An",
     "Hoa_Lư",
@@ -4228,6 +4228,202 @@
     "Mahsuri_International_Exhibition_Centre"
    ],
    "checked": "2026-10-25"
+  },
+  {
+   "id": "ho-chi-minh-city-marathon-2027",
+   "name": "Eximbank HCMC Marathon 2027",
+   "city": "Ho Chi Minh City",
+   "country": "Vietnam",
+   "lat": 10.7797,
+   "lon": 106.699,
+   "date": "2027-01-17",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "€83",
+     "amt": 83,
+     "cur": "EUR"
+    },
+    {
+     "d": "21K",
+     "price": "€71",
+     "amt": 71,
+     "cur": "EUR"
+    },
+    {
+     "d": "10K",
+     "price": "€54",
+     "amt": 54,
+     "cur": "EUR"
+    }
+   ],
+   "priceNote": "International prices via World's Marathons; Vietnamese-resident fees are lower on the official site.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "2026-11-30",
+   "relevance": 72,
+   "facts": "Vietnam's original city marathon, run by Pulse Active, starts and finishes at 30/4 Park beside the Notre-Dame Cathedral and has drawn more than 150,000 runners from 75 countries over its editions. The marathon sets off at 3 a.m. to beat the Saigon heat, so most of the course is run through the quiet, lit-up city before dawn.",
+   "facts_de": "Vietnams ursprünglicher Stadtmarathon, organisiert von Pulse Active, startet und endet im 30/4-Park neben der Kathedrale Notre-Dame und hat über alle Ausgaben mehr als 150.000 Läufer aus 75 Ländern angezogen. Der Marathon startet um 3 Uhr früh, um der Hitze Saigons zu entgehen – der Großteil der Strecke führt durch die ruhige, beleuchtete Stadt vor Sonnenaufgang.",
+   "url": "https://hcmcmarathon.com",
+   "regUrl": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
+   "source": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
+   "checked": "2026-10-26",
+   "wiki": [
+    "Saigon_Notre-Dame_Cathedral_Basilica",
+    "Ho_Chi_Minh_City"
+   ],
+   "cert": []
+  },
+  {
+   "id": "chombueng-marathon-2027",
+   "name": "Chombueng Marathon (40th)",
+   "city": "Chom Bueng, Ratchaburi",
+   "country": "Thailand",
+   "lat": 13.6247,
+   "lon": 99.5917,
+   "date": "2027-01-17",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "฿1,000",
+     "amt": 1000,
+     "cur": "THB"
+    },
+    {
+     "d": "21K",
+     "price": "฿800",
+     "amt": 800,
+     "cur": "THB"
+    },
+    {
+     "d": "10K",
+     "price": "฿600",
+     "amt": 600,
+     "cur": "THB"
+    }
+   ],
+   "priceNote": "About 8% booking fee is added at checkout. Runners aged 70+ enter free. No closing date announced.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "",
+   "relevance": 60,
+   "facts": "First held in 1985, Chombueng is Thailand's longest-running marathon and a cult race on the local scene, based at Muban Chombueng Rajabhat University in the hills of Ratchaburi. The 2027 race is the 40th edition, and the village-style runners' dinner on Saturday night is as much a tradition as the 3 a.m. marathon start.",
+   "facts_de": "Chombueng wurde erstmals 1985 ausgetragen, ist Thailands traditionsreichster Marathon und in der lokalen Laufszene Kult; Basis ist die Muban Chombueng Rajabhat University in den Hügeln von Ratchaburi. 2027 findet die 40. Ausgabe statt – das Läuferessen am Samstagabend gehört ebenso zur Tradition wie der Marathonstart um 3 Uhr früh.",
+   "url": "https://www.runningconnect.com/event/CBM2027",
+   "regUrl": "https://www.runningconnect.com/event/CBM2027",
+   "source": "https://thesublist.run/event/%E0%B8%88%E0%B8%AD%E0%B8%A1%E0%B8%9A%E0%B8%B6%E0%B8%87%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%98%E0%B8%AD%E0%B8%99-%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88-40-chomb/",
+   "checked": "2026-10-26",
+   "wiki": [
+    "Chom_Bueng_district",
+    "Ratchaburi_province"
+   ],
+   "cert": []
+  },
+  {
+   "id": "rayong-long-beach-marathon-2027",
+   "name": "Rayong Long Beach Marathon 2027",
+   "city": "Ban Phe, Rayong",
+   "country": "Thailand",
+   "lat": 12.6297,
+   "lon": 101.4372,
+   "date": "2027-02-07",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "฿1,250",
+     "amt": 1250,
+     "cur": "THB"
+    },
+    {
+     "d": "21K",
+     "price": "฿950",
+     "amt": 950,
+     "cur": "THB"
+    },
+    {
+     "d": "10K",
+     "price": "฿750 (10.55K)",
+     "amt": 750,
+     "cur": "THB"
+    },
+    {
+     "d": "5K",
+     "price": "฿520",
+     "amt": 520,
+     "cur": "THB"
+    }
+   ],
+   "priceNote": "Regular rates since 8 Sep 2026, excluding online payment fee. Capped at 2,500 runners.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "2026-12-31",
+   "relevance": 45,
+   "facts": "A small seaside marathon that starts and finishes at Ban Phe pier, the ferry port for Koh Samet, on Thailand's eastern Gulf coast. The field is capped at 2,500 runners and the marathon starts at 3 a.m., so you run along the beach road before sunrise.",
+   "facts_de": "Ein kleiner Küstenmarathon mit Start und Ziel am Pier von Ban Phe, dem Fährhafen nach Koh Samet an Thailands östlicher Golfküste. Das Feld ist auf 2.500 Läufer begrenzt, und der Marathon startet um 3 Uhr – du läufst also vor Sonnenaufgang die Strandstraße entlang.",
+   "url": "https://event.thaimtb.com/event.php?e=755",
+   "regUrl": "https://event.thaimtb.com/event.php?e=755",
+   "source": "https://thesublist.run/event/rayong-long-beach-marathon-2027/",
+   "checked": "2026-10-26",
+   "wiki": [
+    "Ko_Samet",
+    "Rayong_province"
+   ],
+   "cert": []
+  },
+  {
+   "id": "chaiyaphum-marathon-2027",
+   "name": "Chaiyaphum Marathon 2027 (1st)",
+   "city": "Chaiyaphum",
+   "country": "Thailand",
+   "lat": 15.8068,
+   "lon": 102.0316,
+   "date": "2027-02-21",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "฿1,300",
+     "amt": 1300,
+     "cur": "THB"
+    },
+    {
+     "d": "21K",
+     "price": "฿1,100",
+     "amt": 1100,
+     "cur": "THB"
+    },
+    {
+     "d": "10K",
+     "price": "฿850",
+     "amt": 850,
+     "cur": "THB"
+    },
+    {
+     "d": "5K",
+     "price": "฿750",
+     "amt": 750,
+     "cur": "THB"
+    }
+   ],
+   "priceNote": "Regular fees; senior category half price. Moved from 11 Oct 2026 after flooding damaged race packs.",
+   "status": "open",
+   "regOpens": "",
+   "regCloses": "2027-02-10",
+   "relevance": 38,
+   "facts": "The first edition of a Runvegas Series marathon based at the Chaiyaphum municipal stadium in Thailand's northeastern Isan region. It was originally set for October 2026 but moved to February after late-September floods hit the organiser's warehouse and race packs.",
+   "facts_de": "Die erste Ausgabe eines Marathons der Runvegas-Serie mit Basis im Stadtstadion von Chaiyaphum im Nordosten Thailands (Isan). Ursprünglich für Oktober 2026 geplant, wurde er auf Februar verschoben, nachdem Ende September Hochwasser das Lager des Veranstalters und die Startunterlagen getroffen hatte.",
+   "url": "https://race.thai.run/chaiyaphummarathon1st",
+   "regUrl": "https://race.thai.run/chaiyaphummarathon1st",
+   "source": "https://thesublist.run/event/chaiyaphum-marathon-2027/",
+   "checked": "2026-10-26",
+   "wiki": [
+    "Chaiyaphum_province",
+    "Chaiyaphum"
+   ],
+   "cert": []
   }
  ]
 }

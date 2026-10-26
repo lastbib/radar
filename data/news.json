@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:10:00+07:00",
+ "updated": "2026-10-26T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -791,6 +791,41 @@
    "raceId": "ishigaki-island-marathon-2027",
    "text": "Ishigaki Island Marathon (17 Jan 2027): the entry period ended on 24 October.",
    "text_de": "Ishigaki Island Marathon (17. Jan. 2027): Die Anmeldefrist ist am 24. Oktober abgelaufen."
+  },
+  {
+   "date": "2026-10-26",
+   "type": "opened",
+   "raceId": "daegu-marathon-2027",
+   "text": "Daegu Marathon (28 Feb 2027): the 10K and 5K health-run sign-up opens today, 26 Oct, and runs until 1 Nov, first come first served.",
+   "text_de": "Daegu-Marathon (28. Feb. 2027): Die Anmeldung für 10 km und den 5-km-Gesundheitslauf startet heute, am 26. Okt., und läuft bis 1. Nov. – wer zuerst kommt, läuft zuerst."
+  },
+  {
+   "date": "2026-10-26",
+   "type": "new",
+   "raceId": "ho-chi-minh-city-marathon-2027",
+   "text": "New: Eximbank HCMC Marathon (17 Jan) - Vietnam's original city marathon from 30/4 Park, international entries from €54 (10K) to €83 (42K), closing 30 Nov.",
+   "text_de": "Neu: Eximbank HCMC Marathon (17. Jan.) – Vietnams ursprünglicher Stadtmarathon ab dem 30/4-Park, internationale Startplätze von 54 € (10 km) bis 83 € (42 km), Anmeldeschluss 30. Nov."
+  },
+  {
+   "date": "2026-10-26",
+   "type": "new",
+   "raceId": "chombueng-marathon-2027",
+   "text": "New: Chombueng Marathon (17 Jan) - 40th edition of Thailand's longest-running marathon in Ratchaburi, from ฿600 (10K) to ฿1,000 (42K).",
+   "text_de": "Neu: Chombueng Marathon (17. Jan.) – 40. Ausgabe von Thailands traditionsreichstem Marathon in Ratchaburi, von 600 ฿ (10 km) bis 1.000 ฿ (42 km)."
+  },
+  {
+   "date": "2026-10-26",
+   "type": "new",
+   "raceId": "rayong-long-beach-marathon-2027",
+   "text": "New: Rayong Long Beach Marathon (7 Feb) - seaside race from the Koh Samet ferry pier at Ban Phe, capped at 2,500 runners, entries close 31 Dec.",
+   "text_de": "Neu: Rayong Long Beach Marathon (7. Feb.) – Küstenlauf ab dem Koh-Samet-Fährpier in Ban Phe, maximal 2.500 Läufer, Anmeldeschluss 31. Dez."
+  },
+  {
+   "date": "2026-10-26",
+   "type": "new",
+   "raceId": "chaiyaphum-marathon-2027",
+   "text": "New: Chaiyaphum Marathon (21 Feb) - first edition in Isan, postponed from October after floods, entries from ฿750 until 10 Feb.",
+   "text_de": "Neu: Chaiyaphum Marathon (21. Feb.) – erste Ausgabe im Isan, nach Hochwasser von Oktober verschoben, Startplätze ab 750 ฿ bis 10. Feb."
   }
  ]
 }

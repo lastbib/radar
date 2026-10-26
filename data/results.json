@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T07:15:00+07:00",
+ "updated": "2026-10-26T07:00:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -4674,6 +4674,104 @@
       }
      ],
      "women": []
+    }
+   }
+  },
+  "ho-chi-minh-city-marathon": {
+   "edition": "2026 (13th edition)",
+   "date": "2026-01-11",
+   "source": "https://en.baobacninhtv.vn/nearly-11-000-runners-take-part-in-ho-chi-minh-city-marathon-postid437020.bbg",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Huynh Anh Khoi"
+      },
+      {
+       "p": 2,
+       "n": "Vann Pheara"
+      },
+      {
+       "p": 3,
+       "n": "Le Van Tuan"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Pham Thi Hong Le"
+      },
+      {
+       "p": 2,
+       "n": "Le Thi Ha"
+      },
+      {
+       "p": 3,
+       "n": "Nguyen Thi Ngoc Lan"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Hoang Nguyen Thanh"
+      },
+      {
+       "p": 2,
+       "n": "Lai Terence"
+      },
+      {
+       "p": 3,
+       "n": "Truong Tri Tam"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Hoang Thi Ngoc Hoa"
+      },
+      {
+       "p": 2,
+       "n": "Le Thi Yen Nhu"
+      },
+      {
+       "p": 3,
+       "n": "Nguyen Khanh Ly"
+      }
+     ]
+    },
+    "10K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Nguyen Trung Cuong"
+      },
+      {
+       "p": 2,
+       "n": "Nguyen Le Hoang Vu"
+      },
+      {
+       "p": 3,
+       "n": "Ryuku Ushizaki"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Tran Thi Duyen"
+      },
+      {
+       "p": 2,
+       "n": "Nguyen Thi Dong Phuong"
+      },
+      {
+       "p": 3,
+       "n": "Run Romdul"
+      }
+     ]
     }
    }
   }
