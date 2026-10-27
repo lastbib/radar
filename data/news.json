@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T07:00:00+07:00",
+ "updated": "2026-10-27T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -826,6 +826,48 @@
    "raceId": "chaiyaphum-marathon-2027",
    "text": "New: Chaiyaphum Marathon (21 Feb) - first edition in Isan, postponed from October after floods, entries from ฿750 until 10 Feb.",
    "text_de": "Neu: Chaiyaphum Marathon (21. Feb.) – erste Ausgabe im Isan, nach Hochwasser von Oktober verschoben, Startplätze ab 750 ฿ bis 10. Feb."
+  },
+  {
+   "date": "2026-10-27",
+   "type": "price",
+   "raceId": "chiang-mai-marathon-2026",
+   "text": "Last days for the cheaper entry fees at the Chiang Mai Marathon (20 Dec): the current price step ends on 31 Oct, after which fees rise.",
+   "text_de": "Letzte Tage für die günstigeren Startgebühren beim Chiang Mai Marathon (20. Dez.): Die aktuelle Preisstufe endet am 31. Okt., danach steigen die Gebühren."
+  },
+  {
+   "date": "2026-10-27",
+   "type": "new",
+   "raceId": "brunei-international-half-marathon-2026",
+   "text": "New: BMW Brunei International Half Marathon (6 Dec) - AIMS-listed half in Brunei's capital district, entries from B$70.",
+   "text_de": "Neu: BMW Brunei International Half Marathon (6. Dez.) - AIMS-gelisteter Halbmarathon im Hauptstadtgebiet Bruneis, Startplätze ab B$70."
+  },
+  {
+   "date": "2026-10-27",
+   "type": "new",
+   "raceId": "iloilo-dinagyang-marathon-2027",
+   "text": "New: Iloilo Dinagyang Marathon (17 Jan) - full marathon on Dinagyang festival weekend, entries from ₱899.",
+   "text_de": "Neu: Iloilo Dinagyang Marathon (17. Jan.) - Marathon am Wochenende des Dinagyang-Festivals, Startplätze ab ₱899."
+  },
+  {
+   "date": "2026-10-27",
+   "type": "new",
+   "raceId": "tohoku-food-marathon-2027",
+   "text": "New: Tohoku Food Marathon (18 Apr) - up to 20 regional dishes at the aid stations, entries open until 14 Mar.",
+   "text_de": "Neu: Tohoku Food Marathon (18. Apr.) - bis zu 20 regionale Gerichte an den Verpflegungsstellen, Anmeldung bis 14. März."
+  },
+  {
+   "date": "2026-10-27",
+   "type": "new",
+   "raceId": "johor-bahru-city-half-marathon-2027",
+   "text": "New: Johor Bahru City Half Marathon (10 Jan) - pre-dawn half just across from Singapore, super early bird tickets on sale now.",
+   "text_de": "Neu: Johor Bahru City Half Marathon (10. Jan.) - Halbmarathon vor Sonnenaufgang gleich gegenüber von Singapur, Super-Early-Bird-Tickets jetzt erhältlich."
+  },
+  {
+   "date": "2026-10-27",
+   "type": "new",
+   "raceId": "amazing-phrae-marathon-2027",
+   "text": "New: Amazing Phrae Marathon (30 May) - northern Thai teak town with a sub-4 shirt challenge, entries from ฿550.",
+   "text_de": "Neu: Amazing Phrae Marathon (30. Mai) - nordthailändische Teakholzstadt mit SUB-4-Shirt-Challenge, Startplätze ab ฿550."
   }
  ]
 }
