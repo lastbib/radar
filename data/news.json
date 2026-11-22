@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:00:00+07:00",
+ "updated": "2026-11-22T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -868,6 +868,188 @@
    "raceId": "amazing-phrae-marathon-2027",
    "text": "New: Amazing Phrae Marathon (30 May) - northern Thai teak town with a sub-4 shirt challenge, entries from ฿550.",
    "text_de": "Neu: Amazing Phrae Marathon (30. Mai) - nordthailändische Teakholzstadt mit SUB-4-Shirt-Challenge, Startplätze ab ฿550."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "new",
+   "raceId": "rama-8-half-marathon-2027",
+   "text": "New: Rama 8 Half Marathon (16 May) - a pre-dawn run on Bangkok's tollways over the Rama VIII Bridge; discount prices until 30 Nov.",
+   "text_de": "Neu: Rama 8 Half Marathon (16. Mai) - Lauf vor Sonnenaufgang über Bangkoks Mautstraßen und die Rama-VIII-Brücke; Rabattpreise bis 30. Nov."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "new",
+   "raceId": "huahin-hero-run-mini-marathon-2027",
+   "text": "New: Huahin Hero Run Mini Marathon (14 Mar) - a seaside charity 10K that funds local rescue teams.",
+   "text_de": "Neu: Huahin Hero Run Mini Marathon (14. März) - Benefiz-10-km am Meer für die örtlichen Rettungsteams."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "new",
+   "raceId": "indian-navy-half-marathon-2027",
+   "text": "New: Indian Navy Half Marathon (7 Feb) - the Navy's race through central Delhi, with more than 13,000 runners last year.",
+   "text_de": "Neu: Indian Navy Half Marathon (7. Feb.) - der Lauf der Marine durch das Zentrum Delhis, mit über 13.000 Läufern im Vorjahr."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "new",
+   "raceId": "chandigarh-fast-marathon-2027",
+   "text": "New: Chandigarh Fast Marathon (14 Feb) - a flat, qualifier-only race built for PBs and Boston times.",
+   "text_de": "Neu: Chandigarh Fast Marathon (14. Feb.) - ein flaches Rennen nur mit Qualifikationszeit, gemacht für Bestzeiten und Boston-Zeiten."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "new",
+   "raceId": "uwsm-ftc-run-singapore-2027",
+   "text": "New: UWSM & FTC Run (23 May) - an early-morning half marathon in Singapore, with early-bird entries now open.",
+   "text_de": "Neu: UWSM & FTC Run (23. Mai) - Halbmarathon am frühen Morgen in Singapur, Frühbucher-Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "sold_out",
+   "raceId": "singapore-marathon-2026",
+   "text": "Singapore Marathon (6 Dec): all categories are now sold out and registration has closed.",
+   "text_de": "Singapore Marathon (6. Dez.): Alle Kategorien sind ausverkauft, die Anmeldung ist geschlossen."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "sold_out",
+   "raceId": "kochi-ryoma-marathon-2027",
+   "text": "Kochi Ryoma Marathon (21 Feb 2027) is sold out and all remaining entry routes have closed.",
+   "text_de": "Kochi Ryoma Marathon (21. Feb. 2027) ist ausverkauft, alle übrigen Anmeldewege sind geschlossen."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "sold_out",
+   "raceId": "kagoshima-marathon-2027",
+   "text": "Kagoshima Marathon (7 Mar 2027) is fully booked and entries have closed.",
+   "text_de": "Kagoshima Marathon (7. März 2027) ist ausgebucht, die Anmeldung ist beendet."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "sold_out",
+   "raceId": "tokushima-marathon-2027",
+   "text": "Tokushima Marathon (14 Mar 2027): all full-marathon places have sold out.",
+   "text_de": "Tokushima Marathon (14. März 2027): Alle Marathon-Startplätze sind vergeben."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "sold_out",
+   "raceId": "daegu-marathon-2027",
+   "text": "Daegu Marathon (28 Feb 2027): all courses including 10K and 5K are sold out; an extra round for freed places is planned.",
+   "text_de": "Daegu Marathon (28. Feb. 2027): Alle Strecken inklusive 10 km und 5 km sind ausverkauft; eine Nachmeldung für frei gewordene Plätze ist geplant."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "sold_out",
+   "raceId": "jbg-kolkata-marathon-2026",
+   "text": "JBG Kolkata Marathon (29 Nov): all categories are listed as sold out.",
+   "text_de": "JBG Kolkata Marathon (29. Nov.): Alle Kategorien sind als ausverkauft gelistet."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "opened",
+   "raceId": "scenic-half-marathon-pranburi-2027",
+   "text": "Scenic Half Marathon Pranburi (14 Feb 2027) registration is open, from ฿800, until the 5,000 places fill.",
+   "text_de": "Scenic Half Marathon Pranburi (14. Feb. 2027): Anmeldung offen, ab ฿800, bis die 5.000 Plätze vergeben sind."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "kagawa-marathon-2027",
+   "text": "Kagawa Marathon (21 Mar 2027): overseas-resident entry closes 23 Nov, or earlier if full.",
+   "text_de": "Kagawa Marathon (21. März 2027): Die Anmeldung für Auslandsteilnehmer endet am 23. Nov. oder früher, wenn voll."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "goa-river-marathon-2026",
+   "text": "SKF Goa River Marathon (13 Dec): registration closes 25 Nov.",
+   "text_de": "SKF Goa River Marathon (13. Dez.): Anmeldeschluss ist der 25. Nov."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "nagano-marathon-2027",
+   "text": "Nagano Marathon (18 Apr 2027): entry closes 29 Nov, or earlier once all 10,000 places fill.",
+   "text_de": "Nagano Marathon (18. Apr. 2027): Anmeldeschluss 29. Nov. oder früher, sobald alle 10.000 Plätze vergeben sind."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "singlife-cagayan-de-oro-marathon-2026",
+   "text": "Cagayan de Oro Marathon (13 Dec): regular rates end 29 Nov; late rates are about PHP 400–500 higher.",
+   "text_de": "Cagayan de Oro Marathon (13. Dez.): Die regulären Preise gelten bis 29. Nov.; danach rund PHP 400–500 teurer."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "brunei-international-half-marathon-2026",
+   "text": "Brunei International Half Marathon (6 Dec): online registration closes 30 Nov at 5pm.",
+   "text_de": "Brunei International Half Marathon (6. Dez.): Online-Anmeldung endet am 30. Nov. um 17 Uhr."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "ho-chi-minh-city-marathon-2027",
+   "text": "HCMC Marathon (17 Jan 2027): international registration via World's Marathons closes 30 Nov.",
+   "text_de": "HCMC Marathon (17. Jan. 2027): Internationale Anmeldung über World's Marathons endet am 30. Nov."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "amazing-chiang-rai-marathon-2027",
+   "text": "Amazing Chiang Rai Marathon (31 Jan 2027): registration via World's Marathons closes 30 Nov.",
+   "text_de": "Amazing Chiang Rai Marathon (31. Jan. 2027): Anmeldung über World's Marathons endet am 30. Nov."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "khao-yai-marathon-2027",
+   "text": "B-Quik Khao Yai Marathon (10 Jan 2027): registration is reported to close 30 Nov.",
+   "text_de": "B-Quik Khao Yai Marathon (10. Jan. 2027): Anmeldeschluss soll der 30. Nov. sein."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "cebu-marathon-2027",
+   "text": "Cebu Marathon (10 Jan 2027): registration is reported to close at the end of November or when slots fill.",
+   "text_de": "Cebu Marathon (10. Jan. 2027): Die Anmeldung soll Ende November oder bei Ausbuchung schließen."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "closing",
+   "raceId": "amazing-phrae-marathon-2027",
+   "text": "Amazing Phrae Marathon (30 May 2027): early-bird pricing ends 30 Nov.",
+   "text_de": "Amazing Phrae Marathon (30. Mai 2027): Frühbucherpreise enden am 30. Nov."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "price",
+   "raceId": "chiang-mai-marathon-2026",
+   "text": "Chiang Mai Marathon (20 Dec): regular entries ended 20 Nov; a charity-tier window runs 1–10 Dec at ฿2,500 (42K), ฿2,000 (21K) and ฿1,000 (10K).",
+   "text_de": "Chiang Mai Marathon (20. Dez.): Die reguläre Anmeldung endete am 20. Nov.; vom 1. bis 10. Dez. gibt es Charity-Startplätze für ฿2.500 (42K), ฿2.000 (21K) und ฿1.000 (10K)."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "price",
+   "raceId": "rock-n-roll-manila-2026",
+   "text": "Rock 'n' Roll Manila (29 Nov): Winter Sale prices from PHP 1,242 (5K) to PHP 2,970 (42K) are live.",
+   "text_de": "Rock 'n' Roll Manila (29. Nov.): Winter-Sale-Preise von PHP 1.242 (5K) bis PHP 2.970 (42K) sind aktiv."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "price",
+   "raceId": "vnexpress-marathon-hai-phong-2026",
+   "text": "VnExpress Marathon Hai Phong (27 Dec): regular prices apply until 2 Dec, late prices from 3 Dec.",
+   "text_de": "VnExpress Marathon Hai Phong (27. Dez.): Reguläre Preise bis 2. Dez., ab 3. Dez. gelten Spätmeldepreise."
+  },
+  {
+   "date": "2026-11-22",
+   "type": "price",
+   "raceId": "bac-ninh-legacy-marathon-2027",
+   "text": "Bắc Ninh Legacy Marathon (10 Jan 2027): early bird has ended; regular prices from ₫450,000 apply until 15 Dec.",
+   "text_de": "Bắc Ninh Legacy Marathon (10. Jan. 2027): Frühbucherphase vorbei; reguläre Preise ab ₫450.000 gelten bis 15. Dez."
   }
  ]
 }
