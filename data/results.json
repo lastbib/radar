@@ -3831,32 +3831,26 @@
    }
   },
   "halong-bay-heritage-marathon": {
-   "edition": "2025",
-   "date": "2025-11-23",
-   "source": "https://vietnamnews.vn/sports/1730282/ha-long-heritage-international-marathon-unites-global-runners-in-record-breaking-moments.html",
+   "edition": "2026",
+   "date": "2026-11-22",
+   "source": "https://congthuong.vn/van-dong-vien-viet-nam-ghi-dau-an-tai-giai-marathon-quoc-te-di-san-ha-long-2026-482257.html",
    "fullResults": "",
    "distances": {
     "42K": {
      "men": [
       {
        "p": 1,
-       "n": "Kennedy Kiprop Chelimo",
+       "n": "Juma Henry Ndiwa",
        "c": "Kenya",
-       "t": "2:13:57"
+       "t": "2:11:46"
       }
      ],
      "women": [
       {
        "p": 1,
-       "n": "Caroline Jepkemei Kimosop",
+       "n": "Naomi Jepkogei Maiyo",
        "c": "Kenya",
-       "t": "2:43:26"
-      },
-      {
-       "p": 3,
-       "n": "Phạm Thị Hồng Lệ",
-       "c": "Vietnam",
-       "t": "2:48:06"
+       "t": "2:35:14"
       }
      ]
     },
@@ -3864,17 +3858,17 @@
      "men": [
       {
        "p": 1,
-       "n": "Edwin Yebei Kiptoo",
-       "c": "Kenya",
-       "t": "1:11:23"
+       "n": "Kebede Nano Guta",
+       "c": "",
+       "t": "1:07:30"
       }
      ],
      "women": [
       {
        "p": 1,
-       "n": "Doãn Thị Oanh",
-       "c": "",
-       "t": "1:19:53"
+       "n": "Artjoy Torregosa",
+       "c": "Philippines",
+       "t": "1:17:54"
       }
      ]
     }
@@ -5024,6 +5018,44 @@
      "n": "佐藤航希",
      "c": "Japan",
      "y": 2026
+    }
+   }
+  },
+  "vientiane-marathon": {
+   "edition": "2025",
+   "date": "2025-12-14",
+   "source": "https://asianathletics.com/wp-content/uploads/2026/04/ResultsofAsia23Nov2025to17Dec2025.pdf",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Dariusz Bemben",
+       "c": "Poland",
+       "t": "2:52:52"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Napatsorn Panthatawewit",
+       "c": "Thailand",
+       "t": "3:19:44"
+      },
+      {
+       "p": 2,
+       "n": "Khankham Noymany",
+       "c": "Laos",
+       "t": "3:29:17"
+      },
+      {
+       "p": 3,
+       "n": "Ting Oulamek",
+       "c": "Laos",
+       "t": "3:32:08"
+      }
+     ]
     }
    }
   }

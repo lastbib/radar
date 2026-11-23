@@ -1050,6 +1050,55 @@
    "raceId": "bac-ninh-legacy-marathon-2027",
    "text": "Bắc Ninh Legacy Marathon (10 Jan 2027): early bird has ended; regular prices from ₫450,000 apply until 15 Dec.",
    "text_de": "Bắc Ninh Legacy Marathon (10. Jan. 2027): Frühbucherphase vorbei; reguläre Preise ab ₫450.000 gelten bis 15. Dez."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "closing",
+   "raceId": "seoul-marathon-2027",
+   "text": "Overseas Seoul Marathon entrants must submit proof of a sub-5:00 marathon by 30 November (14:00 KST).",
+   "text_de": "Internationale Teilnehmer des Seoul-Marathons müssen bis zum 30. November (14:00 Uhr KST) einen Nachweis über einen Marathon unter 5:00 Stunden einreichen."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "closing",
+   "raceId": "rama-8-half-marathon-2027",
+   "text": "The discounted Rama 8 Half Marathon prices on World's Marathons (from €15) end on 30 November.",
+   "text_de": "Die ermäßigten Preise für den Rama 8 Half Marathon bei World's Marathons (ab 15 €) enden am 30. November."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "new",
+   "raceId": "great-wall-marathon-2027",
+   "text": "New: Great Wall Marathon (15 May) - 5,164 steps on the Huangyaguan section, entries open until 15 Apr.",
+   "text_de": "Neu: Great Wall Marathon (15. Mai) - 5.164 Stufen auf dem Huangyaguan-Abschnitt, Anmeldung bis 15. April."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "new",
+   "raceId": "tamba-sasayama-abc-marathon-2027",
+   "text": "New: Tamba-Sasayama ABC Marathon (7 Mar) - castle-town marathon near Osaka, first-come entry closes 20 Dec.",
+   "text_de": "Neu: Tamba-Sasayama ABC Marathon (7. März) - Burgstadt-Marathon bei Osaka, Anmeldung nach Eingang bis 20. Dez."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "new",
+   "raceId": "hua-hin-marathon-2027",
+   "text": "New: Hua Hin Marathon (9 May) - sunrise coastal course at Khao Takiab, registration opening soon.",
+   "text_de": "Neu: Hua Hin Marathon (9. Mai) - Küstenstrecke bei Sonnenaufgang in Khao Takiab, Anmeldung öffnet bald."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "new",
+   "raceId": "cidb-half-marathon-2026",
+   "text": "New: CIDB Half Marathon (13 Dec) - pre-dawn half in Putrajaya, last call: entries close 30 Nov.",
+   "text_de": "Neu: CIDB Half Marathon (13. Dez) - Halbmarathon vor Sonnenaufgang in Putrajaya, Anmeldung nur noch bis 30. Nov."
+  },
+  {
+   "date": "2026-11-23",
+   "type": "results",
+   "raceId": "halong-bay-heritage-marathon-2026",
+   "text": "Halong Bay Heritage Marathon (22 Nov) results: Kenya's Juma Henry Ndiwa won the marathon in 2:11:46 and Naomi Jepkogei Maiyo (Kenya) took the women's race in 2:35:14. Half marathon: Kebede Nano Guta 1:07:30, Artjoy Torregosa 1:17:54.",
+   "text_de": "Halong Bay Heritage Marathon (22. Nov.) Ergebnisse: Der Kenianer Juma Henry Ndiwa gewann den Marathon in 2:11:46, bei den Frauen siegte Naomi Jepkogei Maiyo (Kenia) in 2:35:14. Halbmarathon: Kebede Nano Guta 1:07:30, Artjoy Torregosa 1:17:54."
   }
  ]
 }
