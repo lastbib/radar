@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T07:00:00+07:00",
+ "updated": "2026-11-24T07:00:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -5054,6 +5054,216 @@
        "n": "Ting Oulamek",
        "c": "Laos",
        "t": "3:32:08"
+      }
+     ]
+    }
+   }
+  },
+  "kochi-ryoma-marathon": {
+   "edition": "2026",
+   "date": "2026-02-15",
+   "source": "https://japanrunningnews.blogspot.com/2026/02/marathon-weekend-roundup.html",
+   "fullResults": "https://npo-kochi.sports.coocan.jp/taikaikekka/25/02ryoma/25ryoma.pdf",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Takemaru Yamasaki",
+       "c": "Japan",
+       "t": "2:19:12"
+      },
+      {
+       "p": 2,
+       "n": "Naoya Koyama",
+       "c": "Japan",
+       "t": "2:19:20"
+      },
+      {
+       "p": 3,
+       "n": "Munehiro Harada",
+       "c": "Japan",
+       "t": "2:20:46"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Leanne Szeto",
+       "c": "Hong Kong",
+       "t": "2:43:20"
+      },
+      {
+       "p": 2,
+       "n": "Mizuha Otaru",
+       "c": "Japan",
+       "t": "2:48:12"
+      },
+      {
+       "p": 3,
+       "n": "Haruka Yamaguchi",
+       "c": "Japan",
+       "t": "2:53:44"
+      }
+     ]
+    }
+   }
+  },
+  "rock-n-roll-manila": {
+   "edition": "2025",
+   "date": "2025-11-29",
+   "source": "https://marathonview.net/race/143598",
+   "fullResults": "https://marathonview.net/race/143598",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Jeremiah Lorenz Gusilatar",
+       "c": "",
+       "t": "2:40:33"
+      },
+      {
+       "p": 2,
+       "n": "Sota Maehara",
+       "c": "",
+       "t": "2:49:02"
+      },
+      {
+       "p": 3,
+       "n": "Carlo Cabling",
+       "c": "",
+       "t": "2:50:18"
+      },
+      {
+       "p": 4,
+       "n": "Aldrin Serrano",
+       "c": "",
+       "t": "3:01:28"
+      },
+      {
+       "p": 5,
+       "n": "Amerhasan Ibrahim",
+       "c": "",
+       "t": "3:05:25"
+      },
+      {
+       "p": 6,
+       "n": "Aron Blaine Esponilla",
+       "c": "",
+       "t": "3:13:23"
+      },
+      {
+       "p": 7,
+       "n": "Mikhail Ebril",
+       "c": "",
+       "t": "3:17:02"
+      },
+      {
+       "p": 8,
+       "n": "Mitsuru Watanabe",
+       "c": "",
+       "t": "3:21:53"
+      },
+      {
+       "p": 9,
+       "n": "Raymond Kenneth Dionisio",
+       "c": "",
+       "t": "3:27:41"
+      },
+      {
+       "p": 10,
+       "n": "Jansen Yu",
+       "c": "",
+       "t": "3:31:36"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Andrea Jimenez",
+       "c": "",
+       "t": "2:42:48"
+      },
+      {
+       "p": 2,
+       "n": "Eloisa Cusi",
+       "c": "",
+       "t": "3:15:33"
+      },
+      {
+       "p": 3,
+       "n": "Viktoriia Ebril",
+       "c": "",
+       "t": "3:31:11"
+      },
+      {
+       "p": 4,
+       "n": "Jaymee Castillo",
+       "c": "",
+       "t": "3:36:41"
+      },
+      {
+       "p": 5,
+       "n": "Nikka Panlaqui",
+       "c": "",
+       "t": "3:42:20"
+      },
+      {
+       "p": 6,
+       "n": "Marjorie Denise Manguiat",
+       "c": "",
+       "t": "3:42:32"
+      },
+      {
+       "p": 7,
+       "n": "Michelle Estuar",
+       "c": "",
+       "t": "3:43:16"
+      },
+      {
+       "p": 8,
+       "n": "Moulaine Grace Esquillo",
+       "c": "",
+       "t": "3:45:20"
+      },
+      {
+       "p": 9,
+       "n": "Analyn Simon",
+       "c": "",
+       "t": "3:45:38"
+      },
+      {
+       "p": 10,
+       "n": "Jennifer Pagaduan",
+       "c": "",
+       "t": "3:51:47"
+      }
+     ]
+    }
+   }
+  },
+  "ishigaki-island-marathon": {
+   "edition": "2026 (23rd edition)",
+   "date": "2026-01-18",
+   "source": "https://www.yaeyama-nippo.co.jp/article/28636",
+   "fullResults": "https://runnet.jp/cgi-bin/?id=379258",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kaito Iwasa",
+       "c": "Japan",
+       "t": "2:31:33"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Natsuki Yokoo",
+       "c": "Japan",
+       "t": "2:50:19"
       }
      ]
     }

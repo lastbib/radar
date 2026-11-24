@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:00:00+07:00",
+ "updated": "2026-11-24T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -1099,6 +1099,41 @@
    "raceId": "halong-bay-heritage-marathon-2026",
    "text": "Halong Bay Heritage Marathon (22 Nov) results: Kenya's Juma Henry Ndiwa won the marathon in 2:11:46 and Naomi Jepkogei Maiyo (Kenya) took the women's race in 2:35:14. Half marathon: Kebede Nano Guta 1:07:30, Artjoy Torregosa 1:17:54.",
    "text_de": "Halong Bay Heritage Marathon (22. Nov.) Ergebnisse: Der Kenianer Juma Henry Ndiwa gewann den Marathon in 2:11:46, bei den Frauen siegte Naomi Jepkogei Maiyo (Kenia) in 2:35:14. Halbmarathon: Kebede Nano Guta 1:07:30, Artjoy Torregosa 1:17:54."
+  },
+  {
+   "date": "2026-11-24",
+   "type": "sold_out",
+   "raceId": "fukui-sakura-marathon-2027",
+   "text": "Fukui Sakura Marathon (28 Mar 2027): general places are sold out and the overseas-resident quota closed on 20 Nov; only travel-agency packages remain.",
+   "text_de": "Fukui Sakura Marathon (28. März 2027): Die regulären Startplätze sind ausverkauft, das Kontingent für Teilnehmende aus dem Ausland ist seit dem 20. Nov. geschlossen; es gibt nur noch Pakete über Reiseveranstalter."
+  },
+  {
+   "date": "2026-11-24",
+   "type": "new",
+   "raceId": "sihanoukville-international-half-marathon-2027",
+   "text": "New: Sihanoukville International Half Marathon (28 Mar) - sunrise race on Ochheuteal Beach, fees from $60 for foreigners, online registration link coming soon.",
+   "text_de": "Neu: Sihanoukville International Half Marathon (28. März) - Lauf bei Sonnenaufgang am Ochheuteal Beach, ab 60 $ für Ausländer, Online-Anmeldung folgt in Kürze."
+  },
+  {
+   "date": "2026-11-24",
+   "type": "new",
+   "raceId": "angkor-empire-marathon-2027",
+   "text": "New: Angkor Empire Marathon (8 Aug) - full marathon past nearly 40 Angkor temples, early-bird entry from $65 starts 17 Jan.",
+   "text_de": "Neu: Angkor Empire Marathon (8. Aug.) - Marathon vorbei an fast 40 Angkor-Tempeln, Frühbucherpreis ab 65 $ ab 17. Jan."
+  },
+  {
+   "date": "2026-11-24",
+   "type": "new",
+   "raceId": "phnom-penh-international-half-marathon-2027",
+   "text": "New: Phnom Penh International Half Marathon (13 Jun) - capital race returns, early-bird entry opens 27 Nov from $55.",
+   "text_de": "Neu: Phnom Penh International Half Marathon (13. Juni) - Hauptstadtlauf kehrt zurück, Frühbucheranmeldung ab 27. Nov. ab 55 $."
+  },
+  {
+   "date": "2026-11-24",
+   "type": "new",
+   "raceId": "telangana-half-marathon-2027",
+   "text": "New: Telangana Half Marathon (24 Jan) - 4 am start at Gachibowli Stadium, Hyderabad, entries open from ₹599.",
+   "text_de": "Neu: Telangana Half Marathon (24. Jan.) - Start um 4 Uhr am Gachibowli-Stadion in Hyderabad, Anmeldung offen ab 599 ₹."
   }
  ]
 }
