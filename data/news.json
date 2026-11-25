@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:00:00+07:00",
+ "updated": "2026-11-25T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -1134,6 +1134,62 @@
    "raceId": "telangana-half-marathon-2027",
    "text": "New: Telangana Half Marathon (24 Jan) - 4 am start at Gachibowli Stadium, Hyderabad, entries open from ₹599.",
    "text_de": "Neu: Telangana Half Marathon (24. Jan.) - Start um 4 Uhr am Gachibowli-Stadion in Hyderabad, Anmeldung offen ab 599 ₹."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "opened",
+   "raceId": "phnom-penh-international-half-marathon-2027",
+   "text": "Registration for the Phnom Penh International Half Marathon (13 June 2027) is now open on World's Marathons, from €41 for the half.",
+   "text_de": "Die Anmeldung zum Phnom Penh International Half Marathon (13. Juni 2027) ist jetzt bei World's Marathons geöffnet, der Halbmarathon kostet ab 41 €."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "closing",
+   "raceId": "phnom-penh-international-half-marathon-2027",
+   "text": "The current World's Marathons price step for the Phnom Penh International Half Marathon (13 June 2027) ends on 26 November 2026.",
+   "text_de": "Die aktuelle Preisstufe bei World's Marathons für den Phnom Penh International Half Marathon (13. Juni 2027) endet am 26. November 2026."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "closing",
+   "raceId": "cidb-half-marathon-2026",
+   "text": "Registration for the CIDB Half Marathon 2026 in Putrajaya (13 Dec 2026) closes on 30 Nov 2026.",
+   "text_de": "Die Anmeldung zum CIDB Half Marathon 2026 in Putrajaya (13. Dezember 2026) endet am 30. November 2026."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "new",
+   "raceId": "new-delhi-marathon-2027",
+   "text": "New: Cognizant New Delhi Marathon (28 Feb) - flat national-championship course past India Gate.",
+   "text_de": "Neu: Cognizant New Delhi Marathon (28. Feb.) - flacher Meisterschaftskurs vorbei am India Gate."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "new",
+   "raceId": "2xu-singapore-compression-run-2027",
+   "text": "New: 2XU Singapore Compression Run (21 Mar) - pre-dawn half marathon from the F1 Pit Building.",
+   "text_de": "Neu: 2XU Singapore Compression Run (21. März) - Halbmarathon im Morgengrauen ab dem F1 Pit Building."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "new",
+   "raceId": "vang-vieng-half-marathon-2027",
+   "text": "New: Vangvieng Half Marathon (21 Feb) - dawn half among Laos' karst peaks.",
+   "text_de": "Neu: Vangvieng Half Marathon (21. Feb.) - Halbmarathon im Morgengrauen zwischen den Karstgipfeln von Laos."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "new",
+   "raceId": "thump-celebration-bengaluru-2026",
+   "text": "New: Thump Celebration Bengaluru (20 Dec) - half, 10K and 20-miler on the NICE Road.",
+   "text_de": "Neu: Thump Celebration Bengaluru (20. Dez.) - Halbmarathon, 10 km und 20 Meilen auf der NICE Road."
+  },
+  {
+   "date": "2026-11-25",
+   "type": "new",
+   "raceId": "pantai-malindo-half-marathon-2027",
+   "text": "New: Pantai Malindo Half Marathon (31 Jan) - inaugural 1,000-runner race in Penang.",
+   "text_de": "Neu: Pantai Malindo Half Marathon (31. Jan.) - Premiere mit 1.000 Startplätzen in Penang."
   }
  ]
 }

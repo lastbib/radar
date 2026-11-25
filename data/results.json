@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:00:00+07:00",
+ "updated": "2026-11-25T07:00:00+07:00",
  "note": "Past winners per race. Keyed by race id prefix (without year). Places listed as published by organisers or press; fill up to top 10 per gender when official results are readable.",
  "results": {
   "hcmc-marathon": {
@@ -5264,6 +5264,264 @@
        "n": "Natsuki Yokoo",
        "c": "Japan",
        "t": "2:50:19"
+      }
+     ]
+    }
+   }
+  },
+  "chiang-mai-marathon": {
+   "edition": "2025",
+   "date": "2025-12-21",
+   "source": "https://mybestruns.com/ChiangMaiMarathon?b=reat",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Wojciech Kopec",
+       "c": "Poland",
+       "t": "2:29:21"
+      },
+      {
+       "p": 2,
+       "n": "Seigo Yoshimi",
+       "c": "Japan",
+       "t": "2:41:40"
+      },
+      {
+       "p": 3,
+       "n": "Anurag Konkar",
+       "c": "India",
+       "t": "2:47:57"
+      },
+      {
+       "p": 4,
+       "n": "ปฏิภาณ ยอดขุนทด",
+       "c": "Thailand",
+       "t": "2:48:02"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "มนเทียน Fravi",
+       "c": "Thailand",
+       "t": "3:03:04"
+      },
+      {
+       "p": 2,
+       "n": "กัลย์สุดา กิตติเดชา",
+       "c": "Thailand",
+       "t": "3:12:58"
+      },
+      {
+       "p": 3,
+       "n": "สุจิตรา สิงห์ทอง",
+       "c": "Thailand",
+       "t": "3:16:11"
+      },
+      {
+       "p": 4,
+       "n": "ช่อทิพย์ กันอ่วม",
+       "c": "Thailand",
+       "t": "3:16:50"
+      }
+     ]
+    }
+   }
+  },
+  "buriram-marathon": {
+   "edition": "2026 (10th edition)",
+   "date": "2026-01-24",
+   "source": "https://mybestruns.com/BuriramMarathon?b=reat",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Barnabas Kiplimo",
+       "c": "Kenya",
+       "t": "2:21:15"
+      },
+      {
+       "p": 2,
+       "n": "Wendwesen Damte",
+       "c": "Ethiopia",
+       "t": "2:22:52"
+      },
+      {
+       "p": 3,
+       "n": "Julius Tarus",
+       "c": "Kenya",
+       "t": "2:27:34"
+      },
+      {
+       "p": 4,
+       "n": "Sanchai Namkhet",
+       "c": "Thailand",
+       "t": "2:29:24"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Marta Birehan",
+       "c": "Ethiopia",
+       "t": "2:51:01"
+      },
+      {
+       "p": 2,
+       "n": "Ornanong Wongsorn",
+       "c": "Thailand",
+       "t": "2:53:28"
+      },
+      {
+       "p": 3,
+       "n": "Linda Janthachit",
+       "c": "Thailand",
+       "t": "3:01:14"
+      },
+      {
+       "p": 4,
+       "n": "Kopkarn Puaram",
+       "c": "Thailand",
+       "t": "3:09:04"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Muhia Kennedy Njogu",
+       "c": "Kenya",
+       "t": "1:05:42"
+      },
+      {
+       "p": 2,
+       "n": "Pongsakorn Suksawat",
+       "c": "Thailand",
+       "t": "1:09:50"
+      },
+      {
+       "p": 3,
+       "n": "Nattawut Innum",
+       "c": "",
+       "t": "1:10:00"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Lotkaew Inthakummarn",
+       "c": "Laos",
+       "t": "1:21:48"
+      },
+      {
+       "p": 2,
+       "n": "Pariya Sonsem",
+       "c": "",
+       "t": "1:23:02"
+      },
+      {
+       "p": 3,
+       "n": "Piyanuch Suksat",
+       "c": "",
+       "t": "1:25:31"
+      }
+     ]
+    }
+   }
+  },
+  "federal-bank-kochi-marathon": {
+   "edition": "2026 (4th edition)",
+   "date": "2026-02-08",
+   "source": "https://www.passionateinmarketing.com/?p=696187",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Ranjit Singh",
+       "c": "",
+       "t": "2:28:53"
+      },
+      {
+       "p": 2,
+       "n": "Manoj R.S.",
+       "c": "",
+       "t": "2:33:21"
+      },
+      {
+       "p": 3,
+       "n": "Vinoth Kumar",
+       "c": "",
+       "t": "2:34:52"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Abhilasha Sanjeev",
+       "c": "",
+       "t": "3:10:26"
+      },
+      {
+       "p": 2,
+       "n": "K.M. Laxmi",
+       "c": "",
+       "t": "3:33:01"
+      },
+      {
+       "p": 3,
+       "n": "Divya S",
+       "c": "",
+       "t": "3:39:37"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Adetya Singh",
+       "c": "",
+       "t": "1:10:40"
+      },
+      {
+       "p": 2,
+       "n": "Sandeep V.K",
+       "c": "",
+       "t": "1:12:40"
+      },
+      {
+       "p": 3,
+       "n": "Jerald Cecil",
+       "c": "",
+       "t": "1:15:05"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Aiswarya S",
+       "c": "",
+       "t": "1:45:10"
+      },
+      {
+       "p": 2,
+       "n": "Devika Ben",
+       "c": "",
+       "t": "1:51:57"
+      },
+      {
+       "p": 3,
+       "n": "Anna Van Duijnhoven",
+       "c": "",
+       "t": "1:56:58"
       }
      ]
     }
