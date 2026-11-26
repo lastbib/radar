@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:00:00+07:00",
+ "updated": "2026-11-26T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -1190,6 +1190,69 @@
    "raceId": "pantai-malindo-half-marathon-2027",
    "text": "New: Pantai Malindo Half Marathon (31 Jan) - inaugural 1,000-runner race in Penang.",
    "text_de": "Neu: Pantai Malindo Half Marathon (31. Jan.) - Premiere mit 1.000 Startplätzen in Penang."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "closing",
+   "raceId": "vang-vieng-half-marathon-2027",
+   "text": "Early-bird prices for the Vangvieng Half Marathon (21 Feb 2027) end on 30 November: €23 for the half, €16 for 10K and €13 for 5K, rising to €27/€19/€15.",
+   "text_de": "Die Frühbucherpreise für den Vangvieng Half Marathon (21. Feb. 2027) enden am 30. November: 23 € für den Halbmarathon, 16 € für 10 km und 13 € für 5 km, danach 27 €/19 €/15 €."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "sold_out",
+   "raceId": "chennai-marathon-2027",
+   "text": "Registration for the Freshworks Chennai Marathon (3 Jan 2027) has closed early, according to the official website.",
+   "text_de": "Die Anmeldung für den Freshworks Chennai Marathon (3. Jan. 2027) ist laut offizieller Website vorzeitig geschlossen."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "closing",
+   "raceId": "2xu-singapore-compression-run-2027",
+   "text": "2XU Singapore Compression Run (21 Mar 2027): early-bird prices (half marathon S$125) end on 30 Nov 2026, then rise to S$145.",
+   "text_de": "2XU Singapore Compression Run (21. März 2027): Die Frühbucherpreise (Halbmarathon S$125) enden am 30. Nov. 2026, danach steigen sie auf S$145."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "opened",
+   "raceId": "sihanoukville-international-half-marathon-2027",
+   "text": "Sihanoukville International Half Marathon (28 Mar 2027): registration for foreign runners is now open via World's Marathons, from €60 for the half, until 18 Feb.",
+   "text_de": "Sihanoukville International Half Marathon (28. März 2027): Die Anmeldung für ausländische Läufer ist jetzt über World's Marathons offen, Halbmarathon ab 60 €, bis 18. Feb."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "closing",
+   "raceId": "chiang-mai-marathon-2026",
+   "text": "Chiang Mai Marathon (20 Dec): the charity-tier registration window opens 1 Dec and closes 10 Dec.",
+   "text_de": "Chiang Mai Marathon (20. Dez.): Die Charity-Anmeldung öffnet am 1. Dez. und schließt am 10. Dez."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "new",
+   "raceId": "borneo-international-marathon-2027",
+   "text": "New: Alliance Bank Borneo International Marathon (9 May) - AIMS-sanctioned race in Kota Kinabalu, Early Bird entry now open.",
+   "text_de": "Neu: Alliance Bank Borneo International Marathon (9. Mai) - AIMS-anerkannter Lauf in Kota Kinabalu, Frühbucher-Anmeldung jetzt offen."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "new",
+   "raceId": "dahu-strawberry-marathon-2027",
+   "text": "New: Dahu Strawberry Marathon (27 Feb) - hilly Taiwan countryside race with fresh strawberries at the aid stations; entries close 31 Dec.",
+   "text_de": "Neu: Dahu Strawberry Marathon (27. Feb.) - hügeliger Landschaftslauf in Taiwan mit frischen Erdbeeren an den Verpflegungsstellen; Anmeldeschluss 31. Dez."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "new",
+   "raceId": "bodh-gaya-marathon-2027",
+   "text": "New: Bodhgaya Marathon (14 Feb) - charity run for global peace around the town of Buddha's enlightenment.",
+   "text_de": "Neu: Bodhgaya Marathon (14. Feb.) - Benefizlauf für den Weltfrieden rund um den Ort von Buddhas Erleuchtung."
+  },
+  {
+   "date": "2026-11-26",
+   "type": "new",
+   "raceId": "jakarta-international-marathon-2027",
+   "text": "New: Jakarta International Marathon (13 Jun) - big city race from Monas through the old town, for Jakarta's 500th anniversary.",
+   "text_de": "Neu: Jakarta International Marathon (13. Juni) - großer Stadtlauf vom Monas durch die Altstadt zum 500. Stadtjubiläum."
   }
  ]
 }

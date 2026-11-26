@@ -5526,6 +5526,242 @@
      ]
     }
    }
+  },
+  "tcs-world-10k-bengaluru": {
+   "edition": "2026",
+   "date": "2026-04-26",
+   "source": "https://www.watchathletics.com/article/13678/rodrigue-s-event-record-and-florence-s-maiden-victory-highlight-tcs-world-10k",
+   "fullResults": "https://www.watchathletics.com/page/7613/results-tcs-world-10k-bengaluru-2026",
+   "distances": {
+    "10K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Rodrigue Kwizera",
+       "c": "Burundi",
+       "t": "27:31"
+      },
+      {
+       "p": 2,
+       "n": "Harbert Kibet",
+       "c": "Uganda",
+       "t": "27:39"
+      },
+      {
+       "p": 3,
+       "n": "Gilbert Kipkosgei Kiprotich",
+       "c": "Kenya",
+       "t": "27:43"
+      },
+      {
+       "p": 4,
+       "n": "Saymon Tesfagiorgis Amanuel",
+       "c": "Eritrea",
+       "t": "27:44"
+      },
+      {
+       "p": 5,
+       "n": "Benjamin Fernandi Ratsim",
+       "c": "Tanzania",
+       "t": "27:47"
+      },
+      {
+       "p": 6,
+       "n": "Victor Kipruto Kiprono",
+       "c": "Kenya",
+       "t": "27:52"
+      },
+      {
+       "p": 7,
+       "n": "Vincent Kipkemoi Ngetich",
+       "c": "Kenya",
+       "t": "27:53"
+      },
+      {
+       "p": 8,
+       "n": "Dan Kibet",
+       "c": "Uganda",
+       "t": "27:56"
+      },
+      {
+       "p": 9,
+       "n": "Eyob Simegn Mekuanint",
+       "c": "Ethiopia",
+       "t": "28:01"
+      },
+      {
+       "p": 10,
+       "n": "Gabriel Gerald Geay",
+       "c": "Tanzania",
+       "t": "28:14"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Florence Niyonkuru",
+       "c": "Rwanda",
+       "t": "30:45"
+      },
+      {
+       "p": 2,
+       "n": "Brenda Jepchirchir",
+       "c": "Kenya",
+       "t": "30:59"
+      },
+      {
+       "p": 3,
+       "n": "Chaltu Dida Diriba",
+       "c": "Ethiopia",
+       "t": "31:03"
+      },
+      {
+       "p": 4,
+       "n": "Melal Siyoum Biratu",
+       "c": "Ethiopia",
+       "t": "31:08"
+      },
+      {
+       "p": 5,
+       "n": "Judy Jepngetich Chepaskwony",
+       "c": "Kenya",
+       "t": "31:14"
+      },
+      {
+       "p": 6,
+       "n": "Janeth Chepngetich",
+       "c": "Kenya",
+       "t": "31:15"
+      },
+      {
+       "p": 7,
+       "n": "Asefu Abrha Kiros",
+       "c": "Ethiopia",
+       "t": "31:32"
+      },
+      {
+       "p": 8,
+       "n": "Wede Kefale Belew",
+       "c": "Ethiopia",
+       "t": "31:43"
+      },
+      {
+       "p": 9,
+       "n": "Veronica Loleo",
+       "c": "Kenya",
+       "t": "32:04"
+      },
+      {
+       "p": 10,
+       "n": "Esther Chebet",
+       "c": "Uganda",
+       "t": "32:08"
+      }
+     ]
+    }
+   },
+   "records": {
+    "men": {
+     "t": "27:31",
+     "n": "Rodrigue Kwizera",
+     "c": "Burundi",
+     "y": "2026"
+    }
+   }
+  },
+  "new-delhi-marathon": {
+   "edition": "2026",
+   "date": "2026-02-22",
+   "source": "https://www.lokmattimes.com/other-sports/kartik-karkera-dazzles-in-cognizant-new-delhi-marathon",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kartik Jayraj Karkera",
+       "c": "India",
+       "t": "2:13:10"
+      },
+      {
+       "p": 2,
+       "n": "Gopi Thonakal",
+       "c": "India",
+       "t": "2:13:12"
+      },
+      {
+       "p": 3,
+       "n": "Man Singh",
+       "c": "India",
+       "t": "2:13:15"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Thakor Nirmaben Bharatjee",
+       "c": "India",
+       "t": "2:41:15"
+      },
+      {
+       "p": 2,
+       "n": "Bhagirathi",
+       "c": "India",
+       "t": "2:43:28"
+      },
+      {
+       "p": 3,
+       "n": "Ashwini Madan Jadhav",
+       "c": "India",
+       "t": "2:56:59"
+      }
+     ]
+    }
+   }
+  },
+  "kinmen-marathon": {
+   "edition": "2026 (19th edition)",
+   "date": "2026-01-25",
+   "source": "https://udn.com/news/story/7005/9287715",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Anderson Saitoti Seroi",
+       "c": "Kenya",
+       "t": "2:17:32"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Nancy Jebet Koech",
+       "c": "",
+       "t": "2:37:30"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Job Minacho Kamonde",
+       "c": "Kenya",
+       "t": "1:07:55"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Huang Xuemei (黃雪梅)",
+       "c": "China",
+       "t": "1:18:01"
+      }
+     ]
+    }
+   }
   }
  }
 }

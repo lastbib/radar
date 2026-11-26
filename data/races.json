@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:00:00+07:00",
+ "updated": "2026-11-26T07:00:00+07:00",
  "races": [
   {
    "id": "bangkok-marathon-2027",
@@ -132,7 +132,7 @@
    "facts": "Starts at Tha Phae Gate and runs past the old city moat and Lanna temples, with Doi Suthep as the backdrop. It closes Thailand's marathon series in the cool, misty northern December.",
    "url": "https://www.chiangmaimarathon.com/",
    "source": "https://www.chiangmaimarathon.com",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Tha_Phae_Gate",
     "Wat_Phra_That_Doi_Suthep",
@@ -316,7 +316,7 @@
    "facts": "Phuket's largest sporting event and a Boston qualifier, running past rubber and pineapple plantations, villages and Nai Yang beach. The 5K and 10K are Saturday sunset runs; the marathon and half are Sunday sunrise runs.",
    "url": "https://www.phuketmarathon.com",
    "source": "https://www.ahotu.com/evento/laguna-phuket-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Laguna_Phuket",
     "Bang_Tao_Beach",
@@ -397,7 +397,7 @@
    "facts": "A neon-lit night run starting at 7pm from Central Samui along Chaweng Road and South Chaweng Beach. Over 3,000 runners took part in 2026, up more than 30% on the year before.",
    "url": "https://www.runlah.com",
    "source": "https://worldsmarathons.com/marathon/neon-run-samui",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Ko_Samui",
     "Chaweng_Beach"
@@ -828,15 +828,15 @@
      "cur": "INR"
     }
    ],
-   "priceNote": "32K ₹2,800. World's Marathons no longer sells entries (international window ran until 25 Nov); register via the official site. Non-refundable.",
-   "status": "open",
+   "priceNote": "32K ₹2,800. World's Marathons international entry window ended 25 Nov and it no longer sells entries; the official site could not be checked, so any remaining direct entry is unconfirmed. Non-refundable.",
+   "status": "closed",
    "regOpens": "",
    "regCloses": "2026-11-25",
    "relevance": 78,
    "facts": "The 16th edition starts and finishes at Chicalim near Vasco and follows the Zuari River, one of India's most scenic marathon routes. December in Goa brings 20–28°C, low humidity and clear skies.",
    "url": "https://skfgoarivermarathon.com",
    "source": "https://worldsmarathons.com/marathon/goa-river-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Zuari_River",
     "Goa"
@@ -957,17 +957,19 @@
     },
     {
      "d": "10K",
-     "price": ""
+     "price": "₹1,450 + GST",
+     "amt": 1450,
+     "cur": "INR"
     }
    ],
-   "status": "open",
+   "status": "closed",
    "regOpens": "",
    "regCloses": "",
    "relevance": 72,
    "facts": "Organised by the volunteer club Chennai Runners, it drew about 22,000 participants in 2024. Besides the marathon, half marathon and 10K, it offers a 32K 'Twenty Miler'.",
    "url": "https://thechennaimarathon.com/",
    "source": "https://thechennaimarathon.com/",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Marina_Beach",
     "Chennai"
@@ -976,7 +978,7 @@
    "facts_de": "Der vom ehrenamtlichen Verein Chennai Runners organisierte Lauf hatte 2024 rund 22.000 Teilnehmende. Neben Marathon, Halbmarathon und 10K gibt es einen 32-km-Lauf, den „Twenty Miler“.",
    "cert": [],
    "dateTentative": false,
-   "priceNote": "Fees not published on the official site; also offers a 32K 'Twenty Miler'. First come, first served."
+   "priceNote": "The official site now shows 'Registration Closed' for the 15th edition (3 Jan 2027). The 10K (Open and Level Up) was ₹1,450 + GST; fees for 21K, 32K 'Twenty Miler' and 42K are not published."
   },
   {
    "id": "jaipur-marathon-2027",
@@ -1019,7 +1021,7 @@
    "facts": "A winter race through Rajasthan's Pink City.",
    "url": "https://werun.world/courses/?country=IN",
    "source": "https://fatmarathoner.com/au-jaipur-marathon-race-guide/",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Hawa_Mahal",
     "Jaipur"
@@ -1107,7 +1109,7 @@
    "url": "https://jtbsports.jp/en/detail/gd3q7",
    "regUrl": "https://jtbsports.jp/en/detail/gd3q7",
    "source": "https://jtbsports.jp/en/detail/gd3q7",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Katsuren_Castle",
     "Okinawa_City"
@@ -1274,7 +1276,7 @@
    "facts_de": "Asiens ältester durchgehend ausgetragener Marathon (seit 1931) vom Gwanghwamun-Platz ins Olympiastadion von 1988 in Jamsil. World-Athletics-Platinum-Label; 2026 war er in Minuten ausverkauft.",
    "url": "https://en.seoul-marathon.com",
    "source": "https://worldsmarathons.com/marathon/seoul-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Gwanghwamun",
     "Gyeongbokgung"
@@ -1624,7 +1626,7 @@
    "url": "https://www.nyrr.org/tcsnycmarathon",
    "regUrl": "https://www.nyrr.org/tcsnycmarathon",
    "source": "https://marathonhandbook.com/the-nyc-marathon-lottery-draws-today/",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Verrazzano-Narrows_Bridge",
     "Central_Park"
@@ -1734,7 +1736,7 @@
    "url": "https://www.dubaimarathon.org",
    "regUrl": "https://www.dubaimarathon.org",
    "source": "https://fatmarathoner.com/dubai-marathon-2027-guide/",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Burj_Al_Arab",
     "Dubai"
@@ -2282,7 +2284,7 @@
    "url": "https://ryukyushimpo.jp/sports/entry-5529756.html",
    "regUrl": "https://www.sportsentry.ne.jp/",
    "source": "https://ryukyushimpo.jp/sports/entry-5529756.html",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Tokashiki,_Okinawa",
     "Kerama_Islands"
@@ -2418,7 +2420,7 @@
    "url": "https://www.naganomarathon.gr.jp/english",
    "regUrl": "https://amarys-jtb.jp/29thnaganomarathon/",
    "source": "https://www.naganomarathon.gr.jp/english/entry",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Nagano Marathon",
     "Nagano (city)",
@@ -2648,7 +2650,7 @@
    "url": "https://www.rundanang.com",
    "regUrl": "https://worldsmarathons.com/marathon/da-nang-international-marathon",
    "source": "https://worldsmarathons.com/marathon/da-nang-international-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Da_Nang",
     "Dragon_Bridge_(Da_Nang)",
@@ -2810,7 +2812,7 @@
    "url": "https://www.runrocknroll.com/events/manila",
    "regUrl": "https://www.runrocknroll.com/events/manila/register",
    "source": "https://www.runrocknroll.com/events/manila/register",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Rizal_Park",
     "Intramuros",
@@ -2854,7 +2856,7 @@
    "url": "https://kochimarathon.in",
    "regUrl": "https://www.district.in/events/federal-bank-kochi-marathon-2027-buy-tickets",
    "source": "https://www.district.in/events/federal-bank-kochi-marathon-2027-buy-tickets",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Kochi",
     "Marine_Drive,_Kochi"
@@ -2895,7 +2897,7 @@
    "url": "https://kasumigaura-marathon.jp/english",
    "regUrl": "https://kasumigaura-marathon.jp/english",
    "source": "https://kasumigaura-marathon.jp/english",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Lake_Kasumigaura",
     "Tsuchiura"
@@ -2938,7 +2940,7 @@
    "url": "https://www.everestmarathon.com/",
    "regUrl": "https://everestmarathon.com/registration-payment",
    "source": "https://everestmarathon.com/package",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Everest_base_camps",
     "Namche_Bazaar",
@@ -2991,7 +2993,7 @@
    "url": "https://www.tagthai.com/explore/events/p/chiang-rai-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/chiangrai-marathon",
    "source": "https://worldsmarathons.com/marathon/chiangrai-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Chiang_Rai",
     "Wat_Rong_Khun"
@@ -3025,7 +3027,7 @@
    "url": "https://tcsworld10k.procam.in/",
    "regUrl": "https://tcsworld10k.procam.in/",
    "source": "https://tcsworld10k.procam.in/race-categories/open-10k/how-to-apply",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Bangalore",
     "TCS_World_10K_Bengaluru"
@@ -3186,29 +3188,41 @@
    "distances": [
     {
      "d": "21K",
-     "price": ""
+     "price": "€32 (via World's Marathons)",
+     "amt": 32,
+     "cur": "EUR"
     },
     {
      "d": "10K",
-     "price": ""
+     "price": "€25 (via World's Marathons)",
+     "amt": 25,
+     "cur": "EUR"
     },
     {
      "d": "5K",
-     "price": ""
+     "price": "€21 (via World's Marathons)",
+     "amt": 21,
+     "cur": "EUR"
+    },
+    {
+     "d": "3K",
+     "price": "€16 (via World's Marathons)",
+     "amt": 16,
+     "cur": "EUR"
     }
    ],
-   "priceNote": "Fees ฿800–1,200 across 21K/10K/5K/3K/1K; 5,000 places, closes when full.",
+   "priceNote": "Organiser fees are ฿800–1,200 across 21K/10K/5K/3K/1K, with 5,000 places, and entry closes when full. World's Marathons charges €32/€25/€21/€16 for 21K/10K/5K/3K, and its registration closes 14 Jan 2027.",
    "status": "open",
    "regOpens": "",
    "regOpensNote": "",
-   "regCloses": "",
+   "regCloses": "2027-01-14",
    "relevance": 55,
    "facts": "A seaside half marathon on the quiet Pran Buri coast south of Hua Hin, it carries a World Athletics Road Race Label and an AIMS-measured course. It is part of the Scenic series, whose beach-based weekends split the 5K and 3K beach runs onto Saturday and the half marathon and 10K onto Sunday.",
    "facts_de": "Der Halbmarathon an der ruhigen Küste von Pran Buri südlich von Hua Hin trägt ein World-Athletics-Road-Race-Label und hat eine AIMS-vermessene Strecke. Er gehört zur Scenic-Serie, deren Strandwochenenden die 5- und 3-km-Beach-Runs auf den Samstag und Halbmarathon sowie 10 km auf den Sonntag legen.",
    "url": "https://scenicmarathon.com/event.html?event=PSMH",
    "regUrl": "https://scenicmarathon.com/event.html?event=PSMH",
    "source": "https://scenicmarathon.com/event.html?event=PSMH",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Pran_Buri_district",
     "Khao_Sam_Roi_Yot_National_Park"
@@ -3301,7 +3315,7 @@
      "price": ""
     }
    ],
-   "priceNote": "Early-bird fees (live since 11 Sep 2026 on district.in) per fatmarathoner.com; standard tiers not yet announced. District.in now lists tickets from ₹614. No closing date published.",
+   "priceNote": "Early-bird fees (live since 11 Sep 2026 on district.in) per fatmarathoner.com; standard tiers not yet announced. District.in now lists tickets from ₹550 onwards (26 Nov 2026), no sold-out notice. No closing date published.",
    "status": "open",
    "regOpens": "2026-09-11",
    "regCloses": "",
@@ -3311,7 +3325,7 @@
    "url": "https://fatmarathoner.com/guwahati-international-marathon/",
    "regUrl": "https://www.district.in/events/guwahati-international-marathon-buy-tickets",
    "source": "https://www.district.in/events/guwahati-international-marathon-buy-tickets",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Guwahati",
     "Kumar_Bhaskar_Varma_Setu",
@@ -3691,7 +3705,7 @@
     "Cagayan_de_Oro",
     "Mindanao"
    ],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "lansaka-marathon-2026",
@@ -3901,7 +3915,7 @@
    "url": "https://hcmcmarathon.com",
    "regUrl": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
    "source": "https://worldsmarathons.com/marathon/ho-chi-minh-city-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Saigon_Notre-Dame_Cathedral_Basilica",
     "Ho_Chi_Minh_City"
@@ -4097,7 +4111,7 @@
    "url": "https://www.bruneimarathon.com/",
    "regUrl": "https://www.bruneimarathon.com/register",
    "source": "https://www.bruneimarathon.com/terms-conditions-21km",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Hassanal_Bolkiah_National_Stadium",
     "Bandar_Seri_Begawan"
@@ -4237,7 +4251,7 @@
    "url": "https://www.jomrun.com/event/Johor-Bahru-City-Half-Marathon-2027-Powered-by-JomRun",
    "regUrl": "https://www.jomrun.com/event/Johor-Bahru-City-Half-Marathon-2027-Powered-by-JomRun",
    "source": "https://www.jomrun.com/event/Johor-Bahru-City-Half-Marathon-2027-Powered-by-JomRun",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Johor_Bahru"
    ],
@@ -4288,7 +4302,7 @@
    "url": "https://www.regis.run/event/phrae2027",
    "regUrl": "https://www.regis.run/event/phrae2027",
    "source": "https://worldsmarathons.com/marathon/amazing-phrae-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Phrae",
     "Phrae_province"
@@ -4341,7 +4355,7 @@
     "Bangkok"
    ],
    "cert": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "huahin-hero-run-mini-marathon-2027",
@@ -4382,7 +4396,7 @@
     "Prachuap_Khiri_Khan_province"
    ],
    "cert": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "indian-navy-half-marathon-2027",
@@ -4470,7 +4484,7 @@
     "Chandigarh"
    ],
    "cert": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "uwsm-ftc-run-singapore-2027",
@@ -4501,7 +4515,7 @@
      "cur": "SGD"
     }
    ],
-   "priceNote": "Early-bird prices until 22 Jan 2027, then S$105/S$95/S$85. A 3K costs S$65 (then S$75) and a virtual run S$20. Sales close by distance: 21K 21 May, 10K 16 May, 5K 13 May. About 3,985 spots remaining.",
+   "priceNote": "Early-bird prices until 22 Jan 2027, then S$105/S$95/S$85. A 3K costs S$65 (then S$75) and a virtual run S$20. Sales close by distance: 21K 21 May, 10K 16 May, 5K 13 May. About 3,984 spots remaining.",
    "status": "open",
    "regOpens": "2026-10-25",
    "regOpensNote": "",
@@ -4517,7 +4531,7 @@
     "Singapore"
    ],
    "cert": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "great-wall-marathon-2027",
@@ -4548,7 +4562,7 @@
      "cur": "USD"
     }
    ],
-   "priceNote": "Race entry is sold only with a tour package (6-day package from US$1,790 per person sharing, entry not included). A US$150 late fee applies to registrations after early March 2027 (1 Mar on the package page, 15 Mar on the race page).",
+   "priceNote": "Race entry is sold only with a tour package; entry is not included in the package price. 6-day package per person sharing: US$1,790 (GWM1 hotels, now on request only; single supplement sold out), US$1,990 (GWM2) or US$2,390 (GWM3). A US$150 late fee applies to registrations after early March 2027 (1 Mar on the package page, 15 Mar on the race page). The field is capped at 2,500.",
    "status": "open",
    "regOpens": "",
    "regOpensNote": "",
@@ -4559,7 +4573,7 @@
    "url": "https://great-wall-marathon.com/race",
    "regUrl": "https://great-wall-marathon.com/package/great-wall-marathon-6-day-package",
    "source": "https://great-wall-marathon.com/race",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Great_Wall_of_China",
     "Huangyaguan",
@@ -4724,23 +4738,23 @@
      "cur": "USD"
     }
    ],
-   "priceNote": "Foreign-runner normal rates (29 Oct 2026 - 18 Feb 2027), excluding 7% handling fee and VAT. Cambodian rates are lower (21K $36). A 3K fun run is also offered.",
-   "status": "soon",
+   "priceNote": "Foreign-runner normal rates (29 Oct 2026 - 18 Feb 2027), excluding 7% handling fee and VAT. Foreign entries go through World's Marathons (21K €60, 10.5K €46, 5K €32, 3K €23); locals register via Google Form. Cambodian rates are lower (21K $36).",
+   "status": "open",
    "regOpens": "2026-09-01",
    "regCloses": "2027-02-18",
    "relevance": 50,
    "facts": "Cambodia's beach half marathon starts and finishes on Ochheuteal Beach and is staged before sunrise, with the gun going at 5:10 am. Now in its 12th edition, it is run by the same organiser as the Angkor races and keeps foreign entry fees well under most regional events.",
    "facts_de": "Kambodschas Strand-Halbmarathon startet und endet am Ochheuteal Beach und beginnt schon vor Sonnenaufgang um 5:10 Uhr. Die 12. Auflage wird vom selben Veranstalter wie die Angkor-Läufe organisiert, und die Startgebühren für Ausländer liegen deutlich unter denen der meisten Rennen in der Region.",
    "url": "https://cambodia-events.org/events/8",
-   "regUrl": "https://cambodia-events.org/events/8",
+   "regUrl": "https://worldsmarathons.com/marathon/sihanoukville-international-half-marathon",
    "source": "https://cambodia-events.org/events/8",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Sihanoukville_(city)",
     "Sihanoukville_province"
    ],
    "cert": [],
-   "regOpensNote": "Fee periods are published, but the organiser page still shows \"Registration link coming soon\"."
+   "regOpensNote": ""
   },
   {
    "id": "angkor-empire-marathon-2027",
@@ -4785,7 +4799,7 @@
    "url": "https://cambodia-events.org/events/11",
    "regUrl": "https://cambodia-events.org/events/11",
    "source": "https://cambodia-events.org/events/11",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Angkor_Wat",
     "Angkor",
@@ -4833,7 +4847,7 @@
    "url": "https://cambodia-events.org/events/4",
    "regUrl": "https://worldsmarathons.com/marathon/phnom-penh-half-marathon",
    "source": "https://cambodia-events.org/events/4",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Phnom_Penh",
     "Royal_Palace,_Phnom_Penh"
@@ -4874,7 +4888,7 @@
    "url": "https://www.district.in/events/telangana-half-marathon-2k27-jan23-2027-buy-tickets",
    "regUrl": "https://www.district.in/events/telangana-half-marathon-2k27-jan23-2027-buy-tickets",
    "source": "https://www.district.in/events/telangana-half-marathon-2k27-jan23-2027-buy-tickets",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Hyderabad",
     "HITEC_City"
@@ -4982,7 +4996,7 @@
    "url": "https://2xurun.com/",
    "regUrl": "https://2xurun.com/",
    "source": "https://littlebigreddot.com/?p=31809",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Marina_Bay,_Singapore",
     "Singapore_Flyer",
@@ -5030,7 +5044,7 @@
    "url": "https://worldsmarathons.com/marathon/vang-vieng-half-marathon",
    "regUrl": "https://worldsmarathons.com/marathon/vang-vieng-half-marathon",
    "source": "https://worldsmarathons.com/marathon/vang-vieng-half-marathon",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Vang_Vieng",
     "Nam_Song_River"
@@ -5078,7 +5092,7 @@
    "url": "https://www.district.in/events/thump-celebration-bengaluru-12-marathon-and-10k-run-2026-dec19-2026-buy-tickets",
    "regUrl": "https://www.district.in/events/thump-celebration-bengaluru-12-marathon-and-10k-run-2026-dec19-2026-buy-tickets",
    "source": "https://www.district.in/events/thump-celebration-bengaluru-12-marathon-and-10k-run-2026-dec19-2026-buy-tickets",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Bangalore",
     "NICE_Road"
@@ -5121,9 +5135,200 @@
    "url": "https://howei.com/event_details/pantaimalindohalfmarathon2027",
    "regUrl": "https://howei.com/event_details/pantaimalindohalfmarathon2027",
    "source": "https://howei.com/event_details/pantaimalindohalfmarathon2027",
-   "checked": "2026-11-25",
+   "checked": "2026-11-26",
    "wiki": [
     "Penang"
+   ],
+   "cert": []
+  },
+  {
+   "id": "borneo-international-marathon-2027",
+   "name": "Alliance Bank Borneo International Marathon 2027",
+   "city": "Kota Kinabalu",
+   "country": "Malaysia",
+   "lat": 5.9804,
+   "lon": 116.0735,
+   "date": "2027-05-09",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    },
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Fees not shown on the official homepage; tiered pricing: Early Bird from 25 Nov 2026, Normal from 15 Dec 2026, Late from 15 Jan 2027. Closes early if capacity is reached.",
+   "status": "open",
+   "regOpens": "2026-11-25",
+   "regOpensNote": "Early Bird phase opened 25 Nov 2026, 09:00 local time.",
+   "regCloses": "2027-02-28",
+   "relevance": 62,
+   "facts": "First held on 12 October 2008 with 529 runners, the race organised with the Kinabalu Running Club now draws more than 10,000 participants a year. Both the marathon and the half marathon are sanctioned by AIMS, and race weekend runs from 6 to 9 May 2027.",
+   "facts_de": "Der erstmals am 12. Oktober 2008 mit 529 Teilnehmenden ausgetragene Lauf, organisiert mit dem Kinabalu Running Club, zieht heute jährlich mehr als 10.000 Läuferinnen und Läufer an. Marathon und Halbmarathon sind von der AIMS anerkannt, das Laufwochenende dauert vom 6. bis 9. Mai 2027.",
+   "url": "https://www.borneomarathon.com",
+   "regUrl": "https://borneomarathon.com/register",
+   "source": "https://www.borneomarathon.com",
+   "checked": "2026-11-26",
+   "wiki": [
+    "Kota_Kinabalu",
+    "Sabah"
+   ],
+   "cert": []
+  },
+  {
+   "id": "dahu-strawberry-marathon-2027",
+   "name": "Dahu Strawberry Culture Carnival Marathon 2027",
+   "city": "Dahu (Miaoli)",
+   "country": "Taiwan",
+   "lat": 24.4229,
+   "lon": 120.864,
+   "date": "2027-02-27",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "NT$1,100",
+     "amt": 1100,
+     "cur": "TWD"
+    },
+    {
+     "d": "21K",
+     "price": "NT$1,000",
+     "amt": 1000,
+     "cur": "TWD"
+    },
+    {
+     "d": "5K",
+     "price": "NT$750",
+     "amt": 750,
+     "cur": "TWD"
+    }
+   ],
+   "priceNote": "Also an 11 km fun run (NT$900). Chip included except for the 5 km. Cap of 1,000 runners per category (4,000 total); closes early when full.",
+   "status": "open",
+   "regOpens": "",
+   "regOpensNote": "Registration already open via bao-ming.com.",
+   "regCloses": "2026-12-31",
+   "relevance": 30,
+   "facts": "Starting at 7am from the square opposite the Dahu Winery, the course follows the scenic Provincial Highway 3 through Miaoli's strawberry-growing hills, with about 667 m of climbing on the full marathon. Aid stations hand out fresh Dahu strawberries and strawberry treats, and each category is capped at 1,000 runners.",
+   "facts_de": "Start ist um 7 Uhr auf dem Platz gegenüber der Dahu-Weinkellerei, die Strecke führt über die malerische Provinzstraße 3 durch die Erdbeerhügel von Miaoli, mit rund 667 Höhenmetern auf der Marathondistanz. An den Verpflegungsstellen gibt es frische Dahu-Erdbeeren und Erdbeer-Snacks, jede Kategorie ist auf 1.000 Teilnehmende begrenzt.",
+   "url": "https://bao-ming.com/eb/content/7221",
+   "regUrl": "https://bao-ming.com/eb/content/7221",
+   "source": "https://www.peoplenews.tw/?p=66380",
+   "checked": "2026-11-26",
+   "wiki": [
+    "Dahu,_Miaoli",
+    "Miaoli_County"
+   ],
+   "cert": []
+  },
+  {
+   "id": "bodh-gaya-marathon-2027",
+   "name": "Bodhgaya Marathon - Run for Global Peace 2027",
+   "city": "Bodh Gaya",
+   "country": "India",
+   "lat": 24.6961,
+   "lon": 84.987,
+   "date": "2027-02-14",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": "approx. EUR 22",
+     "amt": 22,
+     "cur": "EUR",
+     "qual": "approx"
+    },
+    {
+     "d": "21K",
+     "price": "approx. EUR 17",
+     "amt": 17,
+     "cur": "EUR",
+     "qual": "approx"
+    },
+    {
+     "d": "10K",
+     "price": "approx. EUR 11",
+     "amt": 11,
+     "cur": "EUR",
+     "qual": "approx"
+    },
+    {
+     "d": "5K",
+     "price": "approx. EUR 8",
+     "amt": 8,
+     "cur": "EUR",
+     "qual": "approx"
+    }
+   ],
+   "priceNote": "Prices as listed on World's Marathons (also a 3 km run); Finishers lists USD 27 / 21 / 14 / 9. Part of the fees supports nearby villages.",
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Date confirmed; World's Marathons lists ticket options closing 7 Feb 2027 but does not sell them yet, so check the official site.",
+   "regCloses": "2027-02-07",
+   "relevance": 38,
+   "facts": "Start and finish are at the Kalachakra Ground, and the flat, single-loop course passes spiritual and historical sites around the town where the Buddha is said to have attained enlightenment. The charity race offers cash prizes for the top three men and women in the marathon, half marathon, 10K and 5K.",
+   "facts_de": "Start und Ziel liegen am Kalachakra Ground, die flache Runde führt an spirituellen und historischen Stätten der Stadt vorbei, in der Buddha die Erleuchtung erlangt haben soll. Der Benefizlauf vergibt Preisgelder an die drei besten Frauen und Männer über Marathon, Halbmarathon, 10 km und 5 km.",
+   "url": "https://bodhgayamarathon.com/",
+   "regUrl": "https://worldsmarathons.com/marathon/bodhgaya-marathon-run-for-global-peace",
+   "source": "https://www.finishers.com/en/event/bodh-gaya-marathon",
+   "checked": "2026-11-26",
+   "wiki": [
+    "Bodh_Gaya",
+    "Mahabodhi_Temple"
+   ],
+   "cert": []
+  },
+  {
+   "id": "jakarta-international-marathon-2027",
+   "name": "Jakarta International Marathon (JAKIM) 2027",
+   "city": "Jakarta",
+   "country": "Indonesia",
+   "lat": -6.1754,
+   "lon": 106.8272,
+   "date": "2027-06-13",
+   "dateTentative": false,
+   "distances": [
+    {
+     "d": "42K",
+     "price": ""
+    },
+    {
+     "d": "21K",
+     "price": ""
+    },
+    {
+     "d": "10K",
+     "price": ""
+    },
+    {
+     "d": "5K",
+     "price": ""
+    }
+   ],
+   "priceNote": "Fees not yet published. The 10K and 5K take place on Saturday 12 June 2027; the marathon and half marathon on Sunday 13 June.",
+   "status": "soon",
+   "regOpens": "",
+   "regOpensNote": "Date confirmed; registration dates not yet announced.",
+   "regCloses": "",
+   "relevance": 62,
+   "facts": "The marathon and half marathon start at 4am at the National Monument (Monas) and pass Kota Tua, Fatahillah Square, Jakarta Cathedral and Istiqlal Mosque before finishing at Gelora Bung Karno. The race is run with the Jakarta provincial government, which planned for about 45,000 runners in 2026 and is aiming for 50,000 in 2027 for the city's 500th anniversary.",
+   "facts_de": "Marathon und Halbmarathon starten um 4 Uhr am Nationaldenkmal (Monas) und führen an Kota Tua, dem Fatahillah-Platz, der Kathedrale und der Istiqlal-Moschee vorbei bis ins Ziel am Gelora Bung Karno. Ausgerichtet wird der Lauf mit der Provinzregierung Jakartas, die 2026 mit rund 45.000 Teilnehmenden plante und 2027 zum 500. Stadtjubiläum 50.000 anpeilt.",
+   "url": "https://jakim.id/",
+   "regUrl": "https://jakim.id/",
+   "source": "https://www.finishers.com/en/event/jakarta-international-marathon",
+   "checked": "2026-11-26",
+   "wiki": [
+    "Jakarta",
+    "National_Monument_(Indonesia)",
+    "Gelora_Bung_Karno_Main_Stadium"
    ],
    "cert": []
   }
