@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:00:00+07:00",
+ "updated": "2026-11-27T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -1253,6 +1253,62 @@
    "raceId": "jakarta-international-marathon-2027",
    "text": "New: Jakarta International Marathon (13 Jun) - big city race from Monas through the old town, for Jakarta's 500th anniversary.",
    "text_de": "Neu: Jakarta International Marathon (13. Juni) - großer Stadtlauf vom Monas durch die Altstadt zum 500. Stadtjubiläum."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "closing",
+   "raceId": "rock-n-roll-manila-2026",
+   "text": "Last chance for AIA Rock 'n' Roll Manila on 29 Nov 2026: registration is still open on the organiser's site, but the race is this Sunday.",
+   "text_de": "Letzte Gelegenheit für AIA Rock 'n' Roll Manila am 29. November 2026: Die Anmeldung beim Veranstalter ist noch offen, aber das Rennen findet schon diesen Sonntag statt."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "price",
+   "raceId": "borneo-international-marathon-2027",
+   "text": "Early-bird fees for the Alliance Bank Borneo International Marathon (9 May 2027) are now published: RM130 for the marathon, RM110 for the half and RM100 for 10K until 14 December 2026.",
+   "text_de": "Die Frühbuchergebühren für den Alliance Bank Borneo International Marathon (9. Mai 2027) stehen jetzt fest: 130 RM für den Marathon, 110 RM für den Halbmarathon und 100 RM für 10 km, gültig bis 14. Dezember 2026."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "price",
+   "raceId": "phnom-penh-international-half-marathon-2027",
+   "text": "The official early-bird period for the Phnom Penh International Half Marathon (13 June 2027) has started, and World's Marathons now charges €50 for the half marathon until 19 March 2027.",
+   "text_de": "Für den Phnom Penh International Half Marathon (13. Juni 2027) läuft jetzt die offizielle Frühbucherphase, und bei World's Marathons kostet der Halbmarathon bis 19. März 2027 nun 50 €."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "closing",
+   "raceId": "tokashiki-marathon-2027",
+   "text": "Entries for the 18th Tokashiki Marathon (6 Feb 2027, Okinawa) close on 11 Dec, or earlier if the 400-place half and 125-place 10K fill up.",
+   "text_de": "Die Anmeldung zum 18. Tokashiki-Marathon (6. Februar 2027, Okinawa) endet am 11. Dezember – oder früher, falls die 400 Halbmarathon- bzw. 125 10-km-Plätze vergeben sind."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "new",
+   "raceId": "iem-uem-kolkata-marathon-2027",
+   "text": "New: IEM-UEM Kolkata Marathon (10th) (21 Feb) - AIMS-member city marathon in Salt Lake / New Town, Kolkata.",
+   "text_de": "Neu: IEM-UEM Kolkata Marathon (10th) (21. Feb.) - AIMS-Mitglied, Stadtmarathon in Salt Lake / New Town, Kolkata."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "new",
+   "raceId": "korat-marathon-2027",
+   "text": "New: Korat Marathon (7 Nov) - World Athletics Label race in 2026 in Nakhon Ratchasima; 2027 date confirmed.",
+   "text_de": "Neu: Korat Marathon (7. Nov.) - 2026 mit World-Athletics-Label in Nakhon Ratchasima; Termin 2027 bestätigt."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "new",
+   "raceId": "bromo-marathon-2027",
+   "text": "New: Bromo Marathon (14th) (5 Sep) - high-altitude race on the rim of the Tengger caldera in East Java.",
+   "text_de": "Neu: Bromo Marathon (14th) (5. Sep.) - Höhenlauf am Rand der Tengger-Caldera in Ostjava."
+  },
+  {
+   "date": "2026-11-27",
+   "type": "new",
+   "raceId": "gtech-marathon-2027",
+   "text": "New: GTech Marathon (5th) (31 Jan) - IT-industry half and 10K in Thiruvananthapuram, registration open.",
+   "text_de": "Neu: GTech Marathon (5th) (31. Jan.) - Halbmarathon und 10 km der IT-Branche in Thiruvananthapuram, Anmeldung offen."
   }
  ]
 }

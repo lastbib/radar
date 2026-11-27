@@ -5762,6 +5762,287 @@
      ]
     }
    }
+  },
+  "borneo-international-marathon": {
+   "edition": "2026",
+   "date": "2026-05-10",
+   "source": "https://www.dailyexpress.com.my/news/281279/filipino-runners-dominate-borneo-international-marathon/",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Edsel Moral",
+       "c": "Philippines",
+       "t": "2:38:02"
+      },
+      {
+       "p": 2,
+       "n": "Dickyias Mendioro",
+       "c": "Philippines",
+       "t": "2:39:41"
+      },
+      {
+       "p": 3,
+       "n": "Shinji Watanabe",
+       "c": "Japan",
+       "t": "2:41:03"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Lizane Abella",
+       "c": "Philippines",
+       "t": "3:16:25"
+      },
+      {
+       "p": 2,
+       "n": "Jennylyn Nobleza",
+       "c": "Philippines",
+       "t": "3:16:32"
+      },
+      {
+       "p": 3,
+       "n": "Maricar Camacho",
+       "c": "Philippines",
+       "t": "3:17:23"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Eduar Flores",
+       "c": "",
+       "t": "1:11:03"
+      },
+      {
+       "p": 2,
+       "n": "Rogen Aguirre",
+       "c": "",
+       "t": "1:12:50"
+      },
+      {
+       "p": 3,
+       "n": "James Kevin Cruz",
+       "c": "",
+       "t": "1:13:03"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Asia Paraase",
+       "c": "",
+       "t": "1:28:35"
+      },
+      {
+       "p": 2,
+       "n": "Jamine Cruz",
+       "c": "",
+       "t": "1:29:33"
+      },
+      {
+       "p": 3,
+       "n": "Jia Qi Chew",
+       "c": "Singapore",
+       "t": "1:32:29"
+      }
+     ]
+    }
+   }
+  },
+  "jaipur-marathon": {
+   "edition": "2026",
+   "date": "2026-02-01",
+   "source": "https://www.au.bank.in/pdfs/press-release/2026/Press%20Release%20AU%20Jaipur%20Marathon%202026%20Over%201%20lakh%20runners%20take%20off%20with%20the%20flag-off%20by%20Chief%20Minister%20Bhajanlal%20Sharma.pdf",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Nilesh Arsekar",
+       "c": "",
+       "t": "2:30:06"
+      },
+      {
+       "p": 2,
+       "n": "Manav Sharma",
+       "c": "",
+       "t": "2:32:15"
+      },
+      {
+       "p": 3,
+       "n": "Rahul Kataria",
+       "c": "",
+       "t": "2:48:16"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Arpita Saini",
+       "c": "",
+       "t": "3:25:36"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Versi Ram",
+       "c": "",
+       "t": "1:10:42"
+      },
+      {
+       "p": 2,
+       "n": "Jujhar Singh",
+       "c": "",
+       "t": "1:10:44"
+      },
+      {
+       "p": 3,
+       "n": "Ramswaroop Jat",
+       "c": "",
+       "t": "1:14:07"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Aarti Rao",
+       "c": "",
+       "t": "1:22:34"
+      },
+      {
+       "p": 2,
+       "n": "Saloni",
+       "c": "",
+       "t": "1:32:13"
+      },
+      {
+       "p": 3,
+       "n": "Rinki Yadav",
+       "c": "",
+       "t": "1:36:00"
+      }
+     ]
+    }
+   }
+  },
+  "vasai-virar-mayors-marathon": {
+   "edition": "2024 (12th edition)",
+   "date": "2024-12-08",
+   "source": "https://www.lokmattimes.com/other-sports/12th-vvmcm-hirave-wins-mens-full-marathon-verma-sonika-take-half-marathon-titles/amp",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kalidas Hirave",
+       "c": "",
+       "t": "2:18:19"
+      },
+      {
+       "p": 2,
+       "n": "Pradeep Singh Chaudhary",
+       "c": "",
+       "t": "2:18:24"
+      },
+      {
+       "p": 3,
+       "n": "Mohit Rathore",
+       "c": "",
+       "t": "2:19:06"
+      },
+      {
+       "p": 4,
+       "n": "Dhanavat Pralhad Ramsing",
+       "c": "",
+       "t": "2:19:49"
+      },
+      {
+       "p": 5,
+       "n": "Amit Ramesh Patil",
+       "c": "",
+       "t": "2:25:13"
+      }
+     ],
+     "women": []
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Rohit Verma",
+       "c": "",
+       "t": "1:03:12"
+      },
+      {
+       "p": 2,
+       "n": "Niteshkumar Rathva",
+       "c": "",
+       "t": "1:03:13"
+      },
+      {
+       "p": 3,
+       "n": "Deepak Kumbhar",
+       "c": "",
+       "t": "1:03:16"
+      },
+      {
+       "p": 4,
+       "n": "Rinku Singh",
+       "c": "",
+       "t": "1:04:07"
+      },
+      {
+       "p": 5,
+       "n": "Shubham Sindhu",
+       "c": "",
+       "t": "1:04:13"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Sonika",
+       "c": "",
+       "t": "1:13:12"
+      },
+      {
+       "p": 2,
+       "n": "Bharti",
+       "c": "",
+       "t": "1:13:51"
+      },
+      {
+       "p": 3,
+       "n": "Sakshi Jadyal",
+       "c": "",
+       "t": "1:14:21"
+      },
+      {
+       "p": 4,
+       "n": "Archana Jadhav",
+       "c": "",
+       "t": "1:14:50"
+      },
+      {
+       "p": 5,
+       "n": "Tamsi Singh",
+       "c": "",
+       "t": "1:16:36"
+      }
+     ]
+    }
+   }
   }
  }
 }
