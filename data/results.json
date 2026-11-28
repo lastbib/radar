@@ -6043,6 +6043,162 @@
      ]
     }
    }
+  },
+  "jakarta-international-marathon": {
+   "edition": "2026",
+   "date": "2026-06-14",
+   "source": "https://www.marathons.com/en/news/jakarta-international-marathon-2026-45000-runners-battle-the-tropical-heat/",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Kennedy Njogu Muhia",
+       "c": "Kenya",
+       "t": "2:16:24"
+      },
+      {
+       "p": 2,
+       "n": "Ezekiel Kemboi Omullo",
+       "c": "Kenya",
+       "t": "2:16:44"
+      },
+      {
+       "p": 3,
+       "n": "Abdi Asefa Kebede",
+       "c": "Ethiopia",
+       "t": "2:20:05"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Alemnesh Herpha Guta",
+       "c": "Kenya",
+       "t": "2:36:54"
+      },
+      {
+       "p": 2,
+       "n": "Meseret Dinke Meleka",
+       "c": "Ethiopia",
+       "t": "2:37:50"
+      },
+      {
+       "p": 3,
+       "n": "Eunice Nyawira Muchiri",
+       "c": "Kenya",
+       "t": "2:39:18"
+      }
+     ]
+    },
+    "21K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Bernard Musau Wambua",
+       "c": "Kenya",
+       "t": "1:03:39"
+      },
+      {
+       "p": 2,
+       "n": "Harrison Muchira Wanjiru",
+       "c": "Kenya",
+       "t": "1:03:50"
+      },
+      {
+       "p": 3,
+       "n": "Peter Ndungu Wanyoike",
+       "c": "Kenya",
+       "t": "1:05:44"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "Fridah Ndinda Mweu",
+       "c": "Kenya",
+       "t": "1:15:22"
+      },
+      {
+       "p": 2,
+       "n": "Odekta Naibaho",
+       "c": "Indonesia",
+       "t": "1:15:37"
+      }
+     ]
+    }
+   }
+  },
+  "tokushima-marathon": {
+   "edition": "2026 (19th edition)",
+   "date": "2026-03-22",
+   "source": "https://genkimanman.com/jp_mararhon/tokusima/tokusima.html",
+   "fullResults": "https://www.tokushima-marathon.jp/record/record2026/record-male-time4b.html",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Reo Kuniyuki",
+       "c": "Japan",
+       "t": "2:18:31"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "廣川風佳",
+       "c": "Japan",
+       "t": "2:43:33"
+      }
+     ]
+    }
+   }
+  },
+  "kasumigaura-marathon": {
+   "edition": "2026",
+   "date": "2026-04-19",
+   "source": "https://www.city.tsuchiura.lg.jp/data/doc/1779691669_doc_159_0.pdf",
+   "fullResults": "",
+   "distances": {
+    "42K": {
+     "men": [
+      {
+       "p": 1,
+       "n": "Gen Hachisuka",
+       "c": "Japan",
+       "t": "2:20:24"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "沼田夏楠",
+       "c": "Japan",
+       "t": "2:44:30"
+      }
+     ]
+    },
+    "10 mile": {
+     "men": [
+      {
+       "p": 1,
+       "n": "大野聖登",
+       "c": "Japan",
+       "t": "48:56"
+      }
+     ],
+     "women": [
+      {
+       "p": 1,
+       "n": "小野寺美麗",
+       "c": "Japan",
+       "t": "1:00:43"
+      }
+     ]
+    }
+   }
   }
  }
 }

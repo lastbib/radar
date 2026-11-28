@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:00:00+07:00",
+ "updated": "2026-11-28T07:00:00+07:00",
  "items": [
   {
    "date": "2026-10-15",
@@ -1309,6 +1309,48 @@
    "raceId": "gtech-marathon-2027",
    "text": "New: GTech Marathon (5th) (31 Jan) - IT-industry half and 10K in Thiruvananthapuram, registration open.",
    "text_de": "Neu: GTech Marathon (5th) (31. Jan.) - Halbmarathon und 10 km der IT-Branche in Thiruvananthapuram, Anmeldung offen."
+  },
+  {
+   "date": "2026-11-28",
+   "type": "price",
+   "raceId": "scenic-half-marathon-pranburi-2027",
+   "text": "The 3K Fun Run at Scenic Half Marathon Pranburi (14 Feb 2027) now costs €15 on World's Marathons.",
+   "text_de": "Der 3K Fun Run beim Scenic Half Marathon Pranburi (14. Feb. 2027) kostet bei World's Marathons jetzt 15 €."
+  },
+  {
+   "date": "2026-11-28",
+   "type": "new",
+   "raceId": "run-for-sri-lanka-kandy-half-marathon-2026",
+   "text": "New: Run for Sri Lanka - Kandy Half Marathon (6 Dec) - flat half marathon past the Temple of the Tooth and Kandy Lake; entries close 30 Nov.",
+   "text_de": "Neu: Run for Sri Lanka - Kandy Half Marathon (6. Dez.) - flacher Halbmarathon vorbei am Zahntempel und Kandy-See; Anmeldeschluss 30. Nov."
+  },
+  {
+   "date": "2026-11-28",
+   "type": "new",
+   "raceId": "tcs-clark-animo-international-marathon-2027",
+   "text": "New: TCS Clark Animo International Marathon 2027 (7 Mar) - full marathon to 5K in the Clark Freeport Zone, regular rates until 15 Dec.",
+   "text_de": "Neu: TCS Clark Animo International Marathon 2027 (7. März) - Marathon bis 5 km in der Clark Freeport Zone, reguläre Preise bis 15. Dez."
+  },
+  {
+   "date": "2026-11-28",
+   "type": "new",
+   "raceId": "aizawl-international-half-marathon-2027",
+   "text": "New: Aizawl International Half Marathon 2027 (20 Feb) - third edition of Mizoram's hill-capital half with a Rs 20 lakh prize pool.",
+   "text_de": "Neu: Aizawl International Half Marathon 2027 (20. Feb.) - dritte Ausgabe des Halbmarathons in Mizorams Berghauptstadt mit 20 Lakh Rupien Preisgeld."
+  },
+  {
+   "date": "2026-11-28",
+   "type": "new",
+   "raceId": "ayala-philippine-marathon-2027",
+   "text": "New: Ayala Philippine Marathon 2027 (4 Apr) - Makati city marathon from Ayala Triangle; discounted World's Marathons prices end 1 Dec.",
+   "text_de": "Neu: Ayala Philippine Marathon 2027 (4. Apr.) - Stadtmarathon in Makati ab Ayala Triangle; ermäßigte Preise bei World's Marathons bis 1. Dez."
+  },
+  {
+   "date": "2026-11-28",
+   "type": "new",
+   "raceId": "punekar-half-marathon-2027",
+   "text": "New: Punekar Half Marathon 4th Edition 2027 (7 Feb) - local half, 10K and 5K in Kharadi, eastern Pune.",
+   "text_de": "Neu: Punekar Half Marathon 4th Edition 2027 (7. Feb.) - lokaler Halbmarathon, 10 km und 5 km in Kharadi im Osten von Pune."
   }
  ]
 }
